@@ -17,7 +17,7 @@ const carregar = () => ({
 // Clona a base, aplica `quebrar(municipal, federal, base)` e devolve os erros.
 function com(quebrar) {
   const b = carregar();
-  const [federal, municipal] = b.sandboxes; // ordem alfabética: federal-ok, municipal-ok
+  const [federal, municipal] = b.sandboxes; // ordem alfabética: bcb-sandbox-regulatorio, gramado-turismo
   quebrar(municipal, federal, b);
   return validarBase(b).erros;
 }
@@ -73,6 +73,24 @@ test('encerrado com histórico com fonte é aceito', () => {
 test('imagem sem licença', () => espera((m) => {
   m.imagem = { arquivo: 'a.jpg', credito: 'Autor', origem: 'https://exemplo.gov.br/a' };
 }, 'imagem.licenca'));
+
+test('imagem.arquivo fora de img/', () => espera((m) => {
+  m.imagem = { arquivo: '../segredo.jpg', credito: 'Autor', licenca: 'CC BY', origem: 'https://exemplo.gov.br/a' };
+}, 'imagem.arquivo inválido'));
+test('imagem.arquivo com extensão não aceita', () => espera((m) => {
+  m.imagem = { arquivo: 'img/foto.gif', credito: 'Autor', licenca: 'CC BY', origem: 'https://exemplo.gov.br/a' };
+}, 'imagem.arquivo inválido'));
+test('imagem válida é aceita', () => assert.deepEqual(com((m) => {
+  m.imagem = { arquivo: 'img/gramado-2.webp', credito: 'Autor', licenca: 'CC BY', origem: 'https://exemplo.gov.br/a' };
+}), []));
+test('imagem.origem não http(s)', () => espera((m) => {
+  m.imagem = { arquivo: 'img/a.jpg', credito: 'Autor', licenca: 'CC BY', origem: 'javascript:alert(1)' };
+}, 'imagem.origem deve ser http(s)'));
+test('documentos[].url javascript:', () => espera((m) => { m.documentos[0].url = 'javascript:alert(1)'; }, 'documentos[0].url deve ser http(s)'));
+test('fontes[].url relativa', () => espera((m) => { m.fontes[0].url = '/pagina'; }, 'fontes[0].url deve ser http(s)'));
+test('solucoes[].fonte data:', () => espera((m) => { m.solucoes[0].fonte = 'data:text/html,oi'; }, 'solucoes[0].fonte deve ser http(s)'));
+test('editais[].url ftp', () => espera((m) => { m.editais[0].url = 'ftp://exemplo.gov.br/x'; }, 'editais[0].url deve ser http(s)'));
+test('historico[].fonte não http(s)', () => espera((m) => { m.historico[0].fonte = 'exemplo.gov.br/x'; }, 'historico[0].fonte deve ser http(s)'));
 
 test('verificado_em em formato inválido', () => espera((m) => { m.verificado_em = '29/10/2026'; }, 'data inválida'));
 test('data inexistente é rejeitada', () => espera((m) => { m.verificado_em = '2026-02-31'; }, 'data inválida'));

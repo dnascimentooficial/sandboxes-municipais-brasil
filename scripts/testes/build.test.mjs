@@ -5,7 +5,7 @@ import { tmpdir } from 'node:os';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
-import { carregarBase, gerarJs, versao, carimbarIndex, carimbarSitemap, atualizacaoBase, dataIsoValida, lerUltimaExecucao } from '../build-dados.mjs';
+import { carregarBase, checarArquivos, gerarJs, versao, carimbarIndex, carimbarSitemap, atualizacaoBase, dataIsoValida, lerUltimaExecucao } from '../build-dados.mjs';
 
 const aqui = dirname(fileURLToPath(import.meta.url));
 const fixture = join(aqui, 'fixtures', 'valido');
@@ -144,6 +144,50 @@ test('R18: o lastmod do sitemap segue ultima_execucao', () => {
     assert.match(readFileSync(sm, 'utf8'), /<lastmod>2099-12-31<\/lastmod>/);
     assert.equal(metaDe(readFileSync(join(tmp, 'data', 'sandboxes.js'), 'utf8')).atualizacaoBase, '2099-12-31');
     assert.equal(rodar('--check').status, 0);
+  } finally {
+    rmSync(tmp, { recursive: true, force: true });
+  }
+});
+
+test('M9: checarArquivos exige id igual ao nome do arquivo e imagem existente', () => {
+  const tmp = mkdtempSync(join(tmpdir(), 'build-'));
+  try {
+    const dir = join(tmp, 'data');
+    cpSync(fixture, dir, { recursive: true });
+    assert.deepEqual(checarArquivos(dir, carregarBase(dir)), []);
+
+    const arq = join(dir, 'sandboxes', 'gramado-turismo.json');
+    const s = JSON.parse(readFileSync(arq, 'utf8'));
+    s.imagem = { arquivo: 'img/gramado-turismo.jpg', credito: 'A', licenca: 'CC BY', origem: 'https://exemplo.gov.br/a' };
+    writeFileSync(arq, JSON.stringify(s));
+    assert.ok(checarArquivos(dir, carregarBase(dir)).some((e) => e.includes('imagem.arquivo não encontrado: img/gramado-turismo.jpg')));
+    mkdirSync(join(tmp, 'img'));
+    writeFileSync(join(tmp, 'img', 'gramado-turismo.jpg'), '');
+    assert.deepEqual(checarArquivos(dir, carregarBase(dir)), []);
+
+    writeFileSync(join(dir, 'sandboxes', 'outro-nome.json'), JSON.stringify({ ...s, id: 'gramado-copia' }));
+    const erros = checarArquivos(dir, carregarBase(dir));
+    assert.ok(erros.some((e) => e.startsWith('gramado-copia: id deve ser igual ao nome do arquivo (outro-nome.json')), JSON.stringify(erros));
+
+    // A CLI de validação também acusa.
+    const r = spawnSync(process.execPath, [join(aqui, '..', 'validar.mjs'), 'data'], { cwd: tmp, encoding: 'utf8' });
+    assert.equal(r.status, 1);
+    assert.match(r.stderr, /id deve ser igual ao nome do arquivo/);
+  } finally {
+    rmSync(tmp, { recursive: true, force: true });
+  }
+});
+
+test('T1: JSON inválido na base cita o arquivo', () => {
+  const tmp = mkdtempSync(join(tmpdir(), 'build-'));
+  try {
+    const dir = join(tmp, 'data');
+    cpSync(fixture, dir, { recursive: true });
+    writeFileSync(join(dir, 'sandboxes', 'gramado-turismo.json'), '{ "id": "gramado-turismo", ');
+    assert.throws(() => carregarBase(dir), /gramado-turismo\.json: JSON inválido/);
+    const r = spawnSync(process.execPath, [join(aqui, '..', 'validar.mjs'), 'data'], { cwd: tmp, encoding: 'utf8' });
+    assert.equal(r.status, 1);
+    assert.match(r.stderr, /gramado-turismo\.json: JSON inválido/);
   } finally {
     rmSync(tmp, { recursive: true, force: true });
   }

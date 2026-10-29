@@ -1,12 +1,14 @@
 #!/usr/bin/env node
 // Uso: node scripts/validar.mjs [dir=data]
 import { validarBase } from '../assets/js/validacao.js';
-import { carregarBase } from './build-dados.mjs';
+import { carregarBase, checarArquivos } from './build-dados.mjs';
 
 const dir = process.argv[2] ?? 'data';
 let erros;
 try {
-  ({ erros } = validarBase(carregarBase(dir)));
+  const base = carregarBase(dir);
+  ({ erros } = validarBase(base));
+  erros = [...erros, ...checarArquivos(dir, base)];
 } catch (e) {
   erros = [`base: falha ao ler ${dir}: ${e.message}`];
 }

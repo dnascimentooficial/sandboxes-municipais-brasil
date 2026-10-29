@@ -4,7 +4,7 @@ import { ESFERAS, STATUS } from './esquema.js';
 export function normalizar(s) {
   return String(s ?? '')
     .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
+    .replace(/[\u0300-\u036f]/g, '')
     .toLowerCase()
     .replace(/\s+/g, ' ')
     .trim();

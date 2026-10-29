@@ -7,7 +7,15 @@ import { createHash } from 'node:crypto';
 import { pathToFileURL } from 'node:url';
 import { validarBase } from '../assets/js/validacao.js';
 
-const lerJson = (arq) => JSON.parse(readFileSync(arq, 'utf8'));
+// JSON.parse com o nome do arquivo na mensagem de erro (T1).
+export function lerJson(arq) {
+  const texto = readFileSync(arq, 'utf8');
+  try {
+    return JSON.parse(texto);
+  } catch (e) {
+    throw new Error(`${arq}: JSON inválido (${e.message})`);
+  }
+}
 
 export const ASSETS_CARIMBADOS = ['assets/app.css', 'assets/brasil-mapa.js', 'assets/js/app.js', 'data/sandboxes.js'];
 
@@ -32,15 +40,36 @@ export function lerUltimaExecucao(dir) {
 }
 
 export function carregarBase(dir) {
-  const arquivos = readdirSync(join(dir, 'sandboxes')).filter((f) => f.endsWith('.json')).sort();
-  const sandboxes = arquivos.map((f) => lerJson(join(dir, 'sandboxes', f)));
-  sandboxes.sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
+  const nomes = readdirSync(join(dir, 'sandboxes')).filter((f) => f.endsWith('.json')).sort();
+  // arquivos: [{arquivo, sandbox}] para as checagens que dependem do disco (checarArquivos).
+  const arquivos = nomes.map((f) => ({ arquivo: f, sandbox: lerJson(join(dir, 'sandboxes', f)) }));
+  const sandboxes = arquivos.map((a) => a.sandbox);
+  sandboxes.sort((a, b) => (a?.id < b?.id ? -1 : a?.id > b?.id ? 1 : 0));
   return {
     temas: lerJson(join(dir, 'temas.json')),
     orgaos: lerJson(join(dir, 'orgaos.json')),
     sandboxes,
+    arquivos,
     ultimaExecucao: lerUltimaExecucao(dir),
   };
+}
+
+// Checagens que só o Node faz (o validador em assets/js/ é compartilhado com o navegador):
+//   - o id de cada sandbox é o nome do arquivo sem .json;
+//   - imagem.arquivo existe na raiz do site (a pasta pai de `dir`).
+export function checarArquivos(dir, base) {
+  const erros = [];
+  const raiz = resolve(dir, '..');
+  for (const { arquivo, sandbox: s } of base.arquivos ?? []) {
+    const esperado = arquivo.replace(/\.json$/, '');
+    const id = typeof s?.id === 'string' && s.id ? s.id : `sandboxes/${arquivo}`;
+    if (s?.id !== esperado) erros.push(`${id}: id deve ser igual ao nome do arquivo (${arquivo} -> "${esperado}")`);
+    const img = s?.imagem?.arquivo;
+    if (typeof img === 'string' && img && !img.includes('..') && !existsSync(join(raiz, img))) {
+      erros.push(`${id}: imagem.arquivo não encontrado: ${img}`);
+    }
+  }
+  return erros;
 }
 
 // R18: a maior data entre os verificado_em e a última execução da rotina de verificação.
@@ -97,6 +126,7 @@ function main(args) {
   try {
     base = carregarBase(pasta);
     ({ erros } = validarBase(base));
+    erros = [...erros, ...checarArquivos(pasta, base)];
   } catch (e) {
     erros = [`base: falha ao ler ${dir}: ${e.message}`];
   }

@@ -7,9 +7,21 @@ const RE_ID = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const RE_DATA = /^\d{4}-\d{2}-\d{2}$/;
 const RE_ANO = /^\d{4}$/;
 const NORMATIVOS = ['lei', 'decreto', 'portaria', 'resolucao'];
+const RE_IMAGEM = /^img\/[a-z0-9-]+\.(jpg|jpeg|png|webp|svg)$/;
 
 const texto = (v) => typeof v === 'string' && v.trim() !== '';
 const objeto = (v) => v !== null && typeof v === 'object' && !Array.isArray(v);
+
+// URL absoluta http(s). Usa a API URL (existe no Node e no navegador).
+export function urlHttp(v) {
+  if (!texto(v) || !/^https?:\/\//i.test(v) || /\s/.test(v)) return false;
+  try {
+    const u = new URL(v);
+    return (u.protocol === 'http:' || u.protocol === 'https:') && Boolean(u.hostname);
+  } catch {
+    return false;
+  }
+}
 
 function dataValida(v) {
   if (typeof v !== 'string' || !RE_DATA.test(v)) return false;
@@ -99,6 +111,7 @@ function validarSandbox(s, ctx, erro) {
       if (!TIPOS_DOC.includes(d.tipo)) erro(`${p}.tipo inválido: ${JSON.stringify(d.tipo)}`);
       if (!texto(d.titulo)) erro(`${p}.titulo obrigatório`);
       if (!texto(d.url)) erro(`${p}.url obrigatório`);
+      else if (!urlHttp(d.url)) erro(`${p}.url deve ser http(s): ${JSON.stringify(d.url)}`);
       if (d.data !== undefined && !dataValida(d.data)) erro(`data inválida em ${p}.data: ${JSON.stringify(d.data)}`);
     });
     const principais = docs.filter((d) => objeto(d) && d.principal === true);
@@ -121,6 +134,7 @@ function validarSandbox(s, ctx, erro) {
       if (!texto(x.descricao)) erro(`${p}.descricao obrigatório`);
       if (!STATUS_SOLUCAO.includes(x.status)) erro(`${p}.status inválido: ${JSON.stringify(x.status)}`);
       if (!texto(x.fonte)) erro(`${p}.fonte obrigatório`);
+      else if (!urlHttp(x.fonte)) erro(`${p}.fonte deve ser http(s): ${JSON.stringify(x.fonte)}`);
       for (const c of ['inicio', 'fim']) {
         if (x[c] !== undefined && !dataValida(x[c])) erro(`data inválida em ${p}.${c}: ${JSON.stringify(x[c])}`);
       }
@@ -140,6 +154,7 @@ function validarSandbox(s, ctx, erro) {
         if (!objeto(e)) return erro(`${p} inválido`);
         if (!texto(e.titulo)) erro(`${p}.titulo obrigatório`);
         if (!texto(e.url)) erro(`${p}.url obrigatório`);
+        else if (!urlHttp(e.url)) erro(`${p}.url deve ser http(s): ${JSON.stringify(e.url)}`);
         if (!STATUS_EDITAL.includes(e.status)) erro(`${p}.status inválido: ${JSON.stringify(e.status)}`);
         for (const c of ['abertura', 'encerramento']) {
           if (e[c] !== undefined && !dataValida(e[c])) erro(`data inválida em ${p}.${c}: ${JSON.stringify(e[c])}`);
@@ -156,6 +171,10 @@ function validarSandbox(s, ctx, erro) {
       for (const c of ['arquivo', 'credito', 'licenca', 'origem']) {
         if (!texto(im[c])) erro(`imagem.${c} obrigatório`);
       }
+      if (texto(im.arquivo) && !RE_IMAGEM.test(im.arquivo)) {
+        erro(`imagem.arquivo inválido (use img/<nome-kebab>.jpg|jpeg|png|webp|svg): ${JSON.stringify(im.arquivo)}`);
+      }
+      if (texto(im.origem) && !urlHttp(im.origem)) erro(`imagem.origem deve ser http(s): ${JSON.stringify(im.origem)}`);
     }
   }
 
@@ -167,6 +186,7 @@ function validarSandbox(s, ctx, erro) {
       const p = `fontes[${i}]`;
       if (!objeto(f)) return erro(`${p} inválido`);
       if (!texto(f.url)) erro(`${p}.url obrigatório`);
+      else if (!urlHttp(f.url)) erro(`${p}.url deve ser http(s): ${JSON.stringify(f.url)}`);
       if (!texto(f.titulo)) erro(`${p}.titulo obrigatório`);
       if (!dataValida(f.acessado_em)) erro(`data inválida em ${p}.acessado_em: ${JSON.stringify(f.acessado_em)}`);
     });
@@ -181,6 +201,7 @@ function validarSandbox(s, ctx, erro) {
       if (!objeto(h)) return erro(`${p} inválido`);
       if (!dataValida(h.data)) erro(`data inválida em ${p}.data: ${JSON.stringify(h.data)}`);
       if (!texto(h.descricao)) erro(`${p}.descricao obrigatório`);
+      if (h.fonte !== undefined && h.fonte !== null && !urlHttp(h.fonte)) erro(`${p}.fonte deve ser http(s): ${JSON.stringify(h.fonte)}`);
     });
     if (s.status === 'encerrado' && !s.historico.some((h) => objeto(h) && texto(h.fonte))) {
       erro('encerrado exige histórico com fonte');
