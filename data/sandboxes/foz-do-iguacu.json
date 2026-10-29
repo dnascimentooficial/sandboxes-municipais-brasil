@@ -14,7 +14,7 @@
     "mobilidade"
   ],
   "resumo": "Bairro Vila A como área de testes de cidade inteligente, com soluções instaladas via chamada Smart Vitrine.",
-  "descricao": "Foz do Iguaçu regulamentou em junho de 2020 um ambiente experimental de inovação no formato de bancos de testes regulatórios e tecnológicos. A área escolhida foi o bairro Vila A (Itaipu A), divulgado pelos parceiros como o primeiro bairro brasileiro operando em regime de sandbox.\n\nA seleção de empresas ocorre pela chamada pública Smart Vitrine, conduzida pelo Itaipu Parquetec (antigo PTI-BR) com a ABDI, a Itaipu Binacional e a prefeitura, com apoio de Inmetro e Copel. As soluções são instaladas sem custo para o município e acompanhadas por um comitê gestor.\n\nNo primeiro ciclo foram aprovadas empresas de hidratação pública, coleta de óleo de cozinha, monitoramento de energia e totens com internet sem fio, cujas instalações foram inauguradas em fevereiro de 2022. Não foram localizadas informações públicas sobre ciclos posteriores.",
+  "descricao": "Foz do Iguaçu regulamentou em junho de 2020 (Decreto nº 28.244, revogado em fevereiro de 2025 pelo Decreto nº 33.389, que hoje regulamenta os ambientes regulatórios experimentais do município) um ambiente experimental de inovação no formato de bancos de testes regulatórios e tecnológicos. A área escolhida foi o bairro Vila A (Itaipu A), divulgado pelos parceiros como o primeiro bairro brasileiro operando em regime de sandbox.\n\nA seleção de empresas ocorre pela chamada pública Smart Vitrine, conduzida pelo Itaipu Parquetec (antigo PTI-BR) com a ABDI, a Itaipu Binacional e a prefeitura, com apoio de Inmetro e Copel. As soluções são instaladas sem custo para o município e acompanhadas por um comitê gestor.\n\nNo primeiro ciclo foram aprovadas empresas de hidratação pública, coleta de óleo de cozinha, monitoramento de energia e totens com internet sem fio, cujas instalações foram inauguradas em fevereiro de 2022. Não foram localizadas informações públicas sobre ciclos posteriores.",
   "desde": "2020-06-23",
   "gestor": "Comitê Gestor do Programa Sandbox, com Prefeitura, Itaipu Parquetec e ABDI",
   "ingresso": "edital",
@@ -23,11 +23,18 @@
   "documentos": [
     {
       "tipo": "decreto",
-      "titulo": "Decreto que regulamenta o Programa Sandbox – Foz do Iguaçu",
+      "titulo": "Decreto nº 33.389/2025 — regulamenta a criação de ambientes regulatórios experimentais no Município de Foz do Iguaçu",
+      "numero": "33.389/2025",
+      "data": "2025-02-19",
+      "url": "https://leis.org/municipais/pr/foz-do-iguacu/lei/decreto/2025/33389/decreto-n-33389-2025-regulamenta-no-ambito-da-administracao-publica-do-municipio-de-foz-do-iguacu-a-criacao-de-ambientes-regulatorios-experimentais-para-desenvolvimento-de-inovacoes-cientificas-tecnologicas-e-empreendedoras-conforme-especifica",
+      "principal": true
+    },
+    {
+      "tipo": "decreto",
+      "titulo": "(revogado) Decreto que regulamenta o Programa Sandbox – Foz do Iguaçu",
       "numero": "28.244/2020",
       "data": "2020-06-23",
-      "url": "https://leismunicipais.com.br/a/pr/f/foz-do-iguacu/decreto/2020/2825/28244/decreto-n-28244-2020-regulamenta-no-ambito-do-municipio-de-foz-do-iguacu-a-instituicao-de-ambientes-experimentais-de-inovacao-cientifica-tecnologica-e-empreendedora-sob-o-formato-de-bancos-de-testes-regulatorios-e-tecnologicos-programa-sandbox-foz-do-iguacu",
-      "principal": true
+      "url": "https://leis.org/municipais/pr/foz-do-iguacu/lei/decreto/2020/28244/decreto-n-28244-2020-regulamenta-no-mbito-do-municipio-de-foz-do-iguacu-a-instituicao-de-ambientes-experimentais-de-inovacao-cientifica-tecnologica-e-empreendedora-sob-o-formato-de-bancos-de-testes-regulatorios-e-tecnologicos-programa-sandbox-foz-do"
     },
     {
       "tipo": "edital",
@@ -79,8 +86,13 @@
   },
   "fontes": [
     {
-      "url": "https://leismunicipais.com.br/a/pr/f/foz-do-iguacu/decreto/2020/2825/28244/decreto-n-28244-2020-regulamenta-no-ambito-do-municipio-de-foz-do-iguacu-a-instituicao-de-ambientes-experimentais-de-inovacao-cientifica-tecnologica-e-empreendedora-sob-o-formato-de-bancos-de-testes-regulatorios-e-tecnologicos-programa-sandbox-foz-do-iguacu",
-      "titulo": "Leis Municipais — Decreto nº 28.244/2020 de Foz do Iguaçu",
+      "url": "https://leis.org/municipais/pr/foz-do-iguacu/lei/decreto/2020/28244/decreto-n-28244-2020-regulamenta-no-mbito-do-municipio-de-foz-do-iguacu-a-instituicao-de-ambientes-experimentais-de-inovacao-cientifica-tecnologica-e-empreendedora-sob-o-formato-de-bancos-de-testes-regulatorios-e-tecnologicos-programa-sandbox-foz-do",
+      "titulo": "Leis.org — Decreto nº 28.244/2020 de Foz do Iguaçu (revogado)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://leis.org/municipais/pr/foz-do-iguacu/lei/decreto/2025/33389/decreto-n-33389-2025-regulamenta-no-ambito-da-administracao-publica-do-municipio-de-foz-do-iguacu-a-criacao-de-ambientes-regulatorios-experimentais-para-desenvolvimento-de-inovacoes-cientificas-tecnologicas-e-empreendedoras-conforme-especifica",
+      "titulo": "Leis.org — Decreto nº 33.389/2025 de Foz do Iguaçu",
       "acessado_em": "2026-10-29"
     },
     {
@@ -107,13 +119,18 @@
   "verificado_em": "2026-10-29",
   "historico": [
     {
+      "data": "2025-02-19",
+      "descricao": "Decreto nº 33.389/2025 revoga o Decreto nº 28.244/2020 e passa a regulamentar os ambientes regulatórios experimentais.",
+      "fonte": "https://leis.org/municipais/pr/foz-do-iguacu/lei/decreto/2025/33389/decreto-n-33389-2025-regulamenta-no-ambito-da-administracao-publica-do-municipio-de-foz-do-iguacu-a-criacao-de-ambientes-regulatorios-experimentais-para-desenvolvimento-de-inovacoes-cientificas-tecnologicas-e-empreendedoras-conforme-especifica"
+    },
+    {
       "data": "2022-02-14",
       "descricao": "Inauguração oficial das soluções instaladas no bairro Vila A.",
       "fonte": "https://dplnews.com/brasil-bairro-sandbox-ja-e-uma-realidade-no-sul-do-pais/"
     },
     {
       "data": "2020-06-23",
-      "descricao": "Publicação do Decreto nº 28.244/2020, que regulamenta o programa.",
+      "descricao": "Publicação do Decreto nº 28.244/2020 (revogado em 2025), que regulamentou o programa.",
       "fonte": "https://portal.tcu.gov.br/data/files/4B/C2/6D/DB/56ABB810F80985A8E18818A8/231108_Sandbox.pdf"
     }
   ],

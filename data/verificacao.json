@@ -15,8 +15,11 @@
     },
     "blumenau": {
       "verificado_em": "2026-10-29",
-      "mudou": false,
-      "avisos": []
+      "mudou": true,
+      "avisos": [
+        "Lei Complementar nº 1.338/2021 revogada pela LC nº 1.741/2026 (principal atualizado).",
+        "Decreto 13.555/2021 regulamentava a LC 1.338/2021, revogada pela LC 1.741/2026; vigência a confirmar."
+      ]
     },
     "criciuma": {
       "verificado_em": "2026-10-29",
@@ -27,10 +30,9 @@
     },
     "curitiba": {
       "verificado_em": "2026-10-29",
-      "mudou": false,
+      "mudou": true,
       "avisos": [
-        "Status da solução de drones marcado como concluída sem confirmação explícita do fim do acordo de cooperação.",
-        "Decreto nº 2.447/2025 aponta para o edital que o cita; texto do decreto não localizado."
+        "Status da solução de drones marcado como concluída sem confirmação explícita do fim do acordo de cooperação."
       ]
     },
     "df": {
@@ -42,8 +44,9 @@
     },
     "foz-do-iguacu": {
       "verificado_em": "2026-10-29",
-      "mudou": false,
+      "mudou": true,
       "avisos": [
+        "Decreto nº 28.244/2020 revogado pelo Decreto nº 33.389/2025 (principal atualizado).",
         "Não há notícia de ciclos após 2022; status ativo baseado em soluções concluídas."
       ]
     },

@@ -36,13 +36,13 @@
     },
     {
       "tipo": "decreto",
-      "titulo": "Edital 02/2026 que cita o Decreto nº 2.447/2025 (regulamento da Lei nº 16.344/2024)",
+      "titulo": "Decreto nº 2.447/2025 — regulamenta a Lei nº 16.344/2024 (Sandbox Regulatório); revoga o Decreto nº 1.885/2021",
       "numero": "2.447/2025",
-      "url": "https://mid.curitiba.pr.gov.br/2026/00466681.pdf"
+      "url": "https://leis.org/municipais/pr/curitiba/lei/decreto/2025/2447/decreto-n-2447-2025-regulamenta-a-lei-municipal-n%C2%BA-16344-de-19-de-junho-de-2024-quanto-a-constituicao-e-normas-gerais-de-funcionamento-de-ambiente-regulatorio-experimental-tambem-denominado-sandbox-regulatorio-no-ambito-do-municipio-de-curitiba"
     },
     {
       "tipo": "decreto",
-      "titulo": "Decreto que instituiu o Programa Sandbox Curitiba",
+      "titulo": "(revogado) Decreto que instituiu o Programa Sandbox Curitiba",
       "numero": "1.885/2021",
       "url": "https://leismunicipais.com.br/a/pr/c/curitiba/decreto/2021/189/1885/decreto-n-1885-2021-regulamenta-no-ambito-do-municipio-de-curitiba-a-instituicao-de-ambientes-experimentais-de-inovacao-cientifica-tecnologica-e-empreendedora-programa-sandbox-curitiba-sob-o-formato-de-bancos-de-testes-regulatorios-e-tecnologicos-no-modelo-sandbox-nos-termos-do-artigo-11-da-lei-complementar-federal-n-182-de-1-de-junho-de-2021"
     },
@@ -88,6 +88,11 @@
     {
       "url": "https://leismunicipais.com.br/a/pr/c/curitiba/lei-ordinaria/2024/1635/16344/lei-ordinaria-n-16344-2024-dispoe-sobre-as-regras-para-a-constituicao-e-normas-gerais-de-funcionamento-de-ambiente-regulatorio-experimental-no-municipio-de-curitiba",
       "titulo": "Leis Municipais — Lei nº 16.344/2024 de Curitiba",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://leis.org/municipais/pr/curitiba/lei/decreto/2025/2447/decreto-n-2447-2025-regulamenta-a-lei-municipal-n%C2%BA-16344-de-19-de-junho-de-2024-quanto-a-constituicao-e-normas-gerais-de-funcionamento-de-ambiente-regulatorio-experimental-tambem-denominado-sandbox-regulatorio-no-ambito-do-municipio-de-curitiba",
+      "titulo": "Leis.org — Decreto nº 2.447/2025 de Curitiba",
       "acessado_em": "2026-10-29"
     },
     {

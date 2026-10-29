@@ -12,18 +12,25 @@
     "startups",
     "cidades"
   ],
-  "resumo": "Lei complementar de 2021 cria zonas de inovação no formato de ambiente regulatório experimental, regulamentadas por decreto.",
-  "descricao": "Blumenau aprovou a Lei Complementar nº 1.338, de 20 de maio de 2021, que estabelece normas gerais para zonas de desenvolvimento, inovação e tecnologia organizadas como ambiente regulatório experimental, também chamado de Regulatory Sandbox. A lei foi regulamentada pelo Decreto nº 13.555/2021.\n\nO projeto teve origem na Câmara Municipal e altera dispositivos de outra lei complementar municipal. Não foram localizadas informações públicas sobre chamamentos, empresas autorizadas ou testes realizados.",
+  "resumo": "Lei Complementar de 2026 disciplina o Sandbox Regulatório no âmbito da política municipal de inovação, substituindo a lei de 2021.",
+  "descricao": "Blumenau aprovou a Lei Complementar nº 1.338, de 20 de maio de 2021, que estabelecia normas gerais para zonas de desenvolvimento, inovação e tecnologia organizadas como ambiente regulatório experimental (Regulatory Sandbox), regulamentada pelo Decreto nº 13.555/2021. Essa lei foi revogada pela Lei Complementar nº 1.741, de 4 de setembro de 2026, que dispõe sobre a política de incentivos à pesquisa científica e tecnológica e à inovação no ambiente produtivo e disciplina o ambiente regulatório experimental (Sandbox Regulatório).\n\nO projeto original teve origem na Câmara Municipal. Não foram localizadas informações públicas sobre chamamentos, empresas autorizadas ou testes realizados.",
   "desde": "2021-05-20",
   "ingresso": "nao_informado",
   "documentos": [
     {
       "tipo": "lei",
-      "titulo": "Lei Complementar sobre zonas de desenvolvimento, inovação e tecnologia em ambiente regulatório experimental",
+      "titulo": "Lei Complementar nº 1.741/2026 — política municipal de inovação; disciplina o Sandbox Regulatório",
+      "numero": "1.741/2026",
+      "data": "2026-09-04",
+      "url": "https://leis.org/municipais/sc/blumenau/lei/lei-complementar/2026/1741/lei-complementar-n-1741-2026-dispoe-sobre-a-politica-de-incentivos-a-pesquisa-cientifica-e-tecnologica-e-a-inovacao-no-ambiente-produtivo-no-municipio-de-blumenau-sc-disciplina-o-ambiente-regulatorio-experimental-sandbox-regulatorio-estabelece-instrumentos-de-fomento-e-da-outras-providencias",
+      "principal": true
+    },
+    {
+      "tipo": "lei",
+      "titulo": "(revogada) Lei Complementar sobre zonas de desenvolvimento, inovação e tecnologia em ambiente regulatório experimental",
       "numero": "1.338/2021",
       "data": "2021-05-20",
-      "url": "https://leismunicipais.com.br/a/sc/b/blumenau/lei-complementar/2021/133/1338/lei-complementar-n-1338-2021-dispoe-sobre-a-constituicao-e-estabelece-normas-gerais-para-funcionamento-de-zonas-de-desenvolvimento-inovacao-e-tecnologia-a-serem-organizadas-na-forma-de-ambiente-regulatorio-experimental-no-municipio-de-blumenau-e-acrescenta-dispositivos-conexos-nos-artigos-227-264-e-341-da-lei-complementar-n-632-de-30-de-marco-de-2007",
-      "principal": true
+      "url": "https://leis.org/municipais/sc/blumenau/lei/lei-complementar/2021/1338/lei-complementar-n-1338-2021-dispoe-sobre-a-constituicao-e-estabelece-normas-gerais-para-funcionamento-de-zonas-de-desenvolvimento-inovacao-e-tecnologia-a-serem-organizadas-na-forma-de-ambiente-regulatorio-experimental-no-municipio-de-blumenau-e-acrescenta-dispositivos-conexos-nos-artigos-227-264-e-341-da-lei-complementar-n-632-de-30-de-marco-de"
     },
     {
       "tipo": "decreto",
@@ -40,8 +47,13 @@
   },
   "fontes": [
     {
-      "url": "https://leismunicipais.com.br/a/sc/b/blumenau/lei-complementar/2021/133/1338/lei-complementar-n-1338-2021-dispoe-sobre-a-constituicao-e-estabelece-normas-gerais-para-funcionamento-de-zonas-de-desenvolvimento-inovacao-e-tecnologia-a-serem-organizadas-na-forma-de-ambiente-regulatorio-experimental-no-municipio-de-blumenau-e-acrescenta-dispositivos-conexos-nos-artigos-227-264-e-341-da-lei-complementar-n-632-de-30-de-marco-de-2007",
-      "titulo": "Leis Municipais — Lei Complementar nº 1.338/2021 de Blumenau",
+      "url": "https://leis.org/municipais/sc/blumenau/lei/lei-complementar/2021/1338/lei-complementar-n-1338-2021-dispoe-sobre-a-constituicao-e-estabelece-normas-gerais-para-funcionamento-de-zonas-de-desenvolvimento-inovacao-e-tecnologia-a-serem-organizadas-na-forma-de-ambiente-regulatorio-experimental-no-municipio-de-blumenau-e-acrescenta-dispositivos-conexos-nos-artigos-227-264-e-341-da-lei-complementar-n-632-de-30-de-marco-de",
+      "titulo": "Leis.org — Lei Complementar nº 1.338/2021 de Blumenau (revogada)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://leis.org/municipais/sc/blumenau/lei/lei-complementar/2026/1741/lei-complementar-n-1741-2026-dispoe-sobre-a-politica-de-incentivos-a-pesquisa-cientifica-e-tecnologica-e-a-inovacao-no-ambiente-produtivo-no-municipio-de-blumenau-sc-disciplina-o-ambiente-regulatorio-experimental-sandbox-regulatorio-estabelece-instrumentos-de-fomento-e-da-outras-providencias",
+      "titulo": "Leis.org — Lei Complementar nº 1.741/2026 de Blumenau",
       "acessado_em": "2026-10-29"
     },
     {
@@ -58,9 +70,14 @@
   "verificado_em": "2026-10-29",
   "historico": [
     {
+      "data": "2026-09-04",
+      "descricao": "Lei Complementar nº 1.741/2026 revoga a LC nº 1.338/2021 e passa a disciplinar o ambiente regulatório experimental (Sandbox Regulatório).",
+      "fonte": "https://leis.org/municipais/sc/blumenau/lei/lei-complementar/2026/1741/lei-complementar-n-1741-2026-dispoe-sobre-a-politica-de-incentivos-a-pesquisa-cientifica-e-tecnologica-e-a-inovacao-no-ambiente-produtivo-no-municipio-de-blumenau-sc-disciplina-o-ambiente-regulatorio-experimental-sandbox-regulatorio-estabelece-instrumentos-de-fomento-e-da-outras-providencias"
+    },
+    {
       "data": "2021-05-20",
-      "descricao": "Publicada a Lei Complementar nº 1.338/2021.",
-      "fonte": "https://leismunicipais.com.br/a/sc/b/blumenau/lei-complementar/2021/133/1338/lei-complementar-n-1338-2021-dispoe-sobre-a-constituicao-e-estabelece-normas-gerais-para-funcionamento-de-zonas-de-desenvolvimento-inovacao-e-tecnologia-a-serem-organizadas-na-forma-de-ambiente-regulatorio-experimental-no-municipio-de-blumenau-e-acrescenta-dispositivos-conexos-nos-artigos-227-264-e-341-da-lei-complementar-n-632-de-30-de-marco-de-2007"
+      "descricao": "Publicada a Lei Complementar nº 1.338/2021 (revogada em 2026).",
+      "fonte": "https://leis.org/municipais/sc/blumenau/lei/lei-complementar/2021/1338/lei-complementar-n-1338-2021-dispoe-sobre-a-constituicao-e-estabelece-normas-gerais-para-funcionamento-de-zonas-de-desenvolvimento-inovacao-e-tecnologia-a-serem-organizadas-na-forma-de-ambiente-regulatorio-experimental-no-municipio-de-blumenau-e-acrescenta-dispositivos-conexos-nos-artigos-227-264-e-341-da-lei-complementar-n-632-de-30-de-marco-de"
     }
   ],
   "recem_adicionado": true
