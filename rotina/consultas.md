@@ -149,7 +149,7 @@ Busca: `"sandbox regulatório" site:<domínio> <ano>`.
 
 ## Armadilhas conhecidas
 
-- **Anti-bot:** `leismunicipais.com.br` (redireciona para `leis.org`), `leis.org` e `www2.aneel.gov.br` mostram CAPTCHA ou desafio do Cloudflare para robôs. Não tente contornar. Use reproduções sem bloqueio (LegisWeb, Normas Brasil, SAPL da Câmara, Diário Oficial do município); confiança média. Na falta delas, registre "verificação manual necessária".
+- **Anti-bot:** `leismunicipais.com.br` (redireciona para `leis.org`), `leis.org` e `www2.aneel.gov.br` mostram CAPTCHA ou desafio do Cloudflare para robôs. Não tente contornar. Procure o mesmo ato em fonte **oficial** sem bloqueio: Diário Oficial do município ou do estado, SAPL ou site da câmara, site da prefeitura. Reproduções em agregadores **privados** (LegisWeb, Normas Brasil, Legismap) servem só como link de apoio e para campos que não são status, com confiança média. Nunca bastam para mudar status nem para registrar revogação; esses casos vão para "Para você decidir". Sem fonte oficial, registre "verificação manual necessária".
 - **Páginas que não renderizam para robô:**
   - `bcb.gov.br/estabilidadefinanceira/sandbox` e os links `exibenormativo` do BCB, que são dinâmicos;
   - alguns PDFs grandes; baixe com `curl` e leia com `pdftotext`.
