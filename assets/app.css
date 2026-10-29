@@ -175,12 +175,16 @@ body.aba-comparar #filtros,body.aba-comparar .hdr-filter-btn{display:none !impor
 
 /* ---------- Hero ---------- */
 .hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,420px);gap:36px;align-items:end}
-/* Foto de fundo de ponta a ponta (sangra o padding do #main), véu escuro e degradê que funde no papel.
+/* Foto de fundo de ponta a ponta (sangra o padding do #main), véu escuro e borda inferior reta.
+   Os cartões de números sobem --hero-sobe px por cima dessa borda (metade sobre a foto, metade sobre o papel).
    Contraste calculado sobre o pior caso (pixel branco sob o véu .66 → rgb(93,95,95)): h1 6.45:1, lede 4.98:1, selo 4.62:1. */
-.hero{position:relative;isolation:isolate;overflow:hidden;min-height:520px;margin:-44px -48px -16px;padding:72px 48px 128px;background-color:#1e2423}
-.hero::before,.hero::after{content:"";position:absolute;left:0;right:0;z-index:-1;pointer-events:none}
-.hero::before{top:0;bottom:0;background:rgba(10,12,12,.66)}
-.hero::after{bottom:0;height:120px;background:linear-gradient(180deg,rgba(244,241,236,0),var(--paper))}
+:root{--hero-sobe:88px}
+.hero{position:relative;isolation:isolate;overflow:hidden;min-height:520px;margin:-44px -48px 0;padding:72px 48px calc(var(--hero-sobe) + 78px);background-color:#1e2423}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:rgba(10,12,12,.66)}
+/* A barra de filtros ativos e os números sobem juntos; com pílulas, elas ficam sobre a foto e empurram os cartões. */
+.hero + .toolbar-top{position:relative;z-index:1;min-height:0;margin-top:calc(-1 * (var(--hero-sobe) + 22px))}
+.hero + .toolbar-top .af-limpar{color:#fff}
+.hero ~ .kpis{position:relative;z-index:1}
 .hero-bg{position:absolute;inset:0;z-index:-2}
 .hero-bg img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 30%}
 .hero .eyebrow{color:rgba(255,255,255,.9)}
@@ -557,9 +561,9 @@ body.gaveta-aberta{overflow:hidden}
   .sb-head{display:flex;align-items:center;justify-content:space-between;padding:6px 12px 10px;font-size:18px;font-weight:800}
   .sb-backdrop{position:fixed;inset:0;z-index:69;background:rgba(17,17,18,.3)}
   #main{padding:30px 16px 32px}
-  .hero{grid-template-columns:1fr;gap:24px;min-height:0;margin:-30px -16px -12px;padding:48px 16px 100px}
+  :root{--hero-sobe:64px}
+  .hero{grid-template-columns:1fr;gap:24px;min-height:0;margin:-30px -16px 0;padding:48px 16px calc(var(--hero-sobe) + 56px)}
   .hero::before{background:rgba(10,12,12,.72)}
-  .hero::after{height:88px}
   .hero-bg img{object-position:50% 35%}
 }
 @media (max-width:768px){
@@ -597,6 +601,9 @@ body.gaveta-aberta{overflow:hidden}
   .cards{grid-template-columns:1fr}
   .block-head{flex-direction:column;align-items:flex-start}
   .modal-corpo{padding:32px 22px 24px}
+}
+@media (max-width:600px){
+  :root{--hero-sobe:40px}
 }
 @media (max-width:400px){
   .hdr-filter-btn > span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
