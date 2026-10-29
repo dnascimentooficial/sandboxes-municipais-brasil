@@ -1,0 +1,78 @@
+{
+  "id": "volta-redonda",
+  "nome": "Programa Sandbox – Volta Redonda",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Volta Redonda",
+    "uf": "RJ",
+    "regiao": "Sudeste"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "cidades",
+    "telecom",
+    "startups"
+  ],
+  "resumo": "Decreto de 2022 cria zonas de inovação em todo o município; o 1º ciclo de seleção teve inscrições até junho de 2025.",
+  "descricao": "Volta Redonda criou o Programa Sandbox – Volta Redonda pelo Decreto nº 17.021, de 3 de março de 2022, que regulamenta zonas de desenvolvimento com inovação científica, tecnológica e empreendedora. O decreto cita a lei municipal do 5G, a Lei de Inovação federal e o Marco Legal das Startups.\n\nUm Comitê Gestor formado por secretarias municipais, sob coordenação da Secretaria de Desenvolvimento Econômico e Turismo, delibera sobre os testes. Cada ciclo experimental dura até 12 meses, prorrogável por igual período, sem custo para o município.\n\nO primeiro ciclo de seleção teve inscrições encerradas em 12 de junho de 2025. Não foram localizados resultados ou testes iniciados.",
+  "desde": "2022-03-03",
+  "gestor": "Secretaria Municipal de Desenvolvimento Econômico e Turismo (SMDET), com o Comitê Gestor do programa",
+  "ingresso": "edital",
+  "prazo_teste_meses": 12,
+  "elegibilidade": "Startups, empresas, universidades e demais instituições com produtos, serviços ou modelos de negócio inovadores.",
+  "documentos": [
+    {
+      "tipo": "decreto",
+      "titulo": "Decreto que institui o Programa Sandbox – Volta Redonda",
+      "numero": "17.021/2022",
+      "data": "2022-03-03",
+      "url": "https://www.voltaredonda.rj.gov.br/sandbox/wp-content/uploads/2022/03/decreto-SANDBOX_17021_2022.pdf",
+      "principal": true
+    }
+  ],
+  "editais": [
+    {
+      "titulo": "Chamamento público – 1º Ciclo de seleção do Sandbox Regulatório",
+      "status": "encerrado",
+      "encerramento": "2025-06-12",
+      "url": "https://www.voltaredonda.rj.gov.br/comunicacao/noticias/31-smdet/10062-volta-redonda-inscri%C3%A7%C3%B5es-para-empresas-e-startups-testarem-solu%C3%A7%C3%B5es-inovadoras-v%C3%A3o-at%C3%A9-quinta-feira-12/"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/volta-redonda.jpg",
+    "credito": "NunysBR",
+    "licenca": "CC0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Centro_de_Volta_Redonda.png"
+  },
+  "fontes": [
+    {
+      "url": "https://www.voltaredonda.rj.gov.br/sandbox/wp-content/uploads/2022/03/decreto-SANDBOX_17021_2022.pdf",
+      "titulo": "Prefeitura de Volta Redonda — Decreto nº 17.021/2022",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.voltaredonda.rj.gov.br/comunicacao/noticias/31-smdet/10062-volta-redonda-inscri%C3%A7%C3%B5es-para-empresas-e-startups-testarem-solu%C3%A7%C3%B5es-inovadoras-v%C3%A3o-at%C3%A9-quinta-feira-12/",
+      "titulo": "Prefeitura de Volta Redonda — inscrições para testar soluções inovadoras (jun/2025)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://portal.tcu.gov.br/data/files/4B/C2/6D/DB/56ABB810F80985A8E18818A8/231108_Sandbox.pdf",
+      "titulo": "TCU — estudo \"Sandbox regulatório no Marco Legal das Startups\" (2023), tabela de atos estaduais e municipais",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2025-06-12",
+      "descricao": "Encerradas as inscrições do 1º ciclo de seleção.",
+      "fonte": "https://www.voltaredonda.rj.gov.br/comunicacao/noticias/31-smdet/10062-volta-redonda-inscri%C3%A7%C3%B5es-para-empresas-e-startups-testarem-solu%C3%A7%C3%B5es-inovadoras-v%C3%A3o-at%C3%A9-quinta-feira-12/"
+    },
+    {
+      "data": "2026-10-29",
+      "descricao": "Registro antes baseado em \"referência indireta\"; agora apoiado no texto oficial do Decreto nº 17.021/2022.",
+      "fonte": "https://www.voltaredonda.rj.gov.br/sandbox/wp-content/uploads/2022/03/decreto-SANDBOX_17021_2022.pdf"
+    }
+  ],
+  "recem_adicionado": false
+}

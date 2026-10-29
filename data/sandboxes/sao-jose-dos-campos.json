@@ -1,0 +1,162 @@
+{
+  "id": "sao-jose-dos-campos",
+  "nome": "Programa Sandbox São José dos Campos",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "São José dos Campos",
+    "uf": "SP",
+    "regiao": "Sudeste"
+  },
+  "status": "ativo",
+  "temas": [
+    "cidades",
+    "mobilidade",
+    "ambiente",
+    "saude",
+    "energia",
+    "seguranca"
+  ],
+  "resumo": "Lei de 2023 cria bancos de testes geridos pelo Parque de Inovação Tecnológica; dois ciclos de seleção já realizados.",
+  "descricao": "São José dos Campos instituiu o Programa Sandbox pela Lei nº 10.675, de 3 de abril de 2023, como bancos de testes regulatórios e tecnológicos baseados no Marco Legal das Startups. A gestão cabe ao Parque de Inovação Tecnológica (PIT), com um Comitê Gestor que pode solicitar a suspensão temporária de normas municipais de natureza fiscal, econômica ou urbanística.\n\nO primeiro ciclo recebeu mais de 30 propostas e pré-selecionou seis projetos, com ciclos experimentais de 6 a 12 meses e sem custo para a prefeitura. Um deles, uma plataforma de inteligência artificial para monitoramento por câmeras, foi testado em piloto no Centro em 2025.\n\nO segundo ciclo teve inscrições em outubro de 2025, com seleção final prevista para dezembro daquele ano e implantação a partir de 2026.",
+  "desde": "2023-04-03",
+  "gestor": "Parque de Inovação Tecnológica (PIT), com o Comitê Gestor do programa",
+  "ingresso": "edital",
+  "prazo_teste_meses": 12,
+  "elegibilidade": "Startups e empresas de base tecnológica brasileiras, com CNPJ, capacidade técnica e financeira e produtos ou serviços inovadores.",
+  "flexibilizacoes": [
+    "Suspensão temporária de legislação municipal de natureza fiscal, econômica ou urbanística, mediante parecer do Comitê Gestor"
+  ],
+  "documentos": [
+    {
+      "tipo": "lei",
+      "titulo": "Lei que institui o Programa Sandbox São José",
+      "numero": "10.675/2023",
+      "data": "2023-04-03",
+      "url": "https://servicos.sjc.sp.gov.br/Legislacao/Arquivos/Leis/2023/LE_2023_00010675.pdf",
+      "principal": true
+    },
+    {
+      "tipo": "decreto",
+      "titulo": "Decreto que nomeia os membros do Comitê Gestor",
+      "numero": "19.911/2025",
+      "data": "2025-03-27",
+      "url": "https://servicos.sjc.sp.gov.br/Legislacao/compilada/31653"
+    }
+  ],
+  "solucoes": [
+    {
+      "nome": "IA e visão computacional no monitoramento urbano",
+      "proponente": "Erione, com a startup Deepneuronic",
+      "descricao": "Análise de imagens de câmeras para detectar situações suspeitas e acionar alertas; piloto de 60 dias com seis câmeras no Centro.",
+      "status": "concluida",
+      "inicio": "2025-06-16",
+      "fonte": "https://pitsjc.org.br/noticias/gerais/tecnologia-desenvolvida-no-pit-e-testada-para-reforcar-a-seguranca-urbana-de-sao-jose-dos-campos/"
+    },
+    {
+      "nome": "Totem para travessia segura",
+      "proponente": "Ebrax Indústria e Comércio Ltda.",
+      "descricao": "Totem de sinalização sonora e luminosa para proteção de pedestres.",
+      "status": "selecionada",
+      "fonte": "https://www.sjc.sp.gov.br/noticias/2024/dezembro/10/sandbox-seleciona-projetos-inovadores-em-sao-jose/"
+    },
+    {
+      "nome": "Mobilidade limpa e conservação da biodiversidade",
+      "proponente": "Hybrid E-Controls Tecnologia Automotiva Ltda.",
+      "descricao": "Hibridização de caminhão de lixo e ônibus urbano, com compensação de emissões.",
+      "status": "selecionada",
+      "fonte": "https://www.sjc.sp.gov.br/noticias/2024/dezembro/10/sandbox-seleciona-projetos-inovadores-em-sao-jose/"
+    },
+    {
+      "nome": "Pegada de carbono do aterro sanitário",
+      "proponente": "Scink Consultoria em Processos Ambientais e Carbon Management Ltda.",
+      "descricao": "Medição direta de emissões de metano no aterro municipal.",
+      "status": "selecionada",
+      "fonte": "https://www.sjc.sp.gov.br/noticias/2024/dezembro/10/sandbox-seleciona-projetos-inovadores-em-sao-jose/"
+    },
+    {
+      "nome": "Gamificação com biofeedback para neurodiversidades",
+      "proponente": "Self Aplicações Tecnológicas para Saúde, Educação e Bem-Estar Ltda.",
+      "descricao": "Jogos terapêuticos com sensores fisiológicos para crianças com autismo e TDAH.",
+      "status": "selecionada",
+      "fonte": "https://www.sjc.sp.gov.br/noticias/2024/dezembro/10/sandbox-seleciona-projetos-inovadores-em-sao-jose/"
+    },
+    {
+      "nome": "Gestão de utilidades para energia",
+      "proponente": "Tecsus Tecnologias para a Sustentabilidade S.A.",
+      "descricao": "Telemetria de energia e gestão automatizada de faturas em prédios públicos.",
+      "status": "selecionada",
+      "fonte": "https://www.sjc.sp.gov.br/noticias/2024/dezembro/10/sandbox-seleciona-projetos-inovadores-em-sao-jose/"
+    }
+  ],
+  "editais": [
+    {
+      "titulo": "Programa Sandbox – 2º Ciclo Experimental",
+      "status": "encerrado",
+      "abertura": "2025-10-06",
+      "encerramento": "2025-10-24",
+      "url": "https://www.sjc.sp.gov.br/noticias/2025/outubro/06/s%C3%A3o-jos%C3%A9-abre-inscri%C3%A7%C3%B5es-para-a-2%C2%AA-edi%C3%A7%C3%A3o-do-programa-sandbox/"
+    },
+    {
+      "titulo": "Programa Sandbox – 1º Ciclo Experimental",
+      "status": "encerrado",
+      "url": "https://www.sjc.sp.gov.br/noticias/2024/dezembro/10/sandbox-seleciona-projetos-inovadores-em-sao-jose/"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/sao-jose-dos-campos.jpg",
+    "credito": "Bertachini",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Banhado_S%C3%A3o_Jos%C3%A9_dos_Campos.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://pitsjc.org.br/sandbox/",
+      "titulo": "PIT São José dos Campos — página do Programa Sandbox",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.sjc.sp.gov.br/noticias/2024/dezembro/10/sandbox-seleciona-projetos-inovadores-em-sao-jose/",
+      "titulo": "Prefeitura de São José dos Campos — Sandbox seleciona projetos inovadores",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.sjc.sp.gov.br/noticias/2025/outubro/06/s%C3%A3o-jos%C3%A9-abre-inscri%C3%A7%C3%B5es-para-a-2%C2%AA-edi%C3%A7%C3%A3o-do-programa-sandbox/",
+      "titulo": "Prefeitura de São José dos Campos — inscrições para a 2ª edição",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://pitsjc.org.br/noticias/gerais/tecnologia-desenvolvida-no-pit-e-testada-para-reforcar-a-seguranca-urbana-de-sao-jose-dos-campos/",
+      "titulo": "PIT — tecnologia testada para reforçar a segurança urbana",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://servicos.sjc.sp.gov.br/Legislacao/Arquivos/Leis/2023/LE_2023_00010675.pdf",
+      "titulo": "Prefeitura de São José dos Campos — Lei nº 10.675/2023",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2025-10-06",
+      "descricao": "Abertas as inscrições do 2º ciclo do programa.",
+      "fonte": "https://www.sjc.sp.gov.br/noticias/2025/outubro/06/s%C3%A3o-jos%C3%A9-abre-inscri%C3%A7%C3%B5es-para-a-2%C2%AA-edi%C3%A7%C3%A3o-do-programa-sandbox/"
+    },
+    {
+      "data": "2025-06-16",
+      "descricao": "Teste simulado da plataforma de monitoramento urbano por IA, primeiro piloto do programa.",
+      "fonte": "https://pitsjc.org.br/noticias/gerais/tecnologia-desenvolvida-no-pit-e-testada-para-reforcar-a-seguranca-urbana-de-sao-jose-dos-campos/"
+    },
+    {
+      "data": "2024-12-10",
+      "descricao": "Pré-seleção de seis projetos no 1º ciclo.",
+      "fonte": "https://www.sjc.sp.gov.br/noticias/2024/dezembro/10/sandbox-seleciona-projetos-inovadores-em-sao-jose/"
+    },
+    {
+      "data": "2023-04-03",
+      "descricao": "Sancionada a Lei nº 10.675/2023.",
+      "fonte": "https://servicos.sjc.sp.gov.br/Legislacao/Arquivos/Leis/2023/LE_2023_00010675.pdf"
+    }
+  ],
+  "recem_adicionado": false
+}

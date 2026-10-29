@@ -1,0 +1,116 @@
+{
+  "id": "foz-do-iguacu",
+  "nome": "Programa Sandbox – Foz do Iguaçu (Vila A Inteligente)",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Foz do Iguaçu",
+    "uf": "PR",
+    "regiao": "Sul"
+  },
+  "status": "ativo",
+  "temas": [
+    "cidades",
+    "energia",
+    "mobilidade"
+  ],
+  "resumo": "Bairro Vila A como área de testes de cidade inteligente, com soluções instaladas via chamada Smart Vitrine.",
+  "descricao": "Foz do Iguaçu regulamentou em junho de 2020 um ambiente experimental de inovação no formato de bancos de testes regulatórios e tecnológicos. A área escolhida foi o bairro Vila A (Itaipu A), divulgado pelos parceiros como o primeiro bairro brasileiro operando em regime de sandbox.\n\nA seleção de empresas ocorre pela chamada pública Smart Vitrine, conduzida pelo Itaipu Parquetec (antigo PTI-BR) com a ABDI, a Itaipu Binacional e a prefeitura, com apoio de Inmetro e Copel. As soluções são instaladas sem custo para o município e acompanhadas por um comitê gestor.\n\nNo primeiro ciclo foram aprovadas empresas de hidratação pública, coleta de óleo de cozinha, monitoramento de energia e totens com internet sem fio, cujas instalações foram inauguradas em fevereiro de 2022. Não foram localizadas informações públicas sobre ciclos posteriores.",
+  "desde": "2020-06-23",
+  "gestor": "Comitê Gestor do Programa Sandbox, com Prefeitura, Itaipu Parquetec e ABDI",
+  "ingresso": "edital",
+  "prazo_teste_meses": 12,
+  "elegibilidade": "Empresas com soluções de cidades inteligentes selecionadas em chamada pública, com instalação a título não oneroso.",
+  "documentos": [
+    {
+      "tipo": "decreto",
+      "titulo": "Decreto que regulamenta o Programa Sandbox – Foz do Iguaçu",
+      "numero": "28.244/2020",
+      "data": "2020-06-23",
+      "url": "https://portal.tcu.gov.br/data/files/4B/C2/6D/DB/56ABB810F80985A8E18818A8/231108_Sandbox.pdf",
+      "principal": true
+    },
+    {
+      "tipo": "edital",
+      "titulo": "Resumo do Edital Smart Vitrine 01/2021",
+      "url": "https://hubiguassu.itaipuparquetec.org.br/wp-content/uploads/2021/07/resumo-EditalSmartVitrine.pdf"
+    }
+  ],
+  "solucoes": [
+    {
+      "nome": "Estações de hidratação inteligentes",
+      "proponente": "Icehot",
+      "descricao": "Estações públicas que fornecem água quente e fria no bairro Vila A.",
+      "status": "concluida",
+      "fonte": "https://dplnews.com/brasil-bairro-sandbox-ja-e-uma-realidade-no-sul-do-pais/"
+    },
+    {
+      "nome": "Coleta de óleo de cozinha usado",
+      "proponente": "Óleoponto",
+      "descricao": "Equipamento para facilitar o descarte e a coleta de óleo de cozinha pelos moradores.",
+      "status": "concluida",
+      "fonte": "https://dplnews.com/brasil-bairro-sandbox-ja-e-uma-realidade-no-sul-do-pais/"
+    },
+    {
+      "nome": "Monitoramento de consumo de energia",
+      "proponente": "Bohnen+Messtek",
+      "descricao": "Equipamentos de medição e monitoramento do consumo de energia em residências e comércios.",
+      "status": "concluida",
+      "fonte": "https://dplnews.com/brasil-bairro-sandbox-ja-e-uma-realidade-no-sul-do-pais/"
+    },
+    {
+      "nome": "Totens inteligentes",
+      "descricao": "Totens com internet sem fio e recarga de celular, entre outros serviços.",
+      "status": "concluida",
+      "fonte": "https://dplnews.com/brasil-bairro-sandbox-ja-e-uma-realidade-no-sul-do-pais/"
+    }
+  ],
+  "editais": [
+    {
+      "titulo": "Smart Vitrine – Edital 01/2021",
+      "status": "encerrado",
+      "url": "https://hubiguassu.itaipuparquetec.org.br/wp-content/uploads/2021/07/resumo-EditalSmartVitrine.pdf"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/foz-do-iguacu.jpg",
+    "credito": "enioprado",
+    "licenca": "CC BY-SA 3.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Foz_do_Igua%C3%A7u_-_panoramio_(cropped).jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://portal.tcu.gov.br/data/files/4B/C2/6D/DB/56ABB810F80985A8E18818A8/231108_Sandbox.pdf",
+      "titulo": "TCU — estudo \"Sandbox regulatório no Marco Legal das Startups\" (2023), tabela de atos estaduais e municipais",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://hubiguassu.itaipuparquetec.org.br/wp-content/uploads/2021/07/resumo-EditalSmartVitrine.pdf",
+      "titulo": "Itaipu Parquetec — resumo do Edital Smart Vitrine",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://dplnews.com/brasil-bairro-sandbox-ja-e-uma-realidade-no-sul-do-pais/",
+      "titulo": "DPL News — Bairro Sandbox já é uma realidade no sul do país (fev/2022)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://100fronteiras.com/inovacao/noticia/vila-a-inteligente-conheca-as-seis-empresas-selecionadas/",
+      "titulo": "100 Fronteiras — empresas selecionadas para o Vila A Inteligente",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2022-02-14",
+      "descricao": "Inauguração oficial das soluções instaladas no bairro Vila A.",
+      "fonte": "https://dplnews.com/brasil-bairro-sandbox-ja-e-uma-realidade-no-sul-do-pais/"
+    },
+    {
+      "data": "2020-06-23",
+      "descricao": "Publicação do Decreto nº 28.244/2020, que regulamenta o programa.",
+      "fonte": "https://portal.tcu.gov.br/data/files/4B/C2/6D/DB/56ABB810F80985A8E18818A8/231108_Sandbox.pdf"
+    }
+  ],
+  "recem_adicionado": false
+}

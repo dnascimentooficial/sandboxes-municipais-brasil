@@ -1,0 +1,80 @@
+{
+  "id": "porto-alegre",
+  "nome": "Programa Sandbox Porto Alegre",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Porto Alegre",
+    "uf": "RS",
+    "regiao": "Sul"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "startups",
+    "cidades"
+  ],
+  "resumo": "Lei e decreto de 2022 criam o sandbox municipal, gerido pelo Gabinete da Inovação, para testes em espaços públicos.",
+  "descricao": "Porto Alegre criou o Sandbox Regulatório pela Lei nº 13.001, de 27 de janeiro de 2022, e regulamentou o Programa Sandbox Porto Alegre pelo Decreto nº 21.543, de 27 de junho de 2022. As autorizações temporárias valem por até um ano, prorrogáveis por igual período.\n\nA gestão é do Gabinete da Inovação. A prefeitura publica chamadas de interesse para propostas de teste em ambientes públicos, e a empresa deve justificar quais normas pretende afastar e indicar um responsável pelo acompanhamento.\n\nNa página oficial do serviço, a seção de editais ainda não lista chamamentos publicados.",
+  "desde": "2022-01-27",
+  "gestor": "Gabinete da Inovação (GI-SMGG)",
+  "ingresso": "edital",
+  "prazo_teste_meses": 12,
+  "elegibilidade": "Empresas com capacidade técnica e financeira, sem impedimento de contratar com a administração pública, que indiquem as normas a afastar e um representante.",
+  "flexibilizacoes": [
+    "Afastamento justificado de normas municipais específicas durante o teste",
+    "Flexibilização do horário de funcionamento, prevista na lei"
+  ],
+  "documentos": [
+    {
+      "tipo": "decreto",
+      "titulo": "Decreto que dispõe sobre o Programa Sandbox Porto Alegre",
+      "numero": "21.543/2022",
+      "data": "2022-06-27",
+      "url": "https://prefeitura.poa.br/carta-de-servicos/sandbox-regulatorio",
+      "principal": true
+    },
+    {
+      "tipo": "lei",
+      "titulo": "Lei que regulamenta o ambiente regulatório experimental (Sandbox Regulatório)",
+      "numero": "13.001/2022",
+      "data": "2022-01-27",
+      "url": "https://www.camarapoa.rs.gov.br/draco/processos/136852/Lei_13001.pdf"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/porto-alegre.jpg",
+    "credito": "Otávio Astor Vaz Costa",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Orla_do_Gua%C3%ADba_2.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://prefeitura.poa.br/carta-de-servicos/sandbox-regulatorio",
+      "titulo": "Prefeitura de Porto Alegre — Carta de Serviços: Sandbox Regulatório",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.camarapoa.rs.gov.br/draco/processos/136852/Lei_13001.pdf",
+      "titulo": "Câmara Municipal de Porto Alegre — Lei nº 13.001/2022",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://portal.tcu.gov.br/data/files/4B/C2/6D/DB/56ABB810F80985A8E18818A8/231108_Sandbox.pdf",
+      "titulo": "TCU — estudo \"Sandbox regulatório no Marco Legal das Startups\" (2023), tabela de atos estaduais e municipais",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2022-07-18",
+      "descricao": "Lançamento do Programa Sandbox Porto Alegre.",
+      "fonte": "https://prefeitura.poa.br/gp/noticias/porto-alegre-inova-ao-lancar-sandbox-regulatorio"
+    },
+    {
+      "data": "2022-06-27",
+      "descricao": "Publicado o Decreto nº 21.543/2022.",
+      "fonte": "https://prefeitura.poa.br/carta-de-servicos/sandbox-regulatorio"
+    }
+  ],
+  "recem_adicionado": false
+}

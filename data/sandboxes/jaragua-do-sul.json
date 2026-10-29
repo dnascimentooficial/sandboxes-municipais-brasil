@@ -1,0 +1,95 @@
+{
+  "id": "jaragua-do-sul",
+  "nome": "Programa Sandbox Regulatório – Jaraguá do Sul",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Jaraguá do Sul",
+    "uf": "SC",
+    "regiao": "Sul"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "startups",
+    "cidades"
+  ],
+  "resumo": "Lei de 2025 reformula o sandbox municipal criado em 2021: chamamento público obrigatório e permissões de até dois anos.",
+  "descricao": "Jaraguá do Sul instituiu seu sandbox regulatório pela Lei Municipal nº 8.746, de julho de 2021, regulamentada pelo Decreto nº 15.202/2021. Em 2025 o programa foi reformulado pela Lei nº 9.960/2025 e pelo Decreto nº 19.504/2025, que revogaram a norma anterior.\n\nA nova regra torna obrigatório o chamamento público, restringe a participação a empresas constituídas e sediadas no município e prevê permissões temporárias de até um ano, prorrogáveis por igual período com aprovação do Conselho Municipal de Inovação. A flexibilização alcança apenas normas municipais.\n\nSegundo a prefeitura, apenas quatro empresas se habilitaram na versão anterior do programa; não foram localizadas fontes públicas que identifiquem soluções em teste.",
+  "desde": "2021-07-20",
+  "gestor": "Secretaria Municipal de Desenvolvimento Econômico e Inovação (SEDEIN), com o Comitê de Sandbox",
+  "ingresso": "edital",
+  "prazo_teste_meses": 12,
+  "elegibilidade": "Empresas já constituídas, com sede em Jaraguá do Sul, que arquem com os custos de instalação, operação e retirada dos protótipos.",
+  "flexibilizacoes": [
+    "Suspensão temporária de normas municipais específicas (não abrange legislação federal ou ambiental)",
+    "Permissão temporária de uso de bens e espaços públicos"
+  ],
+  "documentos": [
+    {
+      "tipo": "lei",
+      "titulo": "Lei que reformula o Programa Sandbox Regulatório e revoga a Lei nº 8.746/2021",
+      "numero": "9.960/2025",
+      "url": "https://www.jaraguadosul.sc.gov.br/noticias/nova-lei-do-programa-sandbox-regulatorio-entra-em-vigor",
+      "principal": true
+    },
+    {
+      "tipo": "decreto",
+      "titulo": "Decreto que regulamenta a Lei nº 9.960/2025",
+      "numero": "19.504/2025",
+      "url": "https://www.jaraguadosul.sc.gov.br/noticias/nova-lei-do-programa-sandbox-regulatorio-entra-em-vigor"
+    },
+    {
+      "tipo": "lei",
+      "titulo": "Lei que instituiu o Sandbox Regulatório (revogada)",
+      "numero": "8.746/2021",
+      "data": "2021-07-20",
+      "url": "https://www.jaraguadosul.sc.gov.br/news/lunelli-sanciona-lei-que-institui-o-sandbox-regulat-rio"
+    },
+    {
+      "tipo": "outro",
+      "titulo": "Projeto de Lei nº 177/2025 (origem da nova lei)",
+      "url": "https://www.legislador.com.br//LegisladorWEB.ASP?WCI=ProjetoTexto&inEspecie=1&nrProjeto=177&aaProjeto=2025&ID=5"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/jaragua-do-sul.jpg",
+    "credito": "Giro720",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Jaragu%C3%A1_do_Sul_Landscape.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.jaraguadosul.sc.gov.br/noticias/nova-lei-do-programa-sandbox-regulatorio-entra-em-vigor",
+      "titulo": "Prefeitura de Jaraguá do Sul — Nova lei do Programa Sandbox Regulatório entra em vigor (ago/2025)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.jaraguadosul.sc.gov.br/news/lunelli-sanciona-lei-que-institui-o-sandbox-regulat-rio",
+      "titulo": "Prefeitura de Jaraguá do Sul — Lunelli sanciona lei que institui o Sandbox Regulatório",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://portal.tcu.gov.br/data/files/4B/C2/6D/DB/56ABB810F80985A8E18818A8/231108_Sandbox.pdf",
+      "titulo": "TCU — estudo \"Sandbox regulatório no Marco Legal das Startups\" (2023), tabela de atos estaduais e municipais",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Status revisto de \"ativo\" para \"regulamentado\": não foi localizada fonte pública que documente solução em teste.",
+      "fonte": "https://www.jaraguadosul.sc.gov.br/noticias/nova-lei-do-programa-sandbox-regulatorio-entra-em-vigor"
+    },
+    {
+      "data": "2025-08-12",
+      "descricao": "Entra em vigor a Lei nº 9.960/2025, regulamentada pelo Decreto nº 19.504/2025.",
+      "fonte": "https://www.jaraguadosul.sc.gov.br/noticias/nova-lei-do-programa-sandbox-regulatorio-entra-em-vigor"
+    },
+    {
+      "data": "2021-07-20",
+      "descricao": "Sancionada a Lei nº 8.746/2021, que criou o sandbox municipal.",
+      "fonte": "https://www.jaraguadosul.sc.gov.br/news/lunelli-sanciona-lei-que-institui-o-sandbox-regulat-rio"
+    }
+  ],
+  "recem_adicionado": false
+}

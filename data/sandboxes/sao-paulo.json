@@ -1,0 +1,75 @@
+{
+  "id": "sao-paulo",
+  "nome": "Sampa Sandbox",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "São Paulo",
+    "uf": "SP",
+    "regiao": "Sudeste"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "cidades",
+    "energia",
+    "mobilidade",
+    "dados",
+    "telecom"
+  ],
+  "resumo": "Lei de 2022 e decreto de 2023 criam o Sampa Sandbox, com comitê gestor intersecretarial e ciclos de 6 a 12 meses.",
+  "descricao": "São Paulo criou o Programa Sampa Sandbox pela Lei nº 17.879, de 30 de dezembro de 2022, nos termos do art. 11 do Marco Legal das Startups; segundo a Secretaria Municipal de Inovação e Tecnologia, o programa foi instituído pelo Decreto nº 62.561/2023.\n\nUm Comitê Gestor com representantes de secretarias municipais, da ADE Sampa, da SP Negócios e da Câmara Municipal define por edital critérios, prazos e regras de seleção, e pode pedir aos órgãos competentes a dispensa ou adaptação temporária de normas específicas.\n\nOs temas previstos incluem cidades inteligentes, redes elétricas inteligentes, recarga de veículos elétricos, mobilidade como serviço, internet das coisas e big data. Não foram localizadas listas públicas de projetos selecionados ou em teste.",
+  "desde": "2022-12-30",
+  "gestor": "Comitê Gestor do Sampa Sandbox (SMIT, SF, SGM, SMDET, SMUL, SIURB, ADE Sampa, SP Negócios e Câmara Municipal)",
+  "ingresso": "edital",
+  "prazo_teste_meses": 12,
+  "flexibilizacoes": [
+    "Dispensa ou adaptação temporária de norma municipal específica, solicitada pelo Comitê Gestor ao órgão competente"
+  ],
+  "documentos": [
+    {
+      "tipo": "lei",
+      "titulo": "Lei que regulamenta o Programa Sampa Sandbox",
+      "numero": "17.879/2022",
+      "data": "2022-12-30",
+      "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17879-de-30-de-dezembro-de-2022",
+      "principal": true
+    },
+    {
+      "tipo": "decreto",
+      "titulo": "Decreto que institui o Sampa Sandbox (citado pela SMIT)",
+      "numero": "62.561/2023",
+      "url": "https://prefeitura.sp.gov.br/web/inovacao/w/sampa-sandbox"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/sao-paulo.jpg",
+    "credito": "Agent010",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Marginal_Pinheiros_e_Jockey_Club.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17879-de-30-de-dezembro-de-2022",
+      "titulo": "Prefeitura de São Paulo — Catálogo de Legislação: Lei nº 17.879/2022",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://prefeitura.sp.gov.br/web/inovacao/w/sampa-sandbox",
+      "titulo": "Secretaria Municipal de Inovação e Tecnologia — Sampa Sandbox",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "http://sampasandbox.com.br/",
+      "titulo": "Sampa Sandbox — site do programa",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2022-12-30",
+      "descricao": "Promulgada a Lei nº 17.879/2022.",
+      "fonte": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17879-de-30-de-dezembro-de-2022"
+    }
+  ],
+  "recem_adicionado": true
+}

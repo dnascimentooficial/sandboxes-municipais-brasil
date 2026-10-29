@@ -1,0 +1,55 @@
+{
+  "id": "df",
+  "nome": "Zonas de Desenvolvimento de Inovação e Tecnologia do Distrito Federal",
+  "esfera": "estadual",
+  "jurisdicao": {
+    "uf": "DF",
+    "regiao": "Centro-Oeste"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "cidades",
+    "startups"
+  ],
+  "resumo": "Lei distrital de 2020 autoriza zonas de inovação com liberdade de testes; órgão gestor e regulamentação não localizados.",
+  "descricao": "O Distrito Federal tem a Lei nº 6.653, de 17 de agosto de 2020, que autoriza a criação de Zonas de Desenvolvimento de Inovação e Tecnologia e trata da liberdade de testes de inovação. A lei foi promulgada pela Câmara Legislativa após a derrubada de veto do governador.\n\nA norma permite ao Executivo delimitar áreas em que podem ser autorizados testes experimentais de novos materiais, produtos, sistemas e serviços, mas deixa a definição do órgão gestor para regulamentação posterior. Não foram localizados decreto regulamentador, chamamentos ou testes.",
+  "desde": "2020-08-17",
+  "ingresso": "nao_informado",
+  "documentos": [
+    {
+      "tipo": "lei",
+      "titulo": "Lei distrital sobre Zonas de Desenvolvimento de Inovação e Tecnologia e liberdade de testes",
+      "numero": "6.653/2020",
+      "data": "2020-08-17",
+      "url": "https://www.legisweb.com.br/legislacao/?id=400432",
+      "principal": true
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/df.jpg",
+    "credito": "Arturdiasr",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Planalto_Central_(cropped).jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.legisweb.com.br/legislacao/?id=400432",
+      "titulo": "LegisWeb — Lei distrital nº 6.653/2020",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://portal.tcu.gov.br/data/files/4B/C2/6D/DB/56ABB810F80985A8E18818A8/231108_Sandbox.pdf",
+      "titulo": "TCU — estudo \"Sandbox regulatório no Marco Legal das Startups\" (2023), tabela de atos estaduais e municipais",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Registro anterior (\"Decreto s/n\", municipal, sem fonte) substituído pela Lei distrital nº 6.653/2020, identificada no estudo do TCU; esfera ajustada para estadual/distrital.",
+      "fonte": "https://portal.tcu.gov.br/data/files/4B/C2/6D/DB/56ABB810F80985A8E18818A8/231108_Sandbox.pdf"
+    }
+  ],
+  "recem_adicionado": false
+}

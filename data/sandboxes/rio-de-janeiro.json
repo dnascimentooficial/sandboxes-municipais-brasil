@@ -1,0 +1,202 @@
+{
+  "id": "rio-de-janeiro",
+  "nome": "Sandbox.Rio",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Rio de Janeiro",
+    "uf": "RJ",
+    "regiao": "Sudeste"
+  },
+  "status": "ativo",
+  "temas": [
+    "mobilidade",
+    "cidades",
+    "ambiente",
+    "logistica",
+    "energia",
+    "saude"
+  ],
+  "resumo": "Sandbox criado por decreto em 2022 e elevado a lei em 2026; no III ciclo, e patinetes testados ganharam regulação permanente.",
+  "descricao": "O Sandbox.Rio foi criado pelo Decreto Rio nº 50.697, de 26 de abril de 2022, que fixa regras para ambientes regulatórios controlados sob gestão da secretaria municipal de desenvolvimento econômico. Em maio de 2026, a Lei Complementar nº 300/2026 passou a instituir o sandbox por lei, com autorizações de até 12 meses prorrogáveis por igual período.\n\nA seleção ocorre por comunicados e chamadas públicas, com critérios de capacidade técnica e financeira e de idoneidade dos sócios. O III ciclo, anunciado em abril de 2026, recebeu 55 inscrições e selecionou dez projetos em temas como meio ambiente, saúde, mobilidade e logística.\n\nO serviço de patinetes elétricos compartilhados da Whoosh, em operação experimental desde 2024, foi o primeiro projeto do programa a receber regulação permanente, com o Decreto nº 57.657, de março de 2026.",
+  "desde": "2022-04-26",
+  "gestor": "Secretaria Municipal de Desenvolvimento Econômico (Subsecretaria de Regulação e Ambiente de Negócios)",
+  "ingresso": "edital",
+  "prazo_teste_meses": 12,
+  "elegibilidade": "Pessoas jurídicas com capacidade técnica e financeira comprovada, cujos sócios e administradores não tenham condenações nem impedimentos de contratar com a administração pública.",
+  "flexibilizacoes": [
+    "Afastamento temporário de normas infralegais municipais, sem alcançar normas que reproduzam texto de lei",
+    "Autorização temporária com dispensa de requisitos regulatórios e salvaguardas fixadas previamente"
+  ],
+  "documentos": [
+    {
+      "tipo": "lei",
+      "titulo": "Lei Complementar que institui o ambiente regulatório controlado (sandbox regulatório) no Município do Rio de Janeiro",
+      "numero": "300/2026",
+      "data": "2026-05-18",
+      "url": "https://www.legisweb.com.br/legislacao/?id=495954",
+      "principal": true
+    },
+    {
+      "tipo": "decreto",
+      "titulo": "Decreto que dispõe sobre o ambiente regulatório controlado (sandbox regulatório)",
+      "numero": "50.697/2022",
+      "data": "2022-04-26",
+      "url": "https://doweb.rio.rj.gov.br/apifront/portal/edicoes/imprimir_materia/825386/5322"
+    },
+    {
+      "tipo": "decreto",
+      "titulo": "Decreto que regulamenta o sistema de patinetes elétricos compartilhados após o teste no Sandbox.Rio",
+      "numero": "57.657/2026",
+      "url": "https://www.mobiletime.com.br/noticias/10/03/2026/patinetes-rio-de-janeiro/"
+    }
+  ],
+  "solucoes": [
+    {
+      "nome": "Patinetes elétricos compartilhados",
+      "proponente": "Whoosh",
+      "descricao": "Operação experimental com até 1.200 patinetes na Zona Sul e no Centro, depois convertida em regulação permanente.",
+      "status": "concluida",
+      "fim": "2026-03-10",
+      "fonte": "https://analise.com/noticias/como-o-sandbox-regulatorio-esta-destravando-a-inovacao"
+    },
+    {
+      "nome": "Drone de salvamento em praias",
+      "proponente": "Aerolabs",
+      "descricao": "Drone com visão computacional para identificar afogamentos e lançar boias de salvamento.",
+      "status": "selecionada",
+      "fonte": "https://www.mobiletime.com.br/noticias/02/04/2026/prefeitura-sandbox-rio/"
+    },
+    {
+      "nome": "Áreas de Revitalização Econômica (Projeto ARE)",
+      "proponente": "Aliança Cidade",
+      "descricao": "Parceria público-privada para requalificação de áreas do Centro, com mobiliário e moderação de tráfego.",
+      "status": "selecionada",
+      "fonte": "https://www.mobiletime.com.br/noticias/02/04/2026/prefeitura-sandbox-rio/"
+    },
+    {
+      "nome": "Sensores de qualidade do ar e ruído",
+      "proponente": "Bettair",
+      "descricao": "Sensores em mobiliário urbano que medem poluição do ar e sonora em tempo real.",
+      "status": "selecionada",
+      "fonte": "https://www.mobiletime.com.br/noticias/02/04/2026/prefeitura-sandbox-rio/"
+    },
+    {
+      "nome": "Bicicletas aquáticas coletoras de resíduos",
+      "proponente": "Biclen (BDM)",
+      "descricao": "Bicicletas aquáticas elétricas que recolhem resíduos flutuantes, a começar pela Lagoa Rodrigo de Freitas.",
+      "status": "selecionada",
+      "fonte": "https://www.mobiletime.com.br/noticias/02/04/2026/prefeitura-sandbox-rio/"
+    },
+    {
+      "nome": "Transporte refrigerado de medicamentos",
+      "proponente": "ColdLog",
+      "descricao": "Módulos refrigerados em motos elétricas, com monitoramento de temperatura, para vacinas e medicamentos.",
+      "status": "selecionada",
+      "fonte": "https://www.mobiletime.com.br/noticias/02/04/2026/prefeitura-sandbox-rio/"
+    },
+    {
+      "nome": "Criança Protegida",
+      "proponente": "Tooda",
+      "descricao": "Pulseiras com QR code para localização de crianças perdidas em praias.",
+      "status": "selecionada",
+      "fonte": "https://www.mobiletime.com.br/noticias/02/04/2026/prefeitura-sandbox-rio/"
+    },
+    {
+      "nome": "HRios CoreStation 4.0",
+      "proponente": "HRios",
+      "descricao": "Estação flutuante com IA para coleta de resíduos e monitoramento da água em rios e canais.",
+      "status": "selecionada",
+      "fonte": "https://www.mobiletime.com.br/noticias/02/04/2026/prefeitura-sandbox-rio/"
+    },
+    {
+      "nome": "Motofog",
+      "proponente": "Motofog",
+      "descricao": "Motocicletas com nebulização para combate a vetores em áreas de difícil acesso.",
+      "status": "selecionada",
+      "fonte": "https://www.mobiletime.com.br/noticias/02/04/2026/prefeitura-sandbox-rio/"
+    },
+    {
+      "nome": "Logística de última milha em comunidades",
+      "proponente": "naPorta",
+      "descricao": "Entregas de varejistas feitas por moradores de comunidades.",
+      "status": "selecionada",
+      "fonte": "https://www.mobiletime.com.br/noticias/02/04/2026/prefeitura-sandbox-rio/"
+    },
+    {
+      "nome": "Rio Eletrohub",
+      "proponente": "Recar",
+      "descricao": "Hub de recarga de veículos e bicicletas e troca de baterias alimentado por energia solar.",
+      "status": "selecionada",
+      "fonte": "https://www.mobiletime.com.br/noticias/02/04/2026/prefeitura-sandbox-rio/"
+    }
+  ],
+  "editais": [
+    {
+      "titulo": "Sandbox.Rio – III Ciclo",
+      "status": "encerrado",
+      "url": "https://www.mobiletime.com.br/noticias/02/04/2026/prefeitura-sandbox-rio/"
+    },
+    {
+      "titulo": "Sandbox.Rio – edital de 2022 (I Ciclo)",
+      "status": "encerrado",
+      "url": "https://www.mobiletime.com.br/noticias/02/05/2022/rio-de-janeiro-publica-edital-para-projetos-em-sandbox-regulatorio"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/rio-de-janeiro.jpg",
+    "credito": "Rafael Rabello de Barros",
+    "licenca": "CC BY-SA 3.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Cidade_Maravilhosa.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.legisweb.com.br/legislacao/?id=495954",
+      "titulo": "LegisWeb — Lei Complementar nº 300/2026 do Município do Rio de Janeiro",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://doweb.rio.rj.gov.br/apifront/portal/edicoes/imprimir_materia/825386/5322",
+      "titulo": "Diário Oficial do Município do Rio de Janeiro — Decreto Rio nº 50.697/2022",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.mobiletime.com.br/noticias/02/04/2026/prefeitura-sandbox-rio/",
+      "titulo": "Mobile Time — Sandbox.Rio anuncia selecionados do III Ciclo (abr/2026)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://analise.com/noticias/como-o-sandbox-regulatorio-esta-destravando-a-inovacao",
+      "titulo": "Análise — Como o sandbox regulatório está destravando a inovação",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.mobiletime.com.br/noticias/10/03/2026/patinetes-rio-de-janeiro/",
+      "titulo": "Mobile Time — Rio regulamenta patinetes compartilhados (mar/2026)",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-05-18",
+      "descricao": "Sancionada a Lei Complementar nº 300/2026, que institui o sandbox regulatório por lei; documento principal atualizado.",
+      "fonte": "https://www.legisweb.com.br/legislacao/?id=495954"
+    },
+    {
+      "data": "2026-04-02",
+      "descricao": "Anunciados os dez selecionados do III Ciclo, entre 55 inscritos.",
+      "fonte": "https://www.mobiletime.com.br/noticias/02/04/2026/prefeitura-sandbox-rio/"
+    },
+    {
+      "data": "2026-03-10",
+      "descricao": "Publicado o Decreto nº 57.657/2026, que torna permanente o serviço de patinetes testado no programa.",
+      "fonte": "https://analise.com/noticias/como-o-sandbox-regulatorio-esta-destravando-a-inovacao"
+    },
+    {
+      "data": "2022-04-26",
+      "descricao": "Assinado o Decreto Rio nº 50.697/2022.",
+      "fonte": "https://doweb.rio.rj.gov.br/apifront/portal/edicoes/imprimir_materia/825386/5322"
+    }
+  ],
+  "recem_adicionado": false
+}

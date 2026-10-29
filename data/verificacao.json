@@ -1,0 +1,143 @@
+{
+  "ultima_execucao": "2026-10-29",
+  "resultado_por_id": {
+    "balneario-camboriu": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": []
+    },
+    "belo-horizonte": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": []
+    },
+    "blumenau": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": []
+    },
+    "criciuma": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": []
+    },
+    "curitiba": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": [
+        "Status da solução de drones marcado como concluída sem confirmação explícita do fim do acordo de cooperação."
+      ]
+    },
+    "df": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Esfera alterada de municipal para estadual (lei distrital)."
+      ]
+    },
+    "foz-do-iguacu": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": [
+        "Não há notícia de ciclos após 2022; status ativo baseado em soluções concluídas."
+      ]
+    },
+    "goiania": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": []
+    },
+    "jaragua-do-sul": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": []
+    },
+    "londrina": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": []
+    },
+    "macapa": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": []
+    },
+    "maceio": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": [
+        "Consulta pública de 2026 \"para implantação\" indica que o programa ainda não operou, apesar do decreto de 2022."
+      ]
+    },
+    "olimpia": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": []
+    },
+    "petrolina": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Decreto anunciado em 2020 segue sem número localizado; o ato vigente é o Decreto nº 139/2025."
+      ]
+    },
+    "porto-alegre": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": []
+    },
+    "recife": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": [
+        "Status \"aberto\" do Edital 2025 baseado no rótulo da página oficial."
+      ]
+    },
+    "rio-de-janeiro": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": []
+    },
+    "sao-jose-dos-campos": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": [
+        "Piloto de IA tinha duração prevista de 60 dias; conclusão inferida, não confirmada."
+      ]
+    },
+    "sao-jose-dos-pinhais": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": [
+        "Página oficial bloqueou acesso direto (HTTP 403); dados vêm de resumo de busca e notícias."
+      ]
+    },
+    "sao-paulo": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": []
+    },
+    "teresina": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": []
+    },
+    "teresopolis": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": [
+        "Páginas da prefeitura retornaram erro na consulta direta; dados das soluções vêm do resumo de busca."
+      ]
+    },
+    "vitoria": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": []
+    },
+    "volta-redonda": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": []
+    }
+  }
+}

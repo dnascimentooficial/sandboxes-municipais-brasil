@@ -1,0 +1,57 @@
+{
+  "id": "olimpia",
+  "nome": "Sandbox Olímpia",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Olímpia",
+    "uf": "SP",
+    "regiao": "Sudeste"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "cidades",
+    "startups"
+  ],
+  "resumo": "Lei de 2025 institui bancos de testes regulatórios e tecnológicos para inovação científica, tecnológica e urbanística.",
+  "descricao": "Olímpia instituiu o Sandbox Olímpia pela Lei nº 5.128, de 2 de julho de 2025, de autoria do Executivo, com base no Marco Legal das Startups e na Lei de Liberdade Econômica. A norma cria ambientes experimentais de inovação científica, tecnológica, urbanística e empreendedora no formato de bancos de testes regulatórios.\n\nO Conselho Municipal de Inovação define critérios e limites para as autorizações temporárias. O portal da prefeitura descreve o sandbox como instrumento para que empresas, startups e instituições de pesquisa testem soluções em ambiente real, com acompanhamento municipal; não foram localizados editais ou testes em andamento.",
+  "desde": "2025-07-02",
+  "gestor": "Conselho Municipal de Inovação",
+  "ingresso": "nao_informado",
+  "documentos": [
+    {
+      "tipo": "lei",
+      "titulo": "Lei que institui o Sandbox Olímpia",
+      "numero": "5.128/2025",
+      "data": "2025-07-02",
+      "url": "https://legislacaodigital.com.br/Olimpia-SP/LeisOrdinarias/5128-2025?Export=Pdf",
+      "principal": true
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/olimpia.jpg",
+    "credito": "Prefeitura de Olímpia",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Ol%C3%ADmpia_do_Alto.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://legislacaodigital.com.br/Olimpia-SP/LeisOrdinarias/5128-2025?Export=Pdf",
+      "titulo": "Legislação Digital — Lei nº 5.128/2025 de Olímpia",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.olimpia.sp.gov.br/portal/servicos/1073/o-que-e",
+      "titulo": "Prefeitura de Olímpia — Sandbox: o que é",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2025-07-02",
+      "descricao": "Sancionada a Lei nº 5.128/2025.",
+      "fonte": "https://legislacaodigital.com.br/Olimpia-SP/LeisOrdinarias/5128-2025?Export=Pdf"
+    }
+  ],
+  "recem_adicionado": true
+}
