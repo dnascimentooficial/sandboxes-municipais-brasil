@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Uso: node scripts/build-dados.mjs [--check] [dir=data]
-// Valida a base, gera data/sandboxes.js e carimba ?v= no index.html.
+// Valida a base, gera data/sandboxes.js, carimba ?v= no index.html e o lastmod do sitemap.xml.
 import { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { join, resolve, dirname } from 'node:path';
 import { createHash } from 'node:crypto';
@@ -38,6 +38,11 @@ export function versao(conteudo) {
   return createHash('sha256').update(conteudo).digest('hex').slice(0, 10);
 }
 
+export function carimbarSitemap(xml, atualizacaoBase) {
+  if (!atualizacaoBase) return xml;
+  return xml.replace(/<lastmod>[^<]*<\/lastmod>/, `<lastmod>${atualizacaoBase}</lastmod>`);
+}
+
 const escapar = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
 export function carimbarIndex(html, versoes) {
@@ -56,6 +61,7 @@ function main(args) {
   const pasta = resolve(raiz, dir);
   const saidaJs = resolve(raiz, 'data/sandboxes.js');
   const indexHtml = resolve(raiz, 'index.html');
+  const sitemapXml = resolve(raiz, 'sitemap.xml');
 
   let base;
   let erros;
@@ -80,10 +86,12 @@ function main(args) {
   }
   const htmlAtual = existsSync(indexHtml) ? readFileSync(indexHtml, 'utf8') : null;
   const htmlNovo = htmlAtual === null ? null : carimbarIndex(htmlAtual, versoes);
+  const sitemapAtual = existsSync(sitemapXml) ? readFileSync(sitemapXml, 'utf8') : null;
+  const sitemapNovo = sitemapAtual === null ? null : carimbarSitemap(sitemapAtual, JSON.parse(js.split('window.SANDBOX_DADOS = ')[1].replace(/;\n$/, '')).meta.atualizacaoBase);
   const jsAtual = existsSync(saidaJs) ? readFileSync(saidaJs, 'utf8') : null;
 
   if (check) {
-    if (jsAtual !== js || (htmlAtual !== null && htmlAtual !== htmlNovo)) {
+    if (jsAtual !== js || (htmlAtual !== null && htmlAtual !== htmlNovo) || (sitemapAtual !== null && sitemapAtual !== sitemapNovo)) {
       console.error('data/sandboxes.js desatualizado — rode npm run build');
       return 1;
     }
@@ -94,6 +102,7 @@ function main(args) {
   mkdirSync(dirname(saidaJs), { recursive: true });
   writeFileSync(saidaJs, js);
   if (htmlNovo !== null && htmlNovo !== htmlAtual) writeFileSync(indexHtml, htmlNovo);
+  if (sitemapNovo !== null && sitemapNovo !== sitemapAtual) writeFileSync(sitemapXml, sitemapNovo);
   console.log(`Gerado data/sandboxes.js (${base.sandboxes.length} sandboxes).`);
   return 0;
 }

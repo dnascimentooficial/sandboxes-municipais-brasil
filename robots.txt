@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /rotina/
+Disallow: /scripts/
+Disallow: /docs/
+Disallow: /api/
+
+Sitemap: https://sandboxbrasil.dnascimento.com.br/sitemap.xml

@@ -8,7 +8,7 @@
 
 O projeto atual (`dnascimentooficial.github.io/sandboxes-municipais-brasil/`) é um `index.html` único, com dados fixos no código, que mapeia 25 sandboxes regulatórios **municipais** (8 ativos, 16 regulamentados, 1 em instituição), com filtros por região e status. A base está parada desde maio de 2026 e os cards são estáticos.
 
-O objetivo é transformá-lo em **Sandboxes Brasil**, um observatório público, dentro de `dnascimento.com.br/sandboxes/`, que:
+O objetivo é transformá-lo em **Sandboxes Brasil**, um observatório público, no subdomínio `sandboxbrasil.dnascimento.com.br`, que:
 
 1. cobre sandboxes **federais, estaduais e municipais**;
 2. permite abrir cada sandbox e ver detalhes: foto, descrição, soluções testadas e seu status, editais, documentação, histórico;
@@ -28,7 +28,7 @@ O objetivo é transformá-lo em **Sandboxes Brasil**, um observatório público,
 | Layout | Mesmo padrão e tokens do Radar IA Governos (`dnascimento.com.br/radariagovernos/`), com acento mais suave |
 | Atualização | Rotina semanal propõe, Júlio aprova via PR. Nada vai ao ar sem aprovação |
 | Robô | Claude Code Routine (nuvem), sem chave de API própria |
-| Hospedagem | Hostinger, `public_html/sandboxes`, deploy via Git da Hostinger (webhook) |
+| Hospedagem | Hostinger, subdomínio `sandboxbrasil.dnascimento.com.br` (pasta raiz definida na criação do subdomínio), deploy via Git da Hostinger (webhook) |
 | Exportação | Fora do escopo |
 
 ## 3. Modelo de dados
@@ -214,11 +214,11 @@ Sem dependências pesadas: Node 20+, validação escrita à mão ou com uma úni
 
 ## 9. Publicação
 
-- Hostinger hPanel → Git: repositório `sandboxes-brasil`, branch `main`, pasta `public_html/sandboxes`, deploy automático por webhook. Nenhuma credencial FTP no GitHub.
+- Criar o subdomínio `sandboxbrasil` no hPanel; deploy via Git para a pasta raiz do subdomínio (definida na criação). Hostinger hPanel → Git: repositório `sandboxes-brasil`, branch `main`, deploy automático por webhook. Nenhuma credencial FTP no GitHub.
 - `main` está sempre publicável: nada é gerado no servidor.
 - `.htaccess` bloqueia o acesso web a `rotina/`, `scripts/`, `docs/`, `data/sandboxes/` e `.github/`.
-- **URL antiga:** o GitHub Pages passa a servir só uma página de redirecionamento (`meta refresh` + `canonical`) para `https://dnascimento.com.br/sandboxes/`. Como Pages e Hostinger leem o mesmo repositório, o redirecionamento fica num branch `gh-pages` dedicado, e o Pages é configurado para usá-lo.
-- **Integração com o site:** card em `/projetos/`, entrada no `sitemap.xml`, Open Graph próprio (imagem 1200×630 em `og/`), rodapé com assinatura igual ao Radar. Essas mudanças ficam no repositório ou na pasta do site principal, fora deste repositório.
+- **URL antiga:** o GitHub Pages passa a servir só uma página de redirecionamento (`meta refresh` + `canonical`) para `https://sandboxbrasil.dnascimento.com.br/`. Como Pages e Hostinger leem o mesmo repositório, o redirecionamento fica num branch `gh-pages` dedicado, e o Pages é configurado para usá-lo.
+- **Integração com o site:** card em `/projetos/` do site principal apontando para o subdomínio; `sitemap.xml` e `robots.txt` próprios do subdomínio (neste repositório); Open Graph próprio (imagem 1200×630 em `og/`), rodapé com assinatura igual ao Radar. Essas mudanças ficam no repositório ou na pasta do site principal, fora deste repositório.
 
 ## 10. Formulário de indicação
 
@@ -239,4 +239,4 @@ Exportação (CSV/PDF), login, comentários, página dedicada de busca de docume
 - **Qualidade da pesquisa automática:** mitigada pela revisão humana obrigatória, pelas regras de fonte oficial e pela seção "Para você decidir".
 - **Duração da rotina:** mitigada pelo rodízio (seção 7).
 - **Imagens sem licença clara:** usar só Wikimedia Commons com licença livre ou marca oficial do órgão; sem imagem válida, usar ilustração temática neutra.
-- **Mecanismo do formulário do Radar desconhecido:** se depender de algo específico do Radar (ex.: endpoint PHP dedicado), replicar para `/sandboxes/` ou criar um equivalente mínimo.
+- **Mecanismo do formulário do Radar desconhecido:** se depender de algo específico do Radar (ex.: endpoint PHP dedicado), replicar para o subdomínio `sandboxbrasil` ou criar um equivalente mínimo.

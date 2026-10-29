@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Transformar o mapa estático de sandboxes municipais num observatório federal/estadual/municipal com gaveta de detalhe, aba Comparar e rotina semanal que propõe atualizações por PR, publicado em `dnascimento.com.br/sandboxes/`.
+**Goal:** Transformar o mapa estático de sandboxes municipais num observatório federal/estadual/municipal com gaveta de detalhe, aba Comparar e rotina semanal que propõe atualizações por PR, publicado em `sandboxbrasil.dnascimento.com.br/`.
 
 **Architecture:** Site estático sem framework. Cada sandbox é um JSON em `data/sandboxes/`. Um script Node junta tudo em `data/sandboxes.js` (`window.SANDBOX_DADOS`), lido por uma página única com ES modules nativos. As regras de dados ficam num validador puro, usado pela CI e pela rotina. A lógica de filtro, busca, rotas e comparação é pura (testável em Node), e a UI só renderiza.
 
@@ -232,7 +232,7 @@ O validador e os módulos puros ficam em `assets/js/` para que o navegador e o N
 
 Referência visual: abrir `https://dnascimento.com.br/radariagovernos/` e reproduzir a mesma hierarquia (cabeçalho fixo com Filtros, marca, busca e anel; hero; cartão verde de indicação; cartões de números; barra de maturidade; grade de eixos; mapa; lista). Usar os tokens das Global Constraints.
 
-- [ ] **Step 1:** `index.html` com `<title>Sandboxes Brasil — Regulação experimental no Brasil</title>`, Open Graph (`og:url https://dnascimento.com.br/sandboxes/`, imagem `og/sandboxes.jpg`), abas `Panorama | Comparar` (`role="tablist"`), contêineres vazios para cada seção, a gaveta (`<aside id="gaveta" hidden>`) e o modal de indicação. Scripts: `assets/brasil-mapa.js?v=`, `data/sandboxes.js?v=`, `<script type="module" src="assets/js/app.js?v=">`. Rodar `npm run build` para carimbar.
+- [ ] **Step 1:** `index.html` com `<title>Sandboxes Brasil — Regulação experimental no Brasil</title>`, Open Graph (`og:url https://sandboxbrasil.dnascimento.com.br/`, imagem `og/sandboxes.jpg`), abas `Panorama | Comparar` (`role="tablist"`), contêineres vazios para cada seção, a gaveta (`<aside id="gaveta" hidden>`) e o modal de indicação. Scripts: `assets/brasil-mapa.js?v=`, `data/sandboxes.js?v=`, `<script type="module" src="assets/js/app.js?v=">`. Rodar `npm run build` para carimbar.
 - [ ] **Step 2:** `assets/app.css` com os tokens, os componentes (cartão, selo de status pastel com texto, chip de tema, barra, grade, gaveta lateral de 560 px que vira tela cheia abaixo de 768 px, modal) e o layout responsivo a partir de 360 px.
 - [ ] **Step 3:** `panorama.js` renderiza:
   - hero com "Base verificada em `dataBR(meta.atualizacaoBase)`";
@@ -373,14 +373,15 @@ Esta task tem ações externas. **Cada passo marcado (⚠) só acontece com apro
 - [ ] **Step 1: Revisão final.** Rodar `superpowers:requesting-code-review` na branch inteira e corrigir o que for apontado.
 - [ ] **Step 2 (⚠):** Push da branch `redesign-sandboxes-brasil` e abertura do PR da carga inicial para `main`. O Júlio revisa os dados como revisará os semanais. A CI precisa passar. Depois do merge, abrir um PR de teste com JSON inválido para confirmar que a CI reprova, e fechá-lo.
 - [ ] **Step 3 (⚠):** Renomear o repositório para `sandboxes-brasil` (`gh repo rename sandboxes-brasil`) e atualizar o `origin` local.
-- [ ] **Step 4 (⚠):** Hostinger hPanel → Git: repositório `https://github.com/dnascimentooficial/sandboxes-brasil`, branch `main`, diretório `public_html/sandboxes`, auto-deploy ligado (webhook no GitHub). Criar o `api/config.php` no servidor a partir do `config.example.php`. Este passo é feito pelo Júlio no painel, ou via ferramentas Hostinger, com aprovação.
+- [ ] **Step 4 (⚠):** Hostinger hPanel: criar o subdomínio `sandboxbrasil` (`sandboxbrasil.dnascimento.com.br`); em Git, repositório `https://github.com/dnascimentooficial/sandboxes-brasil`, branch `main`, diretório = pasta raiz do subdomínio (definida na criação), auto-deploy ligado (webhook no GitHub). Criar o `api/config.php` no servidor a partir do `config.example.php`. Este passo é feito pelo Júlio no painel, ou via ferramentas Hostinger, com aprovação.
 - [ ] **Step 5: Verificar em produção.**
-  - `https://dnascimento.com.br/sandboxes/` carrega e os `?v=` batem com a `main`;
-  - `/sandboxes/rotina/INSTRUCOES.md` e `/sandboxes/data/sandboxes/curitiba.json` dão 403;
+  - `https://sandboxbrasil.dnascimento.com.br/` carrega e os `?v=` batem com a `main`;
+  - `https://sandboxbrasil.dnascimento.com.br/rotina/INSTRUCOES.md` e `https://sandboxbrasil.dnascimento.com.br/data/sandboxes/curitiba.json` dão 403;
+  - `/robots.txt` e `/sitemap.xml` do subdomínio respondem 200;
   - `#sandbox=` e `#comparar=` funcionam;
   - uma indicação de teste chega por e-mail.
-- [ ] **Step 6 (⚠):** Redirecionamento da URL antiga. Criar o branch órfão `gh-pages` contendo só um `index.html` com `<meta http-equiv="refresh" content="0; url=https://dnascimento.com.br/sandboxes/">`, `<link rel="canonical" href="https://dnascimento.com.br/sandboxes/">` e um link visível, e configurar o Pages para servir esse branch. Verificar que `dnascimentooficial.github.io/sandboxes-municipais-brasil/` (e o novo nome) redireciona.
-- [ ] **Step 7 (⚠):** Site principal (fora deste repo): card em `/projetos/`, entrada `https://dnascimento.com.br/sandboxes/` no `sitemap.xml` e imagem `og/sandboxes.jpg` 1200×630.
+- [ ] **Step 6 (⚠):** Redirecionamento da URL antiga. Criar o branch órfão `gh-pages` contendo só um `index.html` com `<meta http-equiv="refresh" content="0; url=https://sandboxbrasil.dnascimento.com.br/">`, `<link rel="canonical" href="https://sandboxbrasil.dnascimento.com.br/">` e um link visível, e configurar o Pages para servir esse branch. Verificar que `dnascimentooficial.github.io/sandboxes-municipais-brasil/` (e o novo nome) redireciona.
+- [ ] **Step 7 (⚠):** Site principal (fora deste repo): card em `/projetos/` do site principal apontando para `https://sandboxbrasil.dnascimento.com.br/` (o `sitemap.xml` e o `robots.txt` do subdomínio vivem neste repositório); imagem `og/sandboxes.jpg` 1200×630 neste repositório.
 - [ ] **Step 8 (⚠):** Criar a Claude Code Routine com a skill `schedule`: toda segunda às 06:00 America/Sao_Paulo, no repositório `sandboxes-brasil`, com o prompt "Siga rotina/INSTRUCOES.md". Disparar uma execução manual e conferir o PR gerado (tabela, fontes, CI verde).
 - [ ] **Step 9:** Atualizar o `README.md` do repositório: o que é, como rodar localmente (`npm test`, `npm run build`, servidor estático), como funciona a rotina e como aprovar o PR semanal.
 - [ ] **Step 10: Commit** `docs: README` (por PR, como qualquer mudança na `main`).

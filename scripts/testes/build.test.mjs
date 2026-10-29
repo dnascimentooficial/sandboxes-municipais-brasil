@@ -5,7 +5,7 @@ import { tmpdir } from 'node:os';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
-import { carregarBase, gerarJs, versao, carimbarIndex } from '../build-dados.mjs';
+import { carregarBase, gerarJs, versao, carimbarIndex, carimbarSitemap } from '../build-dados.mjs';
 
 const aqui = dirname(fileURLToPath(import.meta.url));
 const fixture = join(aqui, 'fixtures', 'valido');
@@ -56,6 +56,28 @@ test('CLI --check sai com 1 quando sandboxes.js está desatualizado', () => {
     assert.equal(r.status, 1);
     assert.match(r.stderr, /data\/sandboxes\.js desatualizado — rode npm run build/);
     assert.match(readFileSync(alvo, 'utf8'), /alterado/);
+  } finally {
+    rmSync(tmp, { recursive: true, force: true });
+  }
+});
+
+test('carimbarSitemap reescreve lastmod e o CLI --check detecta sitemap desatualizado', () => {
+  const xml = '<urlset><url><loc>https://x/</loc><lastmod>2020-01-01</lastmod></url></urlset>';
+  assert.equal(carimbarSitemap(xml, '2026-10-29'), '<urlset><url><loc>https://x/</loc><lastmod>2026-10-29</lastmod></url></urlset>');
+  assert.equal(carimbarSitemap(xml, null), xml);
+  const tmp = mkdtempSync(join(tmpdir(), 'build-'));
+  try {
+    cpSync(fixture, join(tmp, 'data'), { recursive: true });
+    writeFileSync(join(tmp, 'index.html'), '<html></html>');
+    const sm = join(tmp, 'sitemap.xml');
+    writeFileSync(sm, xml);
+    const rodar = (...args) => spawnSync(process.execPath, [cli, ...args], { cwd: tmp, encoding: 'utf8' });
+    assert.equal(rodar('--check').status, 1);
+    assert.equal(rodar().status, 0);
+    const base = carregarBase(join(tmp, 'data'));
+    const maior = base.sandboxes.map((s) => s.verificado_em).sort().at(-1);
+    assert.match(readFileSync(sm, 'utf8'), new RegExp(`<lastmod>${maior}</lastmod>`));
+    assert.equal(rodar('--check').status, 0);
   } finally {
     rmSync(tmp, { recursive: true, force: true });
   }
