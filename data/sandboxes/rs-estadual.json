@@ -26,7 +26,7 @@
       "titulo": "Lei que regulamenta o ambiente regulatório experimental (Sandbox Regulatório) no RS",
       "numero": "16.255/2024",
       "data": "2024-12-25",
-      "url": "https://www.legisweb.com.br/legislacao/?id=471147",
+      "url": "https://ww3.al.rs.gov.br/legis/M010/M0100018.asp?Hid_IdNorma=75811&Texto=&Origem=1",
       "principal": true
     }
   ],
@@ -37,6 +37,11 @@
     "origem": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_Piratini_(2381963103).jpg"
   },
   "fontes": [
+    {
+      "url": "https://ww3.al.rs.gov.br/legis/M010/M0100018.asp?Hid_IdNorma=75811&Texto=&Origem=1",
+      "titulo": "Assembleia Legislativa do RS (Sistema LEGIS) — Lei nº 16.255/2024 (PL 213/2023; DOE 256 de 27/12/2024)",
+      "acessado_em": "2026-10-29"
+    },
     {
       "url": "https://www.legisweb.com.br/legislacao/?id=471147",
       "titulo": "LegisWeb — Lei estadual nº 16.255/2024 do Rio Grande do Sul",
@@ -52,7 +57,7 @@
     {
       "data": "2024-12-25",
       "descricao": "Sancionada a Lei nº 16.255/2024 (DOE de 27/12/2024).",
-      "fonte": "https://www.legisweb.com.br/legislacao/?id=471147"
+      "fonte": "https://ww3.al.rs.gov.br/legis/M010/M0100018.asp?Hid_IdNorma=75811&Texto=&Origem=1"
     }
   ],
   "recem_adicionado": true

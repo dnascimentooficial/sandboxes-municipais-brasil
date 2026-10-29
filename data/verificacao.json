@@ -253,8 +253,8 @@
       "mudou": true,
       "avisos": [
         "Número do decreto não consta da página oficial; o nº 2.273/2025 aparece só na imprensa (Onde Ir) e foi omitido.",
-        "Texto do Edital nº 002/2025 não localizado; dados do edital vêm da imprensa.",
-        "Status da Droneportos (concluída) baseado em jornal regional (ABC Mais, 01/07/2026); demais 13 soluções mantidas como selecionadas por falta de resultado individual."
+        "Texto do Edital nº 002/2025 não localizado; a data de encerramento das inscrições foi omitida porque a fonte diz 'quinta-feira (31)' e 31/10/2025 foi sexta.",
+        "Status da Droneportos (concluída) baseado em jornal regional (Grupo Sinos / ABC Mais, 01/07/2026); demais 13 soluções selecionadas por falta de resultado individual."
       ]
     },
     "inmetro-metrologia-legal": {
@@ -327,8 +327,9 @@
       "mudou": true,
       "avisos": [
         "Texto do Decreto nº 15.022/2023 não localizado; número vem do edital oficial.",
-        "Status 'concluída' das 5 soluções do 1º ciclo inferido de 'ciclo encerrado' + lista de participantes na página oficial; datas do 1º ciclo não informadas.",
-        "Assinatura dos termos do 2º ciclo não confirmada."
+        "1º ciclo: relatórios finais oficiais da Reciclotron, Octa City, UXMed e Megalo (concluídas); LibrasLab sem relatório final localizado (selecionada).",
+        "Edital nº 01/2024 (1º ciclo) citado nos relatórios; URL oficial não localizada.",
+        "2º ciclo: Qi140 e PITECG convocadas em 18/08/2026; assinatura dos termos não confirmada."
       ]
     },
     "olimpia": {
@@ -367,8 +368,8 @@
       "verificado_em": "2026-10-29",
       "mudou": true,
       "avisos": [
-        "Decreto regulamentador nº 13.728/2026 citado só em nota da LegisWeb; texto oficial não localizado (não incluído como documento).",
-        "Texto da lei lido na LegisWeb, não no portal oficial do PR."
+        "fonte oficial não localizada; status apoiado em agregador (verificação manual necessária: https://www.legislacao.pr.gov.br/legislacao/pesquisarAto.do?action=listar&opt=tm&indice=1&site=1&tipoAto=1&numero=20744&ano=2021 — 'Sistema temporariamente indisponível' em 29/10/2026).",
+        "Decreto regulamentador nº 13.728/2026 citado só em nota da LegisWeb; não incluído como documento."
       ]
     },
     "recife": {
@@ -387,8 +388,8 @@
       "verificado_em": "2026-10-29",
       "mudou": true,
       "avisos": [
-        "Texto da Lei nº 7.622/2025 não lido; data e número vêm do decreto regulamentador.",
-        "Edital publicado em set/2025 (pasta do arquivo); data exata de publicação não confirmada."
+        "Texto da Lei nº 7.622/2025 não localizado; número e data vêm do decreto regulamentador, que é o link do documento principal.",
+        "Edital publicado em set/2025 (pasta do arquivo); data exata não confirmada."
       ]
     },
     "rj-agenersa": {
@@ -402,7 +403,7 @@
       "verificado_em": "2026-10-29",
       "mudou": true,
       "avisos": [
-        "Texto da lei lido na LegisWeb; decreto regulamentador não localizado."
+        "Ementa, data e DOE conferidos no Sistema LEGIS da ALRS; texto integral lido na LegisWeb. Decreto regulamentador não localizado."
       ]
     },
     "sao-bernardo-do-campo": {

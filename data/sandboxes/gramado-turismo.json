@@ -17,7 +17,7 @@
   "resumo": "Sandbox de turismo criado por decreto em 2025; 14 startups no 1º ciclo, com testes de entrega por drone e Pitch Day em 2026.",
   "descricao": "Gramado lançou seu Sandbox Regulatório em 6 de junho de 2025, durante a Gramado Summit, com a assinatura de um decreto municipal pelo prefeito Nestor Tissot e pelo secretário de Inovação, André Castilhos. O sandbox integra o programa Gramado Futuro Lab, que trata a cidade como laboratório vivo, e tem apoio da consultoria GOV.UP. A página oficial do lançamento não informa o número do decreto.\n\nO foco inicial é o turismo, sob o tema \"Turismo Inteligente, Sustentável e Inclusivo\", com 11 desafios prioritários que vão da jornada personalizada do turista à hospitalidade 5.0, acessibilidade, mobilidade inteligente, gastronomia sustentável e cultura viva. No lançamento foi anunciada a primeira proposta para testes, da GovTools, vencedora do Hackathon de Inovação de Gramado.\n\nO Edital de Chamamento Público nº 002/2025 recebeu 26 projetos, inclusive do exterior, e 14 startups foram apresentadas em novembro de 2025, com testes previstos de dezembro de 2025 a março de 2026. Segundo a imprensa regional, a Droneportos do Brasil fez em dezembro de 2025 os primeiros voos de entrega por drone da cidade, como parte do sandbox.\n\nEm 18 de junho de 2026, no Pitch Day realizado na inauguração da sala do Gramado Futuro Lab, as startups participantes apresentaram resultados e aprendizados, segundo a prefeitura. Não foram localizados relatórios individuais por solução nem um segundo ciclo.",
   "desde": "2025-06-06",
-  "gestor": "Secretaria Municipal de Inovação e Desenvolvimento Econômico, com apoio da consultoria GOV.UP",
+  "gestor": "Secretaria de Inovação, com apoio da consultoria GOV.UP",
   "ingresso": "edital",
   "elegibilidade": "Startups, empresas e instituições com tecnologias ou modelos de negócio a testar; o Edital nº 002/2025 foi republicado para admitir empresas estrangeiras.",
   "documentos": [
@@ -38,7 +38,7 @@
     {
       "nome": "Gramado Drone Experience",
       "proponente": "Droneportos do Brasil",
-      "descricao": "Voos de teste de entrega por drone (cerca de 100 kg de chocolate no Lago Negro) em dezembro de 2025; estudo de viabilidade técnica, financeira e jurídica da rede de drones seguia em 2026.",
+      "descricao": "Voos de teste de entrega por drone (cerca de 100 kg de chocolate no Lago Negro) em dezembro de 2025. O estudo de viabilidade da rede de drones, em 2026, é uma etapa separada, por procedimento de manifestação de interesse.",
       "status": "concluida",
       "fonte": "https://pdf.gruposinos.com.br/jornalvs/2026/07/01/2305/pdf/y101501.pdf"
     },
@@ -145,7 +145,6 @@
     {
       "titulo": "Edital de Chamamento Público nº 002/2025 — Sandbox de Turismo (1º ciclo)",
       "status": "encerrado",
-      "encerramento": "2025-10-31",
       "url": "https://ondeir.com.br/noticias/sandbox-regulatorio-de-gramado-encerra-inscricoes-com-26-projetos-e-participacao-internacional/"
     }
   ],
@@ -178,7 +177,7 @@
     },
     {
       "url": "https://pdf.gruposinos.com.br/jornalvs/2026/07/01/2305/pdf/y101501.pdf",
-      "titulo": "ABC Mais (edição impressa de 01/07/2026) — Entregas por drones estão em fase de estudos em Gramado",
+      "titulo": "Grupo Sinos / ABC Mais, edição de 01/07/2026 — Entregas por drones estão em fase de estudos em Gramado",
       "acessado_em": "2026-10-29"
     }
   ],
@@ -199,8 +198,8 @@
       "fonte": "https://www.abcmais.com/brasil/rio-grande-do-sul/hortensias/gramado/startups-selecionadas-em-sandbox-de-turismo-testarao-solucoes-inovadoras-em-gramado-projeto-e-inedito-no-pais/"
     },
     {
-      "data": "2025-10-31",
-      "descricao": "Encerradas as inscrições do Edital nº 002/2025, com 26 projetos.",
+      "data": "2025-11-03",
+      "descricao": "Divulgado o encerramento das inscrições do Edital nº 002/2025, com 26 projetos.",
       "fonte": "https://ondeir.com.br/noticias/sandbox-regulatorio-de-gramado-encerra-inscricoes-com-26-projetos-e-participacao-internacional/"
     },
     {
