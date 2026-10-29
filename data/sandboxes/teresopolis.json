@@ -26,7 +26,7 @@
   "documentos": [
     {
       "tipo": "decreto",
-      "titulo": "Decreto que regulamenta o SandBox Regulatório em Teresópolis",
+      "titulo": "Notícia oficial sobre o Decreto nº 5.939/2023, que regulamenta o SandBox Regulatório",
       "numero": "5.939/2023",
       "data": "2023-03-23",
       "url": "https://www.teresopolis.rj.gov.br/sandbox-teresopolis-e-a-segunda-cidade-do-estado-do-rio-a-regulamentar-iniciativa-que-visa-estimular-a-inovacao/",
@@ -41,24 +41,24 @@
   "solucoes": [
     {
       "nome": "Plataforma de previsão para a Defesa Civil",
-      "proponente": "Cittua",
+      "proponente": "Cittua Tecnologia, Consultoria e Treinamento Ltda.",
       "descricao": "Ferramenta de previsão meteorológica e de situações de emergência usada pela Defesa Civil.",
       "status": "concluida",
-      "fonte": "https://www.teresopolis.rj.gov.br/sandbox-inovatere-prefeitura-de-teresopolis-divulga-solucoes-aprovadas-e-aptas-a-contratacao-publica-via-marco-legal-das-startups/"
+      "fonte": "https://www.correiodamanha.com.br/correio-serrano/2024/11/167184-tere-divulga-solucoes-aptas-a-contratacao-via-marco-legal.html"
     },
     {
       "nome": "Telegestão da iluminação pública",
       "proponente": "Smart Lighting",
       "descricao": "Gestão remota da iluminação pública com sensores.",
       "status": "concluida",
-      "fonte": "https://www.teresopolis.rj.gov.br/sandbox-inovatere-prefeitura-de-teresopolis-divulga-solucoes-aprovadas-e-aptas-a-contratacao-publica-via-marco-legal-das-startups/"
+      "fonte": "https://www.correiodamanha.com.br/correio-serrano/2024/11/167184-tere-divulga-solucoes-aptas-a-contratacao-via-marco-legal.html"
     },
     {
       "nome": "Monitoramento remoto de idosos",
-      "proponente": "Medical Angel",
-      "descricao": "Monitoramento por dispositivos IoT de idosos com doenças crônicas atendidos pelo serviço de atenção domiciliar.",
+      "proponente": "Medical Angel Ltda.",
+      "descricao": "Monitoramento de sinais vitais de pacientes crônicos por relógios inteligentes, para idosos do Serviço de Atenção Domiciliar.",
       "status": "concluida",
-      "fonte": "https://www.teresopolis.rj.gov.br/sandbox-inovatere-prefeitura-de-teresopolis-divulga-solucoes-aprovadas-e-aptas-a-contratacao-publica-via-marco-legal-das-startups/"
+      "fonte": "https://www.correiodamanha.com.br/correio-serrano/2024/11/167184-tere-divulga-solucoes-aptas-a-contratacao-via-marco-legal.html"
     }
   ],
   "editais": [
@@ -87,8 +87,8 @@
       "acessado_em": "2026-10-29"
     },
     {
-      "url": "https://www.teresopolis.rj.gov.br/sandbox-inovatere-prefeitura-de-teresopolis-divulga-solucoes-aprovadas-e-aptas-a-contratacao-publica-via-marco-legal-das-startups/",
-      "titulo": "Prefeitura de Teresópolis — soluções aprovadas e aptas à contratação pública",
+      "url": "https://www.correiodamanha.com.br/correio-serrano/2024/11/167184-tere-divulga-solucoes-aptas-a-contratacao-via-marco-legal.html",
+      "titulo": "Correio da Manhã — Terê divulga soluções aptas à contratação via marco legal (nov/2024)",
       "acessado_em": "2026-10-29"
     },
     {
@@ -104,6 +104,11 @@
   ],
   "verificado_em": "2026-10-29",
   "historico": [
+    {
+      "data": "2024-11-12",
+      "descricao": "Três soluções testadas no SandBox InovaTerê são divulgadas como aprovadas e aptas à contratação pública.",
+      "fonte": "https://www.correiodamanha.com.br/correio-serrano/2024/11/167184-tere-divulga-solucoes-aptas-a-contratacao-via-marco-legal.html"
+    },
     {
       "data": "2023-03-23",
       "descricao": "Publicado o Decreto nº 5.939/2023, que regulamenta o SandBox Regulatório.",

@@ -24,7 +24,7 @@
       "titulo": "Decreto que dispõe sobre a constituição e o funcionamento do sandbox regulatório de Maceió",
       "numero": "9.258/2022",
       "data": "2022-08-26",
-      "url": "https://sedigi.maceio.al.gov.br/sandbox/",
+      "url": "https://www-storage.voxtecnologia.com.br/?f=3493&i=publicado_87376_2022-08-26_2a638646cf464b9193fa324044fe94ba.pdf&m=sigpub.publicacao",
       "principal": true
     },
     {
@@ -40,6 +40,11 @@
     "origem": "https://commons.wikimedia.org/wiki/File:Ponta_Verde_Lighthouse_landscape_-_Macei%C3%B3,_Brazil_(edited).jpg"
   },
   "fontes": [
+    {
+      "url": "https://www-storage.voxtecnologia.com.br/?f=3493&i=publicado_87376_2022-08-26_2a638646cf464b9193fa324044fe94ba.pdf&m=sigpub.publicacao",
+      "titulo": "Diário Oficial do Município de Maceió nº 6512 (29/08/2022) — Decreto nº 9.258",
+      "acessado_em": "2026-10-29"
+    },
     {
       "url": "https://sedigi.maceio.al.gov.br/sandbox/",
       "titulo": "Prefeitura de Maceió (Sedigi) — Sandbox MCZ",
@@ -64,9 +69,9 @@
       "fonte": "https://maceio.al.gov.br/noticias/sedigi/prefeitura-de-maceio-abre-consulta-publica-para-implantacao-do-sandbox-regulatorio"
     },
     {
-      "data": "2022-08-26",
-      "descricao": "Publicado o Decreto nº 9.258/2022.",
-      "fonte": "https://portal.tcu.gov.br/data/files/4B/C2/6D/DB/56ABB810F80985A8E18818A8/231108_Sandbox.pdf"
+      "data": "2022-08-29",
+      "descricao": "Decreto nº 9.258/2022 publicado no Diário Oficial do Município.",
+      "fonte": "https://www-storage.voxtecnologia.com.br/?f=3493&i=publicado_87376_2022-08-26_2a638646cf464b9193fa324044fe94ba.pdf&m=sigpub.publicacao"
     }
   ],
   "recem_adicionado": false

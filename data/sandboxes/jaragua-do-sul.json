@@ -13,7 +13,7 @@
     "cidades"
   ],
   "resumo": "Lei de 2025 reformula o sandbox municipal criado em 2021: chamamento público obrigatório e permissões de até dois anos.",
-  "descricao": "Jaraguá do Sul instituiu seu sandbox regulatório pela Lei Municipal nº 8.746, de julho de 2021, regulamentada pelo Decreto nº 15.202/2021. Em 2025 o programa foi reformulado pela Lei nº 9.960/2025 e pelo Decreto nº 19.504/2025, que revogaram a norma anterior.\n\nA nova regra torna obrigatório o chamamento público, restringe a participação a empresas constituídas e sediadas no município e prevê permissões temporárias de até um ano, prorrogáveis por igual período com aprovação do Conselho Municipal de Inovação. A flexibilização alcança apenas normas municipais.\n\nSegundo a prefeitura, apenas quatro empresas se habilitaram na versão anterior do programa; não foram localizadas fontes públicas que identifiquem soluções em teste.",
+  "descricao": "Jaraguá do Sul instituiu seu sandbox regulatório pela Lei Municipal nº 8.746, de julho de 2021, regulamentada pelo Decreto nº 15.202/2021. Em 2025 o programa foi reformulado pela Lei nº 9.960/2025 e pelo Decreto nº 19.504/2025, que revogaram a norma anterior.\n\nA nova regra torna obrigatório o chamamento público, restringe a participação a empresas constituídas e sediadas no município e prevê permissões temporárias de até um ano, prorrogáveis por igual período com aprovação do Conselho Municipal de Inovação. A flexibilização alcança apenas normas municipais.\n\nSegundo a prefeitura, apenas quatro empresas se habilitaram na versão anterior do programa; não foram localizadas fontes públicas que identifiquem soluções em teste. Em setembro de 2026 foi lançado o Edital de Chamamento Público nº 001/SEDEIN/2026, válido por um ano.",
   "desde": "2021-07-20",
   "gestor": "Secretaria Municipal de Desenvolvimento Econômico e Inovação (SEDEIN), com o Comitê de Sandbox",
   "ingresso": "edital",
@@ -28,14 +28,15 @@
       "tipo": "lei",
       "titulo": "Lei que reformula o Programa Sandbox Regulatório e revoga a Lei nº 8.746/2021",
       "numero": "9.960/2025",
-      "url": "https://www.jaraguadosul.sc.gov.br/noticias/nova-lei-do-programa-sandbox-regulatorio-entra-em-vigor",
+      "data": "2025-07-16",
+      "url": "https://leismunicipais.com.br/a/sc/j/jaragua-do-sul/lei-ordinaria/2025/996/9960/lei-ordinaria-n-9960-2025-regulamenta-a-constituicao-e-estabelece-normas-e-condicoes-especiais-aos-modelos-de-negocios-que-buscam-desenvolvimento-inovacao-e-tecnologia-em-ambiente-regulatorio-experimental-denominado-programa-sandbox-regulatorio-jaragua-do-sul-e-revoga-a-lei-municipal-n-8746-2021-de-20-de-julho-de-2021",
       "principal": true
     },
     {
       "tipo": "decreto",
       "titulo": "Decreto que regulamenta a Lei nº 9.960/2025",
       "numero": "19.504/2025",
-      "url": "https://www.jaraguadosul.sc.gov.br/noticias/nova-lei-do-programa-sandbox-regulatorio-entra-em-vigor"
+      "url": "https://leismunicipais.com.br/a/sc/j/jaragua-do-sul/decreto/2025/1951/19504/decreto-n-19504-2025-regulamenta-o-funcionamento-do-ambiente-regulatorio-inovador-e-experimental-tambem-denominado-programa-sandbox-regulatorio-jaragua-do-sul-instituido-pela-lei-municipal-n-9960-2025-de-16-de-julho-de-2025"
     },
     {
       "tipo": "lei",
@@ -50,6 +51,13 @@
       "url": "https://www.legislador.com.br//LegisladorWEB.ASP?WCI=ProjetoTexto&inEspecie=1&nrProjeto=177&aaProjeto=2025&ID=5"
     }
   ],
+  "editais": [
+    {
+      "titulo": "Edital de Chamamento Público nº 001/SEDEIN/2026 (vigência de um ano)",
+      "status": "aberto",
+      "url": "https://observamais.com.br/municipio-lanca-edital-de-chamamento-publico-ao/"
+    }
+  ],
   "imagem": {
     "arquivo": "img/jaragua-do-sul.jpg",
     "credito": "Giro720",
@@ -57,6 +65,21 @@
     "origem": "https://commons.wikimedia.org/wiki/File:Jaragu%C3%A1_do_Sul_Landscape.jpg"
   },
   "fontes": [
+    {
+      "url": "https://leismunicipais.com.br/a/sc/j/jaragua-do-sul/lei-ordinaria/2025/996/9960/lei-ordinaria-n-9960-2025-regulamenta-a-constituicao-e-estabelece-normas-e-condicoes-especiais-aos-modelos-de-negocios-que-buscam-desenvolvimento-inovacao-e-tecnologia-em-ambiente-regulatorio-experimental-denominado-programa-sandbox-regulatorio-jaragua-do-sul-e-revoga-a-lei-municipal-n-8746-2021-de-20-de-julho-de-2021",
+      "titulo": "Leis Municipais — Lei nº 9.960/2025 de Jaraguá do Sul",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://leismunicipais.com.br/a/sc/j/jaragua-do-sul/decreto/2025/1951/19504/decreto-n-19504-2025-regulamenta-o-funcionamento-do-ambiente-regulatorio-inovador-e-experimental-tambem-denominado-programa-sandbox-regulatorio-jaragua-do-sul-instituido-pela-lei-municipal-n-9960-2025-de-16-de-julho-de-2025",
+      "titulo": "Leis Municipais — Decreto nº 19.504/2025 de Jaraguá do Sul",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://observamais.com.br/municipio-lanca-edital-de-chamamento-publico-ao/",
+      "titulo": "Observa Mais — Município lança edital de chamamento público ao Programa Sandbox (set/2026)",
+      "acessado_em": "2026-10-29"
+    },
     {
       "url": "https://www.jaraguadosul.sc.gov.br/noticias/nova-lei-do-programa-sandbox-regulatorio-entra-em-vigor",
       "titulo": "Prefeitura de Jaraguá do Sul — Nova lei do Programa Sandbox Regulatório entra em vigor (ago/2025)",
@@ -79,6 +102,11 @@
       "data": "2026-10-29",
       "descricao": "Status revisto de \"ativo\" para \"regulamentado\": não foi localizada fonte pública que documente solução em teste.",
       "fonte": "https://www.jaraguadosul.sc.gov.br/noticias/nova-lei-do-programa-sandbox-regulatorio-entra-em-vigor"
+    },
+    {
+      "data": "2026-09-01",
+      "descricao": "Lançado o Edital de Chamamento Público nº 001/SEDEIN/2026, com vigência de um ano.",
+      "fonte": "https://observamais.com.br/municipio-lanca-edital-de-chamamento-publico-ao/"
     },
     {
       "data": "2025-08-12",

@@ -4,7 +4,9 @@
     "balneario-camboriu": {
       "verificado_em": "2026-10-29",
       "mudou": false,
-      "avisos": []
+      "avisos": [
+        "Documento principal aponta para o portal Inova BC; texto do decreto não localizado no DOM/SC."
+      ]
     },
     "belo-horizonte": {
       "verificado_em": "2026-10-29",
@@ -19,13 +21,16 @@
     "criciuma": {
       "verificado_em": "2026-10-29",
       "mudou": false,
-      "avisos": []
+      "avisos": [
+        "Documento principal aponta para notícia (Engeplus); texto do decreto não localizado."
+      ]
     },
     "curitiba": {
       "verificado_em": "2026-10-29",
       "mudou": false,
       "avisos": [
-        "Status da solução de drones marcado como concluída sem confirmação explícita do fim do acordo de cooperação."
+        "Status da solução de drones marcado como concluída sem confirmação explícita do fim do acordo de cooperação.",
+        "Decreto nº 2.447/2025 aponta para o edital que o cita; texto do decreto não localizado."
       ]
     },
     "df": {
@@ -60,7 +65,9 @@
     "macapa": {
       "verificado_em": "2026-10-29",
       "mudou": true,
-      "avisos": []
+      "avisos": [
+        "Documento principal aponta para notícia oficial; número 4.062/2021 vem do estudo do TCU."
+      ]
     },
     "maceio": {
       "verificado_em": "2026-10-29",
@@ -78,7 +85,8 @@
       "verificado_em": "2026-10-29",
       "mudou": true,
       "avisos": [
-        "Decreto anunciado em 2020 segue sem número localizado; o ato vigente é o Decreto nº 139/2025."
+        "Decreto anunciado em 2020 segue sem número localizado; o ato vigente é o Decreto nº 139/2025.",
+        "Lei nº 3.484/2021 aponta para o estudo do TCU, não para o texto da lei."
       ]
     },
     "porto-alegre": {
@@ -109,7 +117,8 @@
       "verificado_em": "2026-10-29",
       "mudou": false,
       "avisos": [
-        "Página oficial bloqueou acesso direto (HTTP 403); dados vêm de resumo de busca e notícias."
+        "Página oficial bloqueou acesso direto (HTTP 403); dados vêm de resumo de busca e notícias.",
+        "Documentos apontam para página oficial descritiva, não para o texto dos atos."
       ]
     },
     "sao-paulo": {
@@ -126,7 +135,8 @@
       "verificado_em": "2026-10-29",
       "mudou": false,
       "avisos": [
-        "Páginas da prefeitura retornaram erro na consulta direta; dados das soluções vêm do resumo de busca."
+        "A notícia da prefeitura sobre as soluções aprovadas retorna erro 404; as soluções citam a cobertura do Correio da Manhã (nov/2024).",
+        "O documento principal aponta para notícia oficial sobre o decreto, não para o texto do ato."
       ]
     },
     "vitoria": {
