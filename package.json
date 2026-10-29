@@ -5,6 +5,8 @@
   "engines": { "node": ">=20" },
   "scripts": {
     "test": "node --test",
-    "validar": "node scripts/validar.mjs data"
+    "validar": "node scripts/validar.mjs data",
+    "build": "node scripts/build-dados.mjs",
+    "build:check": "node scripts/build-dados.mjs --check"
   }
 }
