@@ -50,7 +50,7 @@ export function htmlNacional(sandboxes, orgaos) {
         <span class="n"><span aria-hidden="true">${n}</span><span class="sr-only">${escapar(nSandboxes(n))}</span></span>
         <span class="nac-ind" aria-hidden="true"></span>
       </button></h3>
-      <div class="nac-painel" id="${idPainel}" role="region" aria-labelledby="${idCab}" hidden>
+      <div class="nac-painel" id="${idPainel}" aria-labelledby="${idCab}" hidden>
         <ul class="nac-lista">${itens}</ul>${filtrar}
       </div>
     </li>`;

@@ -137,6 +137,14 @@ export function montarPanorama(raiz, ctx) {
     ctx.atualizar({ filtros: patch });
   }
   const busca = $('busca');
+  function rolarParaLista() {
+    const bloco = $('lista-bloco');
+    if (!bloco) return;
+    const reduzir = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+    const cab = $('hdr')?.offsetHeight ?? 0;
+    const topo = bloco.getBoundingClientRect().top + window.scrollY - cab - 12;
+    window.scrollTo({ top: Math.max(0, topo), behavior: reduzir ? 'auto' : 'smooth' });
+  }
   function limpar() {
     busca.value = '';
     ctx.atualizar({ filtros: { ...FILTROS_VAZIOS }, termo: '' });
@@ -148,7 +156,12 @@ export function montarPanorama(raiz, ctx) {
   raiz.addEventListener('click', (ev) => {
     if (!naArea(ev.target)) return;
     const alvo = ev.target.closest?.('[data-filtro]');
-    if (alvo && !alvo.disabled) return aplicarFiltro(alvo.dataset.filtro, alvo.dataset.valor ?? '', true);
+    if (alvo && !alvo.disabled) {
+      aplicarFiltro(alvo.dataset.filtro, alvo.dataset.valor ?? '', true);
+      // "Mostrar só X na lista" (Âmbito nacional): leva a lista à vista; o contador aria-live anuncia o recorte.
+      if (alvo.matches('.nac-filtrar') && ctx.estado().filtros.orgao) rolarParaLista();
+      return;
+    }
     const rem = ev.target.closest?.('[data-remover-filtro]');
     if (rem) {
       const chave = rem.dataset.removerFiltro;
@@ -191,18 +204,34 @@ export function montarPanorama(raiz, ctx) {
   const painel = $('filtros');
   const fundo = $('filtros-fundo');
   const btnAbrir = $('btn-abrir-filtros');
+  // Aberto, vira diálogo modal: role/aria-modal no painel e o resto da página (#hdr, #main) fica inert.
+  const foraDoPainel = [$('hdr'), $('main')].filter(Boolean);
   function painelAberto(aberto) {
+    const estava = painel.classList.contains('aberto');
     painel.classList.toggle('aberto', aberto);
     fundo.hidden = !aberto;
     btnAbrir.setAttribute('aria-expanded', String(aberto));
+    if (aberto) {
+      painel.setAttribute('role', 'dialog');
+      painel.setAttribute('aria-modal', 'true');
+      painel.setAttribute('aria-label', 'Filtros');
+    } else {
+      painel.removeAttribute('role');
+      painel.removeAttribute('aria-modal');
+    }
+    for (const n of foraDoPainel) n.inert = aberto;
     if (aberto) $('btn-fechar-filtros').focus();
-    else if (painel.contains(document.activeElement)) btnAbrir.focus();
+    else if (estava && (painel.contains(document.activeElement) || document.activeElement === document.body)) btnAbrir.focus();
   }
   btnAbrir.addEventListener('click', () => painelAberto(true));
   $('btn-fechar-filtros').addEventListener('click', () => painelAberto(false));
   fundo.addEventListener('click', () => painelAberto(false));
   raiz.addEventListener('keydown', (ev) => {
     if (ev.key === 'Escape' && painel.classList.contains('aberto')) painelAberto(false);
+  });
+  // Tela alargou além do breakpoint com o painel aberto: ele volta a ser barra lateral, sem modal nem inert.
+  window.matchMedia?.('(min-width: 1025px)').addEventListener?.('change', (mq) => {
+    if (mq.matches && painel.classList.contains('aberto')) painelAberto(false);
   });
 
   // ---------- Render ----------

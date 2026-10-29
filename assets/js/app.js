@@ -8,7 +8,8 @@
 //   ctx.dados                  window.SANDBOX_DADOS
 //   ctx.estado()               cópia rasa do estado atual
 //   ctx.atualizar(parcial)     mescla (filtros é mesclado chave a chave) e redesenha
-//   ctx.irPara(hashEstado)     {aba?, sandbox?, comparar?} -> grava o hash e redesenha
+//   ctx.irPara(hashEstado, {substituir?})  {aba?, sandbox?, comparar?} -> grava o hash e redesenha;
+//                              substituir: true troca a entrada do histórico (↑/↓ da gaveta) em vez de empilhar
 //   ctx.pedirComparar(id)      leva o sandbox para o Comparar (ou marca `pendente` se já houver 3)
 //   ctx.abrirSandbox(id)       grava #sandbox=<id>; a gaveta desenha a partir de estado.sandbox
 //   ctx.abrirIndicacao()       abre o modal "Indicar um sandbox" (ui/indicar.js)
@@ -61,11 +62,15 @@ function sincronizarHash() {
   }
 }
 
-export function irPara(hashEstado = {}) {
+export function irPara(hashEstado = {}, { substituir = false } = {}) {
   const alvo = { aba: st.aba, sandbox: st.sandbox, comparar: st.comparar, ...hashEstado };
   if (alvo.aba === 'comparar') alvo.sandbox = null;
   const novo = escreverHash(alvo);
-  if (novo === location.hash) {
+  if (substituir && novo && novo !== location.hash) {
+    history.replaceState(null, '', novo); // não dispara hashchange
+    sincronizarHash();
+    render();
+  } else if (novo === location.hash) {
     sincronizarHash();
     render();
   } else if (novo) {

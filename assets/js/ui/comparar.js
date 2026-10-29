@@ -209,10 +209,23 @@ export function montarComparar(el, ctx) {
     }
   }
 
+  // Foco "perdido": no body, desconectado ou num elemento que deixou de ser exibido (ex.: o botão
+  // "Comparar" de um card do Panorama, que acabou de ficar oculto). A aba ativa, ainda visível, não conta.
+  function focoPerdido() {
+    const a = el.ownerDocument.activeElement;
+    return !a || a === el.ownerDocument.body || !a.isConnected || !a.getClientRects().length;
+  }
+  // Carga inicial direto em #comparar=: o primeiro desenho (síncrono, no boot) não rouba o foco da página.
+  let primeiro = true;
+  setTimeout(() => { primeiro = false; }, 0);
+
   function aplicarFoco() {
     const alvo = focar;
     focar = null;
-    if (!alvo) return;
+    if (!alvo) {
+      if (!primeiro && focoPerdido()) q('#cmp-titulo')?.focus({ preventScroll: true });
+      return;
+    }
     let n = null;
     if (alvo === 'aviso') n = q('[data-substituir]');
     else if (alvo === 'proximo' || alvo === 'campo') n = q('[role="combobox"]') ?? q('[data-adicionar]') ?? q('#cmp-titulo');
@@ -223,7 +236,11 @@ export function montarComparar(el, ctx) {
   function render(novosIds = []) {
     const pendente = ctx.estado().pendente;
     const k = `${novosIds.join(',')}|${pendente ?? ''}`;
-    if (k === chave) return;
+    if (k === chave) {
+      // Mesma escolha, mas a aba pode ter acabado de ficar ativa (card "Comparar" de um item já escolhido).
+      if (!primeiro && focoPerdido()) q('#cmp-titulo')?.focus({ preventScroll: true });
+      return;
+    }
     const tinhaAviso = Boolean(areaAviso.firstElementChild);
     chave = k;
     ids = [...novosIds];

@@ -27,7 +27,7 @@ test('htmlNacional: acordeão fechado, botões com aria-expanded/aria-controls e
   const cabs = [...html.matchAll(/<button type="button" class="nac-cab" id="(nac-cab-\d+)" aria-expanded="false" aria-controls="(nac-painel-\d+)">/g)];
   assert.equal(cabs.length, g.length);
   for (const [, idCab, idPainel] of cabs) {
-    assert.match(html, new RegExp(`<div class="nac-painel" id="${idPainel}" role="region" aria-labelledby="${idCab}" hidden>`));
+    assert.match(html, new RegExp(`<div class="nac-painel" id="${idPainel}" aria-labelledby="${idCab}" hidden>`));
   }
   assert.doesNotMatch(html, /aria-expanded="true"/);
   // um botão por sandbox federal, que abre a gaveta

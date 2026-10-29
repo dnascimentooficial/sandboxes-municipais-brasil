@@ -32,7 +32,7 @@ export function montarGaveta(el, ctx) {
       </div>
       <div class="gv-acoes">
         <button type="button" class="btn-sm" data-gv="copiar">Copiar link</button>
-        <button type="button" class="btn-sm primario" data-gv="comparar" aria-pressed="false">Comparar</button>
+        <button type="button" class="btn-sm primario" data-gv="comparar">Comparar</button>
         <button type="button" class="icon-btn" data-gv="fechar" aria-label="Fechar detalhe"><span aria-hidden="true">✕</span></button>
       </div>
     </div>
@@ -55,6 +55,11 @@ export function montarGaveta(el, ctx) {
 
   function irPara(id) {
     if (id && porId.has(id)) ctx.irPara({ aba: 'panorama', sandbox: id });
+  }
+
+  // Vizinho (↑/↓): substitui a entrada do histórico, para o Voltar fechar a gaveta de uma vez.
+  function mover(id) {
+    if (id && porId.has(id)) ctx.irPara({ aba: 'panorama', sandbox: id }, { substituir: true });
   }
 
   function abrir(id) {
@@ -80,7 +85,6 @@ export function montarGaveta(el, ctx) {
     q('[data-gv-pos]').textContent = i < 0 ? '' : `${i + 1} de ${ids.length}`;
     const no = e.comparar.includes(atual);
     btnComparar.textContent = no ? 'Na comparação' : 'Comparar';
-    btnComparar.setAttribute('aria-pressed', String(no));
   }
 
   function desenhar(s) {
@@ -159,8 +163,8 @@ export function montarGaveta(el, ctx) {
     if (!b || !atual) return;
     const acao = b.dataset.gv;
     if (acao === 'fechar') fechar();
-    else if (acao === 'anterior') irPara(vizinho(-1));
-    else if (acao === 'proximo') irPara(vizinho(1));
+    else if (acao === 'anterior') mover(vizinho(-1));
+    else if (acao === 'proximo') mover(vizinho(1));
     else if (acao === 'copiar') copiarLink();
     else if (acao === 'comparar') ctx.pedirComparar(atual);
   });
@@ -174,11 +178,13 @@ export function montarGaveta(el, ctx) {
       return;
     }
     if ((ev.key === 'ArrowUp' || ev.key === 'ArrowDown') && !ev.altKey && !ev.ctrlKey && !ev.metaKey && !ev.shiftKey) {
-      if (ev.target.closest?.('input, textarea, select')) return;
+      // Só com o foco nos botões ↑/↓ ou no título: no resto da gaveta as setas rolam o conteúdo.
+      const t = ev.target;
+      if (!(t.closest?.('.gv-nav') || t.id === ID_TITULO)) return;
       const alvo = vizinho(ev.key === 'ArrowUp' ? -1 : 1);
       if (alvo) {
         ev.preventDefault();
-        irPara(alvo);
+        mover(alvo);
       }
       return;
     }
