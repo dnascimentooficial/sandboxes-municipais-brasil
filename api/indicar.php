@@ -18,6 +18,38 @@ const LIMITE_ENVIOS = 5;       // por IP...
 const LIMITE_JANELA = 3600;    // ...por hora
 const CORPO_MAX = 16384;       // bytes do JSON recebido
 
+// Nunca mostrar erros ao cliente; falhas inesperadas viram {"ok":false,"motivo":"indisponivel"} (503).
+ini_set('display_errors', '0');
+ini_set('html_errors', '0');
+ob_start();
+$GLOBALS['sbx_respondeu'] = false;
+
+function indisponivelInesperado(): void
+{
+    if ($GLOBALS['sbx_respondeu']) return;
+    while (ob_get_level() > 0) @ob_end_clean();
+    if (!headers_sent()) {
+        header('Content-Type: application/json; charset=utf-8');
+        header('Cache-Control: no-store, max-age=0');
+        header('HTTP/1.1 503 Service Unavailable', true, 503);
+        echo '{"ok":false,"motivo":"indisponivel"}';
+    }
+}
+
+set_exception_handler(function (Throwable $e): void {
+    error_log('sandboxes-brasil/indicar: ' . get_class($e) . ' em ' . basename($e->getFile()) . ':' . $e->getLine());
+    indisponivelInesperado();
+    exit;
+});
+
+register_shutdown_function(function (): void {
+    $e = error_get_last();
+    if ($e !== null && in_array($e['type'], [E_ERROR, E_PARSE, E_CORE_ERROR, E_COMPILE_ERROR, E_USER_ERROR, E_RECOVERABLE_ERROR], true)) {
+        error_log('sandboxes-brasil/indicar: erro fatal em ' . basename($e['file']) . ':' . $e['line']);
+        indisponivelInesperado();
+    }
+});
+
 header('Content-Type: application/json; charset=utf-8');
 header('Cache-Control: no-store, max-age=0');
 header('X-Content-Type-Options: nosniff');
@@ -26,6 +58,7 @@ header('X-Robots-Tag: noindex');
 
 function responder(int $status, array $corpo): never
 {
+    $GLOBALS['sbx_respondeu'] = true;
     http_response_code($status);
     echo json_encode($corpo, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
     exit;
@@ -62,6 +95,68 @@ function texto(array $d, string $campo, int $max, bool $multilinha = false): ?st
     return tamanho($s) > $max ? null : $s;
 }
 
+// "a.b.c.d/n" ou "x::y/n" (sem "/n" = host) -> [binário da rede, bits] ou null se inválido.
+function cidrParaFaixa(string $cidr): ?array
+{
+    $partes = explode('/', trim($cidr), 2);
+    $bin = filter_var($partes[0], FILTER_VALIDATE_IP) !== false ? @inet_pton($partes[0]) : false;
+    if ($bin === false) return null;
+    $max = strlen($bin) * 8;
+    if (count($partes) === 1) return [$bin, $max];
+    if (!ctype_digit($partes[1]) || (int) $partes[1] > $max) return null;
+    return [$bin, (int) $partes[1]];
+}
+
+function ipNaFaixa(string $ip, array $faixa): bool
+{
+    $bin = @inet_pton($ip);
+    [$rede, $bits] = $faixa;
+    if ($bin === false || strlen($bin) !== strlen($rede)) return false;
+    $bytes = intdiv($bits, 8);
+    if ($bytes > 0 && substr($bin, 0, $bytes) !== substr($rede, 0, $bytes)) return false;
+    $resto = $bits % 8;
+    if ($resto === 0) return true;
+    $mascara = (0xFF << (8 - $resto)) & 0xFF;
+    return (ord($bin[$bytes]) & $mascara) === (ord($rede[$bytes]) & $mascara);
+}
+
+function ipConfiavel(string $ip, array $proxies): bool
+{
+    foreach ($proxies as $cidr) {
+        $faixa = cidrParaFaixa($cidr);
+        if ($faixa !== null && ipNaFaixa($ip, $faixa)) return true;
+    }
+    return false;
+}
+
+// IP do cliente. X-Forwarded-For só vale quando REMOTE_ADDR é um proxy confiável; aí percorre-se a lista
+// da DIREITA para a esquerda, pulando proxies confiáveis, e fica o primeiro IP válido não confiável.
+function ipCliente(array $cfg): string
+{
+    $remoto = (string) ($_SERVER['REMOTE_ADDR'] ?? '');
+    if ($cfg['proxies'] === [] || !ipConfiavel($remoto, $cfg['proxies'])) return $remoto;
+    $xff = (string) ($_SERVER['HTTP_X_FORWARDED_FOR'] ?? '');
+    $lista = $xff === '' ? [] : array_reverse(explode(',', $xff));
+    foreach ($lista as $item) {
+        $ip = trim($item);
+        if (filter_var($ip, FILTER_VALIDATE_IP) === false) continue;
+        if (!ipConfiavel($ip, $cfg['proxies'])) return $ip;
+    }
+    return $remoto;
+}
+
+// Chave do limite: IPv4 inteiro; IPv6 agrupado pelo prefixo /64 (IPv4 mapeado em IPv6 vira IPv4).
+function chaveIp(string $ip): string
+{
+    $bin = filter_var($ip, FILTER_VALIDATE_IP) !== false ? @inet_pton($ip) : false;
+    if ($bin === false) return $ip;
+    if (strlen($bin) === 16) {
+        if (substr($bin, 0, 12) === str_repeat("\0", 10) . "\xff\xff") return inet_ntop(substr($bin, 12)) ?: $ip;
+        return bin2hex(substr($bin, 0, 8)) . '/64';
+    }
+    return $ip;
+}
+
 function carregarConfig(): array
 {
     $arq = __DIR__ . '/config.php';
@@ -86,12 +181,22 @@ function carregarConfig(): array
         falhar('indisponivel');
     }
 
+    $proxies = $c['TRUSTED_PROXIES'] ?? [];
+    if (!is_array($proxies)) falhar('indisponivel');
+    foreach ($proxies as $cidr) {
+        if (!is_string($cidr) || cidrParaFaixa($cidr) === null) falhar('indisponivel');
+    }
+    $simular = ($c['MAIL_DRY_RUN'] ?? false) === true;
+    // MAIL_DRY_RUN grava dados de contato em disco: nunca sob HTTPS (produção).
+    if ($simular && strtolower((string) ($_SERVER['HTTPS'] ?? '')) === 'on') falhar('indisponivel');
+
     return [
+        'proxies' => array_values($proxies),
         'dir' => $real,
         'sal' => $sal,
         'para' => $para,
         'de' => $de,
-        'simular' => ($c['MAIL_DRY_RUN'] ?? false) === true,
+        'simular' => $simular,
     ];
 }
 
@@ -116,8 +221,7 @@ function iniciarSessao(): void
 // Conta o envio deste IP e diz se ainda está dentro do limite. O IP é guardado só como HMAC com sal.
 function dentroDoLimite(array $cfg): bool
 {
-    $ip = (string) ($_SERVER['REMOTE_ADDR'] ?? '');
-    $chave = hash_hmac('sha256', $ip, $cfg['sal']);
+    $chave = hash_hmac('sha256', chaveIp(ipCliente($cfg)), $cfg['sal']);
     $f = @fopen($cfg['dir'] . '/limite.json', 'c+');
     if ($f === false) falhar('indisponivel');
     try {
@@ -190,7 +294,7 @@ function enviarEmail(array $cfg, array $v, string $quando): bool
         '',
         'Para verificar: copie nome, jurisdição e link para rotina/indicacoes.md (sem o contato).',
     ];
-    $corpo = implode("\n", $linhas) . "\n";
+    $corpo = chunk_split(base64_encode(implode("\n", $linhas) . "\n"));
 
     // Cabeçalhos só com valores fixos ou da configuração; o único dado do usuário é o Reply-To,
     // e só se for e-mail válido e sem quebras de linha.
@@ -199,7 +303,7 @@ function enviarEmail(array $cfg, array $v, string $quando): bool
         'From' => 'Sandboxes Brasil <' . $cfg['de'] . '>',
         'MIME-Version' => '1.0',
         'Content-Type' => 'text/plain; charset=UTF-8',
-        'Content-Transfer-Encoding' => '8bit',
+        'Content-Transfer-Encoding' => 'base64',
         'X-Mailer' => 'sandboxes-brasil',
     ];
     $resp = $v['contato_email'];
@@ -227,7 +331,7 @@ $metodo = $_SERVER['REQUEST_METHOD'] ?? '';
 if ($metodo === 'GET') {
     if (($_GET['token'] ?? '') !== '1') falhar('invalido');
     iniciarSessao();
-    session_regenerate_id(true);
+    if (!session_regenerate_id(true)) falhar('indisponivel');
     $token = bin2hex(random_bytes(32));
     $_SESSION['ind_token'] = $token;
     $_SESSION['ind_token_em'] = time();

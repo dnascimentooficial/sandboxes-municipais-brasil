@@ -22,7 +22,16 @@ return [
     // Enquanto começar com "TROQUE", o endpoint fica indisponível.
     'IP_SALT' => 'TROQUE-POR-UM-VALOR-ALEATORIO-DE-64-CARACTERES-HEX',
 
-    // true = não envia e-mail: grava a mensagem em DATA_DIR/ultimo-email.txt (para testes locais,
-    // onde mail() costuma falhar). Em produção deixe false.
+    // ATENÇÃO: true = não envia e-mail e GRAVA em DATA_DIR/ultimo-email.txt a mensagem inteira, com
+    // o contato de quem indicou (nome e e-mail). Só para testes locais, onde mail() costuma falhar.
+    // Em produção DEVE ser false; sob HTTPS o endpoint recusa true (responde "indisponivel").
     'MAIL_DRY_RUN' => false,
+
+    // CIDRs dos proxies/CDN à frente do PHP (ex.: ['203.0.113.0/24', '2001:db8::/32']). Vazio = só
+    // REMOTE_ADDR conta. Se REMOTE_ADDR estiver nesta lista, o IP do cliente é lido de X-Forwarded-For,
+    // da direita para a esquerda, pulando os proxies confiáveis. IPv6 é agrupado por prefixo /64.
+    // PREENCHER SOMENTE DEPOIS da sonda de deploy (Task 15): confirme na Hostinger qual REMOTE_ADDR e
+    // qual X-Forwarded-For o PHP realmente recebe. Uma faixa errada deixa qualquer um forjar o próprio IP
+    // e burlar o limite de envios; uma faixa ausente faz todos os visitantes dividirem o IP do proxy.
+    'TRUSTED_PROXIES' => [],
 ];
