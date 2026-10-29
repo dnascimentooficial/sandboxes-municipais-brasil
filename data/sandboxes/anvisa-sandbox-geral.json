@@ -1,0 +1,58 @@
+{
+  "id": "anvisa-sandbox-geral",
+  "nome": "Marco geral do Sandbox Regulatório da Anvisa",
+  "esfera": "federal",
+  "jurisdicao": {
+    "orgao": "ANVISA"
+  },
+  "status": "em_instituicao",
+  "temas": [
+    "saude"
+  ],
+  "resumo": "Consulta pública até 11/12/2026 sobre a RDC que regulará o sandbox da Anvisa: governança, seleção e autorização temporária.",
+  "descricao": "A Anvisa abriu em 13 de outubro de 2026 a Consulta Pública nº 1.427/2026, com minuta de Resolução da Diretoria Colegiada sobre o funcionamento do seu Ambiente Regulatório Experimental. As contribuições vão até 11 de dezembro de 2026.\n\nA minuta trata de governança, critérios de seleção, autorização temporária, monitoramento, gestão de riscos, salvaguardas e encerramento dos ciclos de experimentação. Sugestões de temas ou projetos para ciclos futuros ficam fora do escopo da consulta.\n\nAté a edição da norma, a agência usa o sandbox em caráter piloto, como no projeto de cosméticos personalizados.",
+  "desde": "2026-10-13",
+  "gestor": "Agência Nacional de Vigilância Sanitária (Anvisa)",
+  "ingresso": "nao_informado",
+  "documentos": [
+    {
+      "tipo": "outro",
+      "titulo": "Consulta Pública nº 1.427/2026 — minuta de RDC do Sandbox Regulatório",
+      "numero": "1.427/2026",
+      "data": "2026-10-13",
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-abre-consulta-publica-sobre-proposta-de-regulamentacao-do-sandbox-regulatorio",
+      "principal": true
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/anvisa-sandbox-geral.jpg",
+    "credito": "J.N. Eskra",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Test_tubes_in_rack.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-abre-consulta-publica-sobre-proposta-de-regulamentacao-do-sandbox-regulatorio",
+      "titulo": "Anvisa — Anvisa abre consulta pública sobre a regulamentação do Sandbox Regulatório (13/10/2026)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/regulamentacao/sandbox",
+      "titulo": "Anvisa — Sandbox Regulatório (página oficial)",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2026-10-13",
+      "descricao": "Aberta a Consulta Pública nº 1.427/2026.",
+      "fonte": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-abre-consulta-publica-sobre-proposta-de-regulamentacao-do-sandbox-regulatorio"
+    }
+  ],
+  "recem_adicionado": true
+}

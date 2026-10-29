@@ -1,0 +1,74 @@
+{
+  "id": "ans-sandbox",
+  "nome": "Ambiente Regulatório Experimental da ANS",
+  "esfera": "federal",
+  "jurisdicao": {
+    "orgao": "ANS"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "saude"
+  ],
+  "resumo": "Norma de 2024 cria o sandbox da saúde suplementar; a primeira proposta, de planos só de consultas e exames, foi encerrada em 2026.",
+  "descricao": "A Resolução Normativa ANS nº 621, de 13 de dezembro de 2024, regulamenta o sandbox da Agência Nacional de Saúde Suplementar, com base no art. 11 da Lei Complementar nº 182/2021. Pessoas jurídicas participantes podem receber autorização temporária para testar serviços, produtos ou tecnologias, com regras da ANS afastadas ou flexibilizadas.\n\nCada sandbox começa com edital de participação aprovado pela Diretoria Colegiada, que define objetivos, segmentos, regras flexibilizadas, elegibilidade e prazo de participação, entre 6 e 24 meses a partir da autorização temporária.\n\nA primeira proposta, de testar planos apenas de consultas eletivas e exames, passou pela Consulta Pública nº 151/2025 e sofreu críticas de entidades médicas e de defesa do consumidor. Segundo o Idec, a ANS decidiu encerrá-la em abril de 2026 e passou a estudar os cartões de desconto. Nenhum sandbox executado foi localizado.",
+  "desde": "2024-12-13",
+  "gestor": "ANS — Diretoria Colegiada, com comissão específica para cada edital",
+  "ingresso": "edital",
+  "prazo_teste_meses": 24,
+  "documentos": [
+    {
+      "tipo": "resolucao",
+      "titulo": "Resolução Normativa ANS nº 621/2024 — ambiente regulatório experimental",
+      "numero": "621/2024",
+      "data": "2024-12-13",
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/ans/2024/res0621_16_12_2024.html",
+      "principal": true
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/ans-sandbox.jpg",
+    "credito": "W.carter",
+    "licenca": "CC0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Corridor_on_the_second_level_-_N%C3%84L_hospital_1.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://bvsms.saude.gov.br/bvs/saudelegis/ans/2024/res0621_16_12_2024.html",
+      "titulo": "Saúde Legis (Ministério da Saúde) — Resolução Normativa ANS nº 621/2024",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.mattosfilho.com.br/unico/ans-norma-sandbox-regulatorio/",
+      "titulo": "Mattos Filho — ANS aprova norma sobre Sandbox Regulatório",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.mattosfilho.com.br/unico/sandbox-consultas-exames/",
+      "titulo": "Mattos Filho — sandbox regulatório sobre planos de consultas eletivas e exames",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://idec.org.br/release/nota-do-idec-sobre-o-fim-do-sandbox-regulatorio-e-sobre-o-inicio-de-estudos-sobre-cartoes-de",
+      "titulo": "Idec — Nota sobre o fim do sandbox regulatório e o início de estudos sobre cartões de desconto",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2026-04-17",
+      "descricao": "ANS decide encerrar a proposta de sandbox de planos de consultas eletivas e exames, segundo o Idec.",
+      "fonte": "https://idec.org.br/release/nota-do-idec-sobre-o-fim-do-sandbox-regulatorio-e-sobre-o-inicio-de-estudos-sobre-cartoes-de"
+    },
+    {
+      "data": "2024-12-13",
+      "descricao": "Aprovada a Resolução Normativa nº 621/2024.",
+      "fonte": "https://bvsms.saude.gov.br/bvs/saudelegis/ans/2024/res0621_16_12_2024.html"
+    }
+  ],
+  "recem_adicionado": true
+}

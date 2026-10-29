@@ -1,0 +1,84 @@
+{
+  "id": "antt-free-flow-piloto",
+  "nome": "Sandbox de pedágio eletrônico (free flow) da ANTT",
+  "esfera": "federal",
+  "jurisdicao": {
+    "orgao": "ANTT"
+  },
+  "status": "encerrado",
+  "temas": [
+    "mobilidade",
+    "logistica"
+  ],
+  "resumo": "Primeiro sandbox da ANTT testou pedágio sem cabines na BR-101 (RJ) a partir de 2023; consta hoje como projeto encerrado.",
+  "descricao": "O pedágio eletrônico de fluxo livre (free flow) foi o primeiro uso do sandbox criado pela Resolução ANTT nº 5.999/2022. A concessionária CCR RioSP pediu para iniciar a cobrança sem praças de pedágio na BR-101/RJ, no trecho Rio–Santos.\n\nO piloto começou a operar em 2023. Relatos de imprensa com dados da ANTT apontam alta taxa de detecção de veículos e queda da inadimplência ao longo dos testes, que serviram de base para a regra definitiva de free flow nas concessões federais.\n\nNa página oficial do sandbox, a ANTT lista o pedágio eletrônico entre os projetos encerrados e descontinuados. A data formal de encerramento não foi localizada.",
+  "desde": "2022-11-03",
+  "gestor": "Agência Nacional de Transportes Terrestres (ANTT)",
+  "ingresso": "nao_informado",
+  "elegibilidade": "Empresas reguladas pela ANTT ou consórcios formados com empresas reguladas (Res. ANTT nº 5.999/2022).",
+  "documentos": [
+    {
+      "tipo": "resolucao",
+      "titulo": "Resolução ANTT nº 5.999/2022 — regras do sandbox regulatório da ANTT",
+      "numero": "5.999/2022",
+      "data": "2022-11-03",
+      "url": "https://anttlegis.antt.gov.br/action/ActionDatalegis.php?acao=detalharAto&tipo=RES&numeroAto=00005999&seqAto=000&valorAno=2022&orgao=DG/ANTT/MI&codTipo=&desItem=&desItemFim=&cod_menu=5408&cod_modulo=161&pesquisa=true",
+      "principal": true
+    }
+  ],
+  "solucoes": [
+    {
+      "nome": "Pedágio free flow na BR-101/RJ (Rio–Santos)",
+      "proponente": "CCR RioSP",
+      "descricao": "Cobrança eletrônica sem cabines, testada no sandbox a partir de 2023.",
+      "status": "concluida",
+      "fonte": "https://agenciainfra.com/blog/?p=19369"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/antt-free-flow-piloto.jpg",
+    "credito": "Cacobianchi",
+    "licenca": "Domínio público",
+    "origem": "https://commons.wikimedia.org/wiki/File:Rodovia_Rio_Santos.JPG"
+  },
+  "fontes": [
+    {
+      "url": "https://www.gov.br/antt/pt-br/acesso-a-informacao/acoes-e-programas/ambiente-regulatorio-experimental-sandbox-regulatorio/projetos-encerrados-e-descontinuados",
+      "titulo": "ANTT — Sandbox: projetos encerrados e descontinuados (página oficial)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://agenciainfra.com/blog/antt-aprova-regulacao-experimental-mirando-primeiro-free-flow-em-rodovia-federal/",
+      "titulo": "Agência iNFRA — ANTT aprova regulação experimental mirando primeiro free flow em rodovia federal (07/11/2022)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://agenciainfra.com/blog/?p=19369",
+      "titulo": "Agência iNFRA — resultados do free flow após 18 meses de testes (28/11/2024)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://analise.com/noticias/como-o-sandbox-regulatorio-esta-destravando-a-inovacao",
+      "titulo": "Análise — Como o sandbox regulatório está destravando a inovação",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2026-10-29",
+      "descricao": "Projeto listado como encerrado/descontinuado na página oficial do sandbox da ANTT (consulta nesta data).",
+      "fonte": "https://www.gov.br/antt/pt-br/acesso-a-informacao/acoes-e-programas/ambiente-regulatorio-experimental-sandbox-regulatorio/projetos-encerrados-e-descontinuados"
+    },
+    {
+      "data": "2022-11-03",
+      "descricao": "ANTT aprova o sandbox regulatório, tendo o free flow da BR-101/RJ como primeiro caso.",
+      "fonte": "https://agenciainfra.com/blog/antt-aprova-regulacao-experimental-mirando-primeiro-free-flow-em-rodovia-federal/"
+    }
+  ],
+  "recem_adicionado": true
+}

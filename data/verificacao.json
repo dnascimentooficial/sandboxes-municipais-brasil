@@ -1,11 +1,145 @@
 {
   "ultima_execucao": "2026-10-29",
   "resultado_por_id": {
+    "anac-sandbox-vertiportos": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Seleção e termo de adesão confirmados em imprensa; resultado oficial do edital não localizado.",
+        "Início dos testes do grupo PAX Aeroportos não confirmado."
+      ]
+    },
+    "anac-sia-balizamento": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Texto da Portaria nº 10.219/SIA não lido; duração e resultados do teste não encontrados."
+      ]
+    },
+    "anatel-d2d": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Empresas participantes não identificadas; atos não lidos (descritos na página oficial)."
+      ]
+    },
+    "anatel-escaneres-corporais": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Término em 24/10/2026 calculado pela vigência de 24 meses informada; prorrogação adicional não localizada."
+      ]
+    },
+    "anatel-repetidores-municipios": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Participantes e data de término não informados pela Anatel; documento principal é a página do sandbox (ato não lido)."
+      ]
+    },
+    "anatel-sandbox": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": []
+    },
+    "aneel-sandbox-controle-tensao": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Texto da REA 16.539/2025 não lido; número e vigência confirmados em documento da CCEE e imprensa.",
+        "Vencedores do mecanismo competitivo não identificados."
+      ]
+    },
+    "aneel-sandbox-resposta-demanda": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Nenhuma página oficial da ANEEL foi lida; dados vêm de imprensa setorial.",
+        "Link do documento principal aponta para notícia, não para o texto da REA 12.600/2022."
+      ]
+    },
+    "aneel-sandbox-tarifario": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Texto da REN 966/2021 não lido: www2.aneel.gov.br bloqueado por verificação anti-bot (não contornada).",
+        "Status dos projetos da 1ª chamada, exceto Energisa, não confirmado."
+      ]
+    },
+    "anp-regulacao-experimental": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Prazo final de contribuições (26/10/2026) confirmado apenas em imprensa."
+      ]
+    },
+    "anpd-sandbox-ia": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Substituição da IA Greenworld pela Prevvine não explicada nas fontes."
+      ]
+    },
+    "ans-sandbox": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Encerramento da proposta de planos de consultas e exames confirmado apenas pelo Idec; Portaria Presi nº 12/2025 não verificada."
+      ]
+    },
+    "antaq-outorga-verde": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Link da Resolução ANTAQ aponta para URL \"130-2025\" no repositório da ANTAQ; número 131 confirmado no edital."
+      ]
+    },
+    "antt-corredor-logistico": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Situação formal do projeto EPR Litoral Pioneiro no sandbox não confirmada; Portaria DG nº 73/2026 citada no levantamento não verificada."
+      ]
+    },
+    "antt-free-flow-piloto": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Encerramento baseado na listagem da página oficial da ANTT; data formal de encerramento não localizada."
+      ]
+    },
+    "antt-sandbox-psi": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Concessionárias participantes não identificadas (deliberações de resultado não lidas)."
+      ]
+    },
+    "anvisa-cosmeticos-personalizados": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Link do Edital nº 18/2025 aponta para notícia da Anvisa."
+      ]
+    },
+    "anvisa-sandbox-geral": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": []
+    },
     "balneario-camboriu": {
       "verificado_em": "2026-10-29",
       "mudou": false,
       "avisos": [
         "Documento principal aponta para o portal Inova BC; texto do decreto não localizado no DOM/SC."
+      ]
+    },
+    "bcb-sandbox-ciclo-1": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Página oficial do sandbox no BCB não pôde ser lida (conteúdo dinâmico); encerramento confirmado pelo Relatório de Gestão 2023.",
+        "URLs das resoluções seguem o padrão exibenormativo do BCB; texto das normas não foi relido."
       ]
     },
     "belo-horizonte": {
@@ -35,6 +169,14 @@
         "Status da solução de drones marcado como concluída sem confirmação explícita do fim do acordo de cooperação."
       ]
     },
+    "cvm-sandbox-1": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Status ativo mantido por haver soluções testadas; todas as autorizações conhecidas venceram até 31/08/2026 e não se localizou prorrogação posterior à Deliberação CVM nº 891/2024.",
+        "Validade da autorização da Basement baseada no texto original da Deliberação nº 873 (versão consolidada não lida)."
+      ]
+    },
     "df": {
       "verificado_em": "2026-10-29",
       "mudou": true,
@@ -54,6 +196,13 @@
       "verificado_em": "2026-10-29",
       "mudou": false,
       "avisos": []
+    },
+    "inmetro-metrologia-legal": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Texto da Portaria 529/2025 lido apenas em reprodução (Normas Brasil); versão do DOU não localizada."
+      ]
     },
     "jaragua-do-sul": {
       "verificado_em": "2026-10-29",
@@ -77,6 +226,13 @@
       "mudou": false,
       "avisos": [
         "Consulta pública de 2026 \"para implantação\" indica que o programa ainda não operou, apesar do decreto de 2022."
+      ]
+    },
+    "mec-sandbox-ia-educacao": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Início efetivo dos testes não confirmado; status ativo baseado na participação do Cebraspe na fase de capacitação do piloto."
       ]
     },
     "olimpia": {
@@ -128,6 +284,30 @@
       "verificado_em": "2026-10-29",
       "mudou": false,
       "avisos": []
+    },
+    "susep-sandbox-1": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Normas e edital apontam para a página da edição (textos dos atos não lidos).",
+        "Autorizações definitivas de Pier, Iza, Simple2u e 88i confirmadas apenas em imprensa especializada.",
+        "Situação atual das demais selecionadas não confirmada em fonte oficial."
+      ]
+    },
+    "susep-sandbox-2": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Conversão da Darwin em autorização definitiva confirmada apenas em imprensa especializada.",
+        "Situação das demais 20 selecionadas não confirmada."
+      ]
+    },
+    "susep-sandbox-3": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Data do edital (16/07/2024) e regra de fluxo contínuo confirmadas em escritórios de advocacia; página oficial não traz a data."
+      ]
     },
     "teresina": {
       "verificado_em": "2026-10-29",

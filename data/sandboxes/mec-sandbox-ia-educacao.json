@@ -1,0 +1,157 @@
+{
+  "id": "mec-sandbox-ia-educacao",
+  "nome": "Sandbox Regulatório de Inteligência Artificial na Educação (piloto)",
+  "esfera": "federal",
+  "jurisdicao": {
+    "orgao": "MEC"
+  },
+  "status": "ativo",
+  "temas": [
+    "educacao",
+    "dados"
+  ],
+  "resumo": "Piloto do MEC com 8 soluções de IA para a educação, selecionadas em 2026, testadas por seis meses em ambiente controlado.",
+  "descricao": "O Ministério da Educação lançou em 24 de março de 2026 o piloto do Ambiente Regulatório Experimental de Inteligência Artificial na Educação, coordenado pela Secretaria de Gestão da Informação, Inovação e Avaliação de Políticas Educacionais (Segape). O Edital nº 1/2026 recebeu inscrições de 30 de março a 28 de maio de 2026.\n\nPodem participar entidades públicas e privadas, com uma proposta cada. As soluções devem estar em fase inicial, usar dados anonimizados e licença aberta permissiva. O processo dura seis meses, com capacitação obrigatória, testes, avaliação de impacto algorítmico e relatório final. Decisões totalmente automatizadas e a substituição de professores por IA são vedadas, e as regras legais vigentes não são afastadas.\n\nO resultado final aprovou oito projetos, entre eles o Letrar.IA (UFG), o Agente Pedagógico Adaptativo (Instituto Unibanco) e o SAVIA (Cebraspe). As equipes participaram de encontro de capacitação em julho de 2026.",
+  "desde": "2026-03-24",
+  "gestor": "MEC — Secretaria de Gestão da Informação, Inovação e Avaliação de Políticas Educacionais (Segape), com Comitê do Sandbox",
+  "ingresso": "edital",
+  "prazo_teste_meses": 6,
+  "elegibilidade": "Entidades públicas e privadas, com uma proposta por entidade (salvo consórcio autorizado), solução em fase inicial, dados anonimizados e licença de código aberto permissiva.",
+  "flexibilizacoes": [
+    "Condições regulatórias diferenciadas e temporárias: ajustes iterativos nas soluções e regime especial de diálogo institucional",
+    "Protocolos específicos de governança, sem afastamento das normas legais vigentes"
+  ],
+  "documentos": [
+    {
+      "tipo": "edital",
+      "titulo": "Edital MEC nº 1/2026 — Chamamento público do Sandbox de IA na Educação",
+      "numero": "1/2026",
+      "data": "2026-03-24",
+      "url": "https://www.gov.br/mec/pt-br/acesso-a-informacao/participacao-social/editais-chamamento-publico/sandbox-ia-educacao",
+      "principal": true
+    },
+    {
+      "tipo": "outro",
+      "titulo": "Resultado final do Edital nº 1/2026",
+      "url": "https://www.gov.br/mec/pt-br/acesso-a-informacao/participacao-social/editais-chamamento-publico/sandbox-ia-educacao/resultado-sandbox.pdf"
+    }
+  ],
+  "solucoes": [
+    {
+      "nome": "SAVIA",
+      "proponente": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos (Cebraspe)",
+      "descricao": "Apoio à elaboração e revisão de itens de avaliação; equipe participou da capacitação do piloto em julho de 2026.",
+      "status": "em_teste",
+      "fonte": "https://www.cebraspe.org.br/cebraspe-fortalece-debate-sobre-ia-e-avaliacao-educacional-em-evento-do-mec/"
+    },
+    {
+      "nome": "Letrar.IA",
+      "proponente": "Universidade Federal de Goiás (UFG)",
+      "descricao": "Projeto aprovado no resultado final do Edital nº 1/2026.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/mec/pt-br/acesso-a-informacao/participacao-social/editais-chamamento-publico/sandbox-ia-educacao/resultado-sandbox.pdf"
+    },
+    {
+      "nome": "Agente Pedagógico Adaptativo (APA)",
+      "proponente": "Instituto Unibanco",
+      "descricao": "Projeto aprovado no resultado final do Edital nº 1/2026.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/mec/pt-br/acesso-a-informacao/participacao-social/editais-chamamento-publico/sandbox-ia-educacao/resultado-sandbox.pdf"
+    },
+    {
+      "nome": "Soff.ia",
+      "proponente": "Factor.IA Soluções Ltda.",
+      "descricao": "Projeto aprovado no resultado final do Edital nº 1/2026.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/mec/pt-br/acesso-a-informacao/participacao-social/editais-chamamento-publico/sandbox-ia-educacao/resultado-sandbox.pdf"
+    },
+    {
+      "nome": "REALCE",
+      "proponente": "Fundação Universidade de Pernambuco (UPE)",
+      "descricao": "Projeto aprovado no resultado final do Edital nº 1/2026.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/mec/pt-br/acesso-a-informacao/participacao-social/editais-chamamento-publico/sandbox-ia-educacao/resultado-sandbox.pdf"
+    },
+    {
+      "nome": "Profy AEE: Educação Inclusiva Organizada",
+      "proponente": "Profy Tecnologias Educacionais Ltda.",
+      "descricao": "Projeto aprovado no resultado final do Edital nº 1/2026.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/mec/pt-br/acesso-a-informacao/participacao-social/editais-chamamento-publico/sandbox-ia-educacao/resultado-sandbox.pdf"
+    },
+    {
+      "nome": "Cogedu Sentinela",
+      "proponente": "Indigo Hive Consultoria em Tecnologia da Informação S.A.",
+      "descricao": "Projeto aprovado no resultado final do Edital nº 1/2026.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/mec/pt-br/acesso-a-informacao/participacao-social/editais-chamamento-publico/sandbox-ia-educacao/resultado-sandbox.pdf"
+    },
+    {
+      "nome": "EduJA",
+      "proponente": "4US Informática Ltda.",
+      "descricao": "Projeto aprovado no resultado final do Edital nº 1/2026.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/mec/pt-br/acesso-a-informacao/participacao-social/editais-chamamento-publico/sandbox-ia-educacao/resultado-sandbox.pdf"
+    }
+  ],
+  "editais": [
+    {
+      "titulo": "Edital MEC nº 1/2026",
+      "status": "encerrado",
+      "abertura": "2026-03-30",
+      "encerramento": "2026-05-28",
+      "url": "https://www.gov.br/mec/pt-br/acesso-a-informacao/participacao-social/editais-chamamento-publico/sandbox-ia-educacao"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/mec-sandbox-ia-educacao.jpg",
+    "credito": "Tomwsulcer",
+    "licenca": "CC0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Classroom_with_chairs_and_blackboard_at_Cornell_University.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.gov.br/mec/pt-br/acesso-a-informacao/participacao-social/editais-chamamento-publico/sandbox-ia-educacao",
+      "titulo": "MEC — Sandbox Regulatório de IA na Educação (página oficial)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.gov.br/mec/pt-br/acesso-a-informacao/participacao-social/editais-chamamento-publico/sandbox-ia-educacao/como-funciona",
+      "titulo": "MEC — Sandbox de IA na Educação: como funciona",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.gov.br/mec/pt-br/acesso-a-informacao/participacao-social/editais-chamamento-publico/sandbox-ia-educacao/resultado-sandbox.pdf",
+      "titulo": "MEC — Resultado final do Edital nº 1/2026",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/junho/divulgado-resultado-previo-do-sandbox-regulatorio-de-ia-na-educacao",
+      "titulo": "MEC — Divulgado resultado prévio do sandbox regulatório de IA na educação (25/06/2026)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.cebraspe.org.br/cebraspe-fortalece-debate-sobre-ia-e-avaliacao-educacional-em-evento-do-mec/",
+      "titulo": "Cebraspe — participação no encontro do sandbox de IA do MEC",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2026-06-25",
+      "descricao": "MEC divulga o resultado prévio da seleção.",
+      "fonte": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/junho/divulgado-resultado-previo-do-sandbox-regulatorio-de-ia-na-educacao"
+    },
+    {
+      "data": "2026-03-24",
+      "descricao": "Lançado o piloto e o Edital nº 1/2026.",
+      "fonte": "https://www.gov.br/mec/pt-br/acesso-a-informacao/participacao-social/editais-chamamento-publico/sandbox-ia-educacao"
+    }
+  ],
+  "recem_adicionado": true
+}

@@ -1,0 +1,235 @@
+{
+  "id": "susep-sandbox-2",
+  "nome": "Sandbox Regulatório da Susep — 2ª edição",
+  "esfera": "federal",
+  "jurisdicao": {
+    "orgao": "SUSEP"
+  },
+  "status": "ativo",
+  "temas": [
+    "seguros",
+    "startups"
+  ],
+  "resumo": "Segunda edição (2021) do sandbox de seguros, com 21 projetos selecionados; a Darwin já converteu sua autorização em definitiva.",
+  "descricao": "A 2ª edição do sandbox da Susep seguiu a Resolução CNSP nº 381/2020, alterada pela Resolução CNSP nº 417, de 20 de julho de 2021, e a Circular Susep nº 598/2020, alterada pela Circular nº 636/2021. As inscrições, pelo Edital Eletrônico nº 1/2021, ocorreram de 30 de agosto a 9 de setembro de 2021.\n\nA Susep selecionou 21 projetos, com seguros de automóveis, celulares, bicicletas, animais, fiança locatícia, agrícola paramétrico, caminhões e viagens. A seleção não equivale à autorização temporária, que pode durar até 36 meses.\n\nA Darwin Seguros, desta edição, já obteve autorização definitiva. A situação individual das demais participantes não foi confirmada em fonte oficial.",
+  "desde": "2021-07-20",
+  "gestor": "Superintendência de Seguros Privados (Susep), sob as regras do CNSP",
+  "ingresso": "edital",
+  "prazo_teste_meses": 36,
+  "documentos": [
+    {
+      "tipo": "resolucao",
+      "titulo": "Resolução CNSP nº 417/2021 — altera a Resolução CNSP nº 381/2020 (normas listadas na página da 2ª edição)",
+      "numero": "417/2021",
+      "data": "2021-07-20",
+      "url": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao",
+      "principal": true
+    },
+    {
+      "tipo": "outro",
+      "titulo": "Circular Susep nº 636/2021",
+      "numero": "636/2021",
+      "data": "2021-07-23",
+      "url": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao"
+    },
+    {
+      "tipo": "edital",
+      "titulo": "Edital Eletrônico nº 1/2021/Susep — 2ª edição",
+      "url": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao"
+    }
+  ],
+  "solucoes": [
+    {
+      "nome": "Seguro de automóvel",
+      "proponente": "Darwin Seguros",
+      "descricao": "Selecionada na 2ª edição; teve aprovada a conversão em autorização definitiva.",
+      "status": "concluida",
+      "fonte": "https://finsidersbrasil.com.br/regulamentacao/mais-duas-insurtechs-recebem-autorizacao-definitiva-da-susep"
+    },
+    {
+      "nome": "Seguro de celular",
+      "proponente": "Clubfix",
+      "descricao": "Projeto selecionado na 2ª edição, segundo a Susep.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao"
+    },
+    {
+      "nome": "Microsseguro de danos para pequeno empreendedor",
+      "proponente": "Finx",
+      "descricao": "Projeto selecionado na 2ª edição, segundo a Susep.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao"
+    },
+    {
+      "nome": "Seguro agrícola (soja)",
+      "proponente": "InnTech",
+      "descricao": "Projeto selecionado na 2ª edição, segundo a Susep.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao"
+    },
+    {
+      "nome": "Seguro de automóvel",
+      "proponente": "Inteligente",
+      "descricao": "Projeto selecionado na 2ª edição, segundo a Susep.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao"
+    },
+    {
+      "nome": "Seguro de automóvel",
+      "proponente": "Justos",
+      "descricao": "Projeto selecionado na 2ª edição, segundo a Susep.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao"
+    },
+    {
+      "nome": "Seguro de celular e bicicleta",
+      "proponente": "Kakau",
+      "descricao": "Projeto selecionado na 2ª edição, segundo a Susep.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao"
+    },
+    {
+      "nome": "Seguro de automóvel",
+      "proponente": "LTI",
+      "descricao": "Projeto selecionado na 2ª edição, segundo a Susep.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao"
+    },
+    {
+      "nome": "Seguro de bicicleta",
+      "proponente": "Mee",
+      "descricao": "Projeto selecionado na 2ª edição, segundo a Susep.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao"
+    },
+    {
+      "nome": "Seguro agrícola paramétrico",
+      "proponente": "Modelo",
+      "descricao": "Projeto selecionado na 2ª edição, segundo a Susep.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao"
+    },
+    {
+      "nome": "Seguro de automóvel, celular e pets",
+      "proponente": "Neo",
+      "descricao": "Projeto selecionado na 2ª edição, segundo a Susep.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao"
+    },
+    {
+      "nome": "Seguro de automóvel",
+      "proponente": "Novo",
+      "descricao": "Projeto selecionado na 2ª edição, segundo a Susep.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao"
+    },
+    {
+      "nome": "Fiança locatícia",
+      "proponente": "NW",
+      "descricao": "Projeto selecionado na 2ª edição, segundo a Susep.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao"
+    },
+    {
+      "nome": "Seguro de automóvel",
+      "proponente": "Oon Digital",
+      "descricao": "Projeto selecionado na 2ª edição, segundo a Susep.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao"
+    },
+    {
+      "nome": "Seguro para pets",
+      "proponente": "Pet Seguros",
+      "descricao": "Projeto selecionado na 2ª edição, segundo a Susep.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao"
+    },
+    {
+      "nome": "Seguro agrícola (soja, milho e trigo)",
+      "proponente": "Picsel",
+      "descricao": "Projeto selecionado na 2ª edição, segundo a Susep.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao"
+    },
+    {
+      "nome": "Fiança locatícia",
+      "proponente": "Rede",
+      "descricao": "Projeto selecionado na 2ª edição, segundo a Susep.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao"
+    },
+    {
+      "nome": "Seguro de caminhões",
+      "proponente": "Rodoseg",
+      "descricao": "Projeto selecionado na 2ª edição, segundo a Susep.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao"
+    },
+    {
+      "nome": "Seguro de passagens aéreas e hotéis",
+      "proponente": "TITI",
+      "descricao": "Projeto selecionado na 2ª edição, segundo a Susep.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao"
+    },
+    {
+      "nome": "Seguro de celular",
+      "proponente": "Trocafone",
+      "descricao": "Projeto selecionado na 2ª edição, segundo a Susep.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao"
+    },
+    {
+      "nome": "Seguros de esportes, fiança locatícia e residencial",
+      "proponente": "Urbantech",
+      "descricao": "Projeto selecionado na 2ª edição, segundo a Susep.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao"
+    }
+  ],
+  "editais": [
+    {
+      "titulo": "Edital Eletrônico nº 1/2021/Susep",
+      "status": "encerrado",
+      "abertura": "2021-08-30",
+      "encerramento": "2021-09-09",
+      "url": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/susep-sandbox.jpg",
+    "credito": "Sérgio Valle Duarte",
+    "licenca": "CC BY 3.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Parque_Ibirapuera_com_Avenida_Paulista.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao",
+      "titulo": "Susep — Sandbox Regulatório, 2ª edição",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://finsidersbrasil.com.br/regulamentacao/mais-duas-insurtechs-recebem-autorizacao-definitiva-da-susep",
+      "titulo": "Finsiders — Mais duas insurtechs recebem autorização definitiva da Susep (25/08/2024)",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2021-08-30",
+      "descricao": "Abertas as inscrições da 2ª edição.",
+      "fonte": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao"
+    },
+    {
+      "data": "2021-07-20",
+      "descricao": "Resolução CNSP nº 417 altera as regras do sandbox para a 2ª edição.",
+      "fonte": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-2a-edicao"
+    }
+  ],
+  "recem_adicionado": true
+}

@@ -1,0 +1,80 @@
+{
+  "id": "susep-sandbox-3",
+  "nome": "Sandbox Regulatório da Susep — 3ª edição (fluxo contínuo)",
+  "esfera": "federal",
+  "jurisdicao": {
+    "orgao": "SUSEP"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "seguros",
+    "ambiente",
+    "startups"
+  ],
+  "resumo": "Edital de 2024 sem prazo final para novas seguradoras de sandbox, com prioridade a projetos sustentáveis e tecnológicos.",
+  "descricao": "A 3ª edição do sandbox da Susep foi aberta pelo Edital Eletrônico nº 2/2024, de 16 de julho de 2024, sob a Resolução CNSP nº 381/2020 e a Circular Susep nº 598/2020, com as alterações de 2021.\n\nDiferentemente das edições anteriores, o edital não tem prazo final de inscrição nem limite de vagas. Projetos sustentáveis ou tecnológicos recebem pontuação maior, e o plano de negócios deve trazer política de sustentabilidade.\n\nNenhum participante autorizado nesta edição foi localizado em fonte oficial até a data de verificação.",
+  "desde": "2024-07-16",
+  "gestor": "Superintendência de Seguros Privados (Susep)",
+  "ingresso": "fluxo_continuo",
+  "prazo_teste_meses": 36,
+  "documentos": [
+    {
+      "tipo": "resolucao",
+      "titulo": "Resolução CNSP nº 381/2020, alterada pela Resolução CNSP nº 417/2021 (normas listadas na página da 3ª edição)",
+      "numero": "381/2020",
+      "data": "2020-03-04",
+      "url": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-3a-edicao",
+      "principal": true
+    },
+    {
+      "tipo": "edital",
+      "titulo": "Edital Eletrônico nº 2/2024/Susep — 3ª edição",
+      "data": "2024-07-16",
+      "url": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-3a-edicao"
+    }
+  ],
+  "editais": [
+    {
+      "titulo": "Edital Eletrônico nº 2/2024/Susep (fluxo contínuo)",
+      "status": "aberto",
+      "abertura": "2024-07-16",
+      "url": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-3a-edicao"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/susep-sandbox.jpg",
+    "credito": "Sérgio Valle Duarte",
+    "licenca": "CC BY 3.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Parque_Ibirapuera_com_Avenida_Paulista.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.gov.br/susep/pt-br/assuntos/sandbox-regulatorio/sandbox-regulatorio-3a-edicao",
+      "titulo": "Susep — Sandbox Regulatório, 3ª edição",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://lefosse.com/noticias/alerta/susep-publica-edital-para-selecao-na-terceira-edicao-do-sandbox-regulatorio/",
+      "titulo": "Lefosse — Susep publica edital para seleção na terceira edição do sandbox",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.mattosfilho.com.br/unico/susep-edital-sandbox-regulatorio/",
+      "titulo": "Mattos Filho — Susep divulga edital para participação em Sandbox Regulatório",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2024-07-16",
+      "descricao": "Publicado o Edital Eletrônico nº 2/2024, que abre a 3ª edição em fluxo contínuo.",
+      "fonte": "https://lefosse.com/noticias/alerta/susep-publica-edital-para-selecao-na-terceira-edicao-do-sandbox-regulatorio/"
+    }
+  ],
+  "recem_adicionado": true
+}

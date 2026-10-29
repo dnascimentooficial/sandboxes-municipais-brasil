@@ -1,0 +1,69 @@
+{
+  "id": "inmetro-metrologia-legal",
+  "nome": "Sandbox Regulatório em Metrologia Legal — Inmetro",
+  "esfera": "federal",
+  "jurisdicao": {
+    "orgao": "INMETRO"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "industria",
+    "startups"
+  ],
+  "resumo": "Portaria de 2025 permite autorizações temporárias para testar soluções inovadoras em metrologia legal; editais ainda não localizados.",
+  "descricao": "A Portaria Inmetro nº 529, de 26 de agosto de 2025, publicada no Diário Oficial em 27 de agosto, aprovou o regulamento do sandbox do Inmetro. Empresas podem receber autorizações temporárias para testar produtos, serviços ou soluções regulatórias inovadoras em metrologia legal, dentro de critérios e limites definidos.\n\nA norma foi precedida de Análise de Impacto Regulatório (Relatório AIR Dimel/Diart nº 02/2025), com comparação com ANTT, Anvisa e a Prefeitura do Rio de Janeiro, e de consulta pública. Os objetivos incluem estimular a inovação, reduzir custo e tempo de maturação das soluções e aprimorar a regulação.\n\nNenhum edital ou projeto admitido foi localizado até a data de verificação.",
+  "desde": "2025-08-26",
+  "gestor": "Instituto Nacional de Metrologia, Qualidade e Tecnologia (Inmetro)",
+  "ingresso": "nao_informado",
+  "documentos": [
+    {
+      "tipo": "portaria",
+      "titulo": "Portaria Inmetro nº 529/2025 — regulamento do sandbox regulatório (reprodução)",
+      "numero": "529/2025",
+      "data": "2025-08-26",
+      "url": "https://www.normasbrasil.com.br/norma/portaria-529-2025_482696.html",
+      "principal": true
+    },
+    {
+      "tipo": "relatorio",
+      "titulo": "Relatório de AIR — Sandbox em Metrologia Legal (Dimel/Diart nº 02/2025)",
+      "url": "https://www.gov.br/inmetro/pt-br/assuntos/regulamentacao/analise-de-impacto-regulatorio/realizadas/2025/sandbox_em_metrologia_legal"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/inmetro-metrologia-legal.jpg",
+    "credito": "HelgeRieder",
+    "licenca": "CC0",
+    "origem": "https://commons.wikimedia.org/wiki/File:English_weight_with_calibration_stamps_(1).jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.gov.br/inmetro/pt-br/assuntos/regulamentacao/analise-de-impacto-regulatorio/realizadas/2025/sandbox_em_metrologia_legal",
+      "titulo": "Inmetro — AIR Sandbox em Metrologia Legal (página oficial)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.normasbrasil.com.br/norma/portaria-529-2025_482696.html",
+      "titulo": "Normas Brasil — Portaria Inmetro nº 529/2025",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://asmetro.org.br/portalsn/wp-content/uploads/2025/11/SANDBOX-EM-METROLOGIAL-LEGAL-_-Luciano-Faruolo.pdf",
+      "titulo": "Asmetro — apresentação Sandbox em Metrologia Legal (2025)",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2025-08-26",
+      "descricao": "Assinada a Portaria Inmetro nº 529/2025.",
+      "fonte": "https://www.normasbrasil.com.br/norma/portaria-529-2025_482696.html"
+    }
+  ],
+  "recem_adicionado": true
+}

@@ -1,0 +1,159 @@
+{
+  "id": "aneel-sandbox-tarifario",
+  "nome": "Sandboxes Tarifários da ANEEL",
+  "esfera": "federal",
+  "jurisdicao": {
+    "orgao": "ANEEL"
+  },
+  "status": "ativo",
+  "temas": [
+    "energia",
+    "mobilidade"
+  ],
+  "resumo": "Distribuidoras testam novas tarifas e formas de faturamento na baixa tensão, como tarifa horária e conta pré-paga.",
+  "descricao": "Os Sandboxes Tarifários da ANEEL permitem que distribuidoras testem, em ambiente controlado e com grupos de consumidores, novas modalidades tarifárias e formas de faturamento, sobretudo para a baixa tensão. A base é a Resolução Normativa nº 966/2021, e os projetos são financiados pelo programa de P&D do setor elétrico.\n\nNa 1ª chamada pública, a ANEEL aprovou em abril de 2023 seis projetos, com custo de R$ 76,7 milhões e mais de 41,5 mil unidades consumidoras: tarifas binômias, horárias, dinâmicas, locacionais e pré-pagamento. A 2ª chamada foi autorizada em outubro de 2023.\n\nProjetos já estão em campo. A Energisa aplicou tarifa horária e dinâmica a cerca de 4 mil consumidores a partir de novembro de 2024 e lançou em 2026 um plano pré-pago de até 12 meses. Em fevereiro de 2026, a Equatorial Alagoas foi autorizada a testar tarifa que integra recursos energéticos e mobilidade elétrica em 400 unidades consumidoras.\n\nEm novembro de 2025 a ANEEL incluiu critérios mínimos de avaliação na REN 966/2021, por recomendação da CGU, e ajustou prazos de conclusão dos projetos.",
+  "desde": "2021",
+  "gestor": "Agência Nacional de Energia Elétrica (ANEEL)",
+  "ingresso": "edital",
+  "elegibilidade": "Concessionárias e permissionárias de distribuição de energia elétrica, que propõem os projetos nas chamadas públicas.",
+  "flexibilizacoes": [
+    "Aplicação de modalidades tarifárias e formas de faturamento experimentais aos consumidores participantes",
+    "Tarifas diferenciadas dentro da área de uma mesma distribuidora durante o teste"
+  ],
+  "documentos": [
+    {
+      "tipo": "resolucao",
+      "titulo": "Resolução Normativa ANEEL nº 966/2021 — sandboxes tarifários",
+      "numero": "966/2021",
+      "url": "https://www2.aneel.gov.br/cedoc/ren2021966.html",
+      "principal": true
+    },
+    {
+      "tipo": "outro",
+      "titulo": "ANEEL — 2ª Chamada Pública de sandboxes tarifários (31/10/2023)",
+      "url": "https://www.gov.br/aneel/pt-br/assuntos/noticias/2023/segunda-chamada-publica-para-projetos-de-sandboxes-tarifarios-e-autorizada"
+    }
+  ],
+  "solucoes": [
+    {
+      "nome": "Tarifa horária, dinâmica e pré-pagamento",
+      "proponente": "Energisa Sul-Sudeste, Energisa Tocantins e Energisa Paraíba",
+      "descricao": "Aprovado na 1ª chamada (28,6 mil unidades consumidoras previstas). Tarifas horária e dinâmica aplicadas desde nov/2024 e plano pré-pago lançado em 2026.",
+      "status": "em_teste",
+      "fonte": "https://cenarioenergia.com.br/2026/03/27/sandbox-da-aneel-energisa-testa-modelo-pre-pago-para-reduzir-inadimplencia-e-modernizar-consumo/"
+    },
+    {
+      "nome": "Tarifa binômia para consumidores de baixa tensão",
+      "proponente": "CPFL Santa Cruz, CPFL Piratininga, CPFL Paulista e RGE",
+      "descricao": "Piloto em Jaguariúna/SP com 1.622 unidades consumidoras. Aprovado na 1ª chamada pública.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/aneel/pt-br/assuntos/noticias/2023/seis-propostas-de-sandboxes-tarifarios-sao-aprovadas-pela-aneel"
+    },
+    {
+      "nome": "Projeto-piloto tarifário para consumidores residenciais",
+      "proponente": "Enel SP",
+      "descricao": "Piloto em São Paulo/SP com 4.580 unidades consumidoras. Aprovado na 1ª chamada pública.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/aneel/pt-br/assuntos/noticias/2023/seis-propostas-de-sandboxes-tarifarios-sao-aprovadas-pela-aneel"
+    },
+    {
+      "nome": "Resposta da demanda na baixa tensão",
+      "proponente": "EDP SP",
+      "descricao": "Piloto em 26 municípios paulistas com 1.604 unidades consumidoras. Aprovado na 1ª chamada pública.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/aneel/pt-br/assuntos/noticias/2023/seis-propostas-de-sandboxes-tarifarios-sao-aprovadas-pela-aneel"
+    },
+    {
+      "nome": "Tarifas binômias na TUSD e horárias na energia",
+      "proponente": "Neoenergia Elektro e Neoenergia Brasília",
+      "descricao": "Piloto em três municípios paulistas com 1.121 unidades consumidoras. Aprovado na 1ª chamada pública.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/aneel/pt-br/assuntos/noticias/2023/seis-propostas-de-sandboxes-tarifarios-sao-aprovadas-pela-aneel"
+    },
+    {
+      "nome": "Tarifa horo-sazonal-locacional",
+      "proponente": "Equatorial Alagoas e CEEE",
+      "descricao": "Piloto com 4.000 unidades consumidoras nas áreas das duas distribuidoras. Aprovado na 1ª chamada pública.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/aneel/pt-br/assuntos/noticias/2023/seis-propostas-de-sandboxes-tarifarios-sao-aprovadas-pela-aneel"
+    },
+    {
+      "nome": "Integração de geração solar, armazenamento e veículos elétricos",
+      "proponente": "Equatorial Alagoas",
+      "descricao": "Autorizado em fevereiro de 2026, com 400 unidades consumidoras em Maceió e Marechal Deodoro e 22 meses de execução.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/aneel/pt-br/assuntos/noticias/2026/aneel-autoriza-distribuidora-a-implementar-sandbox-tarifario-que-integra-recursos-energeticos-e-mobilidade-eletrica"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/aneel-sandbox-tarifario.jpg",
+    "credito": "Marc-Lautenbacher",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Electricity_meters_in_Havana,_Cuba.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.gov.br/aneel/pt-br/assuntos/noticias/2023/seis-propostas-de-sandboxes-tarifarios-sao-aprovadas-pela-aneel",
+      "titulo": "ANEEL — Seis propostas de sandboxes tarifários são aprovadas (18/04/2023)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.gov.br/aneel/pt-br/assuntos/noticias/2023/segunda-chamada-publica-para-projetos-de-sandboxes-tarifarios-e-autorizada",
+      "titulo": "ANEEL — Segunda chamada pública para sandboxes tarifários é autorizada",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.gov.br/aneel/pt-br/assuntos/noticias/2026/aneel-autoriza-distribuidora-a-implementar-sandbox-tarifario-que-integra-recursos-energeticos-e-mobilidade-eletrica",
+      "titulo": "ANEEL — Distribuidora autorizada a implementar sandbox tarifário com recursos energéticos e mobilidade elétrica (03/02/2026)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.gov.br/aneel/pt-br/empreendedores/sandboxes-tarifarios",
+      "titulo": "ANEEL — Sandboxes Tarifários (página oficial)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.osetoreletrico.com.br/?p=162363",
+      "titulo": "O Setor Elétrico — Energisa lança projeto Conta Inteligente",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://cenarioenergia.com.br/2026/03/27/sandbox-da-aneel-energisa-testa-modelo-pre-pago-para-reduzir-inadimplencia-e-modernizar-consumo/",
+      "titulo": "Cenário Energia — Energisa testa modelo pré-pago no sandbox da ANEEL (27/03/2026)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://cenarioenergia.com.br/2025/11/18/aneel-ajusta-regulamentacao-dos-sandboxes-tarifarios-e-reforca-governanca-de-projetos-inovadores/",
+      "titulo": "Cenário Energia — ANEEL ajusta regulamentação dos Sandboxes Tarifários (18/11/2025)",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2026-02-03",
+      "descricao": "ANEEL autoriza sandbox tarifário da Equatorial Alagoas.",
+      "fonte": "https://www.gov.br/aneel/pt-br/assuntos/noticias/2026/aneel-autoriza-distribuidora-a-implementar-sandbox-tarifario-que-integra-recursos-energeticos-e-mobilidade-eletrica"
+    },
+    {
+      "data": "2025-11-18",
+      "descricao": "ANEEL inclui critérios mínimos de avaliação na REN 966/2021 e ajusta prazos dos projetos.",
+      "fonte": "https://cenarioenergia.com.br/2025/11/18/aneel-ajusta-regulamentacao-dos-sandboxes-tarifarios-e-reforca-governanca-de-projetos-inovadores/"
+    },
+    {
+      "data": "2023-10-31",
+      "descricao": "Autorizada a 2ª chamada pública.",
+      "fonte": "https://www.gov.br/aneel/pt-br/assuntos/noticias/2023/segunda-chamada-publica-para-projetos-de-sandboxes-tarifarios-e-autorizada"
+    },
+    {
+      "data": "2023-04-18",
+      "descricao": "Aprovados os seis projetos da 1ª chamada pública.",
+      "fonte": "https://www.gov.br/aneel/pt-br/assuntos/noticias/2023/seis-propostas-de-sandboxes-tarifarios-sao-aprovadas-pela-aneel"
+    }
+  ],
+  "recem_adicionado": true
+}

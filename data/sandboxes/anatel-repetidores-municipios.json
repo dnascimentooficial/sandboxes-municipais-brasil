@@ -1,0 +1,66 @@
+{
+  "id": "anatel-repetidores-municipios",
+  "nome": "Piloto da Anatel: repetidores e reforçadores de sinal móvel por municípios",
+  "esfera": "federal",
+  "jurisdicao": {
+    "orgao": "ANATEL"
+  },
+  "status": "ativo",
+  "temas": [
+    "telecom",
+    "cidades"
+  ],
+  "resumo": "Projeto-piloto que permite a prefeituras instalar repetidores de sinal de telefonia móvel, com regras de radiofrequência suspensas.",
+  "descricao": "Listado pela Anatel entre os projetos-piloto do seu ambiente regulatório experimental, o piloto permite que municípios usem repetidores e reforçadores de sinal do Serviço Móvel Pessoal, sob o Serviço Limitado Privado, para ampliar a cobertura.\n\nAutorizado pelo Ato nº 2.062/2024 (processo 53500.043082/2023-15), vale a partir de 28 de março de 2024 e suspende os arts. 19, 46 e 47 do Regulamento de Uso do Espectro (Resolução nº 671/2016). O ato fixa regras operacionais, licenciamento das estações, prazo do piloto e condições de saída.\n\nA página oficial não informa data de término, municípios participantes nem resultados.",
+  "desde": "2024-03-28",
+  "gestor": "Agência Nacional de Telecomunicações (Anatel)",
+  "ingresso": "nao_informado",
+  "elegibilidade": "Municípios, sob o Serviço Limitado Privado, nos termos do Ato nº 2.062/2024.",
+  "flexibilizacoes": [
+    "Suspensão dos arts. 19, 46 e 47 do Regulamento de Uso do Espectro (Resolução Anatel nº 671/2016)"
+  ],
+  "documentos": [
+    {
+      "tipo": "outro",
+      "titulo": "Ato Anatel nº 2.062/2024 — piloto de repetidores e reforçadores (descrito na página do sandbox)",
+      "numero": "2.062/2024",
+      "url": "https://www.gov.br/anatel/pt-br/regulado/agenda-regulatoria/sandbox-regulatorio",
+      "principal": true
+    }
+  ],
+  "solucoes": [
+    {
+      "nome": "Repetidores e reforçadores de sinal do SMP operados por municípios",
+      "descricao": "Piloto em vigor desde 28/03/2024, sem data de término informada.",
+      "status": "em_teste",
+      "inicio": "2024-03-28",
+      "fonte": "https://www.gov.br/anatel/pt-br/regulado/agenda-regulatoria/sandbox-regulatorio"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/anatel-repetidores-municipios.jpg",
+    "credito": "Kevin Kandlbinder",
+    "licenca": "CC BY 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Cell_Tower_in_Stykkish%C3%B3lmur.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.gov.br/anatel/pt-br/regulado/agenda-regulatoria/sandbox-regulatorio",
+      "titulo": "Anatel — Sandbox Regulatório: projetos-piloto (página oficial, atualizada em 24/09/2026)",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2024-03-28",
+      "descricao": "Início do piloto (Ato nº 2.062/2024).",
+      "fonte": "https://www.gov.br/anatel/pt-br/regulado/agenda-regulatoria/sandbox-regulatorio"
+    }
+  ],
+  "recem_adicionado": true
+}

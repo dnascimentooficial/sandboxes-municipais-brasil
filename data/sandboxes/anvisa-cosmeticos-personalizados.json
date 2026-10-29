@@ -1,0 +1,125 @@
+{
+  "id": "anvisa-cosmeticos-personalizados",
+  "nome": "Projeto-piloto de Sandbox da Anvisa: cosméticos e perfumes personalizados",
+  "esfera": "federal",
+  "jurisdicao": {
+    "orgao": "ANVISA"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "saude",
+    "startups"
+  ],
+  "resumo": "Primeiro sandbox da Anvisa testa a personalização de perfumes e bases no ponto de venda; 4 projetos aprovados em 2026.",
+  "descricao": "É o projeto-piloto com que a Anvisa valida o sandbox regulatório como instrumento, com base na Lei Complementar nº 182/2021. O objetivo é testar a produção personalizada de produtos de higiene pessoal, cosméticos e perfumes no ponto de venda.\n\nO Edital de Chamamento nº 18, de 10 de outubro de 2025, abriu a seleção. A Portaria nº 209, de 23 de fevereiro de 2026, criou o Grupo de Trabalho que conduz a seleção, elabora os protocolos de flexibilização e acompanha os projetos.\n\nQuatro projetos foram habilitados em abril de 2026 e aprovados na análise detalhada em 5 de agosto de 2026: dois do Grupo Boticário e dois da Natura. Os protocolos individualizados de flexibilização ainda dependem de análise jurídica e de aprovação da Diretoria Colegiada, que então concede a autorização temporária. A Anvisa espera iniciar as operações ainda em 2026.",
+  "desde": "2025-10-10",
+  "gestor": "Anvisa — Diretoria Colegiada, com Grupo de Trabalho instituído pela Portaria nº 209/2026",
+  "ingresso": "edital",
+  "flexibilizacoes": [
+    "Protocolo de Flexibilização Regulatória Experimental individualizado por projeto",
+    "Autorização temporária concedida pela Diretoria Colegiada, com planos de monitoramento, contingência e descontinuidade"
+  ],
+  "documentos": [
+    {
+      "tipo": "portaria",
+      "titulo": "Portaria Anvisa nº 209/2026 — institui o GT do Projeto-Piloto de Sandbox de cosméticos personalizados",
+      "numero": "209/2026",
+      "data": "2026-02-23",
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/regulamentacao/sandbox/portaria-209-2026_gt-sandbox-2.pdf",
+      "principal": true
+    },
+    {
+      "tipo": "edital",
+      "titulo": "Edital de Chamamento nº 18/2025 (divulgação da Anvisa)",
+      "numero": "18/2025",
+      "data": "2025-10-10",
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2025/abertas-inscricoes-para-sandbox-regulatorio-de-cosmeticos-personalizados"
+    }
+  ],
+  "solucoes": [
+    {
+      "nome": "Perfumaria Personalizada Premium",
+      "proponente": "Botica Comercial Farmacêutica Ltda. (Grupo Boticário)",
+      "descricao": "Personalização no ponto de venda; aprovado na análise detalhada, aguardando protocolo de flexibilização e autorização temporária.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-conclui-analise-detalhada-do-sandbox-regulatorio-de-cosmeticos-personalizados"
+    },
+    {
+      "nome": "Color Lab",
+      "proponente": "Botica Comercial Farmacêutica Ltda. (Grupo Boticário)",
+      "descricao": "Personalização no ponto de venda; aprovado na análise detalhada, aguardando protocolo de flexibilização e autorização temporária.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-conclui-analise-detalhada-do-sandbox-regulatorio-de-cosmeticos-personalizados"
+    },
+    {
+      "nome": "Performe",
+      "proponente": "Indústria e Comércio de Cosméticos Natura Ltda.",
+      "descricao": "Personalização no ponto de venda; aprovado na análise detalhada, aguardando protocolo de flexibilização e autorização temporária.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-conclui-analise-detalhada-do-sandbox-regulatorio-de-cosmeticos-personalizados"
+    },
+    {
+      "nome": "Par Perfeito",
+      "proponente": "Indústria e Comércio de Cosméticos Natura Ltda.",
+      "descricao": "Personalização no ponto de venda; aprovado na análise detalhada, aguardando protocolo de flexibilização e autorização temporária.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-conclui-analise-detalhada-do-sandbox-regulatorio-de-cosmeticos-personalizados"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/anvisa-cosmeticos-personalizados.jpg",
+    "credito": "www.Pixel.la Free Stock Photos",
+    "licenca": "CC0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Brush-makeup-make-up-brushes_(24244266921).jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-conclui-analise-detalhada-do-sandbox-regulatorio-de-cosmeticos-personalizados",
+      "titulo": "Anvisa — Anvisa conclui análise detalhada do sandbox de cosméticos personalizados (05/08/2026)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2025/abertas-inscricoes-para-sandbox-regulatorio-de-cosmeticos-personalizados",
+      "titulo": "Anvisa — Abertas inscrições para sandbox regulatório de cosméticos personalizados (20/10/2025)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/regulamentacao/sandbox/portaria-209-2026_gt-sandbox-2.pdf",
+      "titulo": "Anvisa — Portaria nº 209, de 23/02/2026",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/regulamentacao/sandbox",
+      "titulo": "Anvisa — Sandbox Regulatório (página oficial)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://legismap.com.br/conteudos/artigos-e-noticias/noticias-anvisa-em-22-04-2026",
+      "titulo": "LegisMap (reprodução de notícia da Anvisa) — análise preliminar do sandbox (22/04/2026)",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2026-08-05",
+      "descricao": "Diretoria Colegiada aprova o resultado da análise detalhada: quatro projetos aptos.",
+      "fonte": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-conclui-analise-detalhada-do-sandbox-regulatorio-de-cosmeticos-personalizados"
+    },
+    {
+      "data": "2026-02-23",
+      "descricao": "Portaria nº 209 institui o Grupo de Trabalho do projeto-piloto.",
+      "fonte": "https://www.gov.br/anvisa/pt-br/assuntos/regulamentacao/sandbox/portaria-209-2026_gt-sandbox-2.pdf"
+    },
+    {
+      "data": "2025-10-10",
+      "descricao": "Publicado o Edital de Chamamento nº 18/2025.",
+      "fonte": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2025/abertas-inscricoes-para-sandbox-regulatorio-de-cosmeticos-personalizados"
+    }
+  ],
+  "recem_adicionado": true
+}

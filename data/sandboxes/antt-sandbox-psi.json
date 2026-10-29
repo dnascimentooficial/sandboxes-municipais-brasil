@@ -1,0 +1,68 @@
+{
+  "id": "antt-sandbox-psi",
+  "nome": "Sandbox Regulatório do Programa de Sustentabilidade para Infraestrutura (PSI) — ANTT",
+  "esfera": "federal",
+  "jurisdicao": {
+    "orgao": "ANTT"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "logistica",
+    "ambiente"
+  ],
+  "resumo": "Concessionárias de rodovias e ferrovias federais testam práticas sustentáveis com regras flexibilizadas, por editais de 2025 e 2026.",
+  "descricao": "O sandbox do Programa de Sustentabilidade para Infraestrutura (PSI) é um ambiente supervisionado e voluntário em que concessionárias de rodovias e ferrovias federais testam tecnologias, metodologias e práticas de sustentabilidade, como conservação ambiental, resiliência climática e qualidade do serviço.\n\nA base é a Resolução ANTT nº 5.999/2022, que rege o sandbox da agência, e a Resolução ANTT nº 6.057/2024, do PSI. Em novembro de 2025 a ANTT publicou os Editais nº 3/2025 (rodovias) e nº 4/2025 (ferrovias); depois veio o Edital Eletrônico nº 01/2026.\n\nOs resultados da seleção saíram em deliberações (nº 191, 192, 254, 255, 300 e 301): finais para o Nível I nos dois modos e preliminares para outros níveis. As fontes consultadas não identificam as concessionárias participantes.",
+  "desde": "2022-11-03",
+  "gestor": "ANTT, com Comitês de Desenvolvimento Sustentável de Rodovias e de Ferrovias",
+  "ingresso": "edital",
+  "elegibilidade": "Concessionárias de rodovias e ferrovias federais reguladas pela ANTT.",
+  "flexibilizacoes": [
+    "Regras flexibilizadas em regime de exceção controlado, com acompanhamento técnico da ANTT"
+  ],
+  "documentos": [
+    {
+      "tipo": "resolucao",
+      "titulo": "Resolução ANTT nº 5.999/2022 — regras do sandbox regulatório da ANTT",
+      "numero": "5.999/2022",
+      "data": "2022-11-03",
+      "url": "https://anttlegis.antt.gov.br/action/ActionDatalegis.php?acao=detalharAto&tipo=RES&numeroAto=00005999&seqAto=000&valorAno=2022&orgao=DG/ANTT/MI&codTipo=&desItem=&desItemFim=&cod_menu=5408&cod_modulo=161&pesquisa=true",
+      "principal": true
+    },
+    {
+      "tipo": "edital",
+      "titulo": "Editais nº 3/2025 (rodovias) e nº 4/2025 (ferrovias) e Edital Eletrônico nº 01/2026 — página do PSI",
+      "url": "https://www.gov.br/antt/pt-br/acesso-a-informacao/acoes-e-programas/ambiente-regulatorio-experimental-sandbox-regulatorio/sandbox-regulatorio-do-programa-de-sustentabilidade-para-infraestrutura-psi"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/antt-sandbox-psi.jpg",
+    "credito": "Fbausch",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Rodovia_Presidente_Dutra_em_Taubat%C3%A9.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.gov.br/antt/pt-br/acesso-a-informacao/acoes-e-programas/ambiente-regulatorio-experimental-sandbox-regulatorio/sandbox-regulatorio-do-programa-de-sustentabilidade-para-infraestrutura-psi",
+      "titulo": "ANTT — Sandbox Regulatório do PSI (página oficial)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.gov.br/antt/pt-br/acesso-a-informacao/acoes-e-programas/ambiente-regulatorio-experimental-sandbox-regulatorio",
+      "titulo": "ANTT — Ambiente Regulatório Experimental (Sandbox Regulatório)",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2022-11-03",
+      "descricao": "ANTT aprova a Resolução nº 5.999/2022, base do seu sandbox.",
+      "fonte": "https://www.gov.br/antt/pt-br/acesso-a-informacao/acoes-e-programas/ambiente-regulatorio-experimental-sandbox-regulatorio"
+    }
+  ],
+  "recem_adicionado": true
+}

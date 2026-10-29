@@ -1,0 +1,87 @@
+{
+  "id": "aneel-sandbox-resposta-demanda",
+  "nome": "Sandbox do Programa de Resposta da Demanda",
+  "esfera": "federal",
+  "jurisdicao": {
+    "orgao": "ANEEL"
+  },
+  "status": "ativo",
+  "temas": [
+    "energia"
+  ],
+  "resumo": "Grandes consumidores são pagos para reduzir o consumo no horário de pico, com contratação pelo ONS; vigência até dez/2026.",
+  "descricao": "O sandbox do Programa de Resposta da Demanda testa a redução voluntária do consumo de energia por grandes consumidores em horários críticos do sistema. Foi autorizado pela Resolução Autorizativa ANEEL nº 12.600/2022, com base na REN nº 1.040/2022, e é operado pelo Operador Nacional do Sistema Elétrico (ONS).\n\nEm setembro de 2024 a ANEEL aprovou a operacionalização do produto de disponibilidade e estendeu a vigência do sandbox de outubro de 2024 para 31 de dezembro de 2026. Nesse produto, o agente recebe pagamento fixo para ficar disponível para até quatro acionamentos mensais de até quatro horas, entre 18h e 22h.\n\nNos acionamentos de setembro de 2024, a Eletrobras atuou como agregadora de um cliente e ofertou 80 MW de redução. O ONS realizou mecanismos competitivos de contratação em 2024 e, segundo a imprensa setorial, em 2026.",
+  "desde": "2022",
+  "gestor": "ANEEL, com operacionalização pelo Operador Nacional do Sistema Elétrico (ONS)",
+  "ingresso": "edital",
+  "elegibilidade": "Consumidores de grande porte, diretamente ou representados por agregadores, que ofertam redução de demanda ao ONS.",
+  "flexibilizacoes": [
+    "Contratação experimental de redução de demanda como produto de disponibilidade, com remuneração fixa mensal"
+  ],
+  "documentos": [
+    {
+      "tipo": "resolucao",
+      "titulo": "Resolução Autorizativa ANEEL nº 12.600/2022 — sandbox de resposta da demanda (texto não localizado; ver notícias)",
+      "numero": "12.600/2022",
+      "url": "https://cenarioenergia.com.br/2024/09/10/aneel-estende-prazo-e-aprova-sandbox-regulatorio-para-resposta-da-demanda-ate-2026/",
+      "principal": true
+    }
+  ],
+  "solucoes": [
+    {
+      "nome": "Redução de 80 MW por cliente agregado",
+      "proponente": "Eletrobras (agregadora)",
+      "descricao": "Primeira vez em que um agregador representou um cliente no programa, com reduções de carga em 14, 16 e 17 de setembro de 2024.",
+      "status": "concluida",
+      "inicio": "2024-09-14",
+      "fim": "2024-09-17",
+      "fonte": "https://eixos.com.br/energia-eletrica/cliente-da-eletrobras-reduz-consumo-em-80-mw-no-programa-de-resposta-da-demanda/"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/aneel-sandbox-resposta-demanda.jpg",
+    "credito": "Marinha do Brasil",
+    "licenca": "CC BY-SA 2.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Linhas_de_transmiss%C3%A3o_PROSUB_-_2021_(53212226602).jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://cenarioenergia.com.br/2024/09/10/aneel-estende-prazo-e-aprova-sandbox-regulatorio-para-resposta-da-demanda-ate-2026/",
+      "titulo": "Cenário Energia — ANEEL estende prazo e aprova sandbox de resposta da demanda até 2026 (10/09/2024)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.osetoreletrico.com.br/?p=161894",
+      "titulo": "O Setor Elétrico — ANEEL aprova operacionalização do sandbox do Programa de Resposta da Demanda",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://eixos.com.br/energia-eletrica/cliente-da-eletrobras-reduz-consumo-em-80-mw-no-programa-de-resposta-da-demanda/",
+      "titulo": "eixos — Cliente da Eletrobras reduz consumo em 80 MW no programa de resposta da demanda (23/09/2024)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://canalsolar.com.br/ons-realiza-com-sucesso-leilao-de-resposta-da-demanda/",
+      "titulo": "Canal Solar — ONS realiza leilão de resposta da demanda",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://agenciainfra.com/blog/ons-abre-consulta-publica-sobre-novo-mecanismo-de-resposta-da-demanda/",
+      "titulo": "Agência iNFRA — ONS abre consulta pública sobre novo mecanismo de resposta da demanda (07/05/2026)",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2024-09-10",
+      "descricao": "ANEEL aprova a operacionalização do sandbox e prorroga a vigência até 31/12/2026.",
+      "fonte": "https://cenarioenergia.com.br/2024/09/10/aneel-estende-prazo-e-aprova-sandbox-regulatorio-para-resposta-da-demanda-ate-2026/"
+    }
+  ],
+  "recem_adicionado": true
+}

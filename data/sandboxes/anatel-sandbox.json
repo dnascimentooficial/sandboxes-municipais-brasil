@@ -1,0 +1,85 @@
+{
+  "id": "anatel-sandbox",
+  "nome": "Ambiente Regulatório Experimental da Anatel (edições periódicas)",
+  "esfera": "federal",
+  "jurisdicao": {
+    "orgao": "ANATEL"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "telecom",
+    "startups"
+  ],
+  "resumo": "Resolução de 2025 cria o sandbox de telecomunicações em edições periódicas; a 1ª edição ainda está em preparação.",
+  "descricao": "A Resolução Anatel nº 776, de 28 de abril de 2025, aprovou o Regulamento de Ambiente Regulatório Experimental. O sandbox funciona em edições periódicas aprovadas por ato do Conselho Diretor, que fixam prazo de submissão, requisitos de participação, temas prioritários, critérios de avaliação e duração máxima dos experimentos.\n\nOs projetos aprovados recebem autorização por ato específico e são acompanhados pela superintendência responsável. Se o experimento der certo, a Anatel pode permitir que interessados ofereçam o modelo testado enquanto atualiza a regulamentação. A norma também criou os Testes de Opção Regulatória, iniciados pela própria agência.\n\nPara preparar a 1ª edição, a Anatel fez a Tomada de Subsídios nº 10/2025, de 3 de novembro a 5 de dezembro de 2025. Nenhum edital da 1ª edição foi localizado até a data de verificação. Projetos-piloto anteriores, como os de telefonia via satélite e repetidores municipais, constam em fichas próprias.",
+  "desde": "2025-04-28",
+  "gestor": "Conselho Diretor da Anatel (aprova cada edição); acompanhamento pela superintendência responsável",
+  "ingresso": "edital",
+  "flexibilizacoes": [
+    "Afastamento temporário de regras específicas, definido no ato que autoriza cada projeto",
+    "Possibilidade de oferta do modelo testado por interessados enquanto a regulamentação é atualizada"
+  ],
+  "documentos": [
+    {
+      "tipo": "resolucao",
+      "titulo": "Resolução Anatel nº 776/2025 — Regulamento de Ambiente Regulatório Experimental",
+      "numero": "776/2025",
+      "data": "2025-04-28",
+      "url": "https://informacoes.anatel.gov.br/legislacao/component/content/article/170-resolucoes/2025/2026-resolucao-776",
+      "principal": true
+    },
+    {
+      "tipo": "outro",
+      "titulo": "Tomada de Subsídios nº 10/2025 — 1ª edição do sandbox",
+      "numero": "10/2025",
+      "data": "2025-11-03",
+      "url": "https://www.gov.br/anatel/pt-br/assuntos/noticias/anatel-publica-tomada-de-subsidios-para-primeira-edicao-do-sandbox-regulatorio-do-setor-de-telecomunicacoes"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/anatel-sandbox.jpg",
+    "credito": "Bidgee",
+    "licenca": "CC BY-SA 2.5 AU",
+    "origem": "https://commons.wikimedia.org/wiki/File:Parabolic_antennas_on_a_telecommunications_tower_on_Willans_Hill.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.gov.br/anatel/pt-br/regulado/agenda-regulatoria/sandbox-regulatorio",
+      "titulo": "Anatel — Sandbox Regulatório (página oficial, atualizada em 24/09/2026)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://informacoes.anatel.gov.br/legislacao/component/content/article/170-resolucoes/2025/2026-resolucao-776",
+      "titulo": "Anatel — Resolução nº 776/2025",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.gov.br/anatel/pt-br/assuntos/noticias/anatel-publica-tomada-de-subsidios-para-primeira-edicao-do-sandbox-regulatorio-do-setor-de-telecomunicacoes",
+      "titulo": "Anatel — Tomada de subsídios para a primeira edição do sandbox (03/11/2025)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.mobiletime.com.br/noticias/07/01/2025/sandbox-anatel-2026/",
+      "titulo": "Mobile Time — Sandbox da Anatel deve ter primeira chamada até 2026",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2025-11-03",
+      "descricao": "Aberta a Tomada de Subsídios nº 10/2025 para a 1ª edição.",
+      "fonte": "https://www.gov.br/anatel/pt-br/assuntos/noticias/anatel-publica-tomada-de-subsidios-para-primeira-edicao-do-sandbox-regulatorio-do-setor-de-telecomunicacoes"
+    },
+    {
+      "data": "2025-04-28",
+      "descricao": "Aprovada a Resolução nº 776/2025.",
+      "fonte": "https://www.gov.br/anatel/pt-br/regulado/agenda-regulatoria/sandbox-regulatorio"
+    }
+  ],
+  "recem_adicionado": true
+}

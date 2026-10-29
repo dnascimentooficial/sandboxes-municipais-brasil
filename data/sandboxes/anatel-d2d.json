@@ -1,0 +1,66 @@
+{
+  "id": "anatel-d2d",
+  "nome": "Piloto da Anatel: telefonia móvel via satélite direto ao celular (D2D)",
+  "esfera": "federal",
+  "jurisdicao": {
+    "orgao": "ANATEL"
+  },
+  "status": "ativo",
+  "temas": [
+    "telecom"
+  ],
+  "resumo": "Piloto permite uso temporário de faixas do serviço móvel para testes de satélite direto ao celular até abril de 2029.",
+  "descricao": "O piloto Direct-to-Device (D2D) permite o uso temporário de radiofrequências das faixas do Serviço Móvel Pessoal para testes de comunicação por satélite diretamente com aparelhos celulares, por prazo maior que o admitido nas regras gerais.\n\nFoi autorizado pelo Ato nº 5.322/2024, alterado pelo Ato nº 10.902/2026 (processo 53500.064601/2023-71), com vigência de 22 de abril de 2024 a 22 de abril de 2029. A autorização temporária deve estar vinculada a uma outorga do Serviço Limitado Privado.\n\nO piloto termina no fim do prazo, quando entrar em vigor a regulamentação definitiva do D2D ou a qualquer momento, se a Anatel não vir interesse em continuar. A página oficial não identifica as empresas participantes.",
+  "desde": "2024-04-22",
+  "gestor": "Agência Nacional de Telecomunicações (Anatel)",
+  "ingresso": "nao_informado",
+  "prazo_teste_meses": 60,
+  "elegibilidade": "Agentes interessados com outorga do Serviço Limitado Privado, que podem pedir autorização temporária de uso de radiofrequência até o fim do piloto.",
+  "flexibilizacoes": [
+    "Substituição do art. 11, I, do Regulamento de Uso Temporário de Radiofrequências (Resolução nº 775/2025), permitindo autorização pelo prazo do piloto"
+  ],
+  "documentos": [
+    {
+      "tipo": "outro",
+      "titulo": "Ato Anatel nº 5.322/2024, alterado pelo Ato nº 10.902/2026 (descritos na página do sandbox)",
+      "numero": "5.322/2024",
+      "url": "https://www.gov.br/anatel/pt-br/regulado/agenda-regulatoria/sandbox-regulatorio",
+      "principal": true
+    }
+  ],
+  "solucoes": [
+    {
+      "nome": "Testes de telefonia móvel via satélite direto ao celular (D2D)",
+      "descricao": "Uso temporário de faixas do SMP para comunicação satelital com aparelhos comuns; vigência até 22/04/2029.",
+      "status": "em_teste",
+      "inicio": "2024-04-22",
+      "fonte": "https://www.gov.br/anatel/pt-br/regulado/agenda-regulatoria/sandbox-regulatorio"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/anatel-d2d.jpg",
+    "credito": "Autor desconhecido",
+    "licenca": "Domínio público",
+    "origem": "https://commons.wikimedia.org/wiki/File:An_artists_concept_of_the_NATO_Defense_Satellite_Communications_System_II_satellite_in_orbit.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.gov.br/anatel/pt-br/regulado/agenda-regulatoria/sandbox-regulatorio",
+      "titulo": "Anatel — Sandbox Regulatório: projetos-piloto (página oficial, atualizada em 24/09/2026)",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2024-04-22",
+      "descricao": "Início do piloto D2D (Ato nº 5.322/2024).",
+      "fonte": "https://www.gov.br/anatel/pt-br/regulado/agenda-regulatoria/sandbox-regulatorio"
+    }
+  ],
+  "recem_adicionado": true
+}

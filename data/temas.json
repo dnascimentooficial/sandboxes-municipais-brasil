@@ -14,5 +14,6 @@
   { "id": "startups", "nome": "Startups e inovação", "icone": "✦", "cor": "#f5e1cf" },
   { "id": "gestao-publica", "nome": "Gestão pública", "icone": "▤", "cor": "#e6e1d6" },
   { "id": "educacao", "nome": "Educação", "icone": "✎", "cor": "#f2e6cc" },
-  { "id": "seguranca", "nome": "Segurança urbana", "icone": "◎", "cor": "#ece0e6" }
+  { "id": "seguranca", "nome": "Segurança urbana", "icone": "◎", "cor": "#ece0e6" },
+  { "id": "industria", "nome": "Indústria e metrologia", "icone": "⚙", "cor": "#e3e7df" }
 ]

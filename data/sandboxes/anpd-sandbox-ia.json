@@ -1,0 +1,123 @@
+{
+  "id": "anpd-sandbox-ia",
+  "nome": "Sandbox Regulatório em Inteligência Artificial e Proteção de Dados (piloto)",
+  "esfera": "federal",
+  "jurisdicao": {
+    "orgao": "ANPD"
+  },
+  "status": "ativo",
+  "temas": [
+    "dados",
+    "startups"
+  ],
+  "resumo": "Piloto da ANPD em que três empresas testam transparência algorítmica em sistemas de IA que tratam dados pessoais.",
+  "descricao": "A ANPD abriu em 27 de junho de 2025 o Edital nº 2/2025, para um piloto de ambiente regulatório experimental em inteligência artificial e proteção de dados. O objeto principal é testar técnicas, tecnologias ou modelos de negócio que promovam a transparência algorítmica, em linha com a LGPD.\n\nO sandbox dura até 20 meses, com até três participantes, e passa por fases de nivelamento, testagem e avaliação. A participação é voluntária e gratuita, e a ANPD não oferece recursos técnicos nem financeiros.\n\nO resultado final, publicado em outubro de 2025, classificou Metatext, Synapse e IA Greenworld. Os relatórios de monitoramento de 2026 citam como participantes Metatext, Synapse AI e Prevvine Tecnologia, que atuam nos setores financeiro, de mobilidade e de saúde. As atividades começaram em março de 2026.",
+  "desde": "2025-06-27",
+  "gestor": "ANPD — Superintendência de Inovação Tecnológica (Sitec), com Comissão de Sandbox designada pelo Diretor-Presidente",
+  "ingresso": "edital",
+  "prazo_teste_meses": 20,
+  "elegibilidade": "Pessoas jurídicas de direito público ou privado com sede ou representação no Brasil, com capacidade técnica e econômica para desenvolver o projeto com recursos próprios e sem impedimento de contratar com a Administração Pública Federal.",
+  "documentos": [
+    {
+      "tipo": "edital",
+      "titulo": "Edital ANPD nº 2/2025 — piloto de sandbox regulatório em IA e proteção de dados",
+      "numero": "2/2025",
+      "data": "2025-06-27",
+      "url": "https://www.in.gov.br/en/web/dou/-/edital-n-2/2025-638543844",
+      "principal": true
+    },
+    {
+      "tipo": "outro",
+      "titulo": "Resultado final da seleção de participantes — Edital nº 2/2025",
+      "url": "https://www.gov.br/anpd/pt-br/assuntos/projetos-acoes-iniciativas/sandbox/resultado-final-selecao-de-participantes-sandbox-regulatorio-anpd-edital-2_2025.pdf"
+    },
+    {
+      "tipo": "relatorio",
+      "titulo": "2º Relatório Parcial de Monitoramento do Sandbox Regulatório",
+      "url": "https://www.gov.br/anpd/pt-br/assuntos/projetos-acoes-iniciativas/sandbox/sandbox-2deg-relatorio-parcial-de-monitoramento-ciclo-2v0-1.pdf/@@display-file/file"
+    }
+  ],
+  "solucoes": [
+    {
+      "nome": "Projeto de IA com transparência algorítmica",
+      "proponente": "Metatext Inteligência Artificial Ltda.",
+      "descricao": "1ª colocada na seleção; participa da fase de testes acompanhada pela ANPD.",
+      "status": "em_teste",
+      "fonte": "https://www.gov.br/anpd/pt-br/assuntos/noticias/anpd-publica-2o-relatorio-parcial-de-monitoramento-do-sandbox-regulatorio-em-inteligencia-artificial"
+    },
+    {
+      "nome": "Projeto de IA com transparência algorítmica",
+      "proponente": "Synapse Artificial Intelligence Ltda.",
+      "descricao": "2ª colocada na seleção; participa da fase de testes acompanhada pela ANPD.",
+      "status": "em_teste",
+      "fonte": "https://www.gov.br/anpd/pt-br/assuntos/noticias/anpd-publica-2o-relatorio-parcial-de-monitoramento-do-sandbox-regulatorio-em-inteligencia-artificial"
+    },
+    {
+      "nome": "Projeto de IA com transparência algorítmica",
+      "proponente": "Prevvine Tecnologia",
+      "descricao": "Aprovada como reserva na seleção; citada como participante no 2º relatório de monitoramento.",
+      "status": "em_teste",
+      "fonte": "https://www.gov.br/anpd/pt-br/assuntos/noticias/anpd-publica-2o-relatorio-parcial-de-monitoramento-do-sandbox-regulatorio-em-inteligencia-artificial"
+    }
+  ],
+  "editais": [
+    {
+      "titulo": "Edital ANPD nº 2/2025",
+      "status": "encerrado",
+      "abertura": "2025-06-27",
+      "encerramento": "2025-08-10",
+      "url": "https://www.in.gov.br/en/web/dou/-/edital-n-2/2025-638543844"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/anpd-sandbox-ia.jpg",
+    "credito": "Carl Lender from Sunrise, USA",
+    "licenca": "CC BY 2.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.in.gov.br/en/web/dou/-/edital-n-2/2025-638543844",
+      "titulo": "Diário Oficial da União — Edital ANPD nº 2/2025",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.gov.br/anpd/pt-br/assuntos/projetos-acoes-iniciativas/sandbox/resultado-final-selecao-de-participantes-sandbox-regulatorio-anpd-edital-2_2025.pdf",
+      "titulo": "ANPD — Resultado final da seleção de participantes",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.gov.br/anpd/pt-br/assuntos/noticias/anpd-publica-2o-relatorio-parcial-de-monitoramento-do-sandbox-regulatorio-em-inteligencia-artificial",
+      "titulo": "ANPD — Publicado o 2º relatório parcial de monitoramento do sandbox de IA (09/10/2026)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://dplnews.com/apos-recursos-anpd-divulga-resultado-final-do-projeto-sandbox-regulatorio/",
+      "titulo": "DPL News — ANPD divulga resultado final do sandbox regulatório",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2026-10-09",
+      "descricao": "ANPD publica o 2º relatório parcial de monitoramento.",
+      "fonte": "https://www.gov.br/anpd/pt-br/assuntos/noticias/anpd-publica-2o-relatorio-parcial-de-monitoramento-do-sandbox-regulatorio-em-inteligencia-artificial"
+    },
+    {
+      "data": "2025-10-14",
+      "descricao": "Publicado o resultado final da seleção.",
+      "fonte": "https://dplnews.com/apos-recursos-anpd-divulga-resultado-final-do-projeto-sandbox-regulatorio/"
+    },
+    {
+      "data": "2025-06-27",
+      "descricao": "Publicado o Edital nº 2/2025.",
+      "fonte": "https://www.in.gov.br/en/web/dou/-/edital-n-2/2025-638543844"
+    }
+  ],
+  "recem_adicionado": true
+}
