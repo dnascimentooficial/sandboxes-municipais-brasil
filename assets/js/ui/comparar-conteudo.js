@@ -93,7 +93,7 @@ export function tabelaComparacao(sandboxes, { temas = [], orgaos = [] } = {}) {
   <div class="cmp-rolagem" tabindex="0" role="region" aria-label="Tabela comparativa (role na horizontal se necessário)">
     <table class="cmp-tabela cmp-n${n}">
       <caption class="sr-only">Comparação lado a lado de ${n} ${n === 1 ? 'sandbox' : 'sandboxes'}</caption>
-      <thead><tr><td class="cmp-canto"></td>${sandboxes.map((s) => cabecalho(s, temas, orgaos)).join('')}</tr></thead>
+      <thead><tr><th scope="col" class="cmp-canto"><span class="sr-only">Campo</span></th>${sandboxes.map((s) => cabecalho(s, temas, orgaos)).join('')}</tr></thead>
       ${corpos}
     </table>
   </div>`;

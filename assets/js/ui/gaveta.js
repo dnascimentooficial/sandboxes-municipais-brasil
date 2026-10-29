@@ -45,6 +45,7 @@ export function montarGaveta(el, ctx) {
 
   let atual = null; // id exibido
   let ultimo = null; // id para devolver o foco ao fechar
+  let origem = null; // elemento focado quando a gaveta abriu
 
   // Lista filtrada + ordenada atual: a mesma que o Panorama mostra.
   function recorte() {
@@ -102,6 +103,8 @@ export function montarGaveta(el, ctx) {
 
   function devolverFoco() {
     const alvos = [
+      // Aberta pelo acordeão do Âmbito nacional: volta para o item de onde saiu.
+      origem?.isConnected && origem.matches('[data-abrir-sandbox]') ? origem : null,
       ultimo && doc.querySelector(`[data-acao="detalhes"][data-id="${CSS.escape(ultimo)}"]`),
       doc.getElementById('lista-titulo'),
       doc.querySelector('[role="tab"][aria-selected="true"]'),
@@ -129,6 +132,7 @@ export function montarGaveta(el, ctx) {
     const abrindo = !atual;
     atual = id;
     ultimo = id;
+    if (abrindo) origem = doc.activeElement;
     if (trocou) desenhar(porId.get(id));
     if (abrindo) mostrar(true);
     atualizarNav(e);

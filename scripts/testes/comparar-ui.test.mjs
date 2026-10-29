@@ -92,3 +92,9 @@ test('toda a base, de 3 em 3, renderiza sem "undefined" e com links seguros', ()
     for (const m of html.matchAll(/<a [^>]*>/g)) assert.match(m[0], /target="_blank" rel="noopener"/);
   }
 });
+
+test('tabela: canto do cabeçalho é <th scope="col"> com rótulo para leitor de tela', () => {
+  const html = tabelaComparacao([porId('curitiba')], { temas, orgaos });
+  assert.match(html, /<thead><tr><th scope="col" class="cmp-canto"><span class="sr-only">Campo<\/span><\/th>/);
+  assert.doesNotMatch(html, /<td class="cmp-canto">/);
+});

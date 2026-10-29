@@ -67,3 +67,14 @@ test('toda a base renderiza sem "undefined"', () => {
     for (const m of html.matchAll(/<a [^>]*>/g)) assert.match(m[0], /target="_blank" rel="noopener"/, s.id);
   }
 });
+
+test('editais: status fora da tabela não lê protótipo (Object.hasOwn)', () => {
+  const html = conteudoGaveta({
+    id: 'x', nome: 'X', status: 'ativo', temas: [],
+    editais: [{ titulo: 'E1', status: 'constructor' }, { titulo: 'E2', status: 'aberto' }, { titulo: 'E3', status: 'toString' }],
+  }, { temas, orgaos });
+  assert.match(html, /<span class="badge outline">constructor<\/span>/);
+  assert.match(html, /<span class="badge outline">toString<\/span>/);
+  assert.match(html, /<span class="badge st-ativo">Aberto<\/span>/);
+  assert.doesNotMatch(html, /function|native code/);
+});

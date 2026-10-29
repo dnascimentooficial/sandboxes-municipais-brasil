@@ -32,7 +32,7 @@ export function jurisdicao(s, orgaos) {
   const esfera = rotulo('esfera', s.esfera);
   if (s.esfera === 'federal') {
     const o = (orgaos ?? []).find((x) => x.sigla === j.orgao);
-    return { sigla: (j.orgao || '?').slice(0, 5), local: o?.nome || j.orgao || NAO_INFORMADO, sub: `${esfera} · ${j.orgao || NAO_INFORMADO}` };
+    return { sigla: j.orgao || '?', local: o?.nome || j.orgao || NAO_INFORMADO, sub: `${esfera} · ${j.orgao || NAO_INFORMADO}` };
   }
   const regiao = j.regiao || NAO_INFORMADO;
   if (s.esfera === 'municipal') {
