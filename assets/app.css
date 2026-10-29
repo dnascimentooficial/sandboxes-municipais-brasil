@@ -14,6 +14,7 @@
   --accent-soft:#eaf4f1;
   --accent-line:rgba(63,143,128,.24);
   --accent-ring:rgba(63,143,128,.45);
+--erro:#b3261e;
   --shadow:0 2px 3px rgba(34,27,23,.04),0 18px 45px rgba(52,39,31,.07);
   --shadow-hover:0 5px 10px rgba(34,27,23,.05),0 24px 58px rgba(52,39,31,.12);
   --ease:cubic-bezier(.16,1,.3,1);
@@ -476,6 +477,34 @@ body.gaveta-aberta{overflow:hidden}
 .modal-corpo h2{margin:0 0 10px;font-size:28px;font-weight:800;letter-spacing:-.045em;line-height:1.05}
 .modal-corpo p{margin:0 0 14px;color:var(--ink-2);font-size:15px;line-height:1.6}
 .modal-close{position:absolute;top:14px;right:14px}
+.modal{overflow:auto;overscroll-behavior:contain}
+.modal-ind{width:min(600px,calc(100vw - 32px))}
+.ind-form .fld{display:flex;flex-direction:column;gap:6px;margin:0 0 16px}
+.ind-form label{font-size:13.5px;font-weight:750;color:var(--ink)}
+.ind-form .req{color:var(--erro);font-style:normal;font-weight:800}
+.ind-form .opc{color:var(--muted);font-weight:600}
+.ind-form input[type="text"],.ind-form input[type="url"],.ind-form input[type="email"],.ind-form textarea{width:100%;min-height:44px;padding:10px 14px;border:1px solid var(--line);border-radius:14px;background:var(--raised);font:inherit;font-size:15px;color:var(--ink);transition:border-color .2s ease,box-shadow .2s ease}
+.ind-form textarea{resize:vertical;min-height:88px;line-height:1.5}
+.ind-form input:focus,.ind-form textarea:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 4px rgba(63,143,128,.14)}
+.ind-form .hint{color:var(--muted);font-size:12.5px}
+.ind-form .err{color:var(--erro);font-size:12.5px;font-weight:700}
+.ind-form .invalido input,.ind-form .invalido textarea{border-color:var(--erro);box-shadow:0 0 0 3px rgba(179,38,30,.1)}
+.ind-contato{margin:4px 0 16px;padding:16px 16px 2px;border:1px solid var(--line-soft);border-radius:18px;background:var(--paper)}
+.ind-contato legend{padding:0 6px;font-size:13.5px;font-weight:800}
+.modal-corpo .ind-nota{margin:-4px 0 12px;font-size:13px;color:var(--muted)}
+.ind-lgpd{margin:0 0 14px}
+.modal-corpo .ind-lgpd p{margin:0 0 10px;font-size:13px;line-height:1.55;color:var(--ink-2)}
+.ind-lgpd a{color:var(--accent-deep)}
+.ind-form .chk{display:flex;align-items:flex-start;gap:10px;font-weight:650;line-height:1.45;cursor:pointer}
+.ind-form .chk input{flex:none;width:18px;height:18px;margin:2px 0 0;accent-color:var(--accent-deep)}
+.ind-lgpd.invalido .chk{color:var(--erro)}
+.hp{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}
+.modal-corpo .ind-erro{margin:0 0 14px;padding:10px 14px;border-radius:14px;background:#fbeceb;color:var(--erro);font-size:13.5px;font-weight:700}
+.ind-acoes{display:flex;justify-content:flex-end;align-items:center;gap:10px;flex-wrap:wrap}
+.ind-acoes .btn-sm{min-height:46px;padding:10px 20px;font-size:14px}
+.ind-acoes .btn-dark:disabled{opacity:.6;cursor:progress;transform:none}
+.ind-ok{padding:8px 0 4px}
+.modal-corpo .ind-ok p{margin:0 0 18px;font-size:17px;font-weight:700;color:var(--accent-deep);outline:none}
 
 /* ---------- Rodapé ---------- */
 .site-foot{margin-top:60px;padding-top:24px;border-top:1px solid var(--line);color:var(--muted);font-size:12.5px;line-height:1.6}

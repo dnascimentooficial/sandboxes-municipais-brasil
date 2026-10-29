@@ -1,0 +1,3 @@
+# Configuração do endpoint de indicação: só existe no servidor (ver api/config.example.php).
+api/config.php
+.claude/

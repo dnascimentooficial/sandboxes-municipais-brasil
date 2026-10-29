@@ -25,7 +25,7 @@
 <meta name="twitter:description" content="Onde o Brasil está testando regras novas: sandboxes regulatórios municipais, estaduais e federais.">
 <meta name="twitter:image" content="https://dnascimento.com.br/sandboxes/og/sandboxes.jpg">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='14' fill='%232f6f63'/%3E%3Crect x='12' y='12' width='24' height='24' rx='6' fill='none' stroke='%23fff' stroke-width='3' stroke-dasharray='5 4'/%3E%3Ccircle cx='24' cy='24' r='4' fill='%23fff'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="assets/app.css?v=8b44aa45d2">
+<link rel="stylesheet" href="assets/app.css?v=98705714bc">
 </head>
 <body>
 <noscript><p class="noscript">Esta página precisa do JavaScript ativado para listar os sandboxes. Observatório de sandboxes regulatórios no Brasil — por <a href="https://www.dnascimento.com.br">Júlio Diógenes</a>.</p></noscript>
@@ -188,19 +188,78 @@
 <!-- GAVETA DE DETALHE (Task 8) -->
 <aside id="gaveta" class="gaveta" role="dialog" aria-modal="true" aria-label="Detalhe do sandbox" hidden></aside>
 
-<!-- MODAL DE INDICAÇÃO (Task 10 substitui este conteúdo) -->
-<dialog id="modal-indicacao" class="modal" aria-labelledby="indicacao-t">
+<!-- MODAL DE INDICAÇÃO (assets/js/ui/indicar.js + api/indicar.php) -->
+<dialog id="modal-indicacao" class="modal modal-ind" aria-labelledby="indicacao-t" aria-describedby="indicacao-d">
   <div class="modal-corpo">
-    <button type="button" class="icon-btn modal-close" data-fechar-modal aria-label="Fechar">✕</button>
+    <button type="button" class="icon-btn modal-close" data-fechar-modal aria-label="Fechar"><span aria-hidden="true">✕</span></button>
     <p class="eyebrow">Indicação</p>
     <h2 id="indicacao-t">Indicar um sandbox</h2>
-    <p>Envie o nome do sandbox, a cidade, o estado ou o órgão e o link da norma ou da fonte oficial.</p>
-    <p><a class="btn-dark" href="mailto:contato@dnascimento.com.br?subject=Indica%C3%A7%C3%A3o%20de%20sandbox">Enviar por e-mail</a></p>
+    <form id="ind-form" class="ind-form" novalidate>
+      <p id="indicacao-d">Conhece um sandbox regulatório que ainda não está na base? Envie o nome, onde ele funciona e o link da norma ou da fonte oficial. Campos com asterisco (<span class="req">*</span>) são obrigatórios.</p>
+
+      <div class="fld" data-campo="nome_sandbox">
+        <label for="f-nome_sandbox">Nome do sandbox <span class="req" aria-hidden="true">*</span></label>
+        <input id="f-nome_sandbox" name="nome_sandbox" type="text" maxlength="200" required autocomplete="off" placeholder="Ex.: Sandbox Regulatório de Inovação" aria-describedby="e-nome_sandbox">
+        <small class="err" id="e-nome_sandbox" hidden></small>
+      </div>
+      <div class="fld" data-campo="jurisdicao">
+        <label for="f-jurisdicao">Cidade, estado ou órgão <span class="req" aria-hidden="true">*</span></label>
+        <input id="f-jurisdicao" name="jurisdicao" type="text" maxlength="200" required autocomplete="off" placeholder="Ex.: Curitiba (PR), Banco Central" aria-describedby="e-jurisdicao">
+        <small class="err" id="e-jurisdicao" hidden></small>
+      </div>
+      <div class="fld" data-campo="fonte_url">
+        <label for="f-fonte_url">Link da norma ou da fonte oficial <span class="req" aria-hidden="true">*</span></label>
+        <input id="f-fonte_url" name="fonte_url" type="url" inputmode="url" maxlength="500" required autocomplete="off" placeholder="https://" aria-describedby="h-fonte_url e-fonte_url">
+        <small class="hint" id="h-fonte_url">Lei, decreto, edital ou página oficial do programa.</small>
+        <small class="err" id="e-fonte_url" hidden></small>
+      </div>
+      <div class="fld" data-campo="observacao">
+        <label for="f-observacao">Observação <span class="opc">(opcional)</span></label>
+        <textarea id="f-observacao" name="observacao" rows="3" maxlength="2000" placeholder="O que mais ajuda a verificar: tema, ano, situação atual." aria-describedby="e-observacao"></textarea>
+        <small class="err" id="e-observacao" hidden></small>
+      </div>
+
+      <fieldset class="ind-contato">
+        <legend>Seu contato <span class="opc">(opcional)</span></legend>
+        <p class="ind-nota" id="ind-nota-contato">Só para tirarmos dúvidas sobre esta indicação. Não é publicado.</p>
+        <div class="fld" data-campo="contato_nome">
+          <label for="f-contato_nome">Seu nome</label>
+          <input id="f-contato_nome" name="contato_nome" type="text" maxlength="200" autocomplete="name" aria-describedby="e-contato_nome">
+          <small class="err" id="e-contato_nome" hidden></small>
+        </div>
+        <div class="fld" data-campo="contato_email">
+          <label for="f-contato_email">Seu e-mail</label>
+          <input id="f-contato_email" name="contato_email" type="email" maxlength="254" autocomplete="email" aria-describedby="e-contato_email">
+          <small class="err" id="e-contato_email" hidden></small>
+        </div>
+      </fieldset>
+
+      <div class="ind-lgpd" data-campo="consentimento">
+        <p id="ind-privacidade"><b>Como usamos os dados.</b> A indicação é conferida antes de entrar na base. Seu nome e e-mail servem só para falar com você sobre ela: não são publicados nem vão para o repositório público do site. Para pedir a exclusão, escreva para <a href="mailto:contato@dnascimento.com.br">contato@dnascimento.com.br</a>.</p>
+        <label class="chk">
+          <input type="checkbox" id="f-consentimento" name="consentimento" required aria-describedby="ind-privacidade e-consentimento">
+          <span>Declaro que as informações são verdadeiras e concordo com o uso descrito acima. <span class="req" aria-hidden="true">*</span></span>
+        </label>
+        <small class="err" id="e-consentimento" hidden></small>
+      </div>
+
+      <div class="hp" aria-hidden="true"><label>Não preencha <input type="text" name="site" id="f-site" tabindex="-1" autocomplete="off"></label></div>
+
+      <p class="ind-erro" id="ind-erro" role="alert" hidden></p>
+      <div class="ind-acoes">
+        <button type="button" class="btn-sm" data-fechar-modal>Cancelar</button>
+        <button type="submit" class="btn-dark" id="ind-enviar">Enviar indicação</button>
+      </div>
+    </form>
+    <div class="ind-ok" id="ind-ok" hidden>
+      <p id="ind-ok-msg" tabindex="-1">Indicação enviada! Ela será verificada antes de entrar na base.</p>
+      <button type="button" class="btn-dark" data-fechar-modal>Fechar</button>
+    </div>
   </div>
 </dialog>
 
 <script src="assets/brasil-mapa.js?v=3a03b533f3"></script>
 <script src="data/sandboxes.js?v=0f03f1f5ce"></script>
-<script type="module" src="assets/js/app.js?v=cff90315cd"></script>
+<script type="module" src="assets/js/app.js?v=6db1c03f3f"></script>
 </body>
 </html>

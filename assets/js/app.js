@@ -11,13 +11,14 @@
 //   ctx.irPara(hashEstado)     {aba?, sandbox?, comparar?} -> grava o hash e redesenha
 //   ctx.pedirComparar(id)      leva o sandbox para o Comparar (ou marca `pendente` se já houver 3)
 //   ctx.abrirSandbox(id)       grava #sandbox=<id>; a gaveta desenha a partir de estado.sandbox
-//   ctx.abrirIndicacao()       abre o modal de indicação (Task 10 substitui o conteúdo)
+//   ctx.abrirIndicacao()       abre o modal "Indicar um sandbox" (ui/indicar.js)
 // As mesmas funções são exportadas para módulos futuros.
 import { lerHash, escreverHash } from './rotas.js';
 import { adicionarAoComparar } from './comparar.js';
 import { montarPanorama } from './ui/panorama.js';
 import { montarGaveta } from './ui/gaveta.js';
 import { montarComparar } from './ui/comparar.js';
+import { montarIndicacao } from './ui/indicar.js';
 
 const dados = window.SANDBOX_DADOS ?? { meta: {}, temas: [], orgaos: [], sandboxes: [] };
 const idsValidos = new Set(dados.sandboxes.map((s) => s.id));
@@ -92,9 +93,10 @@ export function abrirSandbox(id) {
   if (idsValidos.has(id)) irPara({ aba: 'panorama', sandbox: id });
 }
 
-const modal = document.getElementById('modal-indicacao');
+// Modal de indicação: foco, Esc, fundo e envio ficam em ui/indicar.js.
+const indicacao = montarIndicacao(document.getElementById('modal-indicacao'));
 export function abrirIndicacao() {
-  if (modal && typeof modal.showModal === 'function' && !modal.open) modal.showModal();
+  indicacao.abrir();
 }
 
 const ctx = { dados, estado, atualizar, irPara, pedirComparar, abrirSandbox, abrirIndicacao };
@@ -145,11 +147,10 @@ for (const t of abas) {
 
 // ---------- Indicação ----------
 document.addEventListener('click', (ev) => {
-  if (ev.target.closest('[data-indicar]')) abrirIndicacao();
-  else if (ev.target.closest('[data-fechar-modal]')) modal?.close();
-});
-modal?.addEventListener('click', (ev) => {
-  if (ev.target === modal) modal.close(); // clique no fundo
+  if (ev.target.closest('[data-indicar]')) {
+    ev.preventDefault();
+    abrirIndicacao();
+  }
 });
 
 // ---------- Ciclo ----------

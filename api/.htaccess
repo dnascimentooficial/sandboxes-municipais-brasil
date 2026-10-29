@@ -1,0 +1,26 @@
+# Só o endpoint público de indicação é acessível pela web. Todo o resto desta pasta
+# (config.php com o sal e o caminho dos dados, config.example.php, este arquivo) fica bloqueado.
+Options -Indexes
+
+<IfModule mod_authz_core.c>
+  Require all denied
+  <Files "indicar.php">
+    Require all granted
+  </Files>
+  <Files "config.php">
+    Require all denied
+  </Files>
+</IfModule>
+
+<IfModule !mod_authz_core.c>
+  Order deny,allow
+  Deny from all
+  <Files "indicar.php">
+    Order deny,allow
+    Allow from all
+  </Files>
+  <Files "config.php">
+    Order allow,deny
+    Deny from all
+  </Files>
+</IfModule>
