@@ -10,13 +10,14 @@
 //   ctx.atualizar(parcial)     mescla (filtros é mesclado chave a chave) e redesenha
 //   ctx.irPara(hashEstado)     {aba?, sandbox?, comparar?} -> grava o hash e redesenha
 //   ctx.pedirComparar(id)      leva o sandbox para o Comparar (ou marca `pendente` se já houver 3)
-//   ctx.abrirSandbox(id)       grava #sandbox=<id>; a gaveta (Task 8) desenha a partir de estado.sandbox
+//   ctx.abrirSandbox(id)       grava #sandbox=<id>; a gaveta desenha a partir de estado.sandbox
 //   ctx.abrirIndicacao()       abre o modal de indicação (Task 10 substitui o conteúdo)
 // As mesmas funções são exportadas para módulos futuros.
 import { lerHash, escreverHash } from './rotas.js';
 import { adicionarAoComparar } from './comparar.js';
 import { escapar } from './formatar.js';
 import { montarPanorama } from './ui/panorama.js';
+import { montarGaveta } from './ui/gaveta.js';
 
 const dados = window.SANDBOX_DADOS ?? { meta: {}, temas: [], orgaos: [], sandboxes: [] };
 const idsValidos = new Set(dados.sandboxes.map((s) => s.id));
@@ -97,8 +98,8 @@ const ctx = { dados, estado, atualizar, irPara, pedirComparar, abrirSandbox, abr
 // ---------- Telas ----------
 const panorama = montarPanorama(document, ctx);
 
-// Gancho da gaveta: a Task 8 troca este objeto por montarGaveta(...).
-const gaveta = { render(/* estado */) {} };
+// Gaveta de detalhe: abre/fecha a partir de estado.sandbox (#sandbox=<id>).
+const gaveta = montarGaveta(document.getElementById('gaveta'), ctx);
 
 // Comparar provisório: a Task 9 substitui por ui/comparar.js.
 const raizComparar = document.getElementById('comparar');

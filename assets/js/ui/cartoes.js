@@ -66,7 +66,7 @@ export function cartao(s, { temas, orgaos, noComparar }) {
     <span class="sb-card-sol">${solucoesTestadas(s)}</span>
     <div class="sb-card-acoes">
       <button type="button" class="btn-sm" data-acao="detalhes" data-id="${id}" aria-label="Ver detalhes: ${nome}">Ver detalhes</button>
-      <button type="button" class="btn-sm primario" data-acao="comparar" data-id="${id}" aria-pressed="${noComparar ? 'true' : 'false'}" aria-label="Comparar: ${nome}">${noComparar ? 'Na comparação' : 'Comparar'}</button>
+      <button type="button" class="btn-sm primario" data-acao="comparar" data-id="${id}" aria-pressed="${noComparar ? 'true' : 'false'}" aria-label="${noComparar ? 'Na comparação' : 'Comparar'}: ${nome}">${noComparar ? 'Na comparação' : 'Comparar'}</button>
     </div>
   </div>
 </article>`;

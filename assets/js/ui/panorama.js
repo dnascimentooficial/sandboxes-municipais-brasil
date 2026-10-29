@@ -141,7 +141,11 @@ export function montarPanorama(raiz, ctx) {
     ctx.atualizar({ filtros: { ...FILTROS_VAZIOS }, termo: '' });
   }
 
+  // Só o Panorama e o painel de filtros respondem a [data-filtro]: a gaveta e o Comparar ficam de fora.
+  const areas = [$('view-panorama'), $('filtros')].filter(Boolean);
+  const naArea = (el) => areas.some((a) => a.contains(el));
   raiz.addEventListener('click', (ev) => {
+    if (!naArea(ev.target)) return;
     const alvo = ev.target.closest?.('[data-filtro]');
     if (alvo && !alvo.disabled) return aplicarFiltro(alvo.dataset.filtro, alvo.dataset.valor ?? '', true);
     const rem = ev.target.closest?.('[data-remover-filtro]');
@@ -153,6 +157,7 @@ export function montarPanorama(raiz, ctx) {
     if (ev.target.closest?.('[data-limpar]')) return limpar();
   });
   raiz.addEventListener('change', (ev) => {
+    if (!naArea(ev.target)) return;
     const sel = ev.target.closest?.('[data-filtro-sel]');
     if (sel) aplicarFiltro(sel.dataset.filtroSel, sel.value, false);
   });
@@ -201,6 +206,8 @@ export function montarPanorama(raiz, ctx) {
 
   // ---------- Render ----------
   const anelArco = $('anel-arco');
+  let chaveLista = null;
+  let contadorAtual = null;
   function render(e) {
     const f = e.filtros;
     // estados ativos
@@ -226,9 +233,16 @@ export function montarPanorama(raiz, ctx) {
     $('filtros-contagem').hidden = nAtivos === 0;
     $('filtros-contagem').textContent = String(nAtivos);
 
-    // lista
+    // lista: só redesenha quando o recorte ou o Comparar mudam (abrir a gaveta não destrói o foco do card)
+    const chave = JSON.stringify([f, e.termo, e.ordem, e.comparar]);
+    if (chave === chaveLista) return;
+    chaveLista = chave;
     const recorte = ordenar(filtrar(sandboxes, { ...f, termo: e.termo }, temas), e.ordem);
-    $('contador').innerHTML = `Mostrando <b>${recorte.length}</b> de ${nSandboxes(c.total)}`;
+    const contador = `Mostrando <b>${recorte.length}</b> de ${nSandboxes(c.total)}`;
+    if (contador !== contadorAtual) {
+      contadorAtual = contador; // evita repetir o anúncio do aria-live
+      $('contador').innerHTML = contador;
+    }
     const noComparar = new Set(e.comparar);
     $('lista').innerHTML = recorte.map((s) => cartao(s, { temas, orgaos, noComparar: noComparar.has(s.id) })).join('');
     $('lista').hidden = recorte.length === 0;
