@@ -1,3 +1,6 @@
 # Configuração do endpoint de indicação: só existe no servidor (ver api/config.example.php).
 api/config.php
 .claude/
+
+# Fonte em PNG do hero (só as versões AVIF/WebP vão para o repositório).
+assets/hero/*.png
