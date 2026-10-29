@@ -494,5 +494,13 @@
       "mudou": false,
       "avisos": []
     }
+  },
+  "rodizio": {
+    "hoje": "2026-10-29",
+    "semana_iso": 44,
+    "rodizio": true,
+    "posicoes": "pares",
+    "total": 71,
+    "a_verificar": 35
   }
 }
