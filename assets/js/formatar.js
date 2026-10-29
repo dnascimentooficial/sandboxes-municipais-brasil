@@ -45,3 +45,15 @@ export function temasTexto(ids, temas) {
   const porId = new Map((temas ?? []).map((t) => [t.id, t.nome]));
   return ids.map((id) => porId.get(id) ?? id).join(' · ');
 }
+
+// Só deixa passar URLs absolutas http(s). Qualquer outra coisa vira '#'.
+// O resultado ainda precisa de escapar() ao entrar num atributo.
+export function urlSegura(u) {
+  if (typeof u !== 'string' || !u) return '#';
+  try {
+    const url = new URL(u);
+    return url.protocol === 'http:' || url.protocol === 'https:' ? u : '#';
+  } catch {
+    return '#';
+  }
+}

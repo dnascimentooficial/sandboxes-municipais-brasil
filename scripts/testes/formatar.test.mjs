@@ -54,3 +54,13 @@ test('temasTexto', () => {
   assert.equal(temasTexto(['turismo', 'financas'], temas), 'Turismo · Finanças');
   assert.equal(temasTexto(['turismo', 'novo'], temas), 'Turismo · novo');
 });
+
+test('urlSegura aceita só http(s)', async () => {
+  const { urlSegura } = await import('../../assets/js/formatar.js');
+  assert.equal(urlSegura('javascript:alert(1)'), '#');
+  assert.equal(urlSegura('https://x.gov.br/a'), 'https://x.gov.br/a');
+  assert.equal(urlSegura('http://x.gov.br/a?b=1'), 'http://x.gov.br/a?b=1');
+  for (const v of ['nada disso', '', null, undefined, 42, 'data:text/html,oi', '//x.gov.br', 'ftp://x']) {
+    assert.equal(urlSegura(v), '#');
+  }
+});
