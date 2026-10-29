@@ -15,13 +15,12 @@
 // As mesmas funções são exportadas para módulos futuros.
 import { lerHash, escreverHash } from './rotas.js';
 import { adicionarAoComparar } from './comparar.js';
-import { escapar } from './formatar.js';
 import { montarPanorama } from './ui/panorama.js';
 import { montarGaveta } from './ui/gaveta.js';
+import { montarComparar } from './ui/comparar.js';
 
 const dados = window.SANDBOX_DADOS ?? { meta: {}, temas: [], orgaos: [], sandboxes: [] };
 const idsValidos = new Set(dados.sandboxes.map((s) => s.id));
-const porId = new Map(dados.sandboxes.map((s) => [s.id, s]));
 
 const FILTROS_VAZIOS = { esfera: '', status: '', regiao: '', uf: '', tema: '', orgao: '' };
 
@@ -53,6 +52,11 @@ function sincronizarHash() {
   if (h.aba === 'comparar') {
     st.comparar = h.comparar;
     if (st.pendente && st.comparar.length < 3) st.pendente = null;
+    // Hash com ids inválidos/repetidos (#comparar=a,a,xyz) é reescrito já normalizado.
+    const limpo = escreverHash(h);
+    if (limpo !== location.hash) history.replaceState(null, '', limpo);
+  } else {
+    st.pendente = null; // saiu do Comparar: o pedido de substituição perde o sentido
   }
 }
 
@@ -101,25 +105,8 @@ const panorama = montarPanorama(document, ctx);
 // Gaveta de detalhe: abre/fecha a partir de estado.sandbox (#sandbox=<id>).
 const gaveta = montarGaveta(document.getElementById('gaveta'), ctx);
 
-// Comparar provisório: a Task 9 substitui por ui/comparar.js.
-const raizComparar = document.getElementById('comparar');
-function renderComparar(e) {
-  const escolhidos = e.comparar.map((id) => porId.get(id)).filter(Boolean);
-  const itens = escolhidos
-    .map((s) => `<li><b>${escapar(s.nome)}</b><button type="button" class="btn-sm" data-remover="${escapar(s.id)}">Remover</button></li>`)
-    .join('');
-  raizComparar.innerHTML = `
-    <p class="eyebrow">Comparar</p>
-    <h1 class="block-title">Comparar sandboxes</h1>
-    ${escolhidos.length
-      ? `<ul class="cmp-lista">${itens}</ul>`
-      : '<p class="cmp-vazio lede">Escolha até 3 sandboxes no Panorama pelo botão “Comparar” de cada card.</p>'}`;
-}
-raizComparar.addEventListener('click', (ev) => {
-  const b = ev.target.closest('[data-remover]');
-  if (!b) return;
-  irPara({ aba: 'comparar', comparar: st.comparar.filter((x) => x !== b.dataset.remover) });
-});
+// Comparar: até 3 sandboxes lado a lado (#comparar=<id1>,<id2>,<id3>).
+const comparar = montarComparar(document.getElementById('comparar'), ctx);
 
 // ---------- Abas ----------
 const abas = [...document.querySelectorAll('[role="tab"][data-aba]')];
@@ -171,7 +158,7 @@ function render() {
   const e = estado();
   renderAbas(e);
   if (e.aba === 'panorama') panorama.render(e);
-  else renderComparar(e);
+  else comparar.render(e.comparar);
   gaveta.render(e);
   if (anterior.aba && anterior.aba !== e.aba) window.scrollTo({ top: 0 });
   anterior = e;

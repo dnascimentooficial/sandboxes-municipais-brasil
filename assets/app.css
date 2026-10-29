@@ -359,11 +359,57 @@ body.aba-comparar #filtros,body.aba-comparar .hdr-filter-btn{display:none !impor
 .autor-link{border:0;background:none;padding:0;color:inherit;font:inherit;font-weight:650;text-decoration:underline;text-decoration-color:rgba(110,105,98,.35);text-underline-offset:3px;cursor:pointer;transition:color .2s ease,text-decoration-color .2s ease}
 .autor-link:hover{color:var(--accent-deep);text-decoration-color:var(--accent)}
 
-/* ---------- Comparar (provisório até a Task 9) ---------- */
-.cmp-vazio{max-width:640px}
-.cmp-lista{display:flex;flex-direction:column;gap:10px;margin:18px 0 0;padding:0;list-style:none}
-.cmp-lista li{display:flex;align-items:center;gap:12px;padding:14px 16px;border-radius:16px;background:var(--surface);box-shadow:var(--shadow)}
-.cmp-lista li b{flex:1}
+/* ---------- Comparar ---------- */
+.cmp-aviso{margin:26px 0 0;padding:18px 20px;border:1px solid var(--accent-line);border-radius:18px;background:var(--accent-soft);color:var(--ink-2)}
+.cmp-aviso p{margin:0 0 10px;font-size:14.5px}
+.cmp-aviso .cmp-aviso-tit{font-size:17px;font-weight:800;color:var(--accent-deep)}
+.cmp-aviso-acoes{display:flex;flex-wrap:wrap;gap:8px}
+.cmp-aviso-acoes .cmp-cancelar{background:transparent}
+.cmp-campos{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;align-items:end;margin:28px 0 0}
+.cmp-slot{display:flex;flex-direction:column;gap:6px;min-width:0}
+.cmp-slot-n{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.cmp-slot.cheio{flex-direction:row;flex-wrap:wrap;align-items:center;gap:4px 10px;min-height:46px;padding:8px 8px 8px 16px;border:1px solid var(--accent-line);border-radius:18px;background:var(--surface)}
+.cmp-slot.cheio .cmp-slot-n{flex:1 0 100%}
+.cmp-slot.cheio b{flex:1;min-width:0;font-size:14.5px;line-height:1.3}
+.cmp-combo{position:relative}
+.cmp-combo input{width:100%;min-height:46px;padding:10px 18px;border:1px solid var(--line);border-radius:999px;background:var(--raised);font-size:14px;transition:border-color .2s ease,box-shadow .2s ease}
+.cmp-combo input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 4px rgba(63,143,128,.14)}
+.cmp-lista{position:absolute;left:0;right:0;top:calc(100% + 6px);z-index:30;max-height:340px;overflow-y:auto;margin:0;padding:6px;list-style:none;border:1px solid var(--line);border-radius:16px;background:var(--raised);box-shadow:var(--shadow-hover)}
+.cmp-op{display:flex;flex-direction:column;gap:1px;padding:9px 12px;border-radius:10px;cursor:pointer;font-size:14px}
+.cmp-op span{font-size:12.5px;color:var(--muted)}
+.cmp-op:hover,.cmp-op[aria-selected="true"]{background:var(--accent-soft);color:var(--accent-deep)}
+.cmp-op[aria-selected="true"]{box-shadow:inset 3px 0 0 var(--accent-deep)}
+.cmp-nada{position:absolute;left:0;right:0;top:calc(100% + 6px);z-index:30;margin:0;padding:12px 16px;border:1px solid var(--line);border-radius:16px;background:var(--raised);font-size:13.5px;color:var(--muted)}
+.cmp-mais{justify-self:start;align-self:end;min-height:46px;padding:10px 20px;font-size:13.5px}
+.cmp-resultado{margin-top:28px}
+.cmp-vazio{margin:0}
+.cmp-legenda{display:flex;flex-wrap:wrap;align-items:center;gap:6px 18px;margin:0 0 12px;font-size:12.5px;color:var(--muted);font-weight:650}
+.cmp-leg-item{display:inline-flex;align-items:center;gap:6px}
+.cmp-leg{display:inline-block;flex:none;width:14px;height:14px;border-radius:4px;border:1px solid var(--line)}
+.cmp-leg.difere{background:var(--accent-soft);border-color:var(--accent-line)}
+.cmp-leg.igual{background:var(--surface)}
+.cmp-rolagem{overflow-x:auto;border-radius:var(--radius);background:var(--surface);box-shadow:var(--shadow);-webkit-overflow-scrolling:touch}
+.cmp-tabela{width:100%;border-collapse:separate;border-spacing:0;table-layout:fixed;font-size:14px;line-height:1.5}
+.cmp-tabela th,.cmp-tabela td{padding:12px 16px;border-bottom:1px solid var(--line-soft);text-align:left;vertical-align:top;overflow-wrap:anywhere}
+.cmp-tabela tbody th[scope="row"],.cmp-canto{position:sticky;left:0;z-index:2;width:200px;background:var(--surface);font-size:12.5px;font-weight:800;color:var(--ink-2);box-shadow:1px 0 0 var(--line-soft)}
+.cmp-tabela thead th{padding:16px;font-weight:400;border-bottom:1px solid var(--line)}
+.cmp-foto{margin:0 0 12px}
+.cmp-foto img{display:block;width:100%;height:120px;object-fit:cover;border-radius:14px;background:var(--line-soft)}
+.cmp-foto figcaption{margin-top:4px;font-size:11px;line-height:1.4;color:var(--muted)}
+.cmp-foto .gv-faixa{height:120px;margin:0;border-radius:14px}
+.cmp-col-cab{display:flex;align-items:flex-start;gap:8px}
+.cmp-col-nome{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.cmp-col-nome b{font-size:16px;font-weight:800;line-height:1.25;letter-spacing:-.02em}
+.cmp-col-nome span{font-size:12.5px;color:var(--muted)}
+.cmp-col-selo{margin-top:8px}
+.cmp-grupo th{padding:18px 16px 8px;border-bottom:1px solid var(--line);background:var(--paper)}
+.cmp-grupo th span{position:sticky;left:16px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-deep)}
+.cmp-tabela tr.linha-igual td,.cmp-tabela tr.linha-igual th[scope="row"]{color:var(--muted);font-weight:400}
+.cmp-tabela tr.linha-difere td{background:var(--accent-soft);color:var(--ink)}
+.cmp-tabela tr.linha-difere th[scope="row"]{background:var(--accent-soft);box-shadow:inset 3px 0 0 var(--accent),1px 0 0 var(--line-soft)}
+.cmp-tabela tbody:last-child tr:last-child > *{border-bottom:0}
+.cmp-docs{display:flex;flex-direction:column;gap:6px;margin:0;padding:0;list-style:none}
+.cmp-docs a{color:var(--accent-deep);text-underline-offset:3px}
 
 /* ---------- Gaveta lateral ---------- */
 .gaveta-fundo{position:fixed;inset:0;z-index:60;background:rgba(17,17,18,.32);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);animation:fade .3s ease}
@@ -475,6 +521,12 @@ body.gaveta-aberta{overflow:hidden}
   .gv-foto img{height:180px}
   .gv-cab h2{font-size:24px}
   .gv-dl > div{grid-template-columns:1fr;gap:2px}
+  .cmp-tabela{font-size:13.5px}
+  .cmp-tabela.cmp-n2{width:calc(120px + 2 * 230px)}
+  .cmp-tabela.cmp-n3{width:calc(120px + 3 * 230px)}
+  .cmp-tabela tbody th[scope="row"],.cmp-canto{width:120px;padding:10px 12px}
+  .cmp-tabela th,.cmp-tabela td{padding:10px 12px}
+  .cmp-foto img,.cmp-foto .gv-faixa{height:96px}
 }
 @media (max-width:640px){
   .hdr-brand > span{display:none}
