@@ -5,13 +5,13 @@
   "jurisdicao": {
     "orgao": "SUSEP"
   },
-  "status": "ativo",
+  "status": "regulamentado",
   "temas": [
     "seguros",
     "startups"
   ],
-  "resumo": "Primeira edição do sandbox de seguros (2020): 11 projetos selecionados; Pier, Iza, Simple2u e 88i já têm autorização definitiva.",
-  "descricao": "A Susep instituiu o sandbox regulatório de seguros com a Resolução CNSP nº 381, de 4 de março de 2020, e a Circular Susep nº 598/2020. Os selecionados recebem autorização temporária, de até 36 meses, para operar como seguradoras com foco em produtos massificados de curto prazo.\n\nNa 1ª edição (Edital Eletrônico nº 2/2020), a Susep selecionou 11 projetos: 88i, Coover, Emotion, Flix, Iza, Komus, MAG, Pier, Split Risk, Stone e Thinkseg. A seleção não garantia, por si, a autorização temporária.\n\nParte das participantes já obteve autorização definitiva, como Pier, Iza, Simple2u (do grupo MAG) e 88i, esta pela Portaria DIORE/SUSEP nº 110, de 26 de fevereiro de 2026. A situação atual das demais não foi confirmada em fonte oficial.",
+  "resumo": "Primeira edição do sandbox de seguros (2020), com 11 projetos selecionados; parte das insurtechs já tem autorização definitiva.",
+  "descricao": "A Susep instituiu o sandbox regulatório de seguros com a Resolução CNSP nº 381, de 4 de março de 2020, e a Circular Susep nº 598/2020. Os selecionados recebem autorização temporária, de até 36 meses, para operar como seguradoras com foco em produtos massificados de curto prazo.\n\nNa 1ª edição (Edital Eletrônico nº 2/2020), a Susep selecionou 11 projetos: 88i, Coover, Emotion, Flix, Iza, Komus, MAG, Pier, Split Risk, Stone e Thinkseg. A seleção não garantia, por si, a autorização temporária.\n\nParte das participantes já obteve autorização definitiva, como Pier, Iza, Simple2u (do grupo MAG) e 88i, esta pela Portaria DIORE/SUSEP nº 110, de 26 de fevereiro de 2026. Essas conversões constam de imprensa especializada. As autorizações temporárias têm até 36 meses; a situação atual das demais participantes e o eventual encerramento da edição não constam de fonte oficial.",
   "desde": "2020-03-04",
   "gestor": "Superintendência de Seguros Privados (Susep), sob as regras do CNSP",
   "ingresso": "edital",
@@ -42,28 +42,28 @@
     {
       "nome": "Seguros de eletrônicos e automóvel",
       "proponente": "Pier",
-      "descricao": "Selecionada na 1ª edição; já recebeu autorização definitiva da Susep.",
+      "descricao": "Selecionada na 1ª edição; recebeu autorização definitiva da Susep (informação de imprensa especializada; não confirmada em fonte oficial da Susep).",
       "status": "concluida",
       "fonte": "https://finsidersbrasil.com.br/regulamentacao/mais-duas-insurtechs-recebem-autorizacao-definitiva-da-susep"
     },
     {
       "nome": "Seguro de acidentes pessoais",
       "proponente": "Iza Seguradora",
-      "descricao": "Selecionada na 1ª edição; recebeu autorização definitiva para seguros de pessoas (segmento S4).",
+      "descricao": "Selecionada na 1ª edição; recebeu autorização definitiva para seguros de pessoas (segmento S4) (informação de imprensa especializada; não confirmada em fonte oficial da Susep).",
       "status": "concluida",
       "fonte": "https://finsidersbrasil.com.br/regulamentacao/mais-duas-insurtechs-recebem-autorizacao-definitiva-da-susep"
     },
     {
       "nome": "Acidentes pessoais e residencial",
       "proponente": "MAG (Simple2u Seguros)",
-      "descricao": "Selecionada na 1ª edição; a Simple2u recebeu autorização definitiva para danos e pessoas (segmento S2).",
+      "descricao": "Selecionada na 1ª edição; a Simple2u recebeu autorização definitiva para danos e pessoas (segmento S2) (informação de imprensa especializada; não confirmada em fonte oficial da Susep).",
       "status": "concluida",
       "fonte": "https://finsidersbrasil.com.br/regulamentacao/mais-duas-insurtechs-recebem-autorizacao-definitiva-da-susep"
     },
     {
       "nome": "Seguros de perda de renda, acidentes pessoais, celular, auto e bagagem",
       "proponente": "88i Seguradora Digital",
-      "descricao": "Selecionada na 1ª edição; autorização definitiva pela Portaria DIORE/SUSEP nº 110/2026.",
+      "descricao": "Selecionada na 1ª edição; autorização definitiva pela Portaria DIORE/SUSEP nº 110/2026 (informação de imprensa especializada; não confirmada em fonte oficial da Susep).",
       "status": "concluida",
       "fonte": "https://revistaapolice.com.br/?p=137309"
     },

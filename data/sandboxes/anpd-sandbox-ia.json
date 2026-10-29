@@ -39,21 +39,21 @@
   ],
   "solucoes": [
     {
-      "nome": "Projeto de IA com transparência algorítmica",
+      "nome": "Projeto de IA com transparência algorítmica — Metatext",
       "proponente": "Metatext Inteligência Artificial Ltda.",
       "descricao": "1ª colocada na seleção; participa da fase de testes acompanhada pela ANPD.",
       "status": "em_teste",
       "fonte": "https://www.gov.br/anpd/pt-br/assuntos/noticias/anpd-publica-2o-relatorio-parcial-de-monitoramento-do-sandbox-regulatorio-em-inteligencia-artificial"
     },
     {
-      "nome": "Projeto de IA com transparência algorítmica",
+      "nome": "Projeto de IA com transparência algorítmica — Synapse AI",
       "proponente": "Synapse Artificial Intelligence Ltda.",
       "descricao": "2ª colocada na seleção; participa da fase de testes acompanhada pela ANPD.",
       "status": "em_teste",
       "fonte": "https://www.gov.br/anpd/pt-br/assuntos/noticias/anpd-publica-2o-relatorio-parcial-de-monitoramento-do-sandbox-regulatorio-em-inteligencia-artificial"
     },
     {
-      "nome": "Projeto de IA com transparência algorítmica",
+      "nome": "Projeto de IA com transparência algorítmica — Prevvine",
       "proponente": "Prevvine Tecnologia",
       "descricao": "Aprovada como reserva na seleção; citada como participante no 2º relatório de monitoramento.",
       "status": "em_teste",
@@ -95,6 +95,11 @@
       "url": "https://dplnews.com/apos-recursos-anpd-divulga-resultado-final-do-projeto-sandbox-regulatorio/",
       "titulo": "DPL News — ANPD divulga resultado final do sandbox regulatório",
       "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www2.camara.leg.br/legin/fed/medpro/2025/medidaprovisoria-1317-17-setembro-2025-797987-anexo-pe.pdf",
+      "titulo": "Câmara dos Deputados — Medida Provisória nº 1.317/2025",
+      "acessado_em": "2026-10-29"
     }
   ],
   "verificado_em": "2026-10-29",
@@ -111,7 +116,12 @@
     {
       "data": "2025-10-14",
       "descricao": "Publicado o resultado final da seleção.",
-      "fonte": "https://dplnews.com/apos-recursos-anpd-divulga-resultado-final-do-projeto-sandbox-regulatorio/"
+      "fonte": "https://www.gov.br/anpd/pt-br/assuntos/projetos-acoes-iniciativas/sandbox/resultado-final-selecao-de-participantes-sandbox-regulatorio-anpd-edital-2_2025.pdf"
+    },
+    {
+      "data": "2025-09-18",
+      "descricao": "Medida Provisória nº 1.317/2025 transforma a Autoridade em Agência Nacional de Proteção de Dados, mantendo a sigla ANPD.",
+      "fonte": "https://www2.camara.leg.br/legin/fed/medpro/2025/medidaprovisoria-1317-17-setembro-2025-797987-anexo-pe.pdf"
     },
     {
       "data": "2025-06-27",

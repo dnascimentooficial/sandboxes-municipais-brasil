@@ -11,7 +11,7 @@
     "seguranca"
   ],
   "resumo": "Piloto de 24 meses (desde out/2024) liberou a faixa de 71–76 GHz para escâneres corporais usados em inspeção de segurança.",
-  "descricao": "O piloto autoriza equipamentos emissores-sensores para escaneamento corporal em inspeções de segurança, como em aeroportos, a operar na subfaixa de 71 GHz a 76 GHz, hoje restrita pela Resolução Anatel nº 680/2017.\n\nFoi autorizado pelo Ato nº 15.039/2024, modificado pelo Ato nº 15.724/2025 (processo 53500.000127/2023-01), com vigência de 24 meses a partir de 24 de outubro de 2024. As demais regras de certificação e homologação continuam valendo.\n\nPela vigência informada na página da Anatel, o prazo terminaria em 24 de outubro de 2026. Nenhuma nova prorrogação foi localizada até a data de verificação.",
+  "descricao": "O piloto autoriza equipamentos emissores-sensores para escaneamento corporal em inspeções de segurança, como em aeroportos, a operar na subfaixa de 71 GHz a 76 GHz, hoje restrita pela Resolução Anatel nº 680/2017.\n\nFoi autorizado pelo Ato nº 15.039/2024 e modificado pelo Ato nº 15.724/2025 (processo 53500.000127/2023-01). Em 24 de outubro de 2025 o Conselho Diretor prorrogou o piloto por 12 meses a partir de 25 de outubro de 2025; a página da Anatel indica vigência total de 24 meses desde 24 de outubro de 2024. As demais regras de certificação e homologação continuam valendo.\n\nPela vigência informada na página da Anatel, o prazo terminaria em 24 de outubro de 2026. Nenhuma nova prorrogação foi localizada até a data de verificação.",
   "desde": "2024-10-24",
   "gestor": "Agência Nacional de Telecomunicações (Anatel)",
   "ingresso": "nao_informado",
@@ -49,6 +49,11 @@
       "url": "https://www.gov.br/anatel/pt-br/regulado/agenda-regulatoria/sandbox-regulatorio",
       "titulo": "Anatel — Sandbox Regulatório: projetos-piloto (página oficial, atualizada em 24/09/2026)",
       "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://teletime.com.br/24/10/2025/anatel-prorroga-sandbox-regulatorio-de-scanners-corporais/",
+      "titulo": "Teletime — Anatel prorroga sandbox regulatório de scanners corporais (24/10/2025)",
+      "acessado_em": "2026-10-29"
     }
   ],
   "verificado_em": "2026-10-29",
@@ -56,6 +61,11 @@
     {
       "data": "2026-10-29",
       "descricao": "Incluído na base."
+    },
+    {
+      "data": "2025-10-24",
+      "descricao": "Conselho Diretor prorroga o piloto por 12 meses a partir de 25/10/2025.",
+      "fonte": "https://teletime.com.br/24/10/2025/anatel-prorroga-sandbox-regulatorio-de-scanners-corporais/"
     },
     {
       "data": "2024-10-24",

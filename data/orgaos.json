@@ -3,7 +3,7 @@
   { "sigla": "CVM", "nome": "Comissão de Valores Mobiliários", "url": "https://www.gov.br/cvm" },
   { "sigla": "SUSEP", "nome": "Superintendência de Seguros Privados", "url": "https://www.gov.br/susep" },
   { "sigla": "ANEEL", "nome": "Agência Nacional de Energia Elétrica", "url": "https://www.gov.br/aneel" },
-  { "sigla": "ANPD", "nome": "Autoridade Nacional de Proteção de Dados", "url": "https://www.gov.br/anpd" },
+  { "sigla": "ANPD", "nome": "Agência Nacional de Proteção de Dados", "url": "https://www.gov.br/anpd" },
   { "sigla": "ANATEL", "nome": "Agência Nacional de Telecomunicações", "url": "https://www.gov.br/anatel" },
   { "sigla": "ANVISA", "nome": "Agência Nacional de Vigilância Sanitária", "url": "https://www.gov.br/anvisa" },
   { "sigla": "ANAC", "nome": "Agência Nacional de Aviação Civil", "url": "https://www.gov.br/anac" },

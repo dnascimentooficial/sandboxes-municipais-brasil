@@ -5,12 +5,12 @@
   "jurisdicao": {
     "orgao": "ANEEL"
   },
-  "status": "ativo",
+  "status": "regulamentado",
   "temas": [
     "energia"
   ],
-  "resumo": "Grandes consumidores são pagos para reduzir o consumo no horário de pico, com contratação pelo ONS; vigência até dez/2026.",
-  "descricao": "O sandbox do Programa de Resposta da Demanda testa a redução voluntária do consumo de energia por grandes consumidores em horários críticos do sistema. Foi autorizado pela Resolução Autorizativa ANEEL nº 12.600/2022, com base na REN nº 1.040/2022, e é operado pelo Operador Nacional do Sistema Elétrico (ONS).\n\nEm setembro de 2024 a ANEEL aprovou a operacionalização do produto de disponibilidade e estendeu a vigência do sandbox de outubro de 2024 para 31 de dezembro de 2026. Nesse produto, o agente recebe pagamento fixo para ficar disponível para até quatro acionamentos mensais de até quatro horas, entre 18h e 22h.\n\nNos acionamentos de setembro de 2024, a Eletrobras atuou como agregadora de um cliente e ofertou 80 MW de redução. O ONS realizou mecanismos competitivos de contratação em 2024 e, segundo a imprensa setorial, em 2026.",
+  "resumo": "Grandes consumidores ofertam redução de consumo no horário de pico ao ONS; sandbox vigente até dez/2026, segundo a imprensa.",
+  "descricao": "O sandbox do Programa de Resposta da Demanda testa a redução voluntária do consumo de energia por grandes consumidores em horários críticos do sistema. Foi autorizado pela Resolução Autorizativa ANEEL nº 12.600/2022, com base na REN nº 1.040/2022, e é operado pelo Operador Nacional do Sistema Elétrico (ONS).\n\nEm setembro de 2024 a ANEEL aprovou a operacionalização do produto de disponibilidade e estendeu a vigência do sandbox de outubro de 2024 para 31 de dezembro de 2026. Nesse produto, o agente recebe pagamento fixo para ficar disponível para até quatro acionamentos mensais de até quatro horas, entre 18h e 22h.\n\nNos acionamentos de setembro de 2024, a Eletrobras atuou como agregadora de um cliente e ofertou 80 MW de redução. Segundo a imprensa setorial, o ONS realizou mecanismos competitivos de contratação em 2024, 2025 e 2026; no de julho de 2026 foram contratados 344 MW para setembro a dezembro. Nenhuma fonte oficial da ANEEL ou do ONS foi lida para esta ficha.",
   "desde": "2022",
   "gestor": "ANEEL, com operacionalização pelo Operador Nacional do Sistema Elétrico (ONS)",
   "ingresso": "edital",
@@ -21,7 +21,7 @@
   "documentos": [
     {
       "tipo": "resolucao",
-      "titulo": "Resolução Autorizativa ANEEL nº 12.600/2022 — sandbox de resposta da demanda (texto não localizado; ver notícias)",
+      "titulo": "Notícia sobre a REA ANEEL nº 12.600/2022 (texto oficial não localizado)",
       "numero": "12.600/2022",
       "url": "https://cenarioenergia.com.br/2024/09/10/aneel-estende-prazo-e-aprova-sandbox-regulatorio-para-resposta-da-demanda-ate-2026/",
       "principal": true
@@ -68,6 +68,11 @@
     {
       "url": "https://agenciainfra.com/blog/ons-abre-consulta-publica-sobre-novo-mecanismo-de-resposta-da-demanda/",
       "titulo": "Agência iNFRA — ONS abre consulta pública sobre novo mecanismo de resposta da demanda (07/05/2026)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://cenarioenergia.com.br/2026/08/06/ons-resposta-da-demanda-344-mw-leilao-sandbox/",
+      "titulo": "Cenário Energia — ONS contrata 344 MW em novo mecanismo de resposta da demanda (06/08/2026)",
       "acessado_em": "2026-10-29"
     }
   ],

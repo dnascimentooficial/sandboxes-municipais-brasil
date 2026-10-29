@@ -27,7 +27,7 @@
       "verificado_em": "2026-10-29",
       "mudou": true,
       "avisos": [
-        "Término em 24/10/2026 calculado pela vigência de 24 meses informada; prorrogação adicional não localizada."
+        "Término em 24/10/2026 calculado pela vigência informada; prorrogação de 12 meses (desde 25/10/2025) confirmada só pela Teletime; nova prorrogação não localizada."
       ]
     },
     "anatel-repetidores-municipios": {
@@ -54,8 +54,8 @@
       "verificado_em": "2026-10-29",
       "mudou": true,
       "avisos": [
-        "Nenhuma página oficial da ANEEL foi lida; dados vêm de imprensa setorial.",
-        "Link do documento principal aponta para notícia, não para o texto da REA 12.600/2022."
+        "Verificação manual necessária: texto oficial da REA 12.600/2022 (site da ANEEL com bloqueio anti-robô).",
+        "Nenhuma fonte oficial da ANEEL ou do ONS foi lida; todas as fontes são imprensa setorial."
       ]
     },
     "aneel-sandbox-tarifario": {
@@ -77,7 +77,8 @@
       "verificado_em": "2026-10-29",
       "mudou": true,
       "avisos": [
-        "Substituição da IA Greenworld pela Prevvine não explicada nas fontes."
+        "Substituição da IA Greenworld pela Prevvine não explicada nas fontes.",
+        "Órgão renomeado para Agência Nacional de Proteção de Dados (MP nº 1.317/2025)."
       ]
     },
     "ans-sandbox": {
@@ -105,7 +106,8 @@
       "verificado_em": "2026-10-29",
       "mudou": true,
       "avisos": [
-        "Encerramento baseado na listagem da página oficial da ANTT; data formal de encerramento não localizada."
+        "Encerramento baseado na listagem da página oficial da ANTT; data formal de encerramento não localizada.",
+        "Vínculo do projeto com a BR-101/RJ e a CCR RioSP vem de imprensa (Agência iNFRA)."
       ]
     },
     "antt-sandbox-psi": {
@@ -173,7 +175,7 @@
       "verificado_em": "2026-10-29",
       "mudou": true,
       "avisos": [
-        "Status ativo mantido por haver soluções testadas; todas as autorizações conhecidas venceram até 31/08/2026 e não se localizou prorrogação posterior à Deliberação CVM nº 891/2024.",
+        "Todas as autorizações temporárias conhecidas venceram até 31/08/2026 (Deliberação CVM nº 891/2024); nenhuma fonte oficial declara o encerramento do ciclo.",
         "Validade da autorização da Basement baseada no texto original da Deliberação nº 873 (versão consolidada não lida)."
       ]
     },
@@ -232,7 +234,8 @@
       "verificado_em": "2026-10-29",
       "mudou": true,
       "avisos": [
-        "Início efetivo dos testes não confirmado; status ativo baseado na participação do Cebraspe na fase de capacitação do piloto."
+        "Status em_instituicao: soluções selecionadas, mas o início dos testes não foi confirmado em fonte oficial.",
+        "Portaria nº 2/2026 (Comitê Executivo) citada pelo MEC; texto não localizado em página oficial."
       ]
     },
     "olimpia": {
@@ -289,17 +292,17 @@
       "verificado_em": "2026-10-29",
       "mudou": true,
       "avisos": [
-        "Normas e edital apontam para a página da edição (textos dos atos não lidos).",
+        "Autorizações temporárias de até 36 meses concedidas a partir de 2020 já devem ter vencido; nenhuma fonte oficial declara o encerramento da edição.",
         "Autorizações definitivas de Pier, Iza, Simple2u e 88i confirmadas apenas em imprensa especializada.",
-        "Situação atual das demais selecionadas não confirmada em fonte oficial."
+        "Normas e edital apontam para a página da edição (textos dos atos não lidos)."
       ]
     },
     "susep-sandbox-2": {
       "verificado_em": "2026-10-29",
       "mudou": true,
       "avisos": [
-        "Conversão da Darwin em autorização definitiva confirmada apenas em imprensa especializada.",
-        "Situação das demais 20 selecionadas não confirmada."
+        "Autorizações temporárias de até 36 meses concedidas a partir de 2021–2022 já devem ter vencido; nenhuma fonte oficial declara o encerramento da edição.",
+        "Conversão da Darwin em autorização definitiva confirmada apenas em imprensa especializada."
       ]
     },
     "susep-sandbox-3": {

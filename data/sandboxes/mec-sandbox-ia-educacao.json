@@ -5,13 +5,13 @@
   "jurisdicao": {
     "orgao": "MEC"
   },
-  "status": "ativo",
+  "status": "em_instituicao",
   "temas": [
     "educacao",
     "dados"
   ],
-  "resumo": "Piloto do MEC com 8 soluções de IA para a educação, selecionadas em 2026, testadas por seis meses em ambiente controlado.",
-  "descricao": "O Ministério da Educação lançou em 24 de março de 2026 o piloto do Ambiente Regulatório Experimental de Inteligência Artificial na Educação, coordenado pela Secretaria de Gestão da Informação, Inovação e Avaliação de Políticas Educacionais (Segape). O Edital nº 1/2026 recebeu inscrições de 30 de março a 28 de maio de 2026.\n\nPodem participar entidades públicas e privadas, com uma proposta cada. As soluções devem estar em fase inicial, usar dados anonimizados e licença aberta permissiva. O processo dura seis meses, com capacitação obrigatória, testes, avaliação de impacto algorítmico e relatório final. Decisões totalmente automatizadas e a substituição de professores por IA são vedadas, e as regras legais vigentes não são afastadas.\n\nO resultado final aprovou oito projetos, entre eles o Letrar.IA (UFG), o Agente Pedagógico Adaptativo (Instituto Unibanco) e o SAVIA (Cebraspe). As equipes participaram de encontro de capacitação em julho de 2026.",
+  "resumo": "Piloto do MEC selecionou 8 soluções de IA para a educação em 2026; o início dos testes não foi confirmado em fonte oficial.",
+  "descricao": "O Ministério da Educação lançou em 24 de março de 2026 o piloto do Ambiente Regulatório Experimental de Inteligência Artificial na Educação, coordenado pela Secretaria de Gestão da Informação, Inovação e Avaliação de Políticas Educacionais (Segape). O Edital nº 1/2026 recebeu inscrições de 30 de março a 28 de maio de 2026.\n\nPodem participar entidades públicas e privadas, com uma proposta cada. As soluções devem estar em fase inicial, usar dados anonimizados e licença aberta permissiva. O processo dura seis meses, com capacitação obrigatória, testes, avaliação de impacto algorítmico e relatório final. Decisões totalmente automatizadas e a substituição de professores por IA são vedadas, e as regras legais vigentes não são afastadas.\n\nO resultado final aprovou oito projetos, entre eles o Letrar.IA (UFG), o Agente Pedagógico Adaptativo (Instituto Unibanco) e o SAVIA (Cebraspe). Segundo o MEC, um Comitê Executivo instituído pela Portaria nº 2/2026 coordena o piloto; o início dos testes não foi confirmado em fonte oficial até a data de verificação.",
   "desde": "2026-03-24",
   "gestor": "MEC — Secretaria de Gestão da Informação, Inovação e Avaliação de Políticas Educacionais (Segape), com Comitê do Sandbox",
   "ingresso": "edital",
@@ -40,9 +40,9 @@
     {
       "nome": "SAVIA",
       "proponente": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos (Cebraspe)",
-      "descricao": "Apoio à elaboração e revisão de itens de avaliação; equipe participou da capacitação do piloto em julho de 2026.",
-      "status": "em_teste",
-      "fonte": "https://www.cebraspe.org.br/cebraspe-fortalece-debate-sobre-ia-e-avaliacao-educacional-em-evento-do-mec/"
+      "descricao": "Apoio à elaboração e revisão de itens de avaliação; aprovado no resultado final do Edital nº 1/2026.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/mec/pt-br/acesso-a-informacao/participacao-social/editais-chamamento-publico/sandbox-ia-educacao/resultado-sandbox.pdf"
     },
     {
       "nome": "Letrar.IA",
@@ -128,11 +128,6 @@
     {
       "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/junho/divulgado-resultado-previo-do-sandbox-regulatorio-de-ia-na-educacao",
       "titulo": "MEC — Divulgado resultado prévio do sandbox regulatório de IA na educação (25/06/2026)",
-      "acessado_em": "2026-10-29"
-    },
-    {
-      "url": "https://www.cebraspe.org.br/cebraspe-fortalece-debate-sobre-ia-e-avaliacao-educacional-em-evento-do-mec/",
-      "titulo": "Cebraspe — participação no encontro do sandbox de IA do MEC",
       "acessado_em": "2026-10-29"
     }
   ],

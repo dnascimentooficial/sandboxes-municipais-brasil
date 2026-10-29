@@ -5,13 +5,13 @@
   "jurisdicao": {
     "orgao": "CVM"
   },
-  "status": "ativo",
+  "status": "regulamentado",
   "temas": [
     "financas",
     "startups"
   ],
-  "resumo": "Quatro participantes testaram tokenização, balcões de crowdfunding e escrituração com dispensas da CVM entre 2021 e 2026.",
-  "descricao": "A Comissão de Valores Mobiliários criou seu sandbox pela Instrução CVM nº 626/2020, substituída pela Resolução CVM nº 29, de 11 de maio de 2021. As autorizações temporárias valem por até um ano, prorrogável por mais um, e dispensam requisitos regulatórios específicos fixados em deliberação do Colegiado.\n\nO único processo de admissão recebeu 34 propostas entre novembro de 2020 e janeiro de 2021. Quatro foram admitidas: Basement (escrituração), BEE4 e Beegin (balcão de tokens de crowdfunding), Vórtx DTVM e Vórtx QR Tokenizadora (balcão de debêntures e cotas tokenizadas) e Start Me Up (balcão para startups).\n\nEm março de 2024 a Deliberação CVM nº 891 estendeu as autorizações da BEE4, da Vórtx e da Start Me Up até 2026. A página da CVM informa não haver previsão de novo processo de admissão.",
+  "resumo": "Quatro participantes testaram tokenização, balcões de crowdfunding e escrituração; autorizações conhecidas venceram até ago/2026.",
+  "descricao": "A Comissão de Valores Mobiliários criou seu sandbox pela Instrução CVM nº 626/2020, substituída pela Resolução CVM nº 29, de 11 de maio de 2021. As autorizações temporárias valem por até um ano, prorrogável por mais um, e dispensam requisitos regulatórios específicos fixados em deliberação do Colegiado.\n\nO único processo de admissão recebeu 34 propostas entre novembro de 2020 e janeiro de 2021. Quatro foram admitidas: Basement (escrituração), BEE4 e Beegin (balcão de tokens de crowdfunding), Vórtx DTVM e Vórtx QR Tokenizadora (balcão de debêntures e cotas tokenizadas) e Start Me Up (balcão para startups).\n\nEm março de 2024 a Deliberação CVM nº 891 estendeu as autorizações da BEE4, da Vórtx e da Start Me Up até 2026. Pelas deliberações publicadas, todas as autorizações temporárias conhecidas venceram até 31 de agosto de 2026. A página da CVM informa não haver previsão de novo processo de admissão, e nenhuma fonte oficial declara o encerramento do ciclo.",
   "desde": "2020",
   "gestor": "Comitê de Sandbox da CVM; autorizações e prorrogações decididas pelo Colegiado",
   "ingresso": "edital",

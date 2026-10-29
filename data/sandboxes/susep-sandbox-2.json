@@ -5,13 +5,13 @@
   "jurisdicao": {
     "orgao": "SUSEP"
   },
-  "status": "ativo",
+  "status": "regulamentado",
   "temas": [
     "seguros",
     "startups"
   ],
-  "resumo": "Segunda edição (2021) do sandbox de seguros, com 21 projetos selecionados; a Darwin já converteu sua autorização em definitiva.",
-  "descricao": "A 2ª edição do sandbox da Susep seguiu a Resolução CNSP nº 381/2020, alterada pela Resolução CNSP nº 417, de 20 de julho de 2021, e a Circular Susep nº 598/2020, alterada pela Circular nº 636/2021. As inscrições, pelo Edital Eletrônico nº 1/2021, ocorreram de 30 de agosto a 9 de setembro de 2021.\n\nA Susep selecionou 21 projetos, com seguros de automóveis, celulares, bicicletas, animais, fiança locatícia, agrícola paramétrico, caminhões e viagens. A seleção não equivale à autorização temporária, que pode durar até 36 meses.\n\nA Darwin Seguros, desta edição, já obteve autorização definitiva. A situação individual das demais participantes não foi confirmada em fonte oficial.",
+  "resumo": "Segunda edição (2021) do sandbox de seguros, com 21 projetos selecionados; situação atual das participantes não é oficial.",
+  "descricao": "A 2ª edição do sandbox da Susep seguiu a Resolução CNSP nº 381/2020, alterada pela Resolução CNSP nº 417, de 20 de julho de 2021, e a Circular Susep nº 598/2020, alterada pela Circular nº 636/2021. As inscrições, pelo Edital Eletrônico nº 1/2021, ocorreram de 30 de agosto a 9 de setembro de 2021.\n\nA Susep selecionou 21 projetos, com seguros de automóveis, celulares, bicicletas, animais, fiança locatícia, agrícola paramétrico, caminhões e viagens. A seleção não equivale à autorização temporária, que pode durar até 36 meses.\n\nSegundo a imprensa especializada, a Darwin Seguros, desta edição, já obteve autorização definitiva. A situação individual das demais participantes e o eventual encerramento da edição não constam de fonte oficial.",
   "desde": "2021-07-20",
   "gestor": "Superintendência de Seguros Privados (Susep), sob as regras do CNSP",
   "ingresso": "edital",
@@ -42,7 +42,7 @@
     {
       "nome": "Seguro de automóvel",
       "proponente": "Darwin Seguros",
-      "descricao": "Selecionada na 2ª edição; teve aprovada a conversão em autorização definitiva.",
+      "descricao": "Selecionada na 2ª edição; teve aprovada a conversão em autorização definitiva (informação de imprensa especializada; não confirmada em fonte oficial da Susep).",
       "status": "concluida",
       "fonte": "https://finsidersbrasil.com.br/regulamentacao/mais-duas-insurtechs-recebem-autorizacao-definitiva-da-susep"
     },
