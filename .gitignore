@@ -4,3 +4,4 @@ api/config.php
 
 # Fonte em PNG do hero (só as versões AVIF/WebP vão para o repositório).
 assets/hero/*.png
+.DS_Store
