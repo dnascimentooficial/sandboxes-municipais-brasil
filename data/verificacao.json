@@ -199,6 +199,15 @@
       "mudou": false,
       "avisos": []
     },
+    "gramado-turismo": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Número do decreto não consta da página oficial; o nº 2.273/2025 aparece só na imprensa (Onde Ir) e foi omitido.",
+        "Texto do Edital nº 002/2025 não localizado; dados do edital vêm da imprensa.",
+        "Status da Droneportos (concluída) baseado em jornal regional (ABC Mais, 01/07/2026); demais 13 soluções mantidas como selecionadas por falta de resultado individual."
+      ]
+    },
     "inmetro-metrologia-legal": {
       "verificado_em": "2026-10-29",
       "mudou": true,

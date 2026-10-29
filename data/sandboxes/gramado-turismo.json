@@ -1,0 +1,213 @@
+{
+  "id": "gramado-turismo",
+  "nome": "Sandbox Regulatório de Turismo Inteligente de Gramado",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Gramado",
+    "uf": "RS",
+    "regiao": "Sul"
+  },
+  "status": "ativo",
+  "temas": [
+    "turismo",
+    "mobilidade",
+    "aviacao",
+    "startups"
+  ],
+  "resumo": "Sandbox de turismo criado por decreto em 2025; 14 startups no 1º ciclo, com testes de entrega por drone e Pitch Day em 2026.",
+  "descricao": "Gramado lançou seu Sandbox Regulatório em 6 de junho de 2025, durante a Gramado Summit, com a assinatura de um decreto municipal pelo prefeito Nestor Tissot e pelo secretário de Inovação, André Castilhos. O sandbox integra o programa Gramado Futuro Lab, que trata a cidade como laboratório vivo, e tem apoio da consultoria GOV.UP. A página oficial do lançamento não informa o número do decreto.\n\nO foco inicial é o turismo, sob o tema \"Turismo Inteligente, Sustentável e Inclusivo\", com 11 desafios prioritários que vão da jornada personalizada do turista à hospitalidade 5.0, acessibilidade, mobilidade inteligente, gastronomia sustentável e cultura viva. No lançamento foi anunciada a primeira proposta para testes, da GovTools, vencedora do Hackathon de Inovação de Gramado.\n\nO Edital de Chamamento Público nº 002/2025 recebeu 26 projetos, inclusive do exterior, e 14 startups foram apresentadas em novembro de 2025, com testes previstos de dezembro de 2025 a março de 2026. Segundo a imprensa regional, a Droneportos do Brasil fez em dezembro de 2025 os primeiros voos de entrega por drone da cidade, como parte do sandbox.\n\nEm 18 de junho de 2026, no Pitch Day realizado na inauguração da sala do Gramado Futuro Lab, as startups participantes apresentaram resultados e aprendizados, segundo a prefeitura. Não foram localizados relatórios individuais por solução nem um segundo ciclo.",
+  "desde": "2025-06-06",
+  "gestor": "Secretaria Municipal de Inovação e Desenvolvimento Econômico, com apoio da consultoria GOV.UP",
+  "ingresso": "edital",
+  "elegibilidade": "Startups, empresas e instituições com tecnologias ou modelos de negócio a testar; o Edital nº 002/2025 foi republicado para admitir empresas estrangeiras.",
+  "documentos": [
+    {
+      "tipo": "decreto",
+      "titulo": "Notícia oficial sobre o decreto municipal que institui o Sandbox Regulatório (número não informado na página)",
+      "data": "2025-06-06",
+      "url": "https://gramado.atende.net/cidadao/noticia/gramado-lanca-plataforma-sandbox-de-inovacao-para-conectar-ideias-e-solucoes",
+      "principal": true
+    },
+    {
+      "tipo": "edital",
+      "titulo": "Edital de Chamamento Público nº 002/2025 — notícia sobre o encerramento das inscrições (texto do edital não localizado)",
+      "url": "https://ondeir.com.br/noticias/sandbox-regulatorio-de-gramado-encerra-inscricoes-com-26-projetos-e-participacao-internacional/"
+    }
+  ],
+  "solucoes": [
+    {
+      "nome": "Gramado Drone Experience",
+      "proponente": "Droneportos do Brasil",
+      "descricao": "Voos de teste de entrega por drone (cerca de 100 kg de chocolate no Lago Negro) em dezembro de 2025; estudo de viabilidade técnica, financeira e jurídica da rede de drones seguia em 2026.",
+      "status": "concluida",
+      "fonte": "https://pdf.gruposinos.com.br/jornalvs/2026/07/01/2305/pdf/y101501.pdf"
+    },
+    {
+      "nome": "Assistente de IA para orientar turistas",
+      "proponente": "GovTools",
+      "descricao": "Inteligência artificial para orientar turistas em tempo real conforme perfil e interesses; anunciada como a primeira proposta para testes.",
+      "status": "selecionada",
+      "fonte": "https://gramado.atende.net/cidadao/noticia/gramado-lanca-plataforma-sandbox-de-inovacao-para-conectar-ideias-e-solucoes"
+    },
+    {
+      "nome": "Mobilidade Inteligente para Fluxos Turísticos",
+      "proponente": "Mover Tech",
+      "descricao": "Otimização dos fluxos de mobilidade turística.",
+      "status": "selecionada",
+      "fonte": "https://www.abcmais.com/brasil/rio-grande-do-sul/hortensias/gramado/startups-selecionadas-em-sandbox-de-turismo-testarao-solucoes-inovadoras-em-gramado-projeto-e-inedito-no-pais/"
+    },
+    {
+      "nome": "Produção Audiovisual Integrada ao Sandbox",
+      "proponente": "Fabrika Filmes",
+      "descricao": "Produção audiovisual integrada às atividades do sandbox.",
+      "status": "selecionada",
+      "fonte": "https://www.abcmais.com/brasil/rio-grande-do-sul/hortensias/gramado/startups-selecionadas-em-sandbox-de-turismo-testarao-solucoes-inovadoras-em-gramado-projeto-e-inedito-no-pais/"
+    },
+    {
+      "nome": "Plataforma RAMP (Acessibilidade 360°)",
+      "proponente": "WeGlad",
+      "descricao": "Plataforma de mapeamento e avaliação de acessibilidade.",
+      "status": "selecionada",
+      "fonte": "https://www.abcmais.com/brasil/rio-grande-do-sul/hortensias/gramado/startups-selecionadas-em-sandbox-de-turismo-testarao-solucoes-inovadoras-em-gramado-projeto-e-inedito-no-pais/"
+    },
+    {
+      "nome": "Inteligência Territorial para Gestão Pública",
+      "proponente": "SpaceGov",
+      "descricao": "Inteligência territorial e geoespacial para a gestão pública.",
+      "status": "selecionada",
+      "fonte": "https://www.abcmais.com/brasil/rio-grande-do-sul/hortensias/gramado/startups-selecionadas-em-sandbox-de-turismo-testarao-solucoes-inovadoras-em-gramado-projeto-e-inedito-no-pais/"
+    },
+    {
+      "nome": "Patrimônio Cultural em Realidade Virtual",
+      "proponente": "Smart Composer VR",
+      "descricao": "Experiências de realidade virtual sobre o patrimônio cultural.",
+      "status": "selecionada",
+      "fonte": "https://www.abcmais.com/brasil/rio-grande-do-sul/hortensias/gramado/startups-selecionadas-em-sandbox-de-turismo-testarao-solucoes-inovadoras-em-gramado-projeto-e-inedito-no-pais/"
+    },
+    {
+      "nome": "Recomendação Personalizada de Experiências",
+      "proponente": "Dig-In",
+      "descricao": "Recomendação personalizada de roteiros e experiências turísticas.",
+      "status": "selecionada",
+      "fonte": "https://www.abcmais.com/brasil/rio-grande-do-sul/hortensias/gramado/startups-selecionadas-em-sandbox-de-turismo-testarao-solucoes-inovadoras-em-gramado-projeto-e-inedito-no-pais/"
+    },
+    {
+      "nome": "Economia Circular e Resíduos Inteligentes",
+      "proponente": "Wastebank e Grupo Sygecom",
+      "descricao": "Gestão inteligente de resíduos com foco em economia circular.",
+      "status": "selecionada",
+      "fonte": "https://www.abcmais.com/brasil/rio-grande-do-sul/hortensias/gramado/startups-selecionadas-em-sandbox-de-turismo-testarao-solucoes-inovadoras-em-gramado-projeto-e-inedito-no-pais/"
+    },
+    {
+      "nome": "Conexão Digital entre Turistas, Empresas e Governo",
+      "proponente": "LinkMe Tur",
+      "descricao": "Plataforma de conexão digital entre turistas, empresas e poder público.",
+      "status": "selecionada",
+      "fonte": "https://www.abcmais.com/brasil/rio-grande-do-sul/hortensias/gramado/startups-selecionadas-em-sandbox-de-turismo-testarao-solucoes-inovadoras-em-gramado-projeto-e-inedito-no-pais/"
+    },
+    {
+      "nome": "Capacitação Digital para o Ecossistema Turístico",
+      "proponente": "MySkills",
+      "descricao": "Capacitação digital de profissionais do setor de turismo.",
+      "status": "selecionada",
+      "fonte": "https://www.abcmais.com/brasil/rio-grande-do-sul/hortensias/gramado/startups-selecionadas-em-sandbox-de-turismo-testarao-solucoes-inovadoras-em-gramado-projeto-e-inedito-no-pais/"
+    },
+    {
+      "nome": "Assistente de IA para Experiência Turística",
+      "proponente": "GPN Group",
+      "descricao": "Assistente conversacional de inteligência artificial para o turista.",
+      "status": "selecionada",
+      "fonte": "https://www.abcmais.com/brasil/rio-grande-do-sul/hortensias/gramado/startups-selecionadas-em-sandbox-de-turismo-testarao-solucoes-inovadoras-em-gramado-projeto-e-inedito-no-pais/"
+    },
+    {
+      "nome": "Integração Tecnológica do Ecossistema de Turismo",
+      "proponente": "HubInx",
+      "descricao": "Interoperabilidade e integração tecnológica entre atores do turismo.",
+      "status": "selecionada",
+      "fonte": "https://www.abcmais.com/brasil/rio-grande-do-sul/hortensias/gramado/startups-selecionadas-em-sandbox-de-turismo-testarao-solucoes-inovadoras-em-gramado-projeto-e-inedito-no-pais/"
+    },
+    {
+      "nome": "Gestão e Segurança de Dados Municipais",
+      "proponente": "Prime Tecnologia",
+      "descricao": "Gestão e segurança de dados do município.",
+      "status": "selecionada",
+      "fonte": "https://www.abcmais.com/brasil/rio-grande-do-sul/hortensias/gramado/startups-selecionadas-em-sandbox-de-turismo-testarao-solucoes-inovadoras-em-gramado-projeto-e-inedito-no-pais/"
+    },
+    {
+      "nome": "Estação de Intertelemedicina para Turistas",
+      "proponente": "Health Connection",
+      "descricao": "Estação de telemedicina e triagem para atendimento a turistas.",
+      "status": "selecionada",
+      "fonte": "https://www.abcmais.com/brasil/rio-grande-do-sul/hortensias/gramado/startups-selecionadas-em-sandbox-de-turismo-testarao-solucoes-inovadoras-em-gramado-projeto-e-inedito-no-pais/"
+    }
+  ],
+  "editais": [
+    {
+      "titulo": "Edital de Chamamento Público nº 002/2025 — Sandbox de Turismo (1º ciclo)",
+      "status": "encerrado",
+      "encerramento": "2025-10-31",
+      "url": "https://ondeir.com.br/noticias/sandbox-regulatorio-de-gramado-encerra-inscricoes-com-26-projetos-e-participacao-internacional/"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/gramado-turismo.jpg",
+    "credito": "Yeuxpapilon",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Lago_Negro_Gramado.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://gramado.atende.net/cidadao/noticia/gramado-lanca-plataforma-sandbox-de-inovacao-para-conectar-ideias-e-solucoes",
+      "titulo": "Prefeitura de Gramado — Gramado lança plataforma Sandbox de Inovação para conectar ideias e soluções (09/06/2025)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://gramado.atende.net/subportal/inovacao-e-desenvolvimento-economico/noticia/inovacao-inaugura-sala-do-gramado-futuro-lab-no-v-habitat",
+      "titulo": "Prefeitura de Gramado — Inovação inaugura sala do Gramado Futuro Lab no V Habitat (22/06/2026)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.abcmais.com/brasil/rio-grande-do-sul/hortensias/gramado/startups-selecionadas-em-sandbox-de-turismo-testarao-solucoes-inovadoras-em-gramado-projeto-e-inedito-no-pais/",
+      "titulo": "ABC Mais — Startups selecionadas em Sandbox de Turismo testarão soluções inovadoras em Gramado (28/11/2025)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://ondeir.com.br/noticias/sandbox-regulatorio-de-gramado-encerra-inscricoes-com-26-projetos-e-participacao-internacional/",
+      "titulo": "Onde Ir — Sandbox Regulatório de Gramado encerra inscrições com 26 projetos (03/11/2025)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://pdf.gruposinos.com.br/jornalvs/2026/07/01/2305/pdf/y101501.pdf",
+      "titulo": "ABC Mais (edição impressa de 01/07/2026) — Entregas por drones estão em fase de estudos em Gramado",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2026-06-18",
+      "descricao": "Pitch Day do Sandbox de Turismo Inteligente, com apresentação dos resultados das startups, na inauguração da sala do Gramado Futuro Lab.",
+      "fonte": "https://gramado.atende.net/subportal/inovacao-e-desenvolvimento-economico/noticia/inovacao-inaugura-sala-do-gramado-futuro-lab-no-v-habitat"
+    },
+    {
+      "data": "2025-11-26",
+      "descricao": "Secretaria de Inovação apresenta as 14 startups selecionadas para o 1º ciclo, com testes previstos de 8 de dezembro de 2025 a março de 2026.",
+      "fonte": "https://www.abcmais.com/brasil/rio-grande-do-sul/hortensias/gramado/startups-selecionadas-em-sandbox-de-turismo-testarao-solucoes-inovadoras-em-gramado-projeto-e-inedito-no-pais/"
+    },
+    {
+      "data": "2025-10-31",
+      "descricao": "Encerradas as inscrições do Edital nº 002/2025, com 26 projetos.",
+      "fonte": "https://ondeir.com.br/noticias/sandbox-regulatorio-de-gramado-encerra-inscricoes-com-26-projetos-e-participacao-internacional/"
+    },
+    {
+      "data": "2025-06-06",
+      "descricao": "Decreto municipal do Sandbox Regulatório assinado na Gramado Summit.",
+      "fonte": "https://gramado.atende.net/cidadao/noticia/gramado-lanca-plataforma-sandbox-de-inovacao-para-conectar-ideias-e-solucoes"
+    }
+  ],
+  "recem_adicionado": true
+}
