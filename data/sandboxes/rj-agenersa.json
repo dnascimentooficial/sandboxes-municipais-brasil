@@ -1,0 +1,59 @@
+{
+  "id": "rj-agenersa",
+  "nome": "Sandbox Regulatório da AGENERSA",
+  "esfera": "estadual",
+  "jurisdicao": {
+    "uf": "RJ",
+    "regiao": "Sudeste"
+  },
+  "status": "em_instituicao",
+  "temas": [
+    "energia",
+    "cidades"
+  ],
+  "resumo": "Agência reguladora fluminense de energia e saneamento submeteu minuta de edital de sandbox a audiência pública em 2025.",
+  "descricao": "A Agência Reguladora de Energia e Saneamento Básico do Estado do Rio de Janeiro (AGENERSA) criou um grupo de trabalho sobre sandbox regulatório e submeteu a minuta de edital à consulta pública (junho de 2025) e a audiência pública virtual, realizada em 10 de julho de 2025.\n\nNa abertura, a agência citou o Guia Referencial de Sandbox Regulatório do MDIC e da AGU como base metodológica e a meta de publicar o edital ainda em 2025. Concessionárias sugeriram, entre outros pontos, ciclos de 6 a 12 meses e no máximo dois projetos por ciclo.\n\nNão foi localizada a publicação do edital final nem de resolução instituidora.",
+  "desde": "2025-07-10",
+  "gestor": "Agência Reguladora de Energia e Saneamento Básico do Estado do Rio de Janeiro (AGENERSA)",
+  "ingresso": "edital",
+  "documentos": [
+    {
+      "tipo": "outro",
+      "titulo": "Ata da audiência pública sobre o Edital de Sandbox Regulatório da AGENERSA (processo SEI-480002/003997/2025)",
+      "data": "2025-07-10",
+      "url": "https://www.rj.gov.br/agenersa/sites/default/files/arquivos_paginas_basicas/resultados_audiencia.pdf",
+      "principal": true
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/rj-agenersa.jpg",
+    "credito": "Wilfredor",
+    "licenca": "CC0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Rio_de_Janeiro_city_from_P%C3%A3o_de_A%C3%A7%C3%BAcar,_Brazil.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.rj.gov.br/agenersa/sites/default/files/arquivos_paginas_basicas/resultados_audiencia.pdf",
+      "titulo": "AGENERSA — Ata da audiência pública de 10/07/2025 sobre o edital de sandbox",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.rj.gov.br/agenersa/sites/default/files/arquivos_paginas_basicas/resultados_consulta.pdf",
+      "titulo": "AGENERSA — Resultados da consulta pública",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2025-07-10",
+      "descricao": "Audiência pública virtual sobre a minuta do edital de sandbox.",
+      "fonte": "https://www.rj.gov.br/agenersa/sites/default/files/arquivos_paginas_basicas/resultados_audiencia.pdf"
+    }
+  ],
+  "recem_adicionado": true
+}

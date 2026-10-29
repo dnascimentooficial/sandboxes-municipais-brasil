@@ -1,0 +1,61 @@
+{
+  "id": "apucarana",
+  "nome": "Sandbox Regulatório de Apucarana",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Apucarana",
+    "uf": "PR",
+    "regiao": "Sul"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "startups",
+    "cidades",
+    "gestao-publica"
+  ],
+  "resumo": "Sandbox previsto em lei de 2023, lançado em 2026 com credenciamento permanente e testes de 6 a 24 meses.",
+  "descricao": "Apucarana lançou oficialmente seu Sandbox Regulatório em agosto de 2026, com base na Lei Municipal nº 15/2023, junto com um edital de fomento à inovação de até R$ 280 mil do Fundo Municipal de Inovação.\n\nO sandbox é gerido pelo IDEPPLAN, com um Comitê Gestor, e permite que startups e empresas inovadoras, de Apucarana ou de fora, testem produtos, serviços e processos com flexibilização temporária de regras municipais. O credenciamento é permanente durante os 24 meses do programa, e os testes duram de 6 a 24 meses.\n\nNão foram localizados o texto da lei nem empresas credenciadas.",
+  "desde": "2023",
+  "gestor": "IDEPPLAN, com Comitê Gestor do Sandbox",
+  "ingresso": "fluxo_continuo",
+  "prazo_teste_meses": 24,
+  "elegibilidade": "Startups e empresas inovadoras de qualquer localidade, com existência legal comprovada e representante no Brasil.",
+  "flexibilizacoes": [
+    "Flexibilização temporária de regras municipais durante os testes"
+  ],
+  "documentos": [
+    {
+      "tipo": "lei",
+      "titulo": "Notícia oficial sobre o Sandbox Regulatório, com base na Lei Municipal nº 15/2023",
+      "numero": "15/2023",
+      "url": "http://www.apucarana.pr.gov.br/site/apucarana-cria-ambiente-para-startups-testarem-solucoes-aplicadas-a-realidade-e-anuncia-fomento-de-r280-mil-para-iniciativas-de-inovacao-aplicadas-no-municipio/",
+      "principal": true
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/apucarana.jpg",
+    "credito": "WrldPrincess",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Catedral_de_Apucarana.jpg"
+  },
+  "fontes": [
+    {
+      "url": "http://www.apucarana.pr.gov.br/site/apucarana-cria-ambiente-para-startups-testarem-solucoes-aplicadas-a-realidade-e-anuncia-fomento-de-r280-mil-para-iniciativas-de-inovacao-aplicadas-no-municipio/",
+      "titulo": "Prefeitura de Apucarana — Apucarana cria ambiente para startups testarem soluções (18/08/2026)",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2026-08-18",
+      "descricao": "Lançamento oficial do Sandbox Regulatório e do edital de fomento à inovação.",
+      "fonte": "http://www.apucarana.pr.gov.br/site/apucarana-cria-ambiente-para-startups-testarem-solucoes-aplicadas-a-realidade-e-anuncia-fomento-de-r280-mil-para-iniciativas-de-inovacao-aplicadas-no-municipio/"
+    }
+  ],
+  "recem_adicionado": true
+}

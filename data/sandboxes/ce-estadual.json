@@ -1,0 +1,64 @@
+{
+  "id": "ce-estadual",
+  "nome": "Programa Estadual de Ambiente Regulatório Experimental do Ceará",
+  "esfera": "estadual",
+  "jurisdicao": {
+    "uf": "CE",
+    "regiao": "Nordeste"
+  },
+  "status": "em_instituicao",
+  "temas": [
+    "startups",
+    "dados"
+  ],
+  "resumo": "Projeto de lei de 2026 na Assembleia do Ceará propõe programa estadual de sandbox, com participação de até 24 meses.",
+  "descricao": "Em 8 de junho de 2026, a deputada estadual Emilia Pessoa apresentou à Assembleia Legislativa do Ceará projeto de lei que institui o Programa Estadual de Ambiente Regulatório Experimental (Sandbox Regulatório), para permitir a testagem supervisionada de produtos, serviços e modelos de negócio inovadores.\n\nPelo texto, a participação duraria até 24 meses, com possibilidade de prorrogação, e os projetos seriam supervisionados por órgão ou entidade designada pelo Poder Executivo, que teria 60 dias para regulamentar a lei.\n\nTramita também na Assembleia um projeto de 2025, do deputado Stuart Castro, sobre a Política Estadual de Fomento à Inovação em Inteligência Artificial, que prevê a criação de um Sandbox Estadual Permanente de IA. A tramitação dos projetos não foi verificada.",
+  "desde": "2026-06-08",
+  "ingresso": "nao_informado",
+  "documentos": [
+    {
+      "tipo": "outro",
+      "titulo": "Projeto de Lei que institui o Programa Estadual de Ambiente Regulatório Experimental (Dep. Emilia Pessoa)",
+      "data": "2026-06-08",
+      "url": "https://www2.al.ce.gov.br/legislativo/tramit2026/pl389_26.pdf",
+      "principal": true
+    },
+    {
+      "tipo": "outro",
+      "titulo": "Projeto de Lei sobre a Política Estadual de Fomento à Inovação em IA (Dep. Stuart Castro)",
+      "data": "2025-07-07",
+      "url": "https://www2.al.ce.gov.br/legislativo/tramit2025/pl612_25.pdf"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/ce-estadual.jpg",
+    "credito": "Joelkaula",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Orla_de_Fortaleza_04.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www2.al.ce.gov.br/legislativo/tramit2026/pl389_26.pdf",
+      "titulo": "Assembleia Legislativa do Ceará — Projeto de Lei (Dep. Emilia Pessoa, 08/06/2026)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www2.al.ce.gov.br/legislativo/tramit2025/pl612_25.pdf",
+      "titulo": "Assembleia Legislativa do Ceará — Projeto de Lei (Dep. Stuart Castro, 07/07/2025)",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2026-06-08",
+      "descricao": "Apresentado o projeto de lei do Programa Estadual de Sandbox Regulatório.",
+      "fonte": "https://www2.al.ce.gov.br/legislativo/tramit2026/pl389_26.pdf"
+    }
+  ],
+  "recem_adicionado": true
+}

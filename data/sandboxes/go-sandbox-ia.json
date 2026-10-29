@@ -1,0 +1,61 @@
+{
+  "id": "go-sandbox-ia",
+  "nome": "Sandbox Estadual Permanente de Inteligência Artificial de Goiás",
+  "esfera": "estadual",
+  "jurisdicao": {
+    "uf": "GO",
+    "regiao": "Centro-Oeste"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "dados",
+    "startups"
+  ],
+  "resumo": "Lei complementar de 2025 cria sandbox permanente de IA em Goiás, coordenado pelo NEI-IA; projetos não localizados.",
+  "descricao": "A Lei Complementar estadual nº 205, de 19 de maio de 2025, que institui a Política Estadual de Fomento à Inovação em Inteligência Artificial, criou o Sandbox Estadual Permanente de Inteligência Artificial, um ambiente regulatório experimental permanente para desenvolver e testar soluções baseadas em IA.\n\nO sandbox é aberto a startups, empresas, instituições de ensino e pesquisa e demais organizações com projetos de IA. Cabe ao Núcleo de Ética e Inovação em Inteligência Artificial (NEI-IA) regulamentar, coordenar e supervisionar o programa, definindo critérios de seleção, prazos e mecanismos de avaliação; a seleção dá peso adicional a propostas com software e modelos abertos. A Lei Complementar nº 215/2026 transferiu o NEI-IA para a Secretaria de Ciência, Tecnologia e Inovação.\n\nNão foram localizados editais de seleção de projetos nem testes.",
+  "desde": "2025-05-19",
+  "gestor": "Núcleo de Ética e Inovação em Inteligência Artificial (NEI-IA), na Secretaria de Ciência, Tecnologia e Inovação",
+  "ingresso": "nao_informado",
+  "elegibilidade": "Startups, empresas, instituições de ensino superior, ICTs, centros de pesquisa e demais organizações com projetos inovadores de IA.",
+  "documentos": [
+    {
+      "tipo": "lei",
+      "titulo": "Lei Complementar que institui a Política Estadual de Fomento à Inovação em IA (arts. 32 a 38: Sandbox Estadual Permanente)",
+      "numero": "205/2025",
+      "data": "2025-05-19",
+      "url": "https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/110694/pdf",
+      "principal": true
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/go-sandbox-ia.jpg",
+    "credito": "Boaventuravinicius",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_das_Esmeraldas_do_Governo_de_Goi%C3%A1s_em_2022.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/110694/pdf",
+      "titulo": "Casa Civil de Goiás — Lei Complementar nº 205/2025 (texto compilado)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://goias.gov.br/governo/go-ia/",
+      "titulo": "Governo de Goiás — GO IA",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2025-05-19",
+      "descricao": "Sancionada a Lei Complementar nº 205/2025, que cria o sandbox permanente de IA.",
+      "fonte": "https://legisla.casacivil.go.gov.br/api/v2/pesquisa/legislacoes/110694/pdf"
+    }
+  ],
+  "recem_adicionado": true
+}

@@ -1,0 +1,57 @@
+{
+  "id": "major-vieira",
+  "nome": "Sandbox Regulatório de Major Vieira",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Major Vieira",
+    "uf": "SC",
+    "regiao": "Sul"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "startups"
+  ],
+  "resumo": "Lei complementar de 2025 cria sandbox para startups em Major Vieira, com Comitê Gestor e testes de até dois anos.",
+  "descricao": "A Lei Complementar nº 129, de 17 de novembro de 2025, instituiu o Ambiente Regulatório Experimental (Sandbox Regulatório) de Major Vieira, para fomentar a inovação e o empreendedorismo com condições regulatórias simplificadas.\n\nUm Comitê Gestor, com representantes do Executivo, de instituições de ensino, do setor produtivo e da sociedade civil, seleciona os projetos e monitora os testes. O ingresso é por requerimento com projeto técnico, e o prazo solicitado não pode passar de dois anos. As startups participantes podem ter redução ou isenção de taxas e tributos municipais e prioridade na tramitação.\n\nNão foram localizados projetos autorizados.",
+  "desde": "2025-11-17",
+  "gestor": "Comitê Gestor do Sandbox Regulatório",
+  "ingresso": "fluxo_continuo",
+  "prazo_teste_meses": 24,
+  "elegibilidade": "Startups com inovação e viabilidade comprovadas, regularidade fiscal e trabalhista e modelo validado por prova de conceito ou protótipo.",
+  "flexibilizacoes": [
+    "Redução ou isenção de taxas e tributos municipais",
+    "Isenção de taxas de localização, aprovação, vistoria e fiscalização do projeto",
+    "Uso temporário de espaços públicos para provas de conceito"
+  ],
+  "documentos": [
+    {
+      "tipo": "lei",
+      "titulo": "Lei Complementar que dispõe sobre o Sandbox Regulatório no Município de Major Vieira",
+      "numero": "129/2025",
+      "data": "2025-11-17",
+      "url": "https://majorvieira.sc.gov.br/legislacao/lei-complementar-no-129-2025-dispoe-sobre-as-regras-para-constituicao-e-funcionamento-de-ambiente-regulatorio-experimental-sandbox-regulatorio-no-municipio-de-major-vieira/",
+      "principal": true
+    }
+  ],
+  "imagem": null,
+  "fontes": [
+    {
+      "url": "https://majorvieira.sc.gov.br/legislacao/lei-complementar-no-129-2025-dispoe-sobre-as-regras-para-constituicao-e-funcionamento-de-ambiente-regulatorio-experimental-sandbox-regulatorio-no-municipio-de-major-vieira/",
+      "titulo": "Prefeitura de Major Vieira — Lei Complementar nº 129/2025",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2025-11-17",
+      "descricao": "Publicada a Lei Complementar nº 129/2025.",
+      "fonte": "https://majorvieira.sc.gov.br/legislacao/lei-complementar-no-129-2025-dispoe-sobre-as-regras-para-constituicao-e-funcionamento-de-ambiente-regulatorio-experimental-sandbox-regulatorio-no-municipio-de-major-vieira/"
+    }
+  ],
+  "recem_adicionado": true
+}

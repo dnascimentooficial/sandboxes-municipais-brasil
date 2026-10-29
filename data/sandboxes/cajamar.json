@@ -1,0 +1,57 @@
+{
+  "id": "cajamar",
+  "nome": "Programa Municipal de Sandbox Regulatório de Inovação e Tecnologia de Cajamar",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Cajamar",
+    "uf": "SP",
+    "regiao": "Sudeste"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "cidades",
+    "mobilidade",
+    "startups"
+  ],
+  "resumo": "Lei de 2026 cria programa de sandbox para testes urbanos de soluções inovadoras em Cajamar.",
+  "descricao": "A Lei Municipal nº 2.236, de 31 de março de 2026, de autoria do vereador Elison Bezerra Silva, instituiu o Programa Municipal de Sandbox Regulatório de Inovação e Tecnologia de Cajamar, para testar soluções aplicáveis ao espaço urbano, aos serviços públicos, à sustentabilidade, à mobilidade e à inclusão digital.\n\nOs testes urbanos dependem de requerimento à autoridade municipal com projeto, plano de mitigação de riscos e, quando for o caso, parecer dos órgãos competentes. A autorização tem prazo determinado e pode ser renovada; ao final, o responsável apresenta relatório, que deve ser publicado no Portal da Transparência.\n\nNão foram localizados regulamentação ou testes autorizados.",
+  "desde": "2026-03-31",
+  "ingresso": "fluxo_continuo",
+  "elegibilidade": "Órgãos da administração municipal, instituições de ensino e pesquisa, empresas, startups, consórcios e organizações da sociedade civil.",
+  "documentos": [
+    {
+      "tipo": "lei",
+      "titulo": "Lei que institui o Programa Municipal de Sandbox Regulatório de Inovação e Tecnologia",
+      "numero": "2.236/2026",
+      "data": "2026-03-31",
+      "url": "https://cajamar.sp.gov.br/diariooficial/wp-content/uploads/sites/3/edicao-no-1645.pdf",
+      "principal": true
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/cajamar.jpg",
+    "credito": "Fcrus",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Jordan%C3%A9sia-Cajamar-SP.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://cajamar.sp.gov.br/diariooficial/wp-content/uploads/sites/3/edicao-no-1645.pdf",
+      "titulo": "Diário Oficial de Cajamar nº 1.645 (31/03/2026) — Lei nº 2.236/2026",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2026-03-31",
+      "descricao": "Sancionada a Lei nº 2.236/2026.",
+      "fonte": "https://cajamar.sp.gov.br/diariooficial/wp-content/uploads/sites/3/edicao-no-1645.pdf"
+    }
+  ],
+  "recem_adicionado": true
+}

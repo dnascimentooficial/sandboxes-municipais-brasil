@@ -1,0 +1,54 @@
+{
+  "id": "sao-lourenco-do-oeste",
+  "nome": "Sandbox Regulatório de São Lourenço do Oeste",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "São Lourenço do Oeste",
+    "uf": "SC",
+    "regiao": "Sul"
+  },
+  "status": "em_instituicao",
+  "temas": [
+    "startups"
+  ],
+  "resumo": "Câmara aprovou em 2025 projeto do Executivo que institui o sandbox regulatório; sanção não confirmada.",
+  "descricao": "Em 28 de outubro de 2025, a Câmara de Vereadores de São Lourenço do Oeste aprovou por unanimidade o Projeto de Lei Complementar nº 27/2025, de autoria do Executivo municipal, que estabelece regras para a criação e o funcionamento de um sandbox regulatório no município.\n\nO projeto permite que startups e empreendedores testem modelos de negócio, produtos ou serviços inovadores sob regras simplificadas antes de chegar ao mercado. A sanção e o número da lei complementar resultante não foram localizados.",
+  "desde": "2025-10-28",
+  "ingresso": "nao_informado",
+  "documentos": [
+    {
+      "tipo": "outro",
+      "titulo": "Notícia da Câmara sobre a aprovação do Projeto de Lei Complementar nº 27/2025",
+      "numero": "PLC 27/2025",
+      "data": "2025-10-28",
+      "url": "https://www.saolourencodooeste.sc.leg.br/institucional/noticias/camara-aprova-projeto-que-institui-o-sandbox-regulatorio-em-sao-lourenco-do-oeste",
+      "principal": true
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/sao-lourenco-do-oeste.jpg",
+    "credito": "Rafinha C.",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:S%C3%A3o_Louren%C3%A7o_do_Oeste_SC.JPG"
+  },
+  "fontes": [
+    {
+      "url": "https://www.saolourencodooeste.sc.leg.br/institucional/noticias/camara-aprova-projeto-que-institui-o-sandbox-regulatorio-em-sao-lourenco-do-oeste",
+      "titulo": "Câmara de São Lourenço do Oeste — Câmara aprova projeto que institui o Sandbox Regulatório (28/10/2025)",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2025-10-28",
+      "descricao": "Câmara aprova por unanimidade o PLC nº 27/2025.",
+      "fonte": "https://www.saolourencodooeste.sc.leg.br/institucional/noticias/camara-aprova-projeto-que-institui-o-sandbox-regulatorio-em-sao-lourenco-do-oeste"
+    }
+  ],
+  "recem_adicionado": true
+}

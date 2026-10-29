@@ -1,0 +1,86 @@
+{
+  "id": "rio-verde",
+  "nome": "Sandbox Rio Verde",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Rio Verde",
+    "uf": "GO",
+    "regiao": "Centro-Oeste"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "startups",
+    "cidades"
+  ],
+  "resumo": "Lei e decreto de 2025 criam o Sandbox Rio Verde; edital de chamamento com inscrições contínuas por 24 meses.",
+  "descricao": "Rio Verde instituiu o Sandbox Rio Verde pela Lei Municipal nº 7.622, de 24 de março de 2025, regulamentada pelo Decreto nº 2.083, de 18 de junho de 2025. O programa usa metodologia de living labs e é conduzido pela Secretaria de Ciência, Tecnologia e Inovação, com um Comitê Gestor.\n\nAs autorizações temporárias valem por até 12 meses, prorrogáveis uma vez, dentro de ciclos experimentais de até 24 meses. O Edital de Chamamento Público nº 004/2025 seleciona projetos inovadores com inscrições abertas por 24 meses e análise em até 45 dias.\n\nNão foram localizados projetos selecionados ou em teste.",
+  "desde": "2025-03-24",
+  "gestor": "Secretaria de Ciência, Tecnologia e Inovação, com Comitê Gestor",
+  "ingresso": "edital",
+  "prazo_teste_meses": 12,
+  "documentos": [
+    {
+      "tipo": "lei",
+      "titulo": "Lei Municipal que institui o Sandbox Rio Verde",
+      "numero": "7.622/2025",
+      "data": "2025-03-24",
+      "url": "https://www.rioverde.go.gov.br/secretaria-de-ciencia-tecnologia-invovacao/wp-uploads/sites/23/2025/08/DECRETO_No_7622-2025_-_REGULAMENTA_O_SANDBOX.pdf",
+      "principal": true
+    },
+    {
+      "tipo": "decreto",
+      "titulo": "Decreto que regulamenta a Lei nº 7.622/2025 (Sandbox Rio Verde)",
+      "numero": "2.083/2025",
+      "data": "2025-06-18",
+      "url": "https://www.rioverde.go.gov.br/secretaria-de-ciencia-tecnologia-invovacao/wp-uploads/sites/23/2025/08/DECRETO_No_7622-2025_-_REGULAMENTA_O_SANDBOX.pdf"
+    },
+    {
+      "tipo": "edital",
+      "titulo": "Edital de Chamamento Público nº 004/2025 — Sandbox Rio Verde",
+      "url": "https://www.rioverde.go.gov.br/wp-uploads/2025/09/EDITAL_DE_CHAMAMENTO.pdf"
+    }
+  ],
+  "editais": [
+    {
+      "titulo": "Edital de Chamamento Público nº 004/2025 — Sandbox Rio Verde (vigência de 24 meses)",
+      "status": "aberto",
+      "url": "https://www.rioverde.go.gov.br/wp-uploads/2025/09/EDITAL_DE_CHAMAMENTO.pdf"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/rio-verde.jpg",
+    "credito": "Rioverdense",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Vista_parcial_de_Rio_Verde-GO.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.rioverde.go.gov.br/secretaria-de-ciencia-tecnologia-invovacao/wp-uploads/sites/23/2025/08/DECRETO_No_7622-2025_-_REGULAMENTA_O_SANDBOX.pdf",
+      "titulo": "Prefeitura de Rio Verde — Decreto nº 2.083/2025",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.rioverde.go.gov.br/wp-uploads/2025/09/EDITAL_DE_CHAMAMENTO.pdf",
+      "titulo": "Prefeitura de Rio Verde — Edital de Chamamento Público nº 004/2025",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2025-06-18",
+      "descricao": "Publicado o Decreto nº 2.083/2025, que regulamenta o Sandbox Rio Verde.",
+      "fonte": "https://www.rioverde.go.gov.br/secretaria-de-ciencia-tecnologia-invovacao/wp-uploads/sites/23/2025/08/DECRETO_No_7622-2025_-_REGULAMENTA_O_SANDBOX.pdf"
+    },
+    {
+      "data": "2025-03-24",
+      "descricao": "Sancionada a Lei nº 7.622/2025.",
+      "fonte": "https://www.rioverde.go.gov.br/secretaria-de-ciencia-tecnologia-invovacao/wp-uploads/sites/23/2025/08/DECRETO_No_7622-2025_-_REGULAMENTA_O_SANDBOX.pdf"
+    }
+  ],
+  "recem_adicionado": true
+}

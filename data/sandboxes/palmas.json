@@ -1,0 +1,59 @@
+{
+  "id": "palmas",
+  "nome": "Sandbox Regulatório de Palmas",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Palmas",
+    "uf": "TO",
+    "regiao": "Norte"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "startups"
+  ],
+  "resumo": "Decreto de 2024 cria o Sandbox Regulatório de Palmas, gerido pela Secretaria de Desenvolvimento Econômico; testes não localizados.",
+  "descricao": "O Decreto Municipal nº 2.568, de 22 de agosto de 2024, criou o Sandbox Regulatório de Palmas, ambiente regulatório controlado sob a gestão da Secretaria Municipal de Desenvolvimento Econômico e Emprego, com base no Marco Legal das Startups.\n\nO decreto prevê pedidos de admissão analisados pela secretaria, edital de chamamento para seleção de empresas e, para as autorizadas, prioridade na tramitação de pedidos por um ano, prorrogável, além da possibilidade de flexibilizar temporariamente exigências regulatórias municipais que não ponham em risco saúde, segurança ou meio ambiente.\n\nNão foram localizados editais publicados nem empresas autorizadas.",
+  "desde": "2024-08-22",
+  "gestor": "Secretaria Municipal de Desenvolvimento Econômico e Emprego",
+  "ingresso": "nao_informado",
+  "flexibilizacoes": [
+    "Flexibilização temporária de exigências regulatórias municipais, sem risco à saúde, à segurança ou ao meio ambiente",
+    "Prioridade na tramitação de pedidos na administração municipal"
+  ],
+  "documentos": [
+    {
+      "tipo": "decreto",
+      "titulo": "Decreto que cria o Sandbox Regulatório de Palmas",
+      "numero": "2.568/2024",
+      "data": "2024-08-22",
+      "url": "https://legislativo.palmas.to.gov.br/media/leis/decreto-2.568-2024-08-22-27-8-2024-13-45-40.pdf",
+      "principal": true
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/palmas.jpg",
+    "credito": "MTur Destinos",
+    "licenca": "Domínio público",
+    "origem": "https://commons.wikimedia.org/wiki/File:Vista_de_Palmas,_Tocantins.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://legislativo.palmas.to.gov.br/media/leis/decreto-2.568-2024-08-22-27-8-2024-13-45-40.pdf",
+      "titulo": "Prefeitura de Palmas — Decreto nº 2.568/2024",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2024-08-22",
+      "descricao": "Assinado o Decreto nº 2.568/2024.",
+      "fonte": "https://legislativo.palmas.to.gov.br/media/leis/decreto-2.568-2024-08-22-27-8-2024-13-45-40.pdf"
+    }
+  ],
+  "recem_adicionado": true
+}

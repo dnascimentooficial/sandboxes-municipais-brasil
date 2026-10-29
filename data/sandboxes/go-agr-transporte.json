@@ -1,0 +1,64 @@
+{
+  "id": "go-agr-transporte",
+  "nome": "Sandbox Regulatório da AGR — Transporte Rodoviário Intermunicipal",
+  "esfera": "estadual",
+  "jurisdicao": {
+    "uf": "GO",
+    "regiao": "Centro-Oeste"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "mobilidade"
+  ],
+  "resumo": "Resolução de 2025 da AGR cria sandbox para o transporte rodoviário intermunicipal de passageiros em Goiás.",
+  "descricao": "A Resolução Normativa nº 297, de 10 de junho de 2025, do Conselho Regulador da Agência Goiana de Regulação, Controle e Fiscalização de Serviços Públicos (AGR), dispõe sobre as regras de um ambiente regulatório experimental no setor de transporte rodoviário intermunicipal de passageiros de Goiás.\n\nO ingresso ocorre por edital de participação aprovado pelo Conselho Regulador, com uma Comissão de Sandbox específica para cada edital. Podem participar empresas que prestam o serviço mediante autorização da AGR, ou consórcios. Cada edital define as regras a serem afastadas, e o experimento pode durar até 36 meses.\n\nNão foram localizados editais publicados nem projetos autorizados.",
+  "desde": "2025-06-10",
+  "gestor": "Agência Goiana de Regulação, Controle e Fiscalização de Serviços Públicos (AGR) — Conselho Regulador",
+  "ingresso": "edital",
+  "prazo_teste_meses": 36,
+  "elegibilidade": "Pessoas jurídicas de direito privado que prestam transporte rodoviário intermunicipal mediante autorização da AGR, ou consórcios de empresas.",
+  "flexibilizacoes": [
+    "Afastamento temporário de regras do setor indicadas em cada edital de participação"
+  ],
+  "documentos": [
+    {
+      "tipo": "resolucao",
+      "titulo": "Resolução Normativa AGR que dispõe sobre o ambiente regulatório experimental (Sandbox Regulatório)",
+      "numero": "297/2025",
+      "data": "2025-06-10",
+      "url": "https://goias.gov.br/agr/wp-content/uploads/sites/43/2025/07/Resolucao-Normativa-n-297.2025-CR-1.pdf",
+      "principal": true
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/go-agr-transporte.jpg",
+    "credito": "Eugenio Hansen, OFS",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_das_Esmeraldas_(Goi%C3%A2nia,_Brasil).jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://goias.gov.br/agr/wp-content/uploads/sites/43/2025/07/Resolucao-Normativa-n-297.2025-CR-1.pdf",
+      "titulo": "AGR — Resolução Normativa nº 297/2025",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://abar.org.br/agr-institui-sandbox-regulatorio-para-testes-de-inovacoes-nos-servicos-regulados/",
+      "titulo": "ABAR — AGR institui sandbox regulatório",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2025-06-10",
+      "descricao": "Aprovada a Resolução Normativa AGR nº 297/2025.",
+      "fonte": "https://goias.gov.br/agr/wp-content/uploads/sites/43/2025/07/Resolucao-Normativa-n-297.2025-CR-1.pdf"
+    }
+  ],
+  "recem_adicionado": true
+}

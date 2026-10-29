@@ -129,6 +129,13 @@
       "mudou": true,
       "avisos": []
     },
+    "apucarana": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Texto e data da Lei nº 15/2023 não localizados; notícia oficial não traz link para o edital."
+      ]
+    },
     "balneario-camboriu": {
       "verificado_em": "2026-10-29",
       "mudou": false,
@@ -155,6 +162,33 @@
       "avisos": [
         "Lei Complementar nº 1.338/2021 revogada pela LC nº 1.741/2026 (principal atualizado).",
         "Decreto 13.555/2021 regulamentava a LC 1.338/2021, revogada pela LC 1.741/2026; vigência a confirmar."
+      ]
+    },
+    "cajamar": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": []
+    },
+    "campina-grande": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Vigência e execução do programa não verificadas."
+      ]
+    },
+    "catanduvas-sc": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Íntegra da lei (.docx) não lida; só ementa e data conferidas."
+      ]
+    },
+    "ce-estadual": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Número dos PLs não consta no documento (arquivos pl389_26 e pl612_25 da ALECE); tramitação não verificada.",
+        "PL de IA de 2025 prevê um Sandbox Estadual Permanente de IA; tramitação não verificada."
       ]
     },
     "criciuma": {
@@ -194,6 +228,21 @@
         "Não há notícia de ciclos após 2022; status ativo baseado em soluções concluídas."
       ]
     },
+    "go-agr-transporte": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Nenhum edital de participação localizado."
+      ]
+    },
+    "go-sandbox-ia": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Página específica do sandbox em goias.gov.br retornava 404 em 29/10/2026.",
+        "Nenhum edital de projetos localizado."
+      ]
+    },
     "goiania": {
       "verificado_em": "2026-10-29",
       "mudou": false,
@@ -220,6 +269,20 @@
       "mudou": true,
       "avisos": []
     },
+    "joinville": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Texto da LC nº 661/2023 não lido (fonte: notícia da ACIJ)."
+      ]
+    },
+    "limeira": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Data da Lei nº 7.219/2025 e número/data do decreto não informados na página oficial."
+      ]
+    },
     "londrina": {
       "verificado_em": "2026-10-29",
       "mudou": false,
@@ -239,6 +302,11 @@
         "Consulta pública de 2026 \"para implantação\" indica que o programa ainda não operou, apesar do decreto de 2022."
       ]
     },
+    "major-vieira": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": []
+    },
     "mec-sandbox-ia-educacao": {
       "verificado_em": "2026-10-29",
       "mudou": true,
@@ -247,10 +315,40 @@
         "Portaria nº 2/2026 (Comitê Executivo) citada pelo MEC; texto não localizado em página oficial."
       ]
     },
+    "ms-agems": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Texto integral da portaria não lido; prazo e forma de ingresso não informados na notícia oficial."
+      ]
+    },
+    "niteroi": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Texto do Decreto nº 15.022/2023 não localizado; número vem do edital oficial.",
+        "Status 'concluída' das 5 soluções do 1º ciclo inferido de 'ciclo encerrado' + lista de participantes na página oficial; datas do 1º ciclo não informadas.",
+        "Assinatura dos termos do 2º ciclo não confirmada."
+      ]
+    },
     "olimpia": {
       "verificado_em": "2026-10-29",
       "mudou": false,
       "avisos": []
+    },
+    "palmas": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Editais e participantes não localizados."
+      ]
+    },
+    "peritiba": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Só a primeira página da lei foi lida (PDF em visualizador); detalhes como prazo e gestor não registrados."
+      ]
     },
     "petrolina": {
       "verificado_em": "2026-10-29",
@@ -265,6 +363,14 @@
       "mudou": false,
       "avisos": []
     },
+    "pr-estadual": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Decreto regulamentador nº 13.728/2026 citado só em nota da LegisWeb; texto oficial não localizado (não incluído como documento).",
+        "Texto da lei lido na LegisWeb, não no portal oficial do PR."
+      ]
+    },
     "recife": {
       "verificado_em": "2026-10-29",
       "mudou": false,
@@ -276,6 +382,35 @@
       "verificado_em": "2026-10-29",
       "mudou": true,
       "avisos": []
+    },
+    "rio-verde": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Texto da Lei nº 7.622/2025 não lido; data e número vêm do decreto regulamentador.",
+        "Edital publicado em set/2025 (pasta do arquivo); data exata de publicação não confirmada."
+      ]
+    },
+    "rj-agenersa": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Edital final não localizado; estudo da ENAP (2026) sugere que a norma pode já ter sido publicada — verificar no DOERJ."
+      ]
+    },
+    "rs-estadual": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Texto da lei lido na LegisWeb; decreto regulamentador não localizado."
+      ]
+    },
+    "sao-bernardo-do-campo": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "verificação manual necessária: https://dosp.com.br/exibe_do.php?i=Nzk5NDQx (página com bloqueio anti-bot; texto e data da lei não lidos)."
+      ]
     },
     "sao-jose-dos-campos": {
       "verificado_em": "2026-10-29",
@@ -292,10 +427,24 @@
         "Documentos apontam para página oficial descritiva, não para o texto dos atos."
       ]
     },
+    "sao-lourenco-do-oeste": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Sanção não confirmada; se sancionada, atualizar para regulamentado com o número da LC."
+      ]
+    },
     "sao-paulo": {
       "verificado_em": "2026-10-29",
       "mudou": false,
       "avisos": []
+    },
+    "sp-estadual": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Execução do programa (projetos municipais apoiados) não localizada; possível descontinuidade não verificada."
+      ]
     },
     "susep-sandbox-1": {
       "verificado_em": "2026-10-29",

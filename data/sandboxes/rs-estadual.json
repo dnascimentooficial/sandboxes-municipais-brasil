@@ -1,0 +1,59 @@
+{
+  "id": "rs-estadual",
+  "nome": "Sandbox Regulatório do Estado do Rio Grande do Sul",
+  "esfera": "estadual",
+  "jurisdicao": {
+    "uf": "RS",
+    "regiao": "Sul"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "startups"
+  ],
+  "resumo": "Lei estadual de 2024 regulamenta o ambiente regulatório experimental gaúcho; decreto e testes não localizados.",
+  "descricao": "A Lei estadual nº 16.255, de 25 de dezembro de 2024, publicada em 27 de dezembro de 2024, regulamenta a constituição e o funcionamento de um ambiente regulatório experimental (sandbox regulatório) no Rio Grande do Sul.\n\nO Poder Executivo pode conceder autorizações temporárias de até um ano, prorrogáveis uma vez por igual período, que dispensam requisitos regulatórios mediante condições e salvaguardas prévias. As propostas são apresentadas ao órgão competente, que deve se manifestar em até 60 dias, e os resultados devem ser publicados na internet.\n\nNão foram localizados decreto regulamentador, editais ou projetos autorizados.",
+  "desde": "2024-12-25",
+  "gestor": "Poder Executivo estadual (órgão competente conforme a atividade)",
+  "ingresso": "nao_informado",
+  "prazo_teste_meses": 12,
+  "elegibilidade": "Pessoas jurídicas com modelo de negócio inovador, capacidade técnica e financeira e modelo validado preliminarmente por prova de conceito ou protótipo.",
+  "flexibilizacoes": [
+    "Dispensa de requisitos regulatórios mediante condições, limites e salvaguardas fixados previamente"
+  ],
+  "documentos": [
+    {
+      "tipo": "lei",
+      "titulo": "Lei que regulamenta o ambiente regulatório experimental (Sandbox Regulatório) no RS",
+      "numero": "16.255/2024",
+      "data": "2024-12-25",
+      "url": "https://www.legisweb.com.br/legislacao/?id=471147",
+      "principal": true
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/rs-estadual.jpg",
+    "credito": "Joao Vicente",
+    "licenca": "CC BY 2.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_Piratini_(2381963103).jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.legisweb.com.br/legislacao/?id=471147",
+      "titulo": "LegisWeb — Lei estadual nº 16.255/2024 do Rio Grande do Sul",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2024-12-25",
+      "descricao": "Sancionada a Lei nº 16.255/2024 (DOE de 27/12/2024).",
+      "fonte": "https://www.legisweb.com.br/legislacao/?id=471147"
+    }
+  ],
+  "recem_adicionado": true
+}
