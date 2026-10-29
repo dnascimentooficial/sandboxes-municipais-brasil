@@ -7,7 +7,8 @@
 import { ESFERAS, STATUS, REGIOES, UF_REGIAO } from '../esquema.js';
 import { filtrar, ordenar, contar } from '../filtros.js';
 import { escapar, rotulo, dataBR } from '../formatar.js';
-import { UF_NOME, plural, desenharMapa, desenharNacional, desenharRankingUf } from './mapa.js';
+import { UF_NOME, plural, desenharMapa, desenharRankingUf } from './mapa.js';
+import { desenharNacional } from './nacional.js';
 import { cartao, corSegura } from './cartoes.js';
 
 const FILTROS_VAZIOS = { esfera: '', status: '', regiao: '', uf: '', tema: '', orgao: '' };
@@ -82,7 +83,7 @@ export function montarPanorama(raiz, ctx) {
 
   // ---------- Mapa, âmbito nacional e ranking ----------
   desenharMapa($('mapa'), $('mapa-legenda'), c.porUf);
-  desenharNacional($('nacional'), sandboxes, orgaos);
+  desenharNacional($('nacional'), sandboxes, orgaos, { aoAbrir: (id) => ctx.abrirSandbox(id) });
   desenharRankingUf($('ranking-uf'), c.porUf);
   $('ranking-titulo').hidden = Object.keys(c.porUf).length === 0;
 

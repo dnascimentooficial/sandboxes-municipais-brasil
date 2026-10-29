@@ -103,7 +103,7 @@ function editais(s) {
   const itens = lista(s.editais);
   if (!itens.length) return vazio('nenhum');
   return `<ul class="gv-itens">${itens.map((x) => {
-    const st = ROTULO_EDITAL[x.status] ?? textoOuNaoInformado(x.status);
+    const st = Object.hasOwn(ROTULO_EDITAL, x.status) ? ROTULO_EDITAL[x.status] : textoOuNaoInformado(x.status);
     const datas = x.abertura || x.encerramento ? `<p class="gv-meta">${escapar(periodo(x.abertura, x.encerramento))}</p>` : '';
     const titulo = temTexto(x.url) ? linkExterno(x.url, textoOuNaoInformado(x.titulo)) : valorOuNaoInformado(x.titulo);
     return `<li><div class="gv-item-top"><b>${titulo}</b><span class="badge${x.status === 'aberto' ? ' st-ativo' : ' outline'}">${escapar(st)}</span></div>${datas}</li>`;

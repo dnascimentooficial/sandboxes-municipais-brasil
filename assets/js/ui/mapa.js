@@ -1,4 +1,4 @@
-// Mapa do Brasil por UF (a partir de window.BRASIL_MAPA), bloco "Âmbito nacional" e ranking de estados.
+// Mapa do Brasil por UF (a partir de window.BRASIL_MAPA) e ranking de estados. O "Âmbito nacional" fica em nacional.js.
 // Cliques são tratados por quem monta: todo alvo clicável tem data-filtro/data-valor.
 import { escapar } from '../formatar.js';
 import { UF_REGIAO } from '../esquema.js';
@@ -58,33 +58,6 @@ export function desenharMapa(raizMapa, raizLegenda, porUf) {
     ev.preventDefault();
     alvo.dispatchEvent(new MouseEvent('click', { bubbles: true }));
   });
-}
-
-export function desenharNacional(raiz, sandboxes, orgaos) {
-  const federais = sandboxes.filter((s) => s.esfera === 'federal');
-  if (!federais.length) {
-    raiz.innerHTML = `<p class="nacional-vazio"><b>Nenhum sandbox federal mapeado ainda.</b>Os programas de agências e órgãos federais entram aqui assim que forem verificados.</p>`;
-    return;
-  }
-  const grupos = new Map();
-  for (const s of federais) {
-    const sigla = s.jurisdicao?.orgao || '';
-    grupos.set(sigla, (grupos.get(sigla) ?? 0) + 1);
-  }
-  const max = Math.max(...grupos.values());
-  const itens = [...grupos.entries()]
-    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'pt-BR'))
-    .map(([sigla, n]) => {
-      const o = (orgaos ?? []).find((x) => x.sigla === sigla);
-      const nome = o?.nome || sigla || 'não informado';
-      const alvo = sigla ? `data-filtro="orgao" data-valor="${escapar(sigla)}" aria-pressed="false"` : 'disabled';
-      return `<li><button type="button" class="rank-item" ${alvo}>
-        <span class="av" aria-hidden="true">${escapar((sigla || '?').slice(0, 5))}</span>
-        <span class="meta"><span class="nm">${escapar(nome)}</span><span class="sub">${escapar(sigla || 'órgão não informado')}</span>
-        <span class="bar"><i style="width:${Math.round((n / max) * 100)}%"></i></span></span>
-        <span class="n" aria-label="${escapar(nSandboxes(n))}">${n}</span></button></li>`;
-    });
-  raiz.innerHTML = `<ol class="rank">${itens.join('')}</ol>`;
 }
 
 export function desenharRankingUf(raiz, porUf, limite = 8) {

@@ -153,10 +153,13 @@ export function montarComparar(el, ctx) {
       }
     }
   });
-  // Clique numa sugestão: pointerdown não tira o foco do campo; o click escolhe.
-  areaCampos.addEventListener('pointerdown', (ev) => {
+  // Clique numa sugestão: pointerdown/mousedown não tiram o foco do campo; o click escolhe.
+  // Os dois: em alguns navegadores o blur vem do mousedown compatível mesmo com pointerdown cancelado.
+  const manterFoco = (ev) => {
     if (ev.target.closest('[role="option"]')) ev.preventDefault();
-  });
+  };
+  areaCampos.addEventListener('pointerdown', manterFoco);
+  areaCampos.addEventListener('mousedown', manterFoco);
   areaCampos.addEventListener('click', (ev) => {
     const op = ev.target.closest('[role="option"]');
     if (op) escolher(op.dataset.id);

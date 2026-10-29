@@ -11,6 +11,26 @@ const lerJson = (arq) => JSON.parse(readFileSync(arq, 'utf8'));
 
 export const ASSETS_CARIMBADOS = ['assets/app.css', 'assets/brasil-mapa.js', 'assets/js/app.js', 'data/sandboxes.js'];
 
+// Data AAAA-MM-DD que existe no calendário; qualquer outra coisa é null.
+export function dataIsoValida(v) {
+  if (typeof v !== 'string') return null;
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(v);
+  if (!m) return null;
+  const dt = new Date(Date.UTC(Number(m[1]), Number(m[2]) - 1, Number(m[3])));
+  return dt.toISOString().slice(0, 10) === v ? v : null;
+}
+
+// ultima_execucao de data/verificacao.json (rotina de verificação). Ausente, ilegível ou inválida -> null.
+export function lerUltimaExecucao(dir) {
+  const arq = join(dir, 'verificacao.json');
+  if (!existsSync(arq)) return null;
+  try {
+    return dataIsoValida(lerJson(arq)?.ultima_execucao);
+  } catch {
+    return null;
+  }
+}
+
 export function carregarBase(dir) {
   const arquivos = readdirSync(join(dir, 'sandboxes')).filter((f) => f.endsWith('.json')).sort();
   const sandboxes = arquivos.map((f) => lerJson(join(dir, 'sandboxes', f)));
@@ -19,13 +39,22 @@ export function carregarBase(dir) {
     temas: lerJson(join(dir, 'temas.json')),
     orgaos: lerJson(join(dir, 'orgaos.json')),
     sandboxes,
+    ultimaExecucao: lerUltimaExecucao(dir),
   };
 }
 
-export function gerarJs({ temas, orgaos, sandboxes }) {
+// R18: a maior data entre os verificado_em e a última execução da rotina de verificação.
+export function atualizacaoBase(sandboxes, ultimaExecucao = null) {
+  const datas = sandboxes.map((s) => dataIsoValida(s.verificado_em)).filter(Boolean);
+  const ultima = dataIsoValida(ultimaExecucao);
+  if (ultima) datas.push(ultima);
+  return datas.sort().at(-1) ?? null;
+}
+
+export function gerarJs({ temas, orgaos, sandboxes, ultimaExecucao = null }) {
   const meta = {
     titulo: 'Sandboxes regulatórios no Brasil',
-    atualizacaoBase: sandboxes.map((s) => s.verificado_em).filter(Boolean).sort().at(-1) ?? null,
+    atualizacaoBase: atualizacaoBase(sandboxes, ultimaExecucao),
     total: sandboxes.length,
   };
   return (
@@ -87,7 +116,7 @@ function main(args) {
   const htmlAtual = existsSync(indexHtml) ? readFileSync(indexHtml, 'utf8') : null;
   const htmlNovo = htmlAtual === null ? null : carimbarIndex(htmlAtual, versoes);
   const sitemapAtual = existsSync(sitemapXml) ? readFileSync(sitemapXml, 'utf8') : null;
-  const sitemapNovo = sitemapAtual === null ? null : carimbarSitemap(sitemapAtual, JSON.parse(js.split('window.SANDBOX_DADOS = ')[1].replace(/;\n$/, '')).meta.atualizacaoBase);
+  const sitemapNovo = sitemapAtual === null ? null : carimbarSitemap(sitemapAtual, atualizacaoBase(base.sandboxes, base.ultimaExecucao));
   const jsAtual = existsSync(saidaJs) ? readFileSync(saidaJs, 'utf8') : null;
 
   if (check) {

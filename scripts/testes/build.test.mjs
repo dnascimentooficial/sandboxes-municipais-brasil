@@ -5,7 +5,7 @@ import { tmpdir } from 'node:os';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
-import { carregarBase, gerarJs, versao, carimbarIndex, carimbarSitemap } from '../build-dados.mjs';
+import { carregarBase, gerarJs, versao, carimbarIndex, carimbarSitemap, atualizacaoBase, dataIsoValida, lerUltimaExecucao } from '../build-dados.mjs';
 
 const aqui = dirname(fileURLToPath(import.meta.url));
 const fixture = join(aqui, 'fixtures', 'valido');
@@ -77,6 +77,72 @@ test('carimbarSitemap reescreve lastmod e o CLI --check detecta sitemap desatual
     const base = carregarBase(join(tmp, 'data'));
     const maior = base.sandboxes.map((s) => s.verificado_em).sort().at(-1);
     assert.match(readFileSync(sm, 'utf8'), new RegExp(`<lastmod>${maior}</lastmod>`));
+    assert.equal(rodar('--check').status, 0);
+  } finally {
+    rmSync(tmp, { recursive: true, force: true });
+  }
+});
+
+const metaDe = (js) => JSON.parse(js.split('window.SANDBOX_DADOS = ')[1].replace(/;\n$/, '')).meta;
+
+test('dataIsoValida aceita só AAAA-MM-DD que existe', () => {
+  assert.equal(dataIsoValida('2026-10-29'), '2026-10-29');
+  assert.equal(dataIsoValida('2024-02-29'), '2024-02-29');
+  for (const v of ['2025-02-29', '2026-13-01', '29/10/2026', '2026-10-29T00:00', '', null, undefined, 20261029]) {
+    assert.equal(dataIsoValida(v), null, String(v));
+  }
+});
+
+test('R18: atualizacaoBase usa ultima_execucao quando é posterior a todos os verificado_em', () => {
+  const sb = [{ verificado_em: '2026-01-10' }, { verificado_em: '2026-03-05' }];
+  assert.equal(atualizacaoBase(sb, '2026-10-29'), '2026-10-29');
+  assert.equal(atualizacaoBase(sb, '2025-12-31'), '2026-03-05');
+  assert.equal(atualizacaoBase(sb, null), '2026-03-05');
+  assert.equal(atualizacaoBase(sb, '2026-99-99'), '2026-03-05');
+  assert.equal(atualizacaoBase(sb, 'ontem'), '2026-03-05');
+  assert.equal(atualizacaoBase([], '2026-10-29'), '2026-10-29');
+  assert.equal(atualizacaoBase([], null), null);
+});
+
+test('R18: carregarBase lê data/verificacao.json; ausente, inválido ou ilegível cai para o maior verificado_em', () => {
+  const tmp = mkdtempSync(join(tmpdir(), 'build-'));
+  try {
+    const dir = join(tmp, 'data');
+    cpSync(fixture, dir, { recursive: true });
+    const maior = carregarBase(dir).sandboxes.map((s) => s.verificado_em).sort().at(-1);
+    const arq = join(dir, 'verificacao.json');
+
+    assert.equal(lerUltimaExecucao(dir), null);
+    assert.equal(metaDe(gerarJs(carregarBase(dir))).atualizacaoBase, maior);
+
+    writeFileSync(arq, JSON.stringify({ ultima_execucao: '2099-12-31', resultado_por_id: {} }));
+    const base = carregarBase(dir);
+    assert.equal(base.ultimaExecucao, '2099-12-31');
+    assert.equal(metaDe(gerarJs(base)).atualizacaoBase, '2099-12-31');
+    assert.equal(gerarJs(base), gerarJs(carregarBase(dir)));
+
+    for (const ruim of [JSON.stringify({ ultima_execucao: '31/12/2099' }), JSON.stringify({ ultima_execucao: '2099-02-30' }), JSON.stringify({}), '{ isto não é json']) {
+      writeFileSync(arq, ruim);
+      assert.equal(lerUltimaExecucao(dir), null, ruim);
+      assert.equal(metaDe(gerarJs(carregarBase(dir))).atualizacaoBase, maior, ruim);
+    }
+  } finally {
+    rmSync(tmp, { recursive: true, force: true });
+  }
+});
+
+test('R18: o lastmod do sitemap segue ultima_execucao', () => {
+  const tmp = mkdtempSync(join(tmpdir(), 'build-'));
+  try {
+    cpSync(fixture, join(tmp, 'data'), { recursive: true });
+    writeFileSync(join(tmp, 'data', 'verificacao.json'), JSON.stringify({ ultima_execucao: '2099-12-31' }));
+    writeFileSync(join(tmp, 'index.html'), '<html></html>');
+    const sm = join(tmp, 'sitemap.xml');
+    writeFileSync(sm, '<urlset><url><loc>https://x/</loc><lastmod>2020-01-01</lastmod></url></urlset>');
+    const rodar = (...args) => spawnSync(process.execPath, [cli, ...args], { cwd: tmp, encoding: 'utf8' });
+    assert.equal(rodar().status, 0);
+    assert.match(readFileSync(sm, 'utf8'), /<lastmod>2099-12-31<\/lastmod>/);
+    assert.equal(metaDe(readFileSync(join(tmp, 'data', 'sandboxes.js'), 'utf8')).atualizacaoBase, '2099-12-31');
     assert.equal(rodar('--check').status, 0);
   } finally {
     rmSync(tmp, { recursive: true, force: true });
