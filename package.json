@@ -1,0 +1,10 @@
+{
+  "name": "sandboxes-brasil",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test",
+    "validar": "node scripts/validar.mjs data"
+  }
+}
