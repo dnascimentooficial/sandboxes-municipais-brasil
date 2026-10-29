@@ -1,0 +1,78 @@
+{
+  "id": "joinville",
+  "nome": "Sandbox Regulatório de Joinville",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Joinville",
+    "uf": "SC",
+    "regiao": "Sul"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "startups"
+  ],
+  "resumo": "Lei complementar de 2026 reinstitui o sandbox de Joinville, com autorizações de até um ano e benefícios fiscais.",
+  "descricao": "Joinville instituiu seu ambiente regulatório experimental pela Lei Complementar nº 661, de 16 de outubro de 2023, sancionada em evento da ACIJ. Essa lei foi revogada e substituída pela Lei Complementar nº 780, de 19 de agosto de 2026.\n\nA nova lei prevê autorizações temporárias de até um ano, prorrogáveis por igual período, seleção por edital do Poder Executivo e, por até dois anos, prioridade na tramitação de pedidos. Startups participantes têm ISS reduzido a 2% e isenção de taxas de localização, aprovação, vistoria e fiscalização do projeto.\n\nNão foram localizados editais nem projetos autorizados.",
+  "desde": "2023-10-16",
+  "ingresso": "edital",
+  "prazo_teste_meses": 12,
+  "elegibilidade": "Pessoas jurídicas, startups ou não, com capacidade técnica e financeira e modelo de negócio validado preliminarmente por prova de conceito ou protótipo.",
+  "flexibilizacoes": [
+    "Dispensa de determinados requisitos regulatórios mediante condições, limites e salvaguardas prévias",
+    "Redução do ISS para 2% e isenção de taxas do projeto para startups",
+    "Prioridade na tramitação de processos administrativos"
+  ],
+  "documentos": [
+    {
+      "tipo": "lei",
+      "titulo": "Lei Complementar que institui o ambiente regulatório experimental (sandbox regulatório) no Município de Joinville",
+      "numero": "780/2026",
+      "data": "2026-08-19",
+      "url": "https://www.joinville.sc.gov.br/public/portaladm/pdf/jornal/5a1424be2433c70f2243c7e02d57a458.pdf",
+      "principal": true
+    },
+    {
+      "tipo": "lei",
+      "titulo": "(revogado) Lei Complementar que criou o ambiente regulatório experimental de Joinville",
+      "numero": "661/2023",
+      "data": "2023-10-16",
+      "url": "https://www.acij.com.br/prefeitura-sanciona-em-evento-da-acij-lei-que-cria-ambiente-regulatorio-experimental-para-startups/"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/joinville.jpg",
+    "credito": "MTur Destinos",
+    "licenca": "Domínio público",
+    "origem": "https://commons.wikimedia.org/wiki/File:DanielVianna_MirantedaBoaVista_Joinville_SC_(27170860068).jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.joinville.sc.gov.br/public/portaladm/pdf/jornal/5a1424be2433c70f2243c7e02d57a458.pdf",
+      "titulo": "Jornal do Município de Joinville nº 3.030 (19/08/2026) — Lei Complementar nº 780/2026",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.acij.com.br/prefeitura-sanciona-em-evento-da-acij-lei-que-cria-ambiente-regulatorio-experimental-para-startups/",
+      "titulo": "ACIJ — Prefeitura sanciona lei que cria ambiente regulatório experimental para startups",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2026-08-19",
+      "descricao": "Sancionada a Lei Complementar nº 780/2026, que revoga a LC nº 661/2023.",
+      "fonte": "https://www.joinville.sc.gov.br/public/portaladm/pdf/jornal/5a1424be2433c70f2243c7e02d57a458.pdf"
+    },
+    {
+      "data": "2023-10-16",
+      "descricao": "Sancionada a Lei Complementar nº 661/2023, em evento da ACIJ.",
+      "fonte": "https://www.acij.com.br/prefeitura-sanciona-em-evento-da-acij-lei-que-cria-ambiente-regulatorio-experimental-para-startups/"
+    }
+  ],
+  "recem_adicionado": true
+}

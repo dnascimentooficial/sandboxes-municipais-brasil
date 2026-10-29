@@ -1,0 +1,70 @@
+# Sandboxes Brasil: https://sandboxbrasil.dnascimento.com.br/
+# Hostinger (Apache/LiteSpeed), deploy via Git. api/.htaccess é independente e continua valendo.
+
+Options -Indexes
+DirectoryIndex index.html
+# Caminho absoluto: vale também para URLs aninhadas (/x/y). O 404.html não depende de outros arquivos.
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # 1) Host canônico: dnascimento.com.br/<pasta>/, www. e variantes vão para o subdomínio,
+  #    preservando o caminho e a query. Só casa hosts dnascimento.com.br (nada acontece em localhost).
+  RewriteCond %{HTTP_HOST} ^(www\.)?dnascimento\.com\.br$ [NC,OR]
+  RewriteCond %{HTTP_HOST} ^www\.sandboxbrasil\.dnascimento\.com\.br$ [NC]
+  RewriteRule ^(.*)$ https://sandboxbrasil.dnascimento.com.br/$1 [R=301,L]
+
+  # 2) HTTPS forçado (também atrás de proxy/CDN, que informa o esquema em X-Forwarded-Proto).
+  RewriteCond %{HTTP_HOST} ^sandboxbrasil\.dnascimento\.com\.br$ [NC]
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC]
+  RewriteRule ^(.*)$ https://sandboxbrasil.dnascimento.com.br/$1 [R=301,L]
+
+  # 3) Pastas e arquivos que nunca devem sair pela web. data/sandboxes/ (pasta) é bloqueada;
+  #    data/sandboxes.js, data/temas.json e data/orgaos.json seguem públicos.
+  RewriteRule ^(rotina|scripts|docs|\.github|\.git|\.superpowers|\.claude|data/sandboxes)(/|$) - [F,L,NC]
+
+  # 4) Política de cache por pasta (a variável é lida pelos "Header ... env=" abaixo).
+  #    Imagens: 30 dias, sem immutable (os nomes não carregam versão; trocar a foto mantém o nome).
+  #    og/ fica de fora: os robôs de pré-visualização revalidam pelo padrão do servidor.
+  RewriteRule ^img/ - [E=SB_CACHE_IMAGEM:1]
+  RewriteRule ^assets/hero/ - [E=SB_CACHE_IMAGEM:1]
+  #    Revalidar sempre (ETag): módulos ES são importados sem versão e os dados mudam no deploy.
+  RewriteRule ^assets/js/ - [E=SB_CACHE_REVALIDAR:1]
+  RewriteRule ^data/ - [E=SB_CACHE_REVALIDAR:1]
+  #    api/indicar.php define o próprio Referrer-Policy (same-origin): o do site não o sobrescreve.
+  RewriteRule ^api/ - [E=SB_API:1]
+</IfModule>
+
+# Arquivos soltos na raiz que não são conteúdo do site.
+<FilesMatch "(^package(-lock)?\.json$|\.md$|^\.gitignore$)">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+  </IfModule>
+</FilesMatch>
+
+<IfModule mod_headers.c>
+  # Segurança em todo o site. Sem scripts inline nem origens externas (fontes, imagens e a API são locais);
+  # 'unsafe-inline' em style-src cobre só atributos style= gerados pelo JS (larguras de barras, cores de tema)
+  # e o <style> do 404.html. data: em img-src é o favicon e os ícones SVG do CSS.
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin" env=!SB_API
+  Header always set Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
+
+  Header set Cache-Control "public, max-age=2592000" env=SB_CACHE_IMAGEM
+  Header set Cache-Control "no-cache" env=SB_CACHE_REVALIDAR
+
+  # Arquivos individuais (vêm depois: prevalecem sobre as regras por pasta).
+  # Imutável só para app.css e brasil-mapa.js: são referenciados com ?v= carimbado (a URL muda com o conteúdo).
+  <FilesMatch "^(app\.css|brasil-mapa\.js)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "^(index\.html|404\.html|robots\.txt|sitemap\.xml)$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>

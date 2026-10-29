@@ -1,0 +1,54 @@
+{
+  "id": "peritiba",
+  "nome": "Sandbox Regulatório de Peritiba",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Peritiba",
+    "uf": "SC",
+    "regiao": "Sul"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "startups"
+  ],
+  "resumo": "Lei complementar de 2025 institui o ambiente regulatório experimental de Peritiba para startups.",
+  "descricao": "A Lei Complementar nº 173, de 21 de outubro de 2025, instituiu o Ambiente Regulatório Experimental (Sandbox Regulatório) no Município de Peritiba, com o objetivo de fomentar a inovação tecnológica e o empreendedorismo por meio de condições regulatórias diferenciadas e simplificadas para testes.\n\nO texto segue o mesmo modelo adotado por outros municípios catarinenses em 2025, como Major Vieira. Não foram localizados regulamentação, chamamentos ou projetos autorizados.",
+  "desde": "2025-10-21",
+  "ingresso": "nao_informado",
+  "documentos": [
+    {
+      "tipo": "lei",
+      "titulo": "Lei Complementar que institui o Sandbox Regulatório no Município de Peritiba",
+      "numero": "173/2025",
+      "data": "2025-10-21",
+      "url": "https://www.camaraperitiba.sc.gov.br/assinatura/assinado/2025/10/2510211026498327.pdf?vh=5dcd774",
+      "principal": true
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/peritiba.jpg",
+    "credito": "Kaktus Kid",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Portal_Peritiba.JPG"
+  },
+  "fontes": [
+    {
+      "url": "https://www.camaraperitiba.sc.gov.br/assinatura/assinado/2025/10/2510211026498327.pdf?vh=5dcd774",
+      "titulo": "Câmara Municipal de Peritiba — Lei Complementar nº 173/2025",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2025-10-21",
+      "descricao": "Sancionada a Lei Complementar nº 173/2025.",
+      "fonte": "https://www.camaraperitiba.sc.gov.br/assinatura/assinado/2025/10/2510211026498327.pdf?vh=5dcd774"
+    }
+  ],
+  "recem_adicionado": true
+}

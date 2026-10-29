@@ -1,0 +1,72 @@
+{
+  "id": "sao-jose-dos-pinhais",
+  "nome": "Sandbox SJP",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "São José dos Pinhais",
+    "uf": "PR",
+    "regiao": "Sul"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "cidades",
+    "gestao-publica",
+    "mobilidade",
+    "startups",
+    "dados"
+  ],
+  "resumo": "Decreto de 2025 institui o Sandbox SJP, gerido pela secretaria de inovação, para testar soluções com regras temporárias.",
+  "descricao": "São José dos Pinhais instituiu o Sandbox SJP pelo Decreto nº 6.720, de 29 de julho de 2025, com base na Lei Municipal nº 4.715/2025, que trata da política municipal de inovação, e no Marco Legal das Startups.\n\nO programa é gerido pela Secretaria de Inovação, Modernização e Transformação Digital, com um Comitê Gestor Intersetorial e um observador externo. As áreas prioritárias incluem cidades inteligentes, GovTech, mobilidade urbana e elétrica, agricultura de precisão e inteligência artificial.\n\nNão foram localizadas informações públicas sobre chamamentos ou testes realizados até a data da verificação.",
+  "desde": "2025-07-29",
+  "gestor": "Secretaria de Inovação, Modernização e Transformação Digital (Simot), com Comitê Gestor Intersetorial",
+  "ingresso": "nao_informado",
+  "elegibilidade": "Pessoas físicas ou jurídicas com projetos alinhados às áreas prioritárias do município.",
+  "documentos": [
+    {
+      "tipo": "decreto",
+      "titulo": "Página oficial de inovação que descreve o Decreto nº 6.720/2025 (Sandbox SJP)",
+      "numero": "6.720/2025",
+      "data": "2025-07-29",
+      "url": "https://inovacao.sjp.pr.gov.br/fala-inovacao/sandbox-regulatorio/",
+      "principal": true
+    },
+    {
+      "tipo": "lei",
+      "titulo": "Página oficial de inovação que cita a Lei nº 4.715/2025 (política municipal de inovação)",
+      "numero": "4.715/2025",
+      "url": "https://inovacao.sjp.pr.gov.br/fala-inovacao/sandbox-regulatorio/"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/sao-jose-dos-pinhais.jpg",
+    "credito": "Clediney Boeira da S… (Panoramio)",
+    "licenca": "CC BY 3.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Centro,_S%C3%A3o_Jos%C3%A9_dos_Pinhais_-_PR,_Brazil_-_panoramio.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://inovacao.sjp.pr.gov.br/fala-inovacao/sandbox-regulatorio/",
+      "titulo": "Prefeitura de São José dos Pinhais — Sandbox Regulatório: o que é e como funciona",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://foconaprefeitura.com.br/sao-jose-dos-pinhais-lanca-programa-para-testes-de-solucoes-tecnologicas/",
+      "titulo": "Foco na Prefeitura — São José dos Pinhais lança programa para testes",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://busaocuritiba.com/sao-jose-dos-pinhais-cria-sandbox-regulatorio-para-testes-de-solucoes-tecnologicas/",
+      "titulo": "Busão Curitiba — São José dos Pinhais cria sandbox regulatório",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2025-07-29",
+      "descricao": "Assinado o Decreto nº 6.720/2025.",
+      "fonte": "https://foconaprefeitura.com.br/sao-jose-dos-pinhais-lanca-programa-para-testes-de-solucoes-tecnologicas/"
+    }
+  ],
+  "recem_adicionado": true
+}

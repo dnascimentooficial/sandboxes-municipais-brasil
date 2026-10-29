@@ -1,0 +1,59 @@
+{
+  "id": "pr-estadual",
+  "nome": "Sandbox Regulatório do Estado do Paraná",
+  "esfera": "estadual",
+  "jurisdicao": {
+    "uf": "PR",
+    "regiao": "Sul"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "startups"
+  ],
+  "resumo": "Lei estadual de 2021 cria o ambiente regulatório experimental do Paraná, com autorizações de até um ano.",
+  "descricao": "A Lei estadual nº 20.744, de 6 de outubro de 2021, estabelece regras para a constituição e o funcionamento de um ambiente regulatório experimental (sandbox regulatório) no Paraná.\n\nA lei permite ao Poder Executivo conceder autorizações temporárias para que pessoas jurídicas desenvolvam modelos de negócio inovadores com requisitos regulatórios dispensados ou abrandados, sob condições e salvaguardas fixadas previamente. As autorizações valem por até um ano, prorrogável por mais um.\n\nSegundo nota da LegisWeb, a lei foi regulamentada pelo Decreto nº 13.728, de 19 de maio de 2026, cujo texto não foi localizado em fonte oficial. Não foram encontrados editais nem testes.",
+  "desde": "2021-10-06",
+  "gestor": "Poder Executivo estadual (órgão não especificado na lei)",
+  "ingresso": "nao_informado",
+  "prazo_teste_meses": 12,
+  "elegibilidade": "Pessoas jurídicas com capacidade técnica e financeira, modelo de negócio inovador validado ao menos por prova de conceito ou protótipo, e administradores sem condenações impeditivas.",
+  "flexibilizacoes": [
+    "Dispensa ou abrandamento de requisitos regulatórios, com condições, limites e salvaguardas fixados previamente"
+  ],
+  "documentos": [
+    {
+      "tipo": "lei",
+      "titulo": "Lei que institui o ambiente regulatório experimental no Estado do Paraná",
+      "numero": "20.744/2021",
+      "data": "2021-10-06",
+      "url": "https://www.legisweb.com.br/legislacao/?id=421594",
+      "principal": true
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/pr-estadual.jpg",
+    "credito": "Marinelson Almeida",
+    "licenca": "CC BY 2.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_Igua%C3%A7u_Curitiba_-_Brasil_(10146505135).jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.legisweb.com.br/legislacao/?id=421594",
+      "titulo": "LegisWeb — Lei estadual nº 20.744/2021 do Paraná",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2021-10-06",
+      "descricao": "Sancionada a Lei nº 20.744/2021.",
+      "fonte": "https://www.legisweb.com.br/legislacao/?id=421594"
+    }
+  ],
+  "recem_adicionado": true
+}

@@ -1,0 +1,59 @@
+{
+  "id": "gramado-turismo",
+  "nome": "Sandbox Regulatório de Turismo de Gramado",
+  "esfera": "municipal",
+  "jurisdicao": { "municipio": "Gramado", "uf": "RS", "regiao": "Sul" },
+  "status": "ativo",
+  "temas": ["turismo"],
+  "resumo": "Ambiente de teste para soluções de turismo com regras temporariamente flexibilizadas.",
+  "descricao": "O município de Gramado instituiu um ambiente regulatório experimental para que empresas e startups testem soluções ligadas ao turismo.\n\nDurante o teste, a prefeitura acompanha os resultados e pode dispensar exigências específicas por prazo determinado.\n\nAs soluções avaliadas podem ser incorporadas à regulação municipal ao final do ciclo.",
+  "desde": "2024",
+  "gestor": "Secretaria Municipal de Turismo",
+  "ingresso": "edital",
+  "prazo_teste_meses": 12,
+  "elegibilidade": "Empresas e startups com solução voltada ao turismo local.",
+  "flexibilizacoes": ["Dispensa temporária de alvará específico", "Prazo diferenciado para licenciamento"],
+  "documentos": [
+    {
+      "tipo": "decreto",
+      "titulo": "Decreto que institui o sandbox regulatório de turismo",
+      "numero": "100/2024",
+      "data": "2024-03-15",
+      "url": "https://exemplo.gov.br/gramado/decreto-100-2024.pdf",
+      "principal": true
+    },
+    {
+      "tipo": "edital",
+      "titulo": "Edital de chamamento de propostas",
+      "url": "https://exemplo.gov.br/gramado/edital-sandbox.pdf"
+    }
+  ],
+  "solucoes": [
+    {
+      "nome": "Plataforma de reserva integrada de atrações",
+      "proponente": "Startup Exemplo Ltda.",
+      "descricao": "Reserva unificada de ingressos e passeios com fiscalização digital.",
+      "status": "em_teste",
+      "inicio": "2024-09-02",
+      "fonte": "https://exemplo.gov.br/gramado/noticia-teste-reservas"
+    }
+  ],
+  "editais": [
+    {
+      "titulo": "Chamamento público 01/2024",
+      "status": "encerrado",
+      "abertura": "2024-04-01",
+      "encerramento": "2024-05-31",
+      "url": "https://exemplo.gov.br/gramado/edital-sandbox.pdf"
+    }
+  ],
+  "imagem": null,
+  "fontes": [
+    { "url": "https://exemplo.gov.br/gramado/sandbox", "titulo": "Página oficial do sandbox", "acessado_em": "2026-10-20" }
+  ],
+  "verificado_em": "2026-10-20",
+  "historico": [
+    { "data": "2024-09-02", "descricao": "Início do primeiro teste.", "fonte": "https://exemplo.gov.br/gramado/noticia-teste-reservas" }
+  ],
+  "recem_adicionado": true
+}

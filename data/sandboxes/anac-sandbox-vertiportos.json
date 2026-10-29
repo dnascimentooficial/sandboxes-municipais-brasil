@@ -1,0 +1,118 @@
+{
+  "id": "anac-sandbox-vertiportos",
+  "nome": "Sandbox Regulatório de Vertiportos da ANAC",
+  "esfera": "federal",
+  "jurisdicao": {
+    "orgao": "ANAC"
+  },
+  "status": "ativo",
+  "temas": [
+    "aviacao",
+    "mobilidade"
+  ],
+  "resumo": "Consórcios testam por 24 meses modelos de vertiporto para eVTOL, que devem orientar a regulação brasileira.",
+  "descricao": "A ANAC publicou em 4 de junho de 2024 o Edital nº 22/ANAC/2024 para selecionar interessados em propor e implementar soluções para a regulação de vertiportos, locais de pouso e decolagem de aeronaves elétricas de decolagem vertical (eVTOL), em ambiente regulatório experimental.\n\nForam selecionados grupos liderados pela VertiMob Infrastructure e pela PAX Aeroportos. Em abril de 2025, a VertiMob assinou o termo de adesão, com 24 meses para desenvolver e testar o vertiporto no aeroporto de São José dos Campos, em consórcio que inclui Eve, Dassault Systèmes, Voar Aviation, Engelétrica e SJK Airport. O grupo da PAX Aeroportos reúne UrbanV, Eve, GOL e Saipher ATC.\n\nEm agosto de 2025, a Resolução ANAC nº 775 estabeleceu regras gerais para o sandbox da agência: ingresso por edital ou qualificação direta, Termo Específico de Admissão e duração de até 24 meses, prorrogável por até 12.",
+  "desde": "2024-06-04",
+  "gestor": "Agência Nacional de Aviação Civil (ANAC) — Superintendência de Infraestrutura Aeroportuária",
+  "ingresso": "edital",
+  "prazo_teste_meses": 24,
+  "elegibilidade": "Pessoas jurídicas sem impedimento de contratar com a Administração Pública Federal e sem outorga cassada ou caducada nos últimos cinco anos (Res. ANAC nº 775/2025).",
+  "flexibilizacoes": [
+    "Afastamento ou flexibilização temporária de requisitos indicados pelo proponente, decididos pela ANAC conforme o risco do projeto"
+  ],
+  "documentos": [
+    {
+      "tipo": "edital",
+      "titulo": "Edital nº 22/ANAC/2024 — sandbox regulatório de vertiportos",
+      "numero": "22/2024",
+      "data": "2024-06-04",
+      "url": "https://www.gov.br/anac/pt-br/acesso-a-informacao/institucional/reunioes-da-diretoria/reunioes-deliberativas/2024/arquivos-8a-redir-del-1/2Edital.pdf",
+      "principal": true
+    },
+    {
+      "tipo": "resolucao",
+      "titulo": "Resolução ANAC nº 775/2025 — regras do Sandbox Regulatório da ANAC",
+      "numero": "775/2025",
+      "data": "2025-08-05",
+      "url": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/2025/resolucao-775"
+    }
+  ],
+  "solucoes": [
+    {
+      "nome": "Vertiporto experimental em São José dos Campos",
+      "proponente": "VertiMob Infrastructure, com Eve, Dassault Systèmes, Voar Aviation, Engelétrica e SJK Airport",
+      "descricao": "Termo de adesão assinado com a ANAC em abril de 2025, com 24 meses para desenvolver e testar o vertiporto.",
+      "status": "em_teste",
+      "inicio": "2025-04-11",
+      "fonte": "https://mundogeo.com/2025/04/11/vertimob-e-anac-assinam-termo-de-adesao-ao-sandbox-regulatorio-de-vertiportos/"
+    },
+    {
+      "nome": "Vertiporto experimental do grupo PAX Aeroportos",
+      "proponente": "PAX Aeroportos, com UrbanV, Eve, GOL e Saipher ATC",
+      "descricao": "Grupo selecionado no Edital nº 22/ANAC/2024; início dos testes não confirmado nas fontes consultadas.",
+      "status": "selecionada",
+      "fonte": "https://www.urbanairmobilitynews.com/vertiports/anac-selects-regulatory-sandbox-teams-to-develop-vertiports-in-brazil/"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/anac-sandbox-vertiportos.jpg",
+    "credito": "Tony Hisgett from Birmingham, UK",
+    "licenca": "CC BY 2.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Helicopter_landing_pad_(30674952890).jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.gov.br/anac/pt-br/centrais-de-conteudo/aeroportos-e-aerodromos/informativos-sia/2024-08_N-01",
+      "titulo": "ANAC — Newsletter SIA+ Indústria (ago/2024): Sandbox Regulatório – Vertiportos",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.gov.br/anac/pt-br/acesso-a-informacao/institucional/reunioes-da-diretoria/reunioes-deliberativas/2024/arquivos-8a-redir-del-1/2Edital.pdf",
+      "titulo": "ANAC — Edital nº 22/ANAC/2024",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/2025/resolucao-775",
+      "titulo": "ANAC — Resolução nº 775/2025",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.gov.br/anac/pt-br/noticias/2025/anac-aprova-regras-de-criacao-de-ambiente-regulatorio-experimental-para-novas-tecnologias-na-aviacao",
+      "titulo": "ANAC — Anac aprova regras de criação de ambiente regulatório experimental (06/08/2025)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://mundogeo.com/2025/04/11/vertimob-e-anac-assinam-termo-de-adesao-ao-sandbox-regulatorio-de-vertiportos/",
+      "titulo": "MundoGEO — VertiMob e ANAC assinam termo de adesão ao sandbox de vertiportos (11/04/2025)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.urbanairmobilitynews.com/vertiports/anac-selects-regulatory-sandbox-teams-to-develop-vertiports-in-brazil/",
+      "titulo": "Urban Air Mobility News — ANAC selects regulatory sandbox teams to develop vertiports",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2025-08-05",
+      "descricao": "Resolução ANAC nº 775 regulamenta o sandbox regulatório da agência.",
+      "fonte": "https://www.gov.br/anac/pt-br/noticias/2025/anac-aprova-regras-de-criacao-de-ambiente-regulatorio-experimental-para-novas-tecnologias-na-aviacao"
+    },
+    {
+      "data": "2025-04-11",
+      "descricao": "VertiMob assina o termo de adesão ao sandbox.",
+      "fonte": "https://mundogeo.com/2025/04/11/vertimob-e-anac-assinam-termo-de-adesao-ao-sandbox-regulatorio-de-vertiportos/"
+    },
+    {
+      "data": "2024-06-04",
+      "descricao": "Publicado o Edital nº 22/ANAC/2024.",
+      "fonte": "https://www.gov.br/anac/pt-br/centrais-de-conteudo/aeroportos-e-aerodromos/informativos-sia/2024-08_N-01"
+    }
+  ],
+  "recem_adicionado": true
+}

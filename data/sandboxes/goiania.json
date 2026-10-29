@@ -1,0 +1,69 @@
+{
+  "id": "goiania",
+  "nome": "Programa Sandbox Regulatório Goiânia",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Goiânia",
+    "uf": "GO",
+    "regiao": "Centro-Oeste"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "startups",
+    "cidades"
+  ],
+  "resumo": "Decreto de 2022, inspirado no Sandbox.Rio, regulamenta ambientes regulatórios experimentais com autorização de até um ano.",
+  "descricao": "Goiânia regulamentou o Programa Sandbox Regulatório Goiânia pelo Decreto nº 3.955, de 26 de setembro de 2022, que altera o Decreto nº 3.730/2021 e cria ambientes regulatórios experimentais para inovações científicas, tecnológicas e empreendedoras.\n\nInspirado no modelo do Rio de Janeiro, o programa prevê chamamento público com critérios de elegibilidade e autorizações temporárias de até um ano, que segundo estudo do TCU devem ser veiculadas por decreto do prefeito. Não foram localizados editais ou empresas autorizadas.",
+  "desde": "2022-09-26",
+  "ingresso": "edital",
+  "prazo_teste_meses": 12,
+  "documentos": [
+    {
+      "tipo": "decreto",
+      "titulo": "Decreto que regulamenta o Programa Sandbox Regulatório Goiânia",
+      "numero": "3.955/2022",
+      "data": "2022-09-26",
+      "url": "https://www.goiania.go.gov.br/html/gabinete_civil/sileg/dados/legis/2022/dc_20220926_000003955.html",
+      "principal": true
+    },
+    {
+      "tipo": "decreto",
+      "titulo": "Decreto alterado pelo Decreto nº 3.955/2022",
+      "numero": "3.730/2021",
+      "data": "2021-08-02",
+      "url": "https://www.goiania.go.gov.br/html/gabinete_civil/sileg/dados/legis/2021/dc_20210802_000003730.html"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/goiania.jpg",
+    "credito": "Boaventuravinicius",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Panomara_Goi%C3%A2nia_2022.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.goiania.go.gov.br/html/gabinete_civil/sileg/dados/legis/2022/dc_20220926_000003955.html",
+      "titulo": "Prefeitura de Goiânia — Decreto nº 3.955/2022",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://portal.tcu.gov.br/data/files/4B/C2/6D/DB/56ABB810F80985A8E18818A8/231108_Sandbox.pdf",
+      "titulo": "TCU — estudo \"Sandbox regulatório no Marco Legal das Startups\" (2023), tabela de atos estaduais e municipais",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Fonte corrigida: o link anterior tratava do sandbox da agência estadual (AGR), não do programa municipal.",
+      "fonte": "https://www.goiania.go.gov.br/html/gabinete_civil/sileg/dados/legis/2022/dc_20220926_000003955.html"
+    },
+    {
+      "data": "2022-09-26",
+      "descricao": "Publicado o Decreto nº 3.955/2022.",
+      "fonte": "https://www.goiania.go.gov.br/html/gabinete_civil/sileg/dados/legis/2022/dc_20220926_000003955.html"
+    }
+  ],
+  "recem_adicionado": false
+}

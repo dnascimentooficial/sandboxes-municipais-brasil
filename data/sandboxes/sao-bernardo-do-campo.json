@@ -1,0 +1,59 @@
+{
+  "id": "sao-bernardo-do-campo",
+  "nome": "SBC Sandbox",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "São Bernardo do Campo",
+    "uf": "SP",
+    "regiao": "Sudeste"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "startups",
+    "cidades"
+  ],
+  "resumo": "Lei de 2026 cria o SBC Sandbox, ambiente regulatório experimental de São Bernardo do Campo; editais não localizados.",
+  "descricao": "São Bernardo do Campo criou o programa SBC Sandbox pela Lei nº 7.577/2026, sancionada em abril de 2026 junto com a Lei nº 7.578/2026, que institui a Política Municipal de Inovação.\n\nSegundo a imprensa regional, a lei cria um ambiente regulatório experimental para testar soluções inovadoras com regras temporariamente flexibilizadas, avaliando produtos e serviços em cenários reais antes da adoção definitiva na cidade.\n\nO texto oficial não pôde ser lido, e não foram localizados regulamentação, editais ou projetos.",
+  "desde": "2026",
+  "ingresso": "nao_informado",
+  "documentos": [
+    {
+      "tipo": "lei",
+      "titulo": "Lei que cria o programa SBC Sandbox (texto oficial no DOSP; verificação manual necessária)",
+      "numero": "7.577/2026",
+      "url": "https://dosp.com.br/exibe_do.php?i=Nzk5NDQx",
+      "principal": true
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/sao-bernardo-do-campo.jpg",
+    "credito": "DECIO CALDEIRA",
+    "licenca": "CC BY-SA 3.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:S%C3%83O_BERNARDO_DO_CAMPO_VISTA_DO_JARDIM_OLAVO_BILAC_-_panoramio.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.dgabc.com.br/Noticia/4293498/sao-bernardo-incorpora-politica-de-inovacao-e-tecnologia",
+      "titulo": "Diário do Grande ABC — São Bernardo incorpora política de inovação e tecnologia (07/04/2026)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://dosp.com.br/exibe_do.php?i=Nzk5NDQx",
+      "titulo": "Diário Oficial (DOSP) — edição com a Lei nº 7.577/2026 (verificação manual necessária)",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2026-04-07",
+      "descricao": "Imprensa noticia a sanção da Lei nº 7.577/2026 (SBC Sandbox).",
+      "fonte": "https://www.dgabc.com.br/Noticia/4293498/sao-bernardo-incorpora-politica-de-inovacao-e-tecnologia"
+    }
+  ],
+  "recem_adicionado": true
+}

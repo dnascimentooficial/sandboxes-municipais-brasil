@@ -1,0 +1,57 @@
+{
+  "id": "sp-estadual",
+  "nome": "Programa Sandbox SP",
+  "esfera": "estadual",
+  "jurisdicao": {
+    "uf": "SP",
+    "regiao": "Sudeste"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "cidades",
+    "startups",
+    "gestao-publica"
+  ],
+  "resumo": "Decreto de 2022 cria programa estadual de apoio a sandboxes municipais de cidades inteligentes; execução não localizada.",
+  "descricao": "O Decreto estadual nº 66.617, de 31 de março de 2022, instituiu junto à Secretaria de Desenvolvimento Regional o Programa Sandbox SP, voltado a fomentar cidades inteligentes no Estado de São Paulo.\n\nO programa não autoriza testes diretamente: o estado seleciona projetos apresentados por municípios paulistas e apoia a criação de ambientes regulatórios experimentais municipais, abertos a startups nos termos do Marco Legal das Startups. Os critérios objetivos de seleção ficariam para ato próprio da secretaria.\n\nNão foram localizados projetos municipais selecionados, nem atos posteriores sobre o programa.",
+  "desde": "2022-03-31",
+  "gestor": "Secretaria de Desenvolvimento Regional",
+  "ingresso": "nao_informado",
+  "elegibilidade": "Municípios paulistas apresentam projetos; os ambientes municipais são abertos a startups enquadradas na Lei Complementar nº 182/2021.",
+  "documentos": [
+    {
+      "tipo": "decreto",
+      "titulo": "Decreto que institui o Programa Sandbox SP",
+      "numero": "66.617/2022",
+      "data": "2022-03-31",
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/decreto/2022/decreto-66617-31.03.2022.html",
+      "principal": true
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/sp-estadual.jpg",
+    "credito": "Mike Peel",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_dos_Bandeirantes_2018_052.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/decreto/2022/decreto-66617-31.03.2022.html",
+      "titulo": "Assembleia Legislativa de SP — Decreto nº 66.617, de 31/03/2022",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2022-03-31",
+      "descricao": "Assinado o Decreto nº 66.617/2022, que institui o Programa Sandbox SP.",
+      "fonte": "https://www.al.sp.gov.br/repositorio/legislacao/decreto/2022/decreto-66617-31.03.2022.html"
+    }
+  ],
+  "recem_adicionado": true
+}

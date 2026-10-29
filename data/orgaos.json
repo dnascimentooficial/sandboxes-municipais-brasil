@@ -1,0 +1,16 @@
+[
+  { "sigla": "BCB", "nome": "Banco Central do Brasil", "url": "https://www.bcb.gov.br" },
+  { "sigla": "CVM", "nome": "Comissão de Valores Mobiliários", "url": "https://www.gov.br/cvm" },
+  { "sigla": "SUSEP", "nome": "Superintendência de Seguros Privados", "url": "https://www.gov.br/susep" },
+  { "sigla": "ANEEL", "nome": "Agência Nacional de Energia Elétrica", "url": "https://www.gov.br/aneel" },
+  { "sigla": "ANPD", "nome": "Agência Nacional de Proteção de Dados", "url": "https://www.gov.br/anpd" },
+  { "sigla": "ANATEL", "nome": "Agência Nacional de Telecomunicações", "url": "https://www.gov.br/anatel" },
+  { "sigla": "ANVISA", "nome": "Agência Nacional de Vigilância Sanitária", "url": "https://www.gov.br/anvisa" },
+  { "sigla": "ANAC", "nome": "Agência Nacional de Aviação Civil", "url": "https://www.gov.br/anac" },
+  { "sigla": "ANTT", "nome": "Agência Nacional de Transportes Terrestres", "url": "https://www.gov.br/antt" },
+  { "sigla": "ANTAQ", "nome": "Agência Nacional de Transportes Aquaviários", "url": "https://www.gov.br/antaq" },
+  { "sigla": "ANS", "nome": "Agência Nacional de Saúde Suplementar", "url": "https://www.gov.br/ans" },
+  { "sigla": "INMETRO", "nome": "Instituto Nacional de Metrologia, Qualidade e Tecnologia", "url": "https://www.gov.br/inmetro" },
+  { "sigla": "MEC", "nome": "Ministério da Educação", "url": "https://www.gov.br/mec" },
+  { "sigla": "ANP", "nome": "Agência Nacional do Petróleo, Gás Natural e Biocombustíveis", "url": "https://www.gov.br/anp" }
+]

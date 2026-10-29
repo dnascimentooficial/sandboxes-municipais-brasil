@@ -1,0 +1,70 @@
+{
+  "id": "belo-horizonte",
+  "nome": "Sandbox Regulatório do Marco Municipal das Startups de Belo Horizonte",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Belo Horizonte",
+    "uf": "MG",
+    "regiao": "Sudeste"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "startups"
+  ],
+  "resumo": "Lei de 2025 (Marco Municipal das Startups) prevê sandbox regulatório e CPSI; regulamentação específica não localizada.",
+  "descricao": "Belo Horizonte publicou em abril de 2025 a Lei nº 11.838/2025, conhecida como Marco Municipal das Startups, originada do PL 1012/2024 e aprovada por unanimidade na Câmara Municipal.\n\nA lei prevê um programa de sandbox regulatório, pelo qual órgãos municipais podem oferecer condições especiais simplificadas para que empresas testem modelos de negócio e tecnologias experimentais por tempo determinado. O mesmo texto trata do Contrato Público para Solução Inovadora (CPSI) e de um regime simplificado para startups.\n\nNão foram localizados decreto de regulamentação do sandbox, chamamentos ou testes realizados.",
+  "desde": "2025-04-01",
+  "ingresso": "nao_informado",
+  "documentos": [
+    {
+      "tipo": "lei",
+      "titulo": "Lei do Marco Municipal das Startups (inclui o sandbox regulatório)",
+      "numero": "11.838/2025",
+      "data": "2025-04-01",
+      "url": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2025/04/nova-lei-favorece-pesquisa-tecnol%C3%B3gica-e-desenvolvimento-de-startups",
+      "principal": true
+    },
+    {
+      "tipo": "outro",
+      "titulo": "Projeto de Lei nº 1012/2024 (aprovado em 2º turno)",
+      "url": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2025/02/aprovado-em-definitivo-marco-regulat%C3%B3rio-das-startups-em-bh"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/belo-horizonte.jpg",
+    "credito": "Marina Campos Vinhal",
+    "licenca": "CC BY 2.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Praca_do_Papa,_Belo_Horizonte_(cropped)2.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2025/04/nova-lei-favorece-pesquisa-tecnol%C3%B3gica-e-desenvolvimento-de-startups",
+      "titulo": "Câmara Municipal de Belo Horizonte — Nova lei favorece pesquisa tecnológica e desenvolvimento de startups",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2025/02/aprovado-em-definitivo-marco-regulat%C3%B3rio-das-startups-em-bh",
+      "titulo": "Câmara Municipal de Belo Horizonte — Aprovado em definitivo marco regulatório das startups",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.otempo.com.br/politica/2025/4/1/prefeito-alvaro-damiao-sanciona-marco-municipal-das-startups-em-belo-horizonte",
+      "titulo": "O Tempo — Prefeito sanciona Marco Municipal das Startups",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2025-04-01",
+      "descricao": "Lei nº 11.838/2025 publicada no Diário Oficial do Município; o registro anterior citava apenas o PL 1012/2024 aprovado.",
+      "fonte": "https://www.otempo.com.br/politica/2025/4/1/prefeito-alvaro-damiao-sanciona-marco-municipal-das-startups-em-belo-horizonte"
+    },
+    {
+      "data": "2025-02-05",
+      "descricao": "Câmara aprova o PL 1012/2024 em 2º turno.",
+      "fonte": "https://www.cmbh.mg.gov.br/comunica%C3%A7%C3%A3o/not%C3%ADcias/2025/02/aprovado-em-definitivo-marco-regulat%C3%B3rio-das-startups-em-bh"
+    }
+  ],
+  "recem_adicionado": false
+}

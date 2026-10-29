@@ -1,0 +1,78 @@
+{
+  "id": "maceio",
+  "nome": "Sandbox MCZ – Sandbox Regulatório de Maceió",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Maceió",
+    "uf": "AL",
+    "regiao": "Nordeste"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "startups",
+    "cidades"
+  ],
+  "resumo": "Decreto de 2022 regulamenta o sandbox; minuta do primeiro edital passou por consulta pública em 2026.",
+  "descricao": "Maceió regulamentou seu sandbox regulatório pelo Decreto nº 9.258, de 26 de agosto de 2022, inspirado no modelo do Rio de Janeiro. O decreto combina chamamento público com deliberação de um Comitê Gestor e prevê autorizações de um ano, prorrogáveis por mais um.\n\nEm junho de 2026, a Secretaria de Estratégias Disruptivas e Economia Digital abriu consulta pública sobre a implantação do Sandbox MCZ, com a minuta do primeiro edital disponível para contribuições até 7 de julho. A consulta já foi encerrada; não foram localizados editais publicados ou testes realizados.",
+  "desde": "2022-08-26",
+  "gestor": "Secretaria de Estratégias Disruptivas e Economia Digital (Sedigi), com Comitê Gestor",
+  "ingresso": "edital",
+  "prazo_teste_meses": 12,
+  "documentos": [
+    {
+      "tipo": "decreto",
+      "titulo": "Decreto que dispõe sobre a constituição e o funcionamento do sandbox regulatório de Maceió",
+      "numero": "9.258/2022",
+      "data": "2022-08-26",
+      "url": "https://www-storage.voxtecnologia.com.br/?f=3493&i=publicado_87376_2022-08-26_2a638646cf464b9193fa324044fe94ba.pdf&m=sigpub.publicacao",
+      "principal": true
+    },
+    {
+      "tipo": "outro",
+      "titulo": "Consulta pública sobre a minuta do edital do Sandbox MCZ",
+      "url": "https://sedigi.maceio.al.gov.br/sandbox/"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/maceio.jpg",
+    "credito": "André Lage Freitas (original); obra derivada de Wilfredor e Aristeas",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Ponta_Verde_Lighthouse_landscape_-_Macei%C3%B3,_Brazil_(edited).jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www-storage.voxtecnologia.com.br/?f=3493&i=publicado_87376_2022-08-26_2a638646cf464b9193fa324044fe94ba.pdf&m=sigpub.publicacao",
+      "titulo": "Diário Oficial do Município de Maceió nº 6512 (29/08/2022) — Decreto nº 9.258",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://sedigi.maceio.al.gov.br/sandbox/",
+      "titulo": "Prefeitura de Maceió (Sedigi) — Sandbox MCZ",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://maceio.al.gov.br/noticias/sedigi/prefeitura-de-maceio-abre-consulta-publica-para-implantacao-do-sandbox-regulatorio",
+      "titulo": "Prefeitura de Maceió — consulta pública para implantação do Sandbox Regulatório (jun/2026)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://portal.tcu.gov.br/data/files/4B/C2/6D/DB/56ABB810F80985A8E18818A8/231108_Sandbox.pdf",
+      "titulo": "TCU — estudo \"Sandbox regulatório no Marco Legal das Startups\" (2023), tabela de atos estaduais e municipais",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-06-23",
+      "descricao": "Aberta consulta pública sobre a implantação do Sandbox MCZ e a minuta de edital, até 7 de julho de 2026.",
+      "fonte": "https://maceio.al.gov.br/noticias/sedigi/prefeitura-de-maceio-abre-consulta-publica-para-implantacao-do-sandbox-regulatorio"
+    },
+    {
+      "data": "2022-08-29",
+      "descricao": "Decreto nº 9.258/2022 publicado no Diário Oficial do Município.",
+      "fonte": "https://www-storage.voxtecnologia.com.br/?f=3493&i=publicado_87376_2022-08-26_2a638646cf464b9193fa324044fe94ba.pdf&m=sigpub.publicacao"
+    }
+  ],
+  "recem_adicionado": false
+}

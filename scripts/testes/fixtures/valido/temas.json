@@ -1,0 +1,4 @@
+[
+  { "id": "turismo", "nome": "Turismo", "icone": "map", "cor": "#0a7f5a" },
+  { "id": "financas", "nome": "Finanças", "icone": "landmark", "cor": "#1f4fd8" }
+]

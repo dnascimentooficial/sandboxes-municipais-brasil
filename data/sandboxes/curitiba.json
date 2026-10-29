@@ -1,0 +1,133 @@
+{
+  "id": "curitiba",
+  "nome": "Sandbox.CWB – Ambiente Experimental de Inovação Regulatória de Curitiba",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Curitiba",
+    "uf": "PR",
+    "regiao": "Sul"
+  },
+  "status": "ativo",
+  "temas": [
+    "startups",
+    "cidades",
+    "aviacao",
+    "mobilidade"
+  ],
+  "resumo": "Lei municipal de 2024 cria o Sandbox.CWB; testes de entrega por drone e 1º edital aberto em outubro de 2026.",
+  "descricao": "Curitiba criou seu programa de sandbox por decreto em 2021 e o consolidou na Lei Municipal nº 16.344, de 19 de junho de 2024, regulamentada pelo Decreto nº 2.447/2025. O programa, hoje chamado Sandbox.CWB, é conduzido pela Secretaria Municipal de Desenvolvimento Econômico e Inovação com apoio de um Comitê Gestor.\n\nAs autorizações temporárias valem por até 12 meses, prorrogáveis por mais 12, e eventuais flexibilizações regulatórias são analisadas caso a caso; a seleção não garante automaticamente a dispensa de regras.\n\nSob o ambiente experimental, a prefeitura firmou parceria com a Atech, do grupo Embraer, para testes de entrega por drone, que resultaram em entrega dos Correios em 2025. Em outubro de 2026 foi publicado o Edital de Chamamento Público nº 02/2026, primeiro ciclo aberto e multissetorial, com até dez projetos.",
+  "desde": "2021",
+  "gestor": "Secretaria Municipal de Desenvolvimento Econômico e Inovação (SMDEI), com o Comitê Gestor do Sandbox.CWB",
+  "ingresso": "edital",
+  "prazo_teste_meses": 12,
+  "elegibilidade": "Pessoas jurídicas regularmente constituídas e com CNPJ ativo, incluindo startups, microempresas, universidades e organizações da sociedade civil.",
+  "flexibilizacoes": [
+    "Autorização temporária de uso de bem público vinculada ao cronograma experimental",
+    "Flexibilizações regulatórias temporárias analisadas caso a caso, quando juridicamente possíveis"
+  ],
+  "documentos": [
+    {
+      "tipo": "lei",
+      "titulo": "Lei que institui o Sandbox Regulatório de Curitiba",
+      "numero": "16.344/2024",
+      "data": "2024-06-19",
+      "url": "https://leismunicipais.com.br/a/pr/c/curitiba/lei-ordinaria/2024/1635/16344/lei-ordinaria-n-16344-2024-dispoe-sobre-as-regras-para-a-constituicao-e-normas-gerais-de-funcionamento-de-ambiente-regulatorio-experimental-no-municipio-de-curitiba",
+      "principal": true
+    },
+    {
+      "tipo": "decreto",
+      "titulo": "Decreto nº 2.447/2025 — regulamenta a Lei nº 16.344/2024 (Sandbox Regulatório); revoga o Decreto nº 1.885/2021",
+      "numero": "2.447/2025",
+      "url": "https://leis.org/municipais/pr/curitiba/lei/decreto/2025/2447/decreto-n-2447-2025-regulamenta-a-lei-municipal-n%C2%BA-16344-de-19-de-junho-de-2024-quanto-a-constituicao-e-normas-gerais-de-funcionamento-de-ambiente-regulatorio-experimental-tambem-denominado-sandbox-regulatorio-no-ambito-do-municipio-de-curitiba"
+    },
+    {
+      "tipo": "decreto",
+      "titulo": "(revogado) Decreto que instituiu o Programa Sandbox Curitiba",
+      "numero": "1.885/2021",
+      "url": "https://leismunicipais.com.br/a/pr/c/curitiba/decreto/2021/189/1885/decreto-n-1885-2021-regulamenta-no-ambito-do-municipio-de-curitiba-a-instituicao-de-ambientes-experimentais-de-inovacao-cientifica-tecnologica-e-empreendedora-programa-sandbox-curitiba-sob-o-formato-de-bancos-de-testes-regulatorios-e-tecnologicos-no-modelo-sandbox-nos-termos-do-artigo-11-da-lei-complementar-federal-n-182-de-1-de-junho-de-2021"
+    },
+    {
+      "tipo": "edital",
+      "titulo": "Edital de Chamamento Público nº 02/2026 – Sandbox.CWB",
+      "url": "https://mid.curitiba.pr.gov.br/2026/00466681.pdf"
+    }
+  ],
+  "solucoes": [
+    {
+      "nome": "Entrega urbana por drone (operações BVLOS)",
+      "proponente": "Atech (grupo Embraer), com Correios e Speedbird Aero",
+      "descricao": "Pesquisa e testes de voo de drones de entrega em área urbana, com primeira entrega dos Correios por drone em 2025.",
+      "status": "concluida",
+      "fonte": "https://www.curitiba.pr.gov.br/noticias/laboratorio-para-servicos-do-futuro-curitiba-recebe-primeiro-delivery-dos-correios-feito-por-drone/76634"
+    }
+  ],
+  "editais": [
+    {
+      "titulo": "Edital de Chamamento Público nº 02/2026 – Sandbox.CWB (1º ciclo)",
+      "status": "aberto",
+      "url": "https://mid.curitiba.pr.gov.br/2026/00466681.pdf"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/curitiba.jpg",
+    "credito": "Vitor Hirota",
+    "licenca": "CC BY-SA 2.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Tangu%C3%A1_Curitiba.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://mid.curitiba.pr.gov.br/2026/00466681.pdf",
+      "titulo": "Prefeitura de Curitiba — Edital de Chamamento Público nº 02/2026 (Sandbox.CWB)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.curitiba.pr.gov.br/noticias/prefeitura-abre-edital-para-o-sandboxcwb-programa-testa-solucoes-para-curitiba/85640",
+      "titulo": "Prefeitura de Curitiba — Prefeitura abre edital para o Sandbox.CWB",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://leismunicipais.com.br/a/pr/c/curitiba/lei-ordinaria/2024/1635/16344/lei-ordinaria-n-16344-2024-dispoe-sobre-as-regras-para-a-constituicao-e-normas-gerais-de-funcionamento-de-ambiente-regulatorio-experimental-no-municipio-de-curitiba",
+      "titulo": "Leis Municipais — Lei nº 16.344/2024 de Curitiba",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://leis.org/municipais/pr/curitiba/lei/decreto/2025/2447/decreto-n-2447-2025-regulamenta-a-lei-municipal-n%C2%BA-16344-de-19-de-junho-de-2024-quanto-a-constituicao-e-normas-gerais-de-funcionamento-de-ambiente-regulatorio-experimental-tambem-denominado-sandbox-regulatorio-no-ambito-do-municipio-de-curitiba",
+      "titulo": "Leis.org — Decreto nº 2.447/2025 de Curitiba",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.cmc.pr.gov.br/informacao/noticias/lei-do-sandbox-regulatorio-de-curitiba-ja-esta-em-vigor",
+      "titulo": "Câmara Municipal de Curitiba — Lei do Sandbox Regulatório já está em vigor",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.curitiba.pr.gov.br/noticias/laboratorio-para-servicos-do-futuro-curitiba-recebe-primeiro-delivery-dos-correios-feito-por-drone/76634",
+      "titulo": "Prefeitura de Curitiba — primeiro delivery dos Correios por drone",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://portal.tcu.gov.br/data/files/4B/C2/6D/DB/56ABB810F80985A8E18818A8/231108_Sandbox.pdf",
+      "titulo": "TCU — estudo \"Sandbox regulatório no Marco Legal das Startups\" (2023), tabela de atos estaduais e municipais",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-27",
+      "descricao": "Lançado o Edital de Chamamento Público nº 02/2026, 1º ciclo do Sandbox.CWB.",
+      "fonte": "https://www.curitiba.pr.gov.br/noticias/prefeitura-abre-edital-para-o-sandboxcwb-programa-testa-solucoes-para-curitiba/85640"
+    },
+    {
+      "data": "2024-06-19",
+      "descricao": "Sancionada a Lei nº 16.344/2024, que institui o sandbox regulatório municipal.",
+      "fonte": "https://www.cmc.pr.gov.br/informacao/noticias/lei-do-sandbox-regulatorio-de-curitiba-ja-esta-em-vigor"
+    },
+    {
+      "data": "2021-12-02",
+      "descricao": "Prefeitura apresenta o Programa Sandbox Curitiba, instituído por decreto.",
+      "fonte": "https://www.curitiba.pr.gov.br/noticias/curitiba-adota-ambiente-livre-de-regulacoes-para-validacao-de-tecnologias/61782"
+    }
+  ],
+  "recem_adicionado": false
+}

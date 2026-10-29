@@ -1,0 +1,73 @@
+{
+  "id": "aneel-sandbox-controle-tensao",
+  "nome": "Sandbox de Serviço Ancilar de Suporte de Reativos (controle de tensão)",
+  "esfera": "federal",
+  "jurisdicao": {
+    "orgao": "ANEEL"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "energia"
+  ],
+  "resumo": "ONS contrata, em caráter experimental, suporte de potência reativa para controle de tensão; serviço desde jan/2026 em MG.",
+  "descricao": "A REN ANEEL nº 1.030/2022, alterada em 2023, passou a permitir que a ANEEL autorize o ONS a testar produtos alternativos de serviços ancilares em ambiente regulatório experimental. O serviço escolhido como prioritário foi o suporte de potência reativa para controle de tensão.\n\nA Resolução Autorizativa nº 16.539/2025, aprovada em 21 de outubro de 2025, autorizou o ONS a contratar esse serviço por mecanismo competitivo, com posterior assinatura de contratos de prestação de serviços ancilares. A CCEE publicou procedimentos provisórios de comercialização com vigência a partir de 1º de janeiro de 2026.\n\nO primeiro mecanismo competitivo, entre novembro e dezembro de 2025, focou geradores em áreas de Minas Gerais e teve deságio médio de 21%. Os vencedores não foram identificados nas fontes consultadas.",
+  "desde": "2025-10-21",
+  "gestor": "ANEEL, com contratação pelo ONS e apuração financeira pela CCEE",
+  "ingresso": "edital",
+  "elegibilidade": "Agentes da CCEE (ou representados por agente varejista) que vençam o procedimento concorrencial promovido pelo ONS.",
+  "documentos": [
+    {
+      "tipo": "resolucao",
+      "titulo": "Resolução Autorizativa ANEEL nº 16.539/2025 (citada nos procedimentos provisórios da CCEE)",
+      "numero": "16.539/2025",
+      "url": "https://www.ccee.org.br/documents/80415/30951235/Sandbox_Suporte%20de%20Reativos_v1.0.pdf/de36ec76-e3d8-ae75-e310-d1376ff2b5e7",
+      "principal": true
+    },
+    {
+      "tipo": "outro",
+      "titulo": "CCEE — Procedimentos provisórios de comercialização do sandbox de suporte de reativos (rev. 1.0)",
+      "url": "https://www.ccee.org.br/documents/80415/30951235/Sandbox_Suporte%20de%20Reativos_v1.0.pdf/de36ec76-e3d8-ae75-e310-d1376ff2b5e7"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/aneel-sandbox-controle-tensao.jpg",
+    "credito": "Janjko",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Power_substation_Slunj.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.ccee.org.br/documents/80415/30951235/Sandbox_Suporte%20de%20Reativos_v1.0.pdf/de36ec76-e3d8-ae75-e310-d1376ff2b5e7",
+      "titulo": "CCEE — Procedimentos Provisórios: Sandbox de Serviço Ancilar de Suporte de Reativos",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://cenarioenergia.com.br/2025/10/22/aneel-autoriza-primeiro-sandbox-regulatorio-para-testar-servico-de-controle-de-tensao-no-sistema-eletrico-brasileiro/",
+      "titulo": "Cenário Energia — ANEEL autoriza primeiro sandbox para testar controle de tensão (22/10/2025)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://cenarioenergia.com.br/2025/12/23/ons-alcanca-desagio-medio-de-21-em-primeiro-mecanismo-competitivo-para-contratacao-de-suporte-de-potencia-reativa/",
+      "titulo": "Cenário Energia — ONS alcança deságio médio de 21% no primeiro mecanismo competitivo (23/12/2025)",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2026-01-01",
+      "descricao": "Início da prestação do serviço contratado no sandbox.",
+      "fonte": "https://cenarioenergia.com.br/2025/12/23/ons-alcanca-desagio-medio-de-21-em-primeiro-mecanismo-competitivo-para-contratacao-de-suporte-de-potencia-reativa/"
+    },
+    {
+      "data": "2025-10-21",
+      "descricao": "ANEEL aprova a REA nº 16.539/2025, que autoriza o sandbox.",
+      "fonte": "https://cenarioenergia.com.br/2025/10/22/aneel-autoriza-primeiro-sandbox-regulatorio-para-testar-servico-de-controle-de-tensao-no-sistema-eletrico-brasileiro/"
+    }
+  ],
+  "recem_adicionado": true
+}

@@ -1,0 +1,67 @@
+{
+  "id": "londrina",
+  "nome": "Programa Sandbox – Londrina",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Londrina",
+    "uf": "PR",
+    "regiao": "Sul"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "cidades"
+  ],
+  "resumo": "Decreto de 2021 regulamenta o Programa Sandbox de Londrina, com a Rua Sergipe como área de testes de cidade inteligente.",
+  "descricao": "Londrina regulamentou o Programa Sandbox – Londrina pelo Decreto nº 310, de 15 de março de 2021, publicado no Jornal Oficial do município. O modelo segue o de Foz do Iguaçu: um comitê gestor delibera sobre a criação dos ambientes de teste, com ciclos de 6 a 12 meses renováveis.\n\nA prefeitura apresentou a Rua Sergipe, no centro, como primeira área para que startups testem produtos ainda fora do mercado, no âmbito do projeto Cidade Inteligente. Não foram localizadas informações públicas sobre chamamentos ou testes realizados.",
+  "desde": "2021-03-15",
+  "gestor": "Comitê Gestor do Programa Sandbox",
+  "ingresso": "nao_informado",
+  "prazo_teste_meses": 12,
+  "documentos": [
+    {
+      "tipo": "decreto",
+      "titulo": "Decreto que regulamenta o Programa Sandbox – Londrina (Jornal Oficial nº 4303)",
+      "numero": "310/2021",
+      "data": "2021-03-15",
+      "url": "https://portal.londrina.pr.gov.br/images/stories/jornalOficial/Jornal-4303-Assinado-Pdf.pdf",
+      "principal": true
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/londrina.jpg",
+    "credito": "Lírica Aragão from Londrina, Brasil",
+    "licenca": "CC BY-SA 2.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Museu_Municipal_de_Londrina_2.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://portal.londrina.pr.gov.br/images/stories/jornalOficial/Jornal-4303-Assinado-Pdf.pdf",
+      "titulo": "Jornal Oficial de Londrina nº 4303 — Decreto nº 310/2021",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://blog.londrina.pr.gov.br/?p=94273",
+      "titulo": "Prefeitura de Londrina — Londrina terá uma SandBox (mar/2021)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://portal.tcu.gov.br/data/files/4B/C2/6D/DB/56ABB810F80985A8E18818A8/231108_Sandbox.pdf",
+      "titulo": "TCU — estudo \"Sandbox regulatório no Marco Legal das Startups\" (2023), tabela de atos estaduais e municipais",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Registro antes listado como \"Decreto s/n\" e sem fonte; identificado como Decreto nº 310, de 15/03/2021, publicado no Jornal Oficial nº 4303.",
+      "fonte": "https://portal.londrina.pr.gov.br/images/stories/jornalOficial/Jornal-4303-Assinado-Pdf.pdf"
+    },
+    {
+      "data": "2021-03-24",
+      "descricao": "Prefeitura divulga o decreto e a Rua Sergipe como área de testes.",
+      "fonte": "https://blog.londrina.pr.gov.br/?p=94273"
+    }
+  ],
+  "recem_adicionado": false
+}

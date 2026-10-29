@@ -1,0 +1,74 @@
+{
+  "id": "anac-sia-balizamento",
+  "nome": "Sandbox Regulatório de Infraestrutura Aeroportuária (SIA/ANAC): balizamento fotovoltaico",
+  "esfera": "federal",
+  "jurisdicao": {
+    "orgao": "ANAC"
+  },
+  "status": "ativo",
+  "temas": [
+    "aviacao",
+    "energia"
+  ],
+  "resumo": "Sandbox da ANAC para aeroportos testa balizamento noturno com energia solar individual em Tabatinga e Tefé (AM).",
+  "descricao": "A Portaria nº 10.219, de 9 de janeiro de 2023, da Superintendência de Infraestrutura Aeroportuária (SIA) da ANAC, criou o sandbox regulatório para a infraestrutura aeroportuária, dentro do programa SIA + Simples.\n\nEm 18 de abril de 2023, a ANAC assinou com a VINCI Airports o primeiro termo específico de admissão: um sistema de balizamento de pistas e pátios alimentado por fontes fotovoltaicas individuais, testado nos aeroportos de Tabatinga e Tefé, no Amazonas. Cada luminária tem alimentação própria, o que reduz o risco de apagão simultâneo.\n\nAs fontes consultadas não informam duração do teste nem resultados.",
+  "desde": "2023-01-09",
+  "gestor": "ANAC — Superintendência de Infraestrutura Aeroportuária (SIA)",
+  "ingresso": "nao_informado",
+  "documentos": [
+    {
+      "tipo": "portaria",
+      "titulo": "Portaria nº 10.219/SIA, de 9/1/2023 — sandbox regulatório da infraestrutura aeroportuária (citada pela ANAC)",
+      "numero": "10.219/2023",
+      "data": "2023-01-09",
+      "url": "https://www.gov.br/anac/en/news/2023/in-unprecedented-project-anac-signs-agreement-to-implement-runways-with-sustainable-energy-at-airports-in-the-north",
+      "principal": true
+    }
+  ],
+  "solucoes": [
+    {
+      "nome": "Balizamento noturno com fontes fotovoltaicas individuais",
+      "proponente": "VINCI Airports",
+      "descricao": "Primeiro termo específico de admissão no sandbox da SIA, para os aeroportos de Tabatinga e Tefé (AM).",
+      "status": "em_teste",
+      "inicio": "2023-04-18",
+      "fonte": "https://www.gov.br/anac/en/news/2023/in-unprecedented-project-anac-signs-agreement-to-implement-runways-with-sustainable-energy-at-airports-in-the-north"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/anac-sia-balizamento.jpg",
+    "credito": "Marek Ślusarczyk (Tupungato)",
+    "licenca": "CC BY 3.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:15_Bristol_Airport_sloped_runway_with_runway_lights_in_early_morning_-_Bristol_UK.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.gov.br/anac/en/news/2023/in-unprecedented-project-anac-signs-agreement-to-implement-runways-with-sustainable-energy-at-airports-in-the-north",
+      "titulo": "ANAC — ANAC signs agreement to implement runways with sustainable energy at airports in the North (19/04/2023)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.conjur.com.br/2025-ago-01/o-sandbox-regulatorio-no-brasil-ii-aplicacoes-praticas-do-sandbox-regulatorio-na-anac-e-antt/",
+      "titulo": "Conjur — Aplicações práticas do sandbox regulatório na ANAC e na ANTT (01/08/2025)",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2023-04-18",
+      "descricao": "Assinado o primeiro termo específico de admissão, com a VINCI Airports.",
+      "fonte": "https://www.gov.br/anac/en/news/2023/in-unprecedented-project-anac-signs-agreement-to-implement-runways-with-sustainable-energy-at-airports-in-the-north"
+    },
+    {
+      "data": "2023-01-09",
+      "descricao": "Portaria nº 10.219/SIA cria o sandbox da infraestrutura aeroportuária.",
+      "fonte": "https://www.gov.br/anac/en/news/2023/in-unprecedented-project-anac-signs-agreement-to-implement-runways-with-sustainable-energy-at-airports-in-the-north"
+    }
+  ],
+  "recem_adicionado": true
+}

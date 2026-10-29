@@ -1,0 +1,168 @@
+{
+  "id": "cvm-sandbox-1",
+  "nome": "Sandbox Regulatório da CVM — 1º Processo de Admissão",
+  "esfera": "federal",
+  "jurisdicao": {
+    "orgao": "CVM"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "financas",
+    "startups"
+  ],
+  "resumo": "Quatro participantes testaram tokenização, balcões de crowdfunding e escrituração; autorizações conhecidas venceram até ago/2026.",
+  "descricao": "A Comissão de Valores Mobiliários criou seu sandbox pela Instrução CVM nº 626/2020, substituída pela Resolução CVM nº 29, de 11 de maio de 2021. As autorizações temporárias valem por até um ano, prorrogável por mais um, e dispensam requisitos regulatórios específicos fixados em deliberação do Colegiado.\n\nO único processo de admissão recebeu 34 propostas entre novembro de 2020 e janeiro de 2021. Quatro foram admitidas: Basement (escrituração), BEE4 e Beegin (balcão de tokens de crowdfunding), Vórtx DTVM e Vórtx QR Tokenizadora (balcão de debêntures e cotas tokenizadas) e Start Me Up (balcão para startups).\n\nEm março de 2024 a Deliberação CVM nº 891 estendeu as autorizações da BEE4, da Vórtx e da Start Me Up até 2026. Pelas deliberações publicadas, todas as autorizações temporárias conhecidas venceram até 31 de agosto de 2026. A página da CVM informa não haver previsão de novo processo de admissão, e nenhuma fonte oficial declara o encerramento do ciclo.",
+  "desde": "2020",
+  "gestor": "Comitê de Sandbox da CVM; autorizações e prorrogações decididas pelo Colegiado",
+  "ingresso": "edital",
+  "prazo_teste_meses": 12,
+  "elegibilidade": "Pessoas jurídicas com modelo de negócio inovador já validado ao menos preliminarmente, capacidade técnica e financeira, mecanismos de segurança cibernética, guarda de registros e prevenção à lavagem de dinheiro, e administradores sem impedimentos.",
+  "flexibilizacoes": [
+    "Dispensa de requisitos específicos de registro e de normas da CVM, definida em deliberação para cada participante",
+    "Limites de atuação e salvaguardas fixados na autorização temporária"
+  ],
+  "documentos": [
+    {
+      "tipo": "resolucao",
+      "titulo": "Resolução CVM nº 29/2021 — regras do sandbox regulatório",
+      "numero": "29/2021",
+      "data": "2021-05-11",
+      "url": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/resolucoes/anexos/001/resol029.pdf",
+      "principal": true
+    },
+    {
+      "tipo": "outro",
+      "titulo": "Deliberação CVM nº 873/2021 — autorização temporária da Basement",
+      "numero": "873/2021",
+      "data": "2021-09-30",
+      "url": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/deliberacoes/anexos/0800/deli873.pdf"
+    },
+    {
+      "tipo": "outro",
+      "titulo": "Deliberação CVM nº 874/2021 — autorização temporária de BEE4 e Beegin",
+      "numero": "874/2021",
+      "data": "2021-09-30",
+      "url": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/deliberacoes/anexos/0800/deli874.pdf"
+    },
+    {
+      "tipo": "outro",
+      "titulo": "Deliberação CVM nº 875/2021 — autorização temporária de Vórtx DTVM e Vórtx QR (texto consolidado)",
+      "numero": "875/2021",
+      "data": "2021-09-30",
+      "url": "https://conteudo.cvm.gov.br/cvm_institucional/export/sites/cvm/legislacao/deliberacoes/anexos/0800/deli875_consolidada.pdf"
+    },
+    {
+      "tipo": "outro",
+      "titulo": "Deliberação CVM nº 877/2021 — autorização temporária da Start Me Up",
+      "numero": "877/2021",
+      "data": "2021-12-27",
+      "url": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/deliberacoes/anexos/0800/deli877.pdf"
+    },
+    {
+      "tipo": "outro",
+      "titulo": "Deliberação CVM nº 891/2024 — prorroga autorizações até 2026",
+      "numero": "891/2024",
+      "data": "2024-03-06",
+      "url": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/deliberacoes/anexos/0800/deli891.pdf"
+    }
+  ],
+  "solucoes": [
+    {
+      "nome": "Escrituração de valores mobiliários em modelo SaaS",
+      "proponente": "Basement Soluções de Captação e Registro Ltda.",
+      "descricao": "Prestação de serviço de escrituração com dispensa de artigos da Resolução CVM nº 33; autorização válida até 30/11/2022 no texto original da deliberação.",
+      "status": "concluida",
+      "inicio": "2021-12-01",
+      "fim": "2022-11-30",
+      "fonte": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/deliberacoes/anexos/0800/deli873.pdf"
+    },
+    {
+      "nome": "Balcão organizado para tokens de crowdfunding",
+      "proponente": "BEE4 Intermediação, Compensação e Liquidação Ltda. e Beegin Soluções em Crowdfunding Ltda.",
+      "descricao": "Mercado de balcão para valores mobiliários de ofertas de crowdfunding registrados em tecnologia de registro distribuído.",
+      "status": "concluida",
+      "inicio": "2022-03-07",
+      "fim": "2026-06-06",
+      "fonte": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/deliberacoes/anexos/0800/deli891.pdf"
+    },
+    {
+      "nome": "Balcão de debêntures e cotas tokenizadas",
+      "proponente": "Vórtx DTVM e Vórtx QR Tokenizadora Ltda.",
+      "descricao": "Mercado de balcão para debêntures e cotas de fundos fechados emitidas em blockchain.",
+      "status": "concluida",
+      "inicio": "2022-03-15",
+      "fim": "2026-03-14",
+      "fonte": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/deliberacoes/anexos/0800/deli891.pdf"
+    },
+    {
+      "nome": "Balcão para valores mobiliários de startups",
+      "proponente": "Start Me Up Crowdfunding Sistemas para Investimento Colaborativo Ltda.",
+      "descricao": "Mercado de balcão para ativos emitidos em ofertas de crowdfunding de empresas de pequeno porte.",
+      "status": "concluida",
+      "inicio": "2022-06-01",
+      "fim": "2026-08-31",
+      "fonte": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/deliberacoes/anexos/0800/deli891.pdf"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/cvm-sandbox-1.jpg",
+    "credito": "Agent010",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Avenida_Brigadeiro_Faria_Lima6.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.gov.br/cvm/pt-br/assuntos/normas/sandbox-regulatorio",
+      "titulo": "CVM — Sandbox Regulatório (página oficial, atualizada em 10/07/2025)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/resolucoes/anexos/001/resol029.pdf",
+      "titulo": "CVM — Resolução CVM nº 29/2021",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/deliberacoes/anexos/0800/deli891.pdf",
+      "titulo": "CVM — Deliberação CVM nº 891/2024",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/deliberacoes/anexos/0800/deli874.pdf",
+      "titulo": "CVM — Deliberação CVM nº 874/2021",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/deliberacoes/anexos/0800/deli877.pdf",
+      "titulo": "CVM — Deliberação CVM nº 877/2021",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2024-03-06",
+      "descricao": "Deliberação CVM nº 891 prorroga as autorizações de BEE4, Vórtx e Start Me Up até 2026.",
+      "fonte": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/deliberacoes/anexos/0800/deli891.pdf"
+    },
+    {
+      "data": "2021-12-27",
+      "descricao": "Start Me Up é admitida, completando quatro participantes.",
+      "fonte": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/deliberacoes/anexos/0800/deli877.pdf"
+    },
+    {
+      "data": "2021-09-30",
+      "descricao": "Colegiado aprova as primeiras autorizações temporárias (Deliberações 873 a 875).",
+      "fonte": "https://www.gov.br/cvm/pt-br/assuntos/normas/sandbox-regulatorio"
+    },
+    {
+      "data": "2021-05-11",
+      "descricao": "Resolução CVM nº 29 substitui a Instrução CVM nº 626/2020.",
+      "fonte": "https://www.gov.br/cvm/pt-br/assuntos/normas/sandbox-regulatorio"
+    }
+  ],
+  "recem_adicionado": true
+}

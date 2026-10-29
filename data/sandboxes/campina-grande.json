@@ -1,0 +1,56 @@
+{
+  "id": "campina-grande",
+  "nome": "Programa Sandbox Regulatório de Campina Grande",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Campina Grande",
+    "uf": "PB",
+    "regiao": "Nordeste"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "startups",
+    "cidades"
+  ],
+  "resumo": "Decreto de 2021 cria o Programa Sandbox Regulatório de Campina Grande, com Comitê Gestor; execução não localizada.",
+  "descricao": "O Decreto Municipal nº 4.592, de 2 de julho de 2021, regulamentou a instauração de zonas de desenvolvimento com inovação científica, tecnológica e empreendedora em Campina Grande, sob o nome Programa Sandbox Regulatório de Campina Grande, com base na Lei Municipal nº 7.193/2019 e na Lei de Liberdade Econômica.\n\nO programa é conduzido por um Comitê Gestor com capacidade regulamentadora e decisória, formado por secretarias municipais como a de Ciência, Tecnologia e Inovação, e pode considerar projetos de Internet das Coisas ligados ao Plano Nacional de IoT.\n\nNão foram localizados chamamentos, projetos autorizados ou relatórios.",
+  "desde": "2021-07-02",
+  "gestor": "Comitê Gestor do Programa Sandbox, com a Secretaria Municipal de Ciência, Tecnologia e Inovação",
+  "ingresso": "nao_informado",
+  "documentos": [
+    {
+      "tipo": "decreto",
+      "titulo": "Decreto que institui o Programa Sandbox Regulatório de Campina Grande (Semanário Oficial nº 2.734)",
+      "numero": "4.592/2021",
+      "data": "2021-07-02",
+      "url": "https://campinagrande.pb.gov.br/wp-content/uploads/2021/07/SEMANARIO-OFICIAL-No-2.734-1.pdf",
+      "principal": true
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/campina-grande.jpg",
+    "credito": "Abdias Jr",
+    "licenca": "CC BY 2.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:A%C3%A7ude_Velho_-_Campina_Grande,_Para%C3%ADba,_Brasil_(13760039623).jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://campinagrande.pb.gov.br/wp-content/uploads/2021/07/SEMANARIO-OFICIAL-No-2.734-1.pdf",
+      "titulo": "Prefeitura de Campina Grande — Semanário Oficial nº 2.734 (Decreto nº 4.592/2021)",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2021-07-02",
+      "descricao": "Assinado o Decreto nº 4.592/2021.",
+      "fonte": "https://campinagrande.pb.gov.br/wp-content/uploads/2021/07/SEMANARIO-OFICIAL-No-2.734-1.pdf"
+    }
+  ],
+  "recem_adicionado": true
+}

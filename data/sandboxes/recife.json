@@ -1,0 +1,131 @@
+{
+  "id": "recife",
+  "nome": "EITA Labs – Recife Living Labs",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Recife",
+    "uf": "PE",
+    "regiao": "Nordeste"
+  },
+  "status": "ativo",
+  "temas": [
+    "cidades",
+    "mobilidade",
+    "saude",
+    "ambiente"
+  ],
+  "resumo": "Sandbox urbano criado por decreto em 2022, com testes no espaço público e um sandbox digital (Conecta Labs).",
+  "descricao": "O Recife instituiu em abril de 2022, pelo Decreto nº 35.511/2022, ambientes experimentais de inovação no formato de bancos de testes regulatórios e tecnológicos, chamados Recife Living Labs e operados sob a marca EITA Labs.\n\nUm Conselho Gestor pode autorizar a suspensão temporária de regras municipais durante os testes, e uma equipe técnica acompanha os experimentos. Há dois ambientes: o sandbox físico, no espaço urbano, e o sandbox digital Conecta Labs, ligado aos serviços digitais da prefeitura.\n\nA página oficial lista como em experimentação soluções de patinetes elétricos compartilhados, monitoramento de pontes, alerta de alagamentos e serviços digitais de saúde e mobilidade. A participação se dá por editais periódicos.",
+  "desde": "2022-04-01",
+  "gestor": "Conselho Gestor do EITA Labs, com a Emprel e a Prefeitura do Recife",
+  "ingresso": "edital",
+  "prazo_teste_meses": 12,
+  "flexibilizacoes": [
+    "Suspensão temporária da eficácia de normas municipais durante o período de testes, autorizada pelo Conselho Gestor"
+  ],
+  "documentos": [
+    {
+      "tipo": "decreto",
+      "titulo": "Decreto que regulamenta os ambientes experimentais de inovação (Recife Living Labs)",
+      "numero": "35.511/2022",
+      "data": "2022-04-01",
+      "url": "https://www.legisweb.com.br/legislacao/?id=429903",
+      "principal": true
+    },
+    {
+      "tipo": "edital",
+      "titulo": "Editais do EITA Labs",
+      "url": "https://eitalabs.recife.pe.gov.br/editais/"
+    }
+  ],
+  "solucoes": [
+    {
+      "nome": "Patinetes Whoosh",
+      "proponente": "Whoosh",
+      "descricao": "Patinetes elétricos compartilhados, listados pelo EITA Labs como em experimentação.",
+      "status": "em_teste",
+      "fonte": "https://eitalabs.recife.pe.gov.br/solucoes/"
+    },
+    {
+      "nome": "Patinetes JET",
+      "proponente": "JET",
+      "descricao": "Patinetes elétricos compartilhados, listados pelo EITA Labs como em experimentação.",
+      "status": "em_teste",
+      "fonte": "https://eitalabs.recife.pe.gov.br/solucoes/"
+    },
+    {
+      "nome": "TPF – Sistema de Monitoramento de Pontes",
+      "proponente": "TPF",
+      "descricao": "Sistema de monitoramento de pontes, listado como em experimentação.",
+      "status": "em_teste",
+      "fonte": "https://eitalabs.recife.pe.gov.br/solucoes/"
+    },
+    {
+      "nome": "Ih, Alagou",
+      "descricao": "Solução ligada a alagamentos urbanos, listada como em experimentação.",
+      "status": "em_teste",
+      "fonte": "https://eitalabs.recife.pe.gov.br/solucoes/"
+    },
+    {
+      "nome": "Kangoo Saúde",
+      "descricao": "Solução de saúde em teste no sandbox digital Conecta Labs.",
+      "status": "em_teste",
+      "fonte": "https://eitalabs.recife.pe.gov.br/solucoes/"
+    },
+    {
+      "nome": "Mova-se Pelo Futuro!",
+      "descricao": "Solução em teste no sandbox digital Conecta Labs.",
+      "status": "em_teste",
+      "fonte": "https://eitalabs.recife.pe.gov.br/solucoes/"
+    }
+  ],
+  "editais": [
+    {
+      "titulo": "Edital 2025 – Inovação para o Futuro",
+      "status": "aberto",
+      "url": "https://eitalabs.recife.pe.gov.br/editais/edital-atual/"
+    },
+    {
+      "titulo": "Edital 1º Ciclo / 2022",
+      "status": "encerrado",
+      "url": "https://eitalabs.recife.pe.gov.br/editais/1-ciclo-2022/"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/recife.jpg",
+    "credito": "Portal da Copa/ME",
+    "licenca": "CC BY 3.0 br",
+    "origem": "https://commons.wikimedia.org/wiki/File:Antonio_Vaz_island_-_Recife,_Pernambuco,_Brazil_(cropped).jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://eitalabs.recife.pe.gov.br/",
+      "titulo": "EITA Labs — página oficial",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://eitalabs.recife.pe.gov.br/solucoes/",
+      "titulo": "EITA Labs — soluções implantadas",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://eitalabs.recife.pe.gov.br/editais/",
+      "titulo": "EITA Labs — editais",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://portal.tcu.gov.br/data/files/4B/C2/6D/DB/56ABB810F80985A8E18818A8/231108_Sandbox.pdf",
+      "titulo": "TCU — estudo \"Sandbox regulatório no Marco Legal das Startups\" (2023), tabela de atos estaduais e municipais",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2022-04-01",
+      "descricao": "Publicado o Decreto nº 35.511/2022, que institui os Recife Living Labs.",
+      "fonte": "https://www2.recife.pe.gov.br/noticias/25/08/2022/eita-recife-vence-como-melhor-projeto-publico-e-governamental-dentro-do"
+    }
+  ],
+  "recem_adicionado": false
+}

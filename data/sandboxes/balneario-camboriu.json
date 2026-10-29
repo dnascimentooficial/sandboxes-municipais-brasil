@@ -1,0 +1,81 @@
+{
+  "id": "balneario-camboriu",
+  "nome": "Sandbox Regulatório de Balneário Camboriú",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Balneário Camboriú",
+    "uf": "SC",
+    "regiao": "Sul"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "startups",
+    "cidades",
+    "saude",
+    "educacao",
+    "seguranca"
+  ],
+  "resumo": "Decreto de 2025 cria o sandbox do Inova BC; edital de inscrição contínua já recebeu 12 projetos em avaliação.",
+  "descricao": "Balneário Camboriú instituiu o Sandbox Regulatório pelo Decreto nº 12.473, de 11 de julho de 2025, dentro da política municipal de incentivo à inovação. O ambiente permite flexibilizar de forma temporária e controlada decretos, portarias e resoluções para viabilizar testes.\n\nA Divisão de Tecnologia da Informação da Secretaria de Governo, Inovação e Orçamento gerencia o edital, que recebe propostas de forma contínua pelo portal Inova BC. Até outubro de 2026, 12 projetos haviam sido inscritos e apresentados em rodadas de sabatina.\n\nAs propostas seguem para uma Comissão Especial de Avaliação, e as autorizações só serão concedidas depois do relatório da comissão; até a data da verificação, nenhum teste havia sido autorizado.",
+  "desde": "2025-07-11",
+  "gestor": "Divisão de Tecnologia da Informação (DTI) da Secretaria de Governo, Inovação e Orçamento (Segov)",
+  "ingresso": "fluxo_continuo",
+  "elegibilidade": "Empresas ou entidades com capacidade técnica e financeira, sem condenações por crimes graves e sem impedimento de contratar com o poder público.",
+  "flexibilizacoes": [
+    "Flexibilização temporária de decretos, portarias e resoluções municipais para viabilizar os testes"
+  ],
+  "documentos": [
+    {
+      "tipo": "decreto",
+      "titulo": "Portal Inova BC (Sandbox), que remete ao Decreto nº 12.473/2025",
+      "numero": "12.473/2025",
+      "data": "2025-07-11",
+      "url": "https://inova.bc.sc.gov.br/sandbox",
+      "principal": true
+    }
+  ],
+  "editais": [
+    {
+      "titulo": "Edital do Sandbox Regulatório (inscrições contínuas)",
+      "status": "aberto",
+      "url": "https://inova.bc.sc.gov.br/sandbox"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/balneario-camboriu.jpg",
+    "credito": "Trustable",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Balne%C3%A1rio_Cambori%C3%BA_from_Unipraias_Park_2023-04-02.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://inova.bc.sc.gov.br/sandbox",
+      "titulo": "Inova BC — Sandbox",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://folhadoestadosc.com.br/balneario-camboriu-sandbox-regulatorio-terceira-rodada-encerra-apresentacoes-de-projetos-ja-inscritos/",
+      "titulo": "Folha do Estado SC — terceira rodada encerra apresentações de projetos (out/2026)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.bcnoticias.com.br/balneario-camboriu-cria-projeto-para-impulsionar-startups-e-tecnologia/",
+      "titulo": "BC Notícias — Balneário Camboriú cria projeto para impulsionar startups",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-01",
+      "descricao": "Encerrada a terceira rodada de apresentações; 12 projetos inscritos seguem para a Comissão Especial de Avaliação.",
+      "fonte": "https://folhadoestadosc.com.br/balneario-camboriu-sandbox-regulatorio-terceira-rodada-encerra-apresentacoes-de-projetos-ja-inscritos/"
+    },
+    {
+      "data": "2025-07-11",
+      "descricao": "Publicado o Decreto nº 12.473/2025.",
+      "fonte": "https://folhadoestadosc.com.br/balneario-camboriu-sandbox-regulatorio-terceira-rodada-encerra-apresentacoes-de-projetos-ja-inscritos/"
+    }
+  ],
+  "recem_adicionado": true
+}

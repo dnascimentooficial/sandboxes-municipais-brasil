@@ -1,0 +1,116 @@
+{
+  "id": "antaq-outorga-verde",
+  "nome": "Sandbox Regulatório Outorga Verde — ANTAQ",
+  "esfera": "federal",
+  "jurisdicao": {
+    "orgao": "ANTAQ"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "logistica",
+    "energia",
+    "ambiente"
+  ],
+  "resumo": "Autorização temporária de áreas ociosas em portos para projetos de transição energética; 1 projeto selecionado em Suape.",
+  "descricao": "A Resolução ANTAQ nº 131, de 18 de agosto de 2025, criou o sandbox regulatório da agência, com ingresso por edital ou qualificação direta. O primeiro edital, Outorga Verde, oferece autorização temporária para ocupar e explorar áreas ociosas em portos organizados com projetos inovadores de transição energética.\n\nO Edital de Chamamento Público nº 01/2025 recebeu inscrições de 10 de novembro a 9 de dezembro de 2025, para até cinco projetos e no máximo um por porto. As propostas precisavam de carta de compromisso da autoridade portuária, contratos com compradores de longo prazo e implantação em até 24 meses. A autorização pode durar até 48 meses.\n\nA Deliberação-DG nº 14/2026, de 27 de fevereiro de 2026, aprovou o resultado final: foi selecionada a proposta da Hardrada Energy Tech Hero Participações, de geração de energia a partir de resíduos urbanos e marinhos no Porto de Suape (PE). Foram aprovadas as minutas do termo de sandbox e da autorização temporária; o início da operação não foi confirmado.",
+  "desde": "2025-08-18",
+  "gestor": "ANTAQ — Superintendência de Regulação, com Comissão de Sandbox Regulatório",
+  "ingresso": "edital",
+  "prazo_teste_meses": 48,
+  "elegibilidade": "Pessoas jurídicas, inclusive consórcios, com carta de compromisso da autoridade portuária, regularidade fiscal, contratos com off-takers, infraestrutura implantável em até 24 meses e experiência em transição energética ou infraestrutura portuária.",
+  "flexibilizacoes": [
+    "Condições especiais simplificadas de autorização temporária para uso de áreas ociosas em portos organizados"
+  ],
+  "documentos": [
+    {
+      "tipo": "resolucao",
+      "titulo": "Resolução ANTAQ nº 131/2025 — sandbox regulatório da ANTAQ",
+      "numero": "131/2025",
+      "data": "2025-08-18",
+      "url": "https://juris.antaq.gov.br/index.php/2025/08/19/130-2025-2/",
+      "principal": true
+    },
+    {
+      "tipo": "edital",
+      "titulo": "Edital de Chamamento Público nº 01/2025 — Sandbox Outorga Verde",
+      "numero": "01/2025",
+      "url": "https://www.gov.br/antaq/pt-br/assuntos/sei_antaq-2727061-edital-de-chamamento-publico.pdf"
+    },
+    {
+      "tipo": "outro",
+      "titulo": "Deliberação-DG nº 14/2026 — resultado final do Edital nº 01/2025",
+      "numero": "14/2026",
+      "data": "2026-02-27",
+      "url": "https://www.gov.br/antaq/pt-br/assuntos/sandbox/sandbox-regulatorio-1/Resultadofinal.pdf"
+    }
+  ],
+  "solucoes": [
+    {
+      "nome": "Sistema de Geração de Energia pela Coleta de Resíduos da Cidade e do Mar",
+      "proponente": "Hardrada Energy Tech Hero Participações Ltda.",
+      "descricao": "Proposta selecionada para o Porto de Suape (PE); minutas do termo de sandbox e da autorização temporária aprovadas.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/antaq/pt-br/assuntos/sandbox/sandbox-regulatorio-1/Resultadofinal.pdf"
+    }
+  ],
+  "editais": [
+    {
+      "titulo": "Edital de Chamamento Público nº 01/2025 — Outorga Verde",
+      "status": "encerrado",
+      "abertura": "2025-11-10",
+      "encerramento": "2025-12-09",
+      "url": "https://www.gov.br/antaq/pt-br/assuntos/sei_antaq-2727061-edital-de-chamamento-publico.pdf"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/antaq-outorga-verde.jpg",
+    "credito": "Complexo Industrial Portuário de Suape from Brasil",
+    "licenca": "CC BY-SA 2.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Porto_de_Suape_(32820650077).jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.gov.br/antaq/pt-br/assuntos/sandbox-regulatorio-1/norma-de-sandbox-regulatorio",
+      "titulo": "ANTAQ — Norma de Sandbox Regulatório (página oficial)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.gov.br/antaq/pt-br/assuntos/sei_antaq-2727061-edital-de-chamamento-publico.pdf",
+      "titulo": "ANTAQ — Edital de Chamamento Público nº 01/2025",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.gov.br/antaq/pt-br/assuntos/sandbox/sandbox-regulatorio-1/Resultadofinal.pdf",
+      "titulo": "ANTAQ — Deliberação-DG nº 14/2026 (resultado final)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://agenciainfra.com/blog/antaq-lanca-sandbox-regulatorio-com-foco-em-transicao-energetica-nos-portos/",
+      "titulo": "Agência iNFRA — ANTAQ lança sandbox regulatório com foco em transição energética nos portos",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2026-02-27",
+      "descricao": "Aprovado o resultado final: projeto da Hardrada no Porto de Suape.",
+      "fonte": "https://www.gov.br/antaq/pt-br/assuntos/sandbox/sandbox-regulatorio-1/Resultadofinal.pdf"
+    },
+    {
+      "data": "2025-11-10",
+      "descricao": "Abertas as inscrições do Edital nº 01/2025 (Outorga Verde).",
+      "fonte": "https://www.gov.br/antaq/pt-br/assuntos/sei_antaq-2727061-edital-de-chamamento-publico.pdf"
+    },
+    {
+      "data": "2025-08-18",
+      "descricao": "Aprovada a Resolução ANTAQ nº 131/2025.",
+      "fonte": "https://www.gov.br/antaq/pt-br/assuntos/sandbox-regulatorio-1/norma-de-sandbox-regulatorio"
+    }
+  ],
+  "recem_adicionado": true
+}

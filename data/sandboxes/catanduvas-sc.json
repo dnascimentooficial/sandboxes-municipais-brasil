@@ -1,0 +1,49 @@
+{
+  "id": "catanduvas-sc",
+  "nome": "Sandbox Regulatório de Catanduvas",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Catanduvas",
+    "uf": "SC",
+    "regiao": "Sul"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "startups"
+  ],
+  "resumo": "Lei de 2025 dispõe sobre o ambiente regulatório experimental de Catanduvas (SC); projetos não localizados.",
+  "descricao": "A Lei Municipal nº 2.903, de 7 de outubro de 2025, dispõe sobre as regras para constituição e funcionamento de ambiente regulatório experimental (sandbox regulatório) no Município de Catanduvas, em Santa Catarina.\n\nA íntegra da norma está publicada apenas como arquivo de texto no portal municipal e não foi lida. Não foram localizados regulamentação, chamamentos ou projetos autorizados.",
+  "desde": "2025-10-07",
+  "ingresso": "nao_informado",
+  "documentos": [
+    {
+      "tipo": "lei",
+      "titulo": "Lei que dispõe sobre o Sandbox Regulatório no Município de Catanduvas/SC",
+      "numero": "2.903/2025",
+      "data": "2025-10-07",
+      "url": "https://catanduvas.sc.gov.br/legislacao/lei-no-2-903-2025-de-07-de-outubro-de-2025/",
+      "principal": true
+    }
+  ],
+  "imagem": null,
+  "fontes": [
+    {
+      "url": "https://catanduvas.sc.gov.br/legislacao/lei-no-2-903-2025-de-07-de-outubro-de-2025/",
+      "titulo": "Prefeitura de Catanduvas — Lei nº 2.903/2025",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2025-10-07",
+      "descricao": "Publicada a Lei nº 2.903/2025.",
+      "fonte": "https://catanduvas.sc.gov.br/legislacao/lei-no-2-903-2025-de-07-de-outubro-de-2025/"
+    }
+  ],
+  "recem_adicionado": true
+}

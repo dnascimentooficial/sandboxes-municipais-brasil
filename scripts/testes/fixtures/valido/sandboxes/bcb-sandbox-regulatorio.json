@@ -1,0 +1,29 @@
+{
+  "id": "bcb-sandbox-regulatorio",
+  "nome": "Sandbox Regulatório do Banco Central",
+  "esfera": "federal",
+  "jurisdicao": { "orgao": "BCB" },
+  "status": "regulamentado",
+  "temas": ["financas"],
+  "resumo": "Ambiente para testar produtos e serviços financeiros inovadores sob supervisão do BCB.",
+  "descricao": "O Banco Central regulamentou um ambiente em que instituições autorizadas testam produtos e serviços inovadores com requisitos regulatórios flexibilizados.\n\nA participação ocorre por ciclos, com seleção prévia de projetos.",
+  "desde": "2020-10-26",
+  "gestor": "Banco Central do Brasil",
+  "ingresso": "edital",
+  "prazo_teste_meses": null,
+  "documentos": [
+    {
+      "tipo": "resolucao",
+      "titulo": "Resolução que disciplina o sandbox regulatório",
+      "numero": "29/2020",
+      "data": "2020-10-26",
+      "url": "https://exemplo.gov.br/bcb/resolucao-29-2020",
+      "principal": true
+    }
+  ],
+  "fontes": [
+    { "url": "https://exemplo.gov.br/bcb/sandbox", "titulo": "Página do sandbox no BCB", "acessado_em": "2026-10-20" }
+  ],
+  "verificado_em": "2026-10-20",
+  "historico": []
+}

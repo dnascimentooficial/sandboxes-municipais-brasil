@@ -1,0 +1,119 @@
+{
+  "id": "teresopolis",
+  "nome": "SandBox InovaTerê",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Teresópolis",
+    "uf": "RJ",
+    "regiao": "Sudeste"
+  },
+  "status": "ativo",
+  "temas": [
+    "gestao-publica",
+    "cidades",
+    "saude",
+    "energia"
+  ],
+  "resumo": "Sandbox regulamentado em 2023; soluções de Defesa Civil, iluminação e saúde testadas após o edital SandBox InovaTerê.",
+  "descricao": "Teresópolis regulamentou o SandBox InovaTerê pelo Decreto Municipal nº 5.939, de março de 2023, inspirado no modelo do Rio de Janeiro. O programa é conduzido pela Secretaria Municipal de Ciência e Tecnologia e funciona como ambiente controlado para testar produtos e serviços.\n\nO primeiro chamamento, Edital nº 04/2023, teve inscrições até novembro de 2023. As empresas homologadas assinaram termos de autorização no início de 2024, com prazo de inserção de um ano e possibilidade de suspensão de atos infralegais municipais durante o teste.\n\nEntre as soluções testadas estão uma plataforma de previsão para a Defesa Civil, a telegestão da iluminação pública com sensores e o monitoramento remoto de idosos no serviço de atenção domiciliar. A prefeitura divulgou as soluções aprovadas como aptas à contratação pelo Marco Legal das Startups.",
+  "desde": "2023-03-23",
+  "gestor": "Secretaria Municipal de Ciência e Tecnologia",
+  "ingresso": "edital",
+  "prazo_teste_meses": 12,
+  "flexibilizacoes": [
+    "Suspensão temporária de atos infralegais municipais de natureza fiscal, econômica, urbanística ou outra, quando cabível"
+  ],
+  "documentos": [
+    {
+      "tipo": "decreto",
+      "titulo": "Notícia oficial sobre o Decreto nº 5.939/2023, que regulamenta o SandBox Regulatório",
+      "numero": "5.939/2023",
+      "data": "2023-03-23",
+      "url": "https://www.teresopolis.rj.gov.br/sandbox-teresopolis-e-a-segunda-cidade-do-estado-do-rio-a-regulamentar-iniciativa-que-visa-estimular-a-inovacao/",
+      "principal": true
+    },
+    {
+      "tipo": "edital",
+      "titulo": "Edital de Chamamento Público nº 04/2023 – SandBox InovaTerê 2023",
+      "url": "https://www.teresopolis.rj.gov.br/wp-content/uploads/2023/09/Edital-SandBox-InovaTere-2023.pdf"
+    }
+  ],
+  "solucoes": [
+    {
+      "nome": "Plataforma de previsão para a Defesa Civil",
+      "proponente": "Cittua Tecnologia, Consultoria e Treinamento Ltda.",
+      "descricao": "Ferramenta de previsão meteorológica e de situações de emergência usada pela Defesa Civil.",
+      "status": "concluida",
+      "fonte": "https://www.correiodamanha.com.br/correio-serrano/2024/11/167184-tere-divulga-solucoes-aptas-a-contratacao-via-marco-legal.html"
+    },
+    {
+      "nome": "Telegestão da iluminação pública",
+      "proponente": "Smart Lighting",
+      "descricao": "Gestão remota da iluminação pública com sensores.",
+      "status": "concluida",
+      "fonte": "https://www.correiodamanha.com.br/correio-serrano/2024/11/167184-tere-divulga-solucoes-aptas-a-contratacao-via-marco-legal.html"
+    },
+    {
+      "nome": "Monitoramento remoto de idosos",
+      "proponente": "Medical Angel Ltda.",
+      "descricao": "Monitoramento de sinais vitais de pacientes crônicos por relógios inteligentes, para idosos do Serviço de Atenção Domiciliar.",
+      "status": "concluida",
+      "fonte": "https://www.correiodamanha.com.br/correio-serrano/2024/11/167184-tere-divulga-solucoes-aptas-a-contratacao-via-marco-legal.html"
+    }
+  ],
+  "editais": [
+    {
+      "titulo": "Edital nº 04/2023 – SandBox InovaTerê 2023",
+      "status": "encerrado",
+      "encerramento": "2023-11-03",
+      "url": "https://www.teresopolis.rj.gov.br/wp-content/uploads/2023/09/Edital-SandBox-InovaTere-2023.pdf"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/teresopolis.jpg",
+    "credito": "Matheus R. Camacho",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Teres%C3%B3polis_vista_parcial_do_Centro.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.teresopolis.rj.gov.br/sandbox-teresopolis-e-a-segunda-cidade-do-estado-do-rio-a-regulamentar-iniciativa-que-visa-estimular-a-inovacao/",
+      "titulo": "Prefeitura de Teresópolis — Teresópolis é a segunda cidade do estado do Rio a regulamentar o SandBox",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.teresopolis.rj.gov.br/wp-content/uploads/2023/09/Edital-SandBox-InovaTere-2023.pdf",
+      "titulo": "Prefeitura de Teresópolis — Edital SandBox InovaTerê 2023",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.correiodamanha.com.br/correio-serrano/2024/11/167184-tere-divulga-solucoes-aptas-a-contratacao-via-marco-legal.html",
+      "titulo": "Correio da Manhã — Terê divulga soluções aptas à contratação via marco legal (nov/2024)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.teresopolis.rj.gov.br/sandbox-inovatere-prefeitura-e-empresa-voltada-para-prever-situacoes-de-emergencia-em-defesa-civil-apresentam-ferramenta-para-servidores/",
+      "titulo": "Prefeitura de Teresópolis — ferramenta de Defesa Civil apresentada a servidores",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://portal.tcu.gov.br/data/files/4B/C2/6D/DB/56ABB810F80985A8E18818A8/231108_Sandbox.pdf",
+      "titulo": "TCU — estudo \"Sandbox regulatório no Marco Legal das Startups\" (2023), tabela de atos estaduais e municipais",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2024-11-12",
+      "descricao": "Três soluções testadas no SandBox InovaTerê são divulgadas como aprovadas e aptas à contratação pública.",
+      "fonte": "https://www.correiodamanha.com.br/correio-serrano/2024/11/167184-tere-divulga-solucoes-aptas-a-contratacao-via-marco-legal.html"
+    },
+    {
+      "data": "2023-03-23",
+      "descricao": "Publicado o Decreto nº 5.939/2023, que regulamenta o SandBox Regulatório.",
+      "fonte": "https://www.teresopolis.rj.gov.br/sandbox-teresopolis-e-a-segunda-cidade-do-estado-do-rio-a-regulamentar-iniciativa-que-visa-estimular-a-inovacao/"
+    }
+  ],
+  "recem_adicionado": false
+}

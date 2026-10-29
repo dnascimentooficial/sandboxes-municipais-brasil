@@ -1,0 +1,65 @@
+{
+  "id": "ms-agems",
+  "nome": "Sandbox Regulatório da AGEMS",
+  "esfera": "estadual",
+  "jurisdicao": {
+    "uf": "MS",
+    "regiao": "Centro-Oeste"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "mobilidade",
+    "energia",
+    "cidades"
+  ],
+  "resumo": "Portaria de 2026 da AGEMS cria sandbox para concessionárias e operadores de serviços regulados em Mato Grosso do Sul.",
+  "descricao": "A Agência Estadual de Regulação de Serviços Públicos de Mato Grosso do Sul (AGEMS) instituiu as regras do seu sandbox regulatório pela Portaria nº 327, de 26 de fevereiro de 2026, publicada em 27 de fevereiro de 2026.\n\nO ambiente permite que concessionárias, permissionárias e demais operadores de serviços regulados testem inovações com flexibilização temporária de exigências regulatórias, quando necessário. A agência citou como exemplos transportes, rodovias concedidas, energia, saneamento e processos administrativos.\n\nNão foram localizados editais nem projetos em teste.",
+  "desde": "2026-02-26",
+  "gestor": "Agência Estadual de Regulação de Serviços Públicos de Mato Grosso do Sul (AGEMS)",
+  "ingresso": "nao_informado",
+  "elegibilidade": "Empresas, concessionárias, permissionárias e demais operadores dos serviços regulados pela AGEMS.",
+  "flexibilizacoes": [
+    "Flexibilização temporária de exigências regulatórias para viabilizar os testes"
+  ],
+  "documentos": [
+    {
+      "tipo": "portaria",
+      "titulo": "Portaria AGEMS que institui as regras do Sandbox Regulatório",
+      "numero": "327/2026",
+      "data": "2026-02-26",
+      "url": "https://www.legisweb.com.br/legislacao/?id=491463",
+      "principal": true
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/ms-agems.jpg",
+    "credito": "Alexanderps",
+    "licenca": "Domínio público",
+    "origem": "https://commons.wikimedia.org/wiki/File:Vista_de_Campo_Grande_(Mato_Grosso_do_Sul).JPG"
+  },
+  "fontes": [
+    {
+      "url": "https://www.agems.ms.gov.br/agems-institui-sandbox-regulatorio-para-acelerar-inovacao-nos-servicos-publicos-em-mato-grosso-do-sul/",
+      "titulo": "AGEMS — AGEMS institui Sandbox Regulatório (27/02/2026)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.legisweb.com.br/legislacao/?id=491463",
+      "titulo": "LegisWeb — Portaria AGEMS nº 327/2026",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2026-02-27",
+      "descricao": "Publicada a Portaria AGEMS nº 327/2026, que institui o sandbox.",
+      "fonte": "https://www.agems.ms.gov.br/agems-institui-sandbox-regulatorio-para-acelerar-inovacao-nos-servicos-publicos-em-mato-grosso-do-sul/"
+    }
+  ],
+  "recem_adicionado": true
+}

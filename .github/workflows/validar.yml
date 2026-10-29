@@ -1,0 +1,28 @@
+name: Validar
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Testes
+        run: npm test
+      - name: Validar a base
+        run: npm run validar
+      - name: Conferir dados gerados
+        run: npm run build:check
+      - name: Checar links (apenas avisos)
+        run: node scripts/checar-links.mjs
+        continue-on-error: true

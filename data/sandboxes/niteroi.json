@@ -1,0 +1,179 @@
+{
+  "id": "niteroi",
+  "nome": "Sandbox Regulatório de Niterói",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Niterói",
+    "uf": "RJ",
+    "regiao": "Sudeste"
+  },
+  "status": "ativo",
+  "temas": [
+    "cidades",
+    "startups",
+    "gestao-publica"
+  ],
+  "resumo": "Sandbox regulamentado em 2023; quatro soluções do 1º ciclo com relatório final e duas convocadas no 2º ciclo, em 2026.",
+  "descricao": "Niterói regulamentou seu sandbox regulatório pelo Decreto Municipal nº 15.022/2023, citado como base legal pelos editais do programa. A Secretaria Municipal de Inovação, Ciência e Tecnologia (SMICT) conduz o programa, com autorizações provisórias de 12 meses, renováveis por igual período, e flexibilização temporária de exigências municipais.\n\nO 1º ciclo, aberto pelo Edital de Chamamento Público nº 01/2024, começou em julho de 2024. A SMICT publicou relatórios finais da Reciclotron, da Octa City, da UXMed e da Megalo; a LibrasLab também participou, mas seu relatório final não foi localizado.\n\nO 2º ciclo, Sandbox Niterói 2.0, foi aberto pelo Edital SMICT nº 01/2026, publicado em 12 de fevereiro de 2026, para até seis soluções com nota mínima de 60 pontos. O resultado final, publicado em 18 de agosto de 2026, classificou oito empresas e convocou em 1ª chamada a Qi140 e a PITECG para assinar o Termo de Autorização Temporária.",
+  "desde": "2023",
+  "gestor": "Secretaria Municipal de Inovação, Ciência e Tecnologia (SMICT)",
+  "ingresso": "edital",
+  "prazo_teste_meses": 12,
+  "flexibilizacoes": [
+    "Suspensão temporária de determinadas exigências regulatórias municipais durante o teste"
+  ],
+  "documentos": [
+    {
+      "tipo": "decreto",
+      "titulo": "Decreto que regulamenta o Sandbox Regulatório no Município de Niterói (citado no edital; texto não localizado)",
+      "numero": "15.022/2023",
+      "url": "https://cienciaetecnologia.niteroi.rj.gov.br/wp-content/uploads/2026/02/Edital-Sandbox-Final.3.pdf",
+      "principal": true
+    },
+    {
+      "tipo": "edital",
+      "titulo": "Edital de Chamamento Público SMICT nº 01/2026 — Sandbox Regulatório de Niterói 2.0 (versão simplificada)",
+      "data": "2026-02-12",
+      "url": "https://cienciaetecnologia.niteroi.rj.gov.br/wp-content/uploads/2026/02/Edital-Sandbox-Final.3.pdf"
+    },
+    {
+      "tipo": "outro",
+      "titulo": "Diário Oficial de Niterói de 18/08/2026 — resultado final do Sandbox 2.0",
+      "data": "2026-08-18",
+      "url": "https://diariooficial.niteroi.rj.gov.br/do/2026/08_Ago/18.pdf"
+    },
+    {
+      "tipo": "relatorio",
+      "titulo": "Relatório final — Reciclotron (Reciclogrid), 1º ciclo",
+      "url": "https://cienciaetecnologia.niteroi.rj.gov.br/wp-content/uploads/2025/12/Relatorio-Final-Sandbox-Niteroi-Reciclotron-.pdf"
+    }
+  ],
+  "solucoes": [
+    {
+      "nome": "Reciclogrid",
+      "proponente": "Reciclotron",
+      "descricao": "Solução de reciclagem testada no 1º ciclo (Edital nº 01/2024), de julho de 2024 a novembro de 2025, segundo o relatório final publicado pela SMICT.",
+      "status": "concluida",
+      "fonte": "https://cienciaetecnologia.niteroi.rj.gov.br/wp-content/uploads/2025/12/Relatorio-Final-Sandbox-Niteroi-Reciclotron-.pdf"
+    },
+    {
+      "nome": "Ecossistema integrado de monitoramento urbano",
+      "proponente": "Octa City",
+      "descricao": "Monitoramento urbano para cidades inteligentes; ciclo experimental de julho de 2024 a abril de 2025, segundo o relatório final.",
+      "status": "concluida",
+      "fonte": "https://cienciaetecnologia.niteroi.rj.gov.br/wp-content/uploads/2025/10/Relatorio_Final_Sandbox_OctaCity.docx.pdf"
+    },
+    {
+      "nome": "Purple – Decision as a Service",
+      "proponente": "UXMed",
+      "descricao": "Business intelligence para metas das Equipes de Saúde da Família da FeSaúde; o relatório (jul/2024 a jun/2025) declara o projeto finalizado.",
+      "status": "concluida",
+      "fonte": "https://cienciaetecnologia.niteroi.rj.gov.br/wp-content/uploads/2025/11/Relatorio-FINAL_Sandbox-Niteroi_UXMED.pdf"
+    },
+    {
+      "nome": "Portal Megalo",
+      "proponente": "Megalo",
+      "descricao": "Plataforma de educação em saúde; curso de segurança do paciente concluído com a Secretaria Municipal de Saúde, segundo o relatório final.",
+      "status": "concluida",
+      "fonte": "https://cienciaetecnologia.niteroi.rj.gov.br/wp-content/uploads/2025/10/Relatorio-Final_Sandbox-Niteroi_Megalo_SMS.pdf"
+    },
+    {
+      "nome": "LibrasLab",
+      "proponente": "LibrasLab",
+      "descricao": "Participante do 1º ciclo; resultado/encerramento individual não localizado.",
+      "status": "selecionada",
+      "fonte": "https://cienciaetecnologia.niteroi.rj.gov.br/sandbox-regulatorio-de-niteroi/"
+    },
+    {
+      "nome": "Qi140",
+      "proponente": "Qi140 Inovação Ltda.",
+      "descricao": "1ª colocada no 2º ciclo (Edital SMICT nº 01/2026), convocada em 1ª chamada para assinar o Termo de Autorização Temporária.",
+      "status": "selecionada",
+      "fonte": "https://diariooficial.niteroi.rj.gov.br/do/2026/08_Ago/18.pdf"
+    },
+    {
+      "nome": "PITECG",
+      "proponente": "Produção Inteligente Tecnologia e Gestão Ltda.",
+      "descricao": "3ª colocada no 2º ciclo, convocada em 1ª chamada para assinar o Termo de Autorização Temporária.",
+      "status": "selecionada",
+      "fonte": "https://diariooficial.niteroi.rj.gov.br/do/2026/08_Ago/18.pdf"
+    },
+    {
+      "nome": "ChargePark",
+      "proponente": "Estacionamento e Recarga Elétrica de Veículos Ltda.",
+      "descricao": "2ª colocada no 2º ciclo; não convocada na 1ª chamada, pode ser chamada depois.",
+      "status": "selecionada",
+      "fonte": "https://diariooficial.niteroi.rj.gov.br/do/2026/08_Ago/18.pdf"
+    }
+  ],
+  "editais": [
+    {
+      "titulo": "Edital de Chamamento Público SMICT nº 01/2026 — Sandbox Niterói 2.0",
+      "status": "encerrado",
+      "abertura": "2026-02-23",
+      "encerramento": "2026-05-02",
+      "url": "https://cienciaetecnologia.niteroi.rj.gov.br/wp-content/uploads/2026/02/Edital-Sandbox-Final.3.pdf"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/niteroi.jpg",
+    "credito": "Donatas Dabravolskas",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Museu_de_Arte_Contempor%C3%A2nea_de_Niter%C3%B3i_-_Niter%C3%B3i_-_20181022135305.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://cienciaetecnologia.niteroi.rj.gov.br/sandbox-regulatorio-de-niteroi/",
+      "titulo": "Prefeitura de Niterói (SMICT) — Sandbox Regulatório de Niterói",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://cienciaetecnologia.niteroi.rj.gov.br/wp-content/uploads/2026/02/Edital-Sandbox-Final.3.pdf",
+      "titulo": "Prefeitura de Niterói — Edital SMICT nº 01/2026 (versão simplificada)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://diariooficial.niteroi.rj.gov.br/do/2026/08_Ago/18.pdf",
+      "titulo": "Diário Oficial de Niterói — 18/08/2026 (resultado final do Sandbox 2.0)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://cienciaetecnologia.niteroi.rj.gov.br/wp-content/uploads/2025/12/Relatorio-Final-Sandbox-Niteroi-Reciclotron-.pdf",
+      "titulo": "SMICT — Relatório final Reciclotron",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://cienciaetecnologia.niteroi.rj.gov.br/wp-content/uploads/2025/10/Relatorio_Final_Sandbox_OctaCity.docx.pdf",
+      "titulo": "SMICT — Relatório final Octa City",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://cienciaetecnologia.niteroi.rj.gov.br/wp-content/uploads/2025/11/Relatorio-FINAL_Sandbox-Niteroi_UXMED.pdf",
+      "titulo": "SMICT — Relatório UXMed (jul/2024 a jun/2025)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://cienciaetecnologia.niteroi.rj.gov.br/wp-content/uploads/2025/10/Relatorio-Final_Sandbox-Niteroi_Megalo_SMS.pdf",
+      "titulo": "SMICT — Relatório final Megalo",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2026-08-18",
+      "descricao": "Resultado final do 2º ciclo: Qi140 e PITECG convocadas para assinar o Termo de Autorização Temporária.",
+      "fonte": "https://diariooficial.niteroi.rj.gov.br/do/2026/08_Ago/18.pdf"
+    },
+    {
+      "data": "2026-02-12",
+      "descricao": "Publicado o Edital SMICT nº 01/2026, do 2º ciclo (Sandbox Niterói 2.0).",
+      "fonte": "https://cienciaetecnologia.niteroi.rj.gov.br/sandbox-regulatorio-de-niteroi/"
+    }
+  ],
+  "recem_adicionado": true
+}

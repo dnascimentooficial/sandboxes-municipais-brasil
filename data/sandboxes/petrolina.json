@@ -1,0 +1,76 @@
+{
+  "id": "petrolina",
+  "nome": "Sandbox Regulatório de Inovação de Petrolina (SRIP)",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Petrolina",
+    "uf": "PE",
+    "regiao": "Nordeste"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "cidades",
+    "gestao-publica"
+  ],
+  "resumo": "Decreto de 2025 institui o sandbox de cidades inteligentes, com ciclos por edital de até 12 meses e comitê gestor.",
+  "descricao": "Petrolina instituiu o Sandbox Regulatório de Inovação (SRIP) pelo Decreto nº 139, de 5 de novembro de 2025, como parte do Programa Municipal de Ambiente Regulatório Experimental de Cidades Inteligentes e da política municipal de ciência, tecnologia e inovação (Lei nº 3.484/2021).\n\nA Secretaria Municipal de Desenvolvimento Econômico e Inovação coordena a operação, e um Comitê Gestor do Sandbox delibera e supervisiona as experimentações. Cada ciclo é aberto por edital de chamamento público e dura no máximo 12 meses, prorrogáveis uma vez.\n\nEm 2020, a prefeitura havia anunciado um decreto de sandbox ligado ao laboratório vivo de cidades inteligentes da ABDI, mas esse ato anterior não foi localizado em fonte oficial. Não foram localizados editais publicados sob o decreto de 2025.",
+  "desde": "2025-11-05",
+  "gestor": "Secretaria Municipal de Desenvolvimento Econômico e Inovação, com o Comitê Gestor do Sandbox",
+  "ingresso": "edital",
+  "prazo_teste_meses": 12,
+  "elegibilidade": "Startups, empresas de base tecnológica, ICTs, associações, organizações da sociedade civil, parcerias público-privadas, instituições de ensino com atuação no município e microempresas inovadoras.",
+  "documentos": [
+    {
+      "tipo": "decreto",
+      "titulo": "Decreto que institui o Programa Municipal de Ambiente Regulatório Experimental de Cidades Inteligentes",
+      "numero": "139/2025",
+      "data": "2025-11-05",
+      "url": "https://petrolina.pe.gov.br/wp-content/uploads/2025/12/DECRETO_139-.pdf",
+      "principal": true
+    },
+    {
+      "tipo": "lei",
+      "titulo": "Estudo do TCU que cita a Lei nº 3.484/2021 (política municipal de Ciência, Tecnologia e Inovação)",
+      "numero": "3.484/2021",
+      "data": "2021-12-16",
+      "url": "https://portal.tcu.gov.br/data/files/4B/C2/6D/DB/56ABB810F80985A8E18818A8/231108_Sandbox.pdf"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/petrolina.jpg",
+    "credito": "Sitenl",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_lateral_de_Petrolina.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://petrolina.pe.gov.br/wp-content/uploads/2025/12/DECRETO_139-.pdf",
+      "titulo": "Prefeitura de Petrolina — Decreto nº 139/2025",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://anapec.org.br/petrolina-ganha-laboratorio-vivo-para-cidades-inteligentes/",
+      "titulo": "ANAPEC — Petrolina ganha laboratório vivo para Cidades Inteligentes (2020)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://portal.tcu.gov.br/data/files/4B/C2/6D/DB/56ABB810F80985A8E18818A8/231108_Sandbox.pdf",
+      "titulo": "TCU — estudo \"Sandbox regulatório no Marco Legal das Startups\" (2023), tabela de atos estaduais e municipais",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Registro anterior (\"Decreto s/n\", 2021, sem fonte) substituído pelo Decreto nº 139/2025, localizado no site da prefeitura.",
+      "fonte": "https://petrolina.pe.gov.br/wp-content/uploads/2025/12/DECRETO_139-.pdf"
+    },
+    {
+      "data": "2025-11-05",
+      "descricao": "Publicado o Decreto nº 139/2025, que institui o SRIP.",
+      "fonte": "https://petrolina.pe.gov.br/wp-content/uploads/2025/12/DECRETO_139-.pdf"
+    }
+  ],
+  "recem_adicionado": false
+}

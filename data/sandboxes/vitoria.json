@@ -1,0 +1,68 @@
+{
+  "id": "vitoria",
+  "nome": "Sandbox Vitória",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Vitória",
+    "uf": "ES",
+    "regiao": "Sudeste"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "cidades",
+    "ambiente",
+    "dados",
+    "gestao-publica"
+  ],
+  "resumo": "Decreto de 2025 cria o sandbox municipal, coordenado pela Seges e apoiado pelo Laboratório Urbano Vivo (LUV).",
+  "descricao": "Vitória lançou o Sandbox Vitória em 30 de abril de 2025 e publicou o Decreto nº 25.053, de 2 de maio de 2025, no Diário Oficial do Município, com regras para criação e funcionamento do ambiente regulatório experimental.\n\nA Secretaria de Gestão e Planejamento coordena o programa; um Conselho Estratégico concede as autorizações provisórias e um Comitê Técnico analisa e acompanha as propostas, com apoio do Laboratório Urbano Vivo. A entrada se dá por comunicado público com cronograma e critérios.\n\nOs eixos prioritários são soluções baseadas na natureza, resiliência climática, gêmeos digitais e IA na gestão urbana, relação com o cidadão e transformação urbana. Não foram localizadas fontes públicas sobre soluções já em teste.",
+  "desde": "2025-04-30",
+  "gestor": "Secretaria de Gestão e Planejamento (Seges), com Conselho Estratégico, Comitê Técnico e apoio do Laboratório Urbano Vivo (LUV)",
+  "ingresso": "edital",
+  "elegibilidade": "Pessoas jurídicas com capacidade técnica e financeira, cujos sócios e administradores não tenham condenações nem impedimentos de contratar com a administração pública.",
+  "flexibilizacoes": [
+    "Dispensa fundamentada de requisitos regulatórios, com condições, limites e salvaguardas propostas pelo participante"
+  ],
+  "documentos": [
+    {
+      "tipo": "decreto",
+      "titulo": "Decreto que dispõe sobre as regras do ambiente regulatório experimental – Programa Sandbox de Vitória (DOM nº 2627)",
+      "numero": "25.053/2025",
+      "data": "2025-05-02",
+      "url": "https://diariooficial.vitoria.es.gov.br/ExibirArquivo.aspx?qs=nnmrXIDe5L4hR81FZwDXlD95Q%2fWHOCtXgeCw%2fnRIrFMxQA7S5mwuf0RM3mOCPGtiwqKwtsQd8WTWmli6Dukj2cxgIhJDX9kWux4uc4ZzxTH9Zti7ZlOlmi3fwc%2f8THMh",
+      "principal": true
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/vitoria.jpg",
+    "credito": "Romerito Pontes from São Carlos",
+    "licenca": "CC BY 2.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:-2016-11-05_ao_13-_Vit%C3%B3ria_94_Romerito_Pontes_(30875449812)_(cropped).jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://diariooficial.vitoria.es.gov.br/ExibirArquivo.aspx?qs=nnmrXIDe5L4hR81FZwDXlD95Q%2fWHOCtXgeCw%2fnRIrFMxQA7S5mwuf0RM3mOCPGtiwqKwtsQd8WTWmli6Dukj2cxgIhJDX9kWux4uc4ZzxTH9Zti7ZlOlmi3fwc%2f8THMh",
+      "titulo": "Diário Oficial do Município de Vitória nº 2627 (02/05/2025) — Decreto nº 25.053",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.vitoria.es.gov.br/noticia/decreto-regulamenta-o-sandbox-vitoria-53242",
+      "titulo": "Prefeitura de Vitória — Decreto regulamenta o Sandbox Vitória (mai/2025)",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Status revisto de \"ativo\" para \"regulamentado\": não foi localizada fonte pública que documente solução em teste.",
+      "fonte": "https://www.vitoria.es.gov.br/noticia/decreto-regulamenta-o-sandbox-vitoria-53242"
+    },
+    {
+      "data": "2025-05-02",
+      "descricao": "Publicação do Decreto nº 25.053/2025 no Diário Oficial do Município.",
+      "fonte": "https://diariooficial.vitoria.es.gov.br/ExibirArquivo.aspx?qs=nnmrXIDe5L4hR81FZwDXlD95Q%2fWHOCtXgeCw%2fnRIrFMxQA7S5mwuf0RM3mOCPGtiwqKwtsQd8WTWmli6Dukj2cxgIhJDX9kWux4uc4ZzxTH9Zti7ZlOlmi3fwc%2f8THMh"
+    }
+  ],
+  "recem_adicionado": false
+}

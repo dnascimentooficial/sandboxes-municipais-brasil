@@ -1,0 +1,57 @@
+{
+  "id": "limeira",
+  "nome": "Limeira SandBox",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Limeira",
+    "uf": "SP",
+    "regiao": "Sudeste"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "startups",
+    "cidades",
+    "gestao-publica"
+  ],
+  "resumo": "Lei de 2025 e decreto regulamentador criam o Limeira SandBox, coordenado pela Secretaria de Tecnologia e Eficiência.",
+  "descricao": "Limeira criou seu sandbox pela Lei Municipal nº 7.219/2025, regulamentada por decreto que instituiu o Limeira SandBox, anunciado pela prefeitura em 23 de janeiro de 2026.\n\nO programa é coordenado pela Secretaria Municipal de Tecnologia e Eficiência, com um Comitê Gestor nomeado por portaria que avalia, monitora e fiscaliza as iniciativas. Os testes ocorrem por período determinado e cada proposta passa por análise técnica e autorização formal, em áreas como serviços urbanos, mobilidade, sustentabilidade e gestão pública.\n\nNão foram localizados o número do decreto, editais ou projetos autorizados.",
+  "desde": "2025",
+  "gestor": "Secretaria Municipal de Tecnologia e Eficiência, com Comitê Gestor",
+  "ingresso": "nao_informado",
+  "elegibilidade": "Pessoas jurídicas regularmente constituídas, incluindo startups do Marco Legal das Startups, e ICTs públicas ou privadas.",
+  "documentos": [
+    {
+      "tipo": "lei",
+      "titulo": "Notícia oficial sobre a Lei nº 7.219/2025 e o decreto que institui o Limeira SandBox",
+      "numero": "7.219/2025",
+      "url": "https://limeira.sp.gov.br/imprensa/noticias/tecnologia-e-eficiencia/sandbox-prefeitura-abre-laboratorio-vivo-para-atrair-startups-e-empresas-para-limeira",
+      "principal": true
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/limeira.jpg",
+    "credito": "FSogumo",
+    "licenca": "CC BY-SA 3.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Limeira_centro_planalto.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://limeira.sp.gov.br/imprensa/noticias/tecnologia-e-eficiencia/sandbox-prefeitura-abre-laboratorio-vivo-para-atrair-startups-e-empresas-para-limeira",
+      "titulo": "Prefeitura de Limeira — Sandbox: Prefeitura abre laboratório vivo (23/01/2026)",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2026-01-23",
+      "descricao": "Prefeitura anuncia o Limeira SandBox, regulamentado por decreto.",
+      "fonte": "https://limeira.sp.gov.br/imprensa/noticias/tecnologia-e-eficiencia/sandbox-prefeitura-abre-laboratorio-vivo-para-atrair-startups-e-empresas-para-limeira"
+    }
+  ],
+  "recem_adicionado": true
+}

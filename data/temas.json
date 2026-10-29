@@ -1,0 +1,19 @@
+[
+  { "id": "turismo", "nome": "Turismo", "icone": "☀", "cor": "#cfe8dc" },
+  { "id": "financas", "nome": "Finanças", "icone": "¤", "cor": "#d6e0f5" },
+  { "id": "energia", "nome": "Energia", "icone": "⚡", "cor": "#f7ecc6" },
+  { "id": "mobilidade", "nome": "Mobilidade", "icone": "⇄", "cor": "#d4e9f2" },
+  { "id": "logistica", "nome": "Logística", "icone": "▦", "cor": "#eadfd2" },
+  { "id": "saude", "nome": "Saúde", "icone": "✚", "cor": "#f4d9dc" },
+  { "id": "dados", "nome": "Dados e IA", "icone": "◈", "cor": "#e2dcf2" },
+  { "id": "cidades", "nome": "Cidades inteligentes", "icone": "⌂", "cor": "#dbe8d4" },
+  { "id": "ambiente", "nome": "Meio ambiente", "icone": "❦", "cor": "#d5ecd9" },
+  { "id": "seguros", "nome": "Seguros", "icone": "⛨", "cor": "#e4e6ea" },
+  { "id": "telecom", "nome": "Telecomunicações", "icone": "◉", "cor": "#d9e4ee" },
+  { "id": "aviacao", "nome": "Aviação e drones", "icone": "✈", "cor": "#dde9f5" },
+  { "id": "startups", "nome": "Startups e inovação", "icone": "✦", "cor": "#f5e1cf" },
+  { "id": "gestao-publica", "nome": "Gestão pública", "icone": "▤", "cor": "#e6e1d6" },
+  { "id": "educacao", "nome": "Educação", "icone": "✎", "cor": "#f2e6cc" },
+  { "id": "seguranca", "nome": "Segurança urbana", "icone": "◎", "cor": "#ece0e6" },
+  { "id": "industria", "nome": "Indústria e metrologia", "icone": "⚙", "cor": "#e3e7df" }
+]

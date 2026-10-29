@@ -1,0 +1,498 @@
+{
+  "ultima_execucao": "2026-10-29",
+  "resultado_por_id": {
+    "anac-sandbox-vertiportos": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Seleção e termo de adesão confirmados em imprensa; resultado oficial do edital não localizado.",
+        "Início dos testes do grupo PAX Aeroportos não confirmado."
+      ]
+    },
+    "anac-sia-balizamento": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Texto da Portaria nº 10.219/SIA não lido; duração e resultados do teste não encontrados."
+      ]
+    },
+    "anatel-d2d": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Empresas participantes não identificadas; atos não lidos (descritos na página oficial)."
+      ]
+    },
+    "anatel-escaneres-corporais": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Término em 24/10/2026 calculado pela vigência informada; prorrogação de 12 meses (desde 25/10/2025) confirmada só pela Teletime; nova prorrogação não localizada."
+      ]
+    },
+    "anatel-repetidores-municipios": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Participantes e data de término não informados pela Anatel; documento principal é a página do sandbox (ato não lido)."
+      ]
+    },
+    "anatel-sandbox": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": []
+    },
+    "aneel-sandbox-controle-tensao": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Texto da REA 16.539/2025 não lido; número e vigência confirmados em documento da CCEE e imprensa.",
+        "Vencedores do mecanismo competitivo não identificados."
+      ]
+    },
+    "aneel-sandbox-resposta-demanda": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Verificação manual necessária: texto oficial da REA 12.600/2022 (site da ANEEL com bloqueio anti-robô).",
+        "Nenhuma fonte oficial da ANEEL ou do ONS foi lida; todas as fontes são imprensa setorial."
+      ]
+    },
+    "aneel-sandbox-tarifario": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Texto da REN 966/2021 não lido: www2.aneel.gov.br bloqueado por verificação anti-bot (não contornada).",
+        "Status dos projetos da 1ª chamada, exceto Energisa, não confirmado."
+      ]
+    },
+    "anp-regulacao-experimental": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Prazo final de contribuições (26/10/2026) confirmado apenas em imprensa."
+      ]
+    },
+    "anpd-sandbox-ia": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Substituição da IA Greenworld pela Prevvine não explicada nas fontes.",
+        "Órgão renomeado para Agência Nacional de Proteção de Dados (MP nº 1.317/2025)."
+      ]
+    },
+    "ans-sandbox": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Encerramento da proposta de planos de consultas e exames confirmado apenas pelo Idec; Portaria Presi nº 12/2025 não verificada."
+      ]
+    },
+    "antaq-outorga-verde": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Link da Resolução ANTAQ aponta para URL \"130-2025\" no repositório da ANTAQ; número 131 confirmado no edital."
+      ]
+    },
+    "antt-corredor-logistico": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Situação formal do projeto EPR Litoral Pioneiro no sandbox não confirmada; Portaria DG nº 73/2026 citada no levantamento não verificada."
+      ]
+    },
+    "antt-free-flow-piloto": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Encerramento baseado na listagem da página oficial da ANTT; data formal de encerramento não localizada.",
+        "Vínculo do projeto com a BR-101/RJ e a CCR RioSP vem de imprensa (Agência iNFRA)."
+      ]
+    },
+    "antt-sandbox-psi": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Concessionárias participantes não identificadas (deliberações de resultado não lidas)."
+      ]
+    },
+    "anvisa-cosmeticos-personalizados": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Link do Edital nº 18/2025 aponta para notícia da Anvisa."
+      ]
+    },
+    "anvisa-sandbox-geral": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": []
+    },
+    "apucarana": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Texto e data da Lei nº 15/2023 não localizados; notícia oficial não traz link para o edital."
+      ]
+    },
+    "balneario-camboriu": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": [
+        "Documento principal aponta para o portal Inova BC; texto do decreto não localizado no DOM/SC."
+      ]
+    },
+    "bcb-sandbox-ciclo-1": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Página oficial do sandbox no BCB não pôde ser lida (conteúdo dinâmico); encerramento confirmado pelo Relatório de Gestão 2023.",
+        "URLs das resoluções seguem o padrão exibenormativo do BCB; texto das normas não foi relido."
+      ]
+    },
+    "belo-horizonte": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": []
+    },
+    "blumenau": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Lei Complementar nº 1.338/2021 revogada pela LC nº 1.741/2026 (principal atualizado).",
+        "Decreto 13.555/2021 regulamentava a LC 1.338/2021, revogada pela LC 1.741/2026; vigência a confirmar."
+      ]
+    },
+    "cajamar": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": []
+    },
+    "campina-grande": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Vigência e execução do programa não verificadas."
+      ]
+    },
+    "catanduvas-sc": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Íntegra da lei (.docx) não lida; só ementa e data conferidas."
+      ]
+    },
+    "ce-estadual": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Número dos PLs não consta no documento (arquivos pl389_26 e pl612_25 da ALECE); tramitação não verificada.",
+        "PL de IA de 2025 prevê um Sandbox Estadual Permanente de IA; tramitação não verificada."
+      ]
+    },
+    "criciuma": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": [
+        "Documento principal aponta para notícia (Engeplus); texto do decreto não localizado."
+      ]
+    },
+    "curitiba": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Status da solução de drones marcado como concluída sem confirmação explícita do fim do acordo de cooperação."
+      ]
+    },
+    "cvm-sandbox-1": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Todas as autorizações temporárias conhecidas venceram até 31/08/2026 (Deliberação CVM nº 891/2024); nenhuma fonte oficial declara o encerramento do ciclo.",
+        "Validade da autorização da Basement baseada no texto original da Deliberação nº 873 (versão consolidada não lida)."
+      ]
+    },
+    "df": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Esfera alterada de municipal para estadual (lei distrital)."
+      ]
+    },
+    "foz-do-iguacu": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Decreto nº 28.244/2020 revogado pelo Decreto nº 33.389/2025 (principal atualizado).",
+        "Não há notícia de ciclos após 2022; status ativo baseado em soluções concluídas."
+      ]
+    },
+    "go-agr-transporte": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Nenhum edital de participação localizado."
+      ]
+    },
+    "go-sandbox-ia": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Página específica do sandbox em goias.gov.br retornava 404 em 29/10/2026.",
+        "Nenhum edital de projetos localizado."
+      ]
+    },
+    "goiania": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": []
+    },
+    "gramado-turismo": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Número do decreto não consta da página oficial; o nº 2.273/2025 aparece só na imprensa (Onde Ir) e foi omitido.",
+        "Texto do Edital nº 002/2025 não localizado; a data de encerramento das inscrições foi omitida porque a fonte diz 'quinta-feira (31)' e 31/10/2025 foi sexta.",
+        "Status da Droneportos (concluída) baseado em jornal regional (Grupo Sinos / ABC Mais, 01/07/2026); demais 13 soluções selecionadas por falta de resultado individual."
+      ]
+    },
+    "inmetro-metrologia-legal": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Texto da Portaria 529/2025 lido apenas em reprodução (Normas Brasil); versão do DOU não localizada."
+      ]
+    },
+    "jaragua-do-sul": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": []
+    },
+    "joinville": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Texto da LC nº 661/2023 não lido (fonte: notícia da ACIJ)."
+      ]
+    },
+    "limeira": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Data da Lei nº 7.219/2025 e número/data do decreto não informados na página oficial."
+      ]
+    },
+    "londrina": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": []
+    },
+    "macapa": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Documento principal aponta para notícia oficial; número 4.062/2021 vem do estudo do TCU."
+      ]
+    },
+    "maceio": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": [
+        "Consulta pública de 2026 \"para implantação\" indica que o programa ainda não operou, apesar do decreto de 2022."
+      ]
+    },
+    "major-vieira": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": []
+    },
+    "mec-sandbox-ia-educacao": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Status em_instituicao: soluções selecionadas, mas o início dos testes não foi confirmado em fonte oficial.",
+        "Portaria nº 2/2026 (Comitê Executivo) citada pelo MEC; texto não localizado em página oficial."
+      ]
+    },
+    "ms-agems": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Texto integral da portaria não lido; prazo e forma de ingresso não informados na notícia oficial."
+      ]
+    },
+    "niteroi": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Texto do Decreto nº 15.022/2023 não localizado; número vem do edital oficial.",
+        "1º ciclo: relatórios finais oficiais da Reciclotron, Octa City, UXMed e Megalo (concluídas); LibrasLab sem relatório final localizado (selecionada).",
+        "Edital nº 01/2024 (1º ciclo) citado nos relatórios; URL oficial não localizada.",
+        "2º ciclo: Qi140 e PITECG convocadas em 18/08/2026; assinatura dos termos não confirmada."
+      ]
+    },
+    "olimpia": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": []
+    },
+    "palmas": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Editais e participantes não localizados."
+      ]
+    },
+    "peritiba": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Só a primeira página da lei foi lida (PDF em visualizador); detalhes como prazo e gestor não registrados."
+      ]
+    },
+    "petrolina": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Decreto anunciado em 2020 segue sem número localizado; o ato vigente é o Decreto nº 139/2025.",
+        "Lei nº 3.484/2021 aponta para o estudo do TCU, não para o texto da lei."
+      ]
+    },
+    "porto-alegre": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": []
+    },
+    "pr-estadual": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "fonte oficial não localizada; status apoiado em agregador (verificação manual necessária: https://www.legislacao.pr.gov.br/legislacao/pesquisarAto.do?action=listar&opt=tm&indice=1&site=1&tipoAto=1&numero=20744&ano=2021 — 'Sistema temporariamente indisponível' em 29/10/2026).",
+        "Decreto regulamentador nº 13.728/2026 citado só em nota da LegisWeb; não incluído como documento."
+      ]
+    },
+    "recife": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": [
+        "Status \"aberto\" do Edital 2025 baseado no rótulo da página oficial."
+      ]
+    },
+    "rio-de-janeiro": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": []
+    },
+    "rio-verde": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Texto da Lei nº 7.622/2025 não localizado; número e data vêm do decreto regulamentador, que é o link do documento principal.",
+        "Edital publicado em set/2025 (pasta do arquivo); data exata não confirmada."
+      ]
+    },
+    "rj-agenersa": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Edital final não localizado; estudo da ENAP (2026) sugere que a norma pode já ter sido publicada — verificar no DOERJ."
+      ]
+    },
+    "rs-estadual": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Ementa, data e DOE conferidos no Sistema LEGIS da ALRS; texto integral lido na LegisWeb. Decreto regulamentador não localizado."
+      ]
+    },
+    "sao-bernardo-do-campo": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "verificação manual necessária: https://dosp.com.br/exibe_do.php?i=Nzk5NDQx (página com bloqueio anti-bot; texto e data da lei não lidos)."
+      ]
+    },
+    "sao-jose-dos-campos": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": [
+        "Piloto de IA tinha duração prevista de 60 dias; conclusão inferida, não confirmada."
+      ]
+    },
+    "sao-jose-dos-pinhais": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": [
+        "Página oficial bloqueou acesso direto (HTTP 403); dados vêm de resumo de busca e notícias.",
+        "Documentos apontam para página oficial descritiva, não para o texto dos atos."
+      ]
+    },
+    "sao-lourenco-do-oeste": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Sanção não confirmada; se sancionada, atualizar para regulamentado com o número da LC."
+      ]
+    },
+    "sao-paulo": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": []
+    },
+    "sp-estadual": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Execução do programa (projetos municipais apoiados) não localizada; possível descontinuidade não verificada."
+      ]
+    },
+    "susep-sandbox-1": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Autorizações temporárias de até 36 meses concedidas a partir de 2020 já devem ter vencido; nenhuma fonte oficial declara o encerramento da edição.",
+        "Autorizações definitivas de Pier, Iza, Simple2u e 88i confirmadas apenas em imprensa especializada.",
+        "Normas e edital apontam para a página da edição (textos dos atos não lidos)."
+      ]
+    },
+    "susep-sandbox-2": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Autorizações temporárias de até 36 meses concedidas a partir de 2021–2022 já devem ter vencido; nenhuma fonte oficial declara o encerramento da edição.",
+        "Conversão da Darwin em autorização definitiva confirmada apenas em imprensa especializada."
+      ]
+    },
+    "susep-sandbox-3": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": [
+        "Data do edital (16/07/2024) e regra de fluxo contínuo confirmadas em escritórios de advocacia; página oficial não traz a data."
+      ]
+    },
+    "teresina": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": []
+    },
+    "teresopolis": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": [
+        "A notícia da prefeitura sobre as soluções aprovadas retorna erro 404; as soluções citam a cobertura do Correio da Manhã (nov/2024).",
+        "O documento principal aponta para notícia oficial sobre o decreto, não para o texto do ato."
+      ]
+    },
+    "vitoria": {
+      "verificado_em": "2026-10-29",
+      "mudou": true,
+      "avisos": []
+    },
+    "volta-redonda": {
+      "verificado_em": "2026-10-29",
+      "mudou": false,
+      "avisos": []
+    }
+  }
+}

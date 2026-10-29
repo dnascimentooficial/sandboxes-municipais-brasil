@@ -1,0 +1,58 @@
+{
+  "id": "criciuma",
+  "nome": "Sandbox Regulatório de Criciúma",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Criciúma",
+    "uf": "SC",
+    "regiao": "Sul"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "startups",
+    "cidades"
+  ],
+  "resumo": "Decreto de 2022, inspirado no Sandbox.Rio, permite autorizações provisórias de até um ano para startups testarem soluções.",
+  "descricao": "Criciúma regulamentou seu sandbox pelo Decreto SG nº 1.241/2022, de julho de 2022, publicado no Diário Oficial do Município em agosto. O texto regulamenta a Lei Complementar federal nº 182/2021 no município e segue o modelo do Rio de Janeiro.\n\nA seleção de participantes ocorre por chamamento público, com autorização provisória de até um ano, coordenada por um Comitê Gestor em parceria com a diretoria de tecnologia da informação. Não foram localizados editais publicados ou testes realizados.",
+  "desde": "2022-07-19",
+  "gestor": "Comitê Gestor do Sandbox, com a Diretoria de Tecnologia da Informação do Município",
+  "ingresso": "edital",
+  "prazo_teste_meses": 12,
+  "documentos": [
+    {
+      "tipo": "decreto",
+      "titulo": "Notícia sobre o Decreto SG nº 1.241/2022, que cria o ambiente regulatório experimental",
+      "numero": "1.241/2022",
+      "data": "2022-07-19",
+      "url": "https://www.engeplus.com.br/noticia/inovacao-e-tecnologia/2022/criciuma-publica-decreto-que-da-primeiro-passo-para-sandbox-regulatorio",
+      "principal": true
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/criciuma.jpg",
+    "credito": "Alcimar Luiz Callegari",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Avenida_Get%C3%BAlio_Vargas,_Crici%C3%BAma_SC.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.engeplus.com.br/noticia/inovacao-e-tecnologia/2022/criciuma-publica-decreto-que-da-primeiro-passo-para-sandbox-regulatorio",
+      "titulo": "Engeplus — Criciúma publica decreto que dá primeiro passo para sandbox regulatório (ago/2022)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://portal.tcu.gov.br/data/files/4B/C2/6D/DB/56ABB810F80985A8E18818A8/231108_Sandbox.pdf",
+      "titulo": "TCU — estudo \"Sandbox regulatório no Marco Legal das Startups\" (2023), tabela de atos estaduais e municipais",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2022-08-10",
+      "descricao": "Decreto publicado no Diário Oficial do Município.",
+      "fonte": "https://www.engeplus.com.br/noticia/inovacao-e-tecnologia/2022/criciuma-publica-decreto-que-da-primeiro-passo-para-sandbox-regulatorio"
+    }
+  ],
+  "recem_adicionado": false
+}

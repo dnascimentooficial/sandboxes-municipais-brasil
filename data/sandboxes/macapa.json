@@ -1,0 +1,63 @@
+{
+  "id": "macapa",
+  "nome": "Programa Sandbox – Macapá",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Macapá",
+    "uf": "AP",
+    "regiao": "Norte"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "cidades",
+    "mobilidade"
+  ],
+  "resumo": "Decreto de 2021 cria área urbana para testar tecnologias de cidades inteligentes, ligada ao laboratório da ABDI.",
+  "descricao": "Macapá instituiu o Programa Sandbox – Macapá por decreto assinado em junho de 2021, durante o lançamento de projeto de mobilidade da ABDI na Companhia de Transportes e Trânsito do município. O estudo do TCU identifica o ato como Decreto nº 4.062/2021.\n\nO decreto permite delimitar uma área urbana em que tecnologias de cidades inteligentes possam ser testadas e validadas, no formato de bancos de testes regulatórios e tecnológicos, com ciclos de 6 a 12 meses. A iniciativa decorre de convênio com a ABDI firmado em 2020, que implantou semáforos inteligentes e um centro de controle.\n\nNão foram localizadas informações públicas sobre chamamentos ou testes de empresas dentro do sandbox.",
+  "desde": "2021-06-25",
+  "gestor": "Comitê Gestor do Programa Sandbox",
+  "ingresso": "nao_informado",
+  "prazo_teste_meses": 12,
+  "documentos": [
+    {
+      "tipo": "decreto",
+      "titulo": "Notícia oficial da prefeitura sobre a assinatura do decreto do Programa Sandbox – Macapá (nº 4.062/2021 segundo o TCU)",
+      "numero": "4.062/2021",
+      "data": "2021-06-28",
+      "url": "https://macapa.ap.gov.br/com-assinatura-de-decreto-prefeitura-cria-sandbox-para-uso-das-tecnologias-de-cidades-inteligentes-em-macapa/",
+      "principal": true
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/macapa.jpg",
+    "credito": "Márcia do Carmo / MTur",
+    "licenca": "Public domain",
+    "origem": "https://commons.wikimedia.org/wiki/File:Orla_de_Macap%C3%A1,_Amap%C3%A1.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://macapa.ap.gov.br/com-assinatura-de-decreto-prefeitura-cria-sandbox-para-uso-das-tecnologias-de-cidades-inteligentes-em-macapa/",
+      "titulo": "Prefeitura de Macapá — Com assinatura de decreto, Prefeitura cria sandbox para tecnologias de Cidades Inteligentes",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://portal.tcu.gov.br/data/files/4B/C2/6D/DB/56ABB810F80985A8E18818A8/231108_Sandbox.pdf",
+      "titulo": "TCU — estudo \"Sandbox regulatório no Marco Legal das Startups\" (2023), tabela de atos estaduais e municipais",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Status revisto de \"em instituição\" para \"regulamentado\": o decreto foi assinado em junho de 2021.",
+      "fonte": "https://macapa.ap.gov.br/com-assinatura-de-decreto-prefeitura-cria-sandbox-para-uso-das-tecnologias-de-cidades-inteligentes-em-macapa/"
+    },
+    {
+      "data": "2021-06-25",
+      "descricao": "Prefeito assina o decreto do Programa Sandbox na sede da CTMac.",
+      "fonte": "https://macapa.ap.gov.br/com-assinatura-de-decreto-prefeitura-cria-sandbox-para-uso-das-tecnologias-de-cidades-inteligentes-em-macapa/"
+    }
+  ],
+  "recem_adicionado": false
+}

@@ -1,0 +1,93 @@
+{
+  "id": "antt-corredor-logistico",
+  "nome": "Sandbox Regulatório do Corredor Logístico Sustentável Multimodal — ANTT",
+  "esfera": "federal",
+  "jurisdicao": {
+    "orgao": "ANTT"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "logistica",
+    "ambiente",
+    "mobilidade"
+  ],
+  "resumo": "Concessionárias testam corredores rodovia–ferrovia–porto descarbonizados; projeto da Motiva na Dutra aprovado em set/2026.",
+  "descricao": "O sandbox do Corredor Logístico Sustentável Multimodal testa soluções de sustentabilidade na cadeia logística, como eletromobilidade de cargas e passageiros, combustíveis renováveis e integração entre rodovias, ferrovias e portos. Segue a Resolução ANTT nº 5.999/2022.\n\nA diretoria da ANTT aprovou o edital de seleção em 5 de novembro de 2025, com 60 dias para as concessionárias apresentarem projetos. O primeiro projeto vinculado é o Conexão Litoral, com a EPR Litoral Pioneiro na BR-277, entre Curitiba e Paranaguá (PR).\n\nEm 28 de setembro de 2026 a ANTT aprovou o projeto da Motiva RioSP para a Via Dutra (BR-116/RJ/SP): eletrificação de frota, carregadores e integração com o Porto de Itaguaí, com 24 meses de sandbox. A formalização depende de aditivo contratual e ajustes no plano de trabalho.",
+  "desde": "2025-11-05",
+  "gestor": "Agência Nacional de Transportes Terrestres (ANTT)",
+  "ingresso": "edital",
+  "prazo_teste_meses": 24,
+  "elegibilidade": "Concessionárias reguladas pela ANTT cujos trechos conectem rodovias, ferrovias e portos.",
+  "documentos": [
+    {
+      "tipo": "resolucao",
+      "titulo": "Resolução ANTT nº 5.999/2022 — regras do sandbox regulatório da ANTT",
+      "numero": "5.999/2022",
+      "data": "2022-11-03",
+      "url": "https://anttlegis.antt.gov.br/action/ActionDatalegis.php?acao=detalharAto&tipo=RES&numeroAto=00005999&seqAto=000&valorAno=2022&orgao=DG/ANTT/MI&codTipo=&desItem=&desItemFim=&cod_menu=5408&cod_modulo=161&pesquisa=true",
+      "principal": true
+    },
+    {
+      "tipo": "edital",
+      "titulo": "Edital de seleção do Corredor Logístico Sustentável (página oficial)",
+      "url": "https://www.gov.br/antt/pt-br/acesso-a-informacao/acoes-e-programas/ambiente-regulatorio-experimental-sandbox-regulatorio/sandbox-regulatorio-do-corredor-logistico-sustentavel"
+    }
+  ],
+  "solucoes": [
+    {
+      "nome": "Conexão Litoral — corredor BR-277 Curitiba–Paranaguá",
+      "proponente": "EPR Litoral Pioneiro",
+      "descricao": "Projeto vinculado ao sandbox na página da ANTT, com integração ao complexo portuário de Paranaguá.",
+      "status": "selecionada",
+      "fonte": "https://www.gov.br/antt/pt-br/acesso-a-informacao/acoes-e-programas/ambiente-regulatorio-experimental-sandbox-regulatorio/sandbox-regulatorio-do-corredor-logistico-sustentavel"
+    },
+    {
+      "nome": "Corredor sustentável na Via Dutra (BR-116/RJ/SP)",
+      "proponente": "Motiva RioSP",
+      "descricao": "Eletrificação de frota, carregadores e integração com o Porto de Itaguaí em cerca de 366 km; aprovado em 28/09/2026 para 24 meses de sandbox.",
+      "status": "selecionada",
+      "fonte": "https://agenciainfra.com/blog/antt-aprova-projeto-da-motiva-para-implantar-eletromobilidade-na-dutra/"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/antt-corredor-logistico.jpg",
+    "credito": "Montoya2002",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Rodovia_Presidente_Dutra_em_S%C3%A3o_Jos%C3%A9_dos_Campos.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.gov.br/antt/pt-br/acesso-a-informacao/acoes-e-programas/ambiente-regulatorio-experimental-sandbox-regulatorio/sandbox-regulatorio-do-corredor-logistico-sustentavel",
+      "titulo": "ANTT — Sandbox Regulatório do Corredor Logístico Sustentável (página oficial)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://agenciainfra.com/blog/antt-aprova-sandbox-regulatorio-para-corredor-logistico-sustentavel/",
+      "titulo": "Agência iNFRA — ANTT aprova sandbox regulatório para corredor logístico sustentável (06/11/2025)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://agenciainfra.com/blog/antt-aprova-projeto-da-motiva-para-implantar-eletromobilidade-na-dutra/",
+      "titulo": "Agência iNFRA — ANTT aprova projeto da Motiva para eletromobilidade na Dutra (29/09/2026)",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    },
+    {
+      "data": "2026-09-28",
+      "descricao": "ANTT aprova o projeto da Motiva RioSP na Via Dutra.",
+      "fonte": "https://agenciainfra.com/blog/antt-aprova-projeto-da-motiva-para-implantar-eletromobilidade-na-dutra/"
+    },
+    {
+      "data": "2025-11-05",
+      "descricao": "Diretoria da ANTT aprova o edital de seleção.",
+      "fonte": "https://agenciainfra.com/blog/antt-aprova-sandbox-regulatorio-para-corredor-logistico-sustentavel/"
+    }
+  ],
+  "recem_adicionado": true
+}

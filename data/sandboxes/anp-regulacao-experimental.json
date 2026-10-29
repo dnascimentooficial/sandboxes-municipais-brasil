@@ -1,0 +1,52 @@
+{
+  "id": "anp-regulacao-experimental",
+  "nome": "Marco geral de regulação experimental da ANP",
+  "esfera": "federal",
+  "jurisdicao": {
+    "orgao": "ANP"
+  },
+  "status": "em_instituicao",
+  "temas": [
+    "energia"
+  ],
+  "resumo": "Consulta Pública ANP nº 18/2026 sobre minuta que cria sandbox, projeto-piloto e regulação-piloto em petróleo, gás e biocombustíveis.",
+  "descricao": "A ANP submeteu à Consulta Pública nº 18/2026 uma minuta de resolução que estabelece o marco geral de regulação experimental na agência, em atendimento à Lei Complementar nº 182/2021 e às novas atribuições das leis do Combustível do Futuro e do hidrogênio de baixa emissão.\n\nA minuta prevê três modalidades: sandbox regulatório (regras simplificadas ou suspensas para testes em ambiente real), projeto-piloto regulatório (escopo geográfico, operacional ou tecnológico delimitado) e regulação-piloto (norma transitória testada em escala ampla antes de virar regra permanente).\n\nA Procuradoria Federal junto à ANP considerou a proposta juridicamente possível (Parecer nº 129/2026). A consulta incluiu workshop com a FGV Energia, e as contribuições foram recebidas até 26 de outubro de 2026, segundo a imprensa.",
+  "desde": "2026",
+  "gestor": "ANP — Superintendência de Governança e Estratégia (SGE)",
+  "ingresso": "nao_informado",
+  "documentos": [
+    {
+      "tipo": "outro",
+      "titulo": "Consulta Pública ANP nº 18/2026 — Parecer nº 129/2026/PFANP sobre a minuta de resolução",
+      "numero": "18/2026",
+      "url": "https://www.gov.br/anp/pt-br/assuntos/consultas-e-audiencias-publicas/consulta-audiencia-publica/2026/arquivos/cp-ap-18-2026/parecer-0129-2026-pfanp-agu.pdf",
+      "principal": true
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/anp-regulacao-experimental.jpg",
+    "credito": "Filipo Tardim",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:REDUC_Vista_do_Morro_do_C%C3%A9u.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://www.gov.br/anp/pt-br/assuntos/consultas-e-audiencias-publicas/consulta-audiencia-publica/2026/arquivos/cp-ap-18-2026/parecer-0129-2026-pfanp-agu.pdf",
+      "titulo": "ANP — Parecer nº 129/2026/PFANP/PGF/AGU (documentos da CP nº 18/2026)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.canalrural.com.br/politica/anp-debate-proposta-de-regulacao-experimental-em-workshop-no-rio/",
+      "titulo": "Canal Rural — ANP debate proposta de regulação experimental em workshop no Rio",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2026-10-29",
+      "descricao": "Incluído na base."
+    }
+  ],
+  "recem_adicionado": true
+}

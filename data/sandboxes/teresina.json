@@ -1,0 +1,145 @@
+{
+  "id": "teresina",
+  "nome": "Sandbox Regulatório de Teresina",
+  "esfera": "municipal",
+  "jurisdicao": {
+    "municipio": "Teresina",
+    "uf": "PI",
+    "regiao": "Nordeste"
+  },
+  "status": "regulamentado",
+  "temas": [
+    "startups",
+    "ambiente",
+    "cidades",
+    "saude"
+  ],
+  "resumo": "Decreto de 2023 cria bancos de testes regulatórios; nove startups selecionadas assinaram termo de adesão em junho de 2023.",
+  "descricao": "Teresina regulamentou ambientes experimentais de inovação científica, tecnológica e urbanística pelo Decreto nº 23.821, de 20 de março de 2023, assinado durante a abertura do evento ClimaTHE23 e baseado no Marco Legal das Startups.\n\nO modelo prevê um Conselho Técnico Municipal de Inovação, que pode solicitar aos órgãos a suspensão de normas de interesse para o projeto, e um Comitê Operacional de Inovação, com ciclos experimentais de 6 a 12 meses.\n\nEm junho de 2023, nove empresas selecionadas por chamamento público assinaram termos de adesão para iniciar testes nas áreas de meio ambiente, gestão urbana e saúde. Não foram localizadas fontes que confirmem o andamento ou a conclusão desses testes.",
+  "desde": "2023-03-20",
+  "gestor": "Secretaria Municipal de Desenvolvimento Econômico e Turismo (Semdec), com Conselho Técnico Municipal de Inovação e Comitê Operacional de Inovação",
+  "ingresso": "edital",
+  "prazo_teste_meses": 12,
+  "flexibilizacoes": [
+    "Suspensão da eficácia de normas municipais e infralegais de interesse do projeto, solicitada pelo Conselho Técnico Municipal de Inovação"
+  ],
+  "documentos": [
+    {
+      "tipo": "decreto",
+      "titulo": "Decreto que regulamenta ambientes experimentais de inovação científica, tecnológica e urbanística",
+      "numero": "23.821/2023",
+      "data": "2023-03-20",
+      "url": "https://pmt.pi.gov.br/2023/03/21/prefeito-de-teresina-assina-decreto-de-inovacao-sandbox-regulatorio-durante-cerimonia-de-abertura-do-climathe23/",
+      "principal": true
+    }
+  ],
+  "solucoes": [
+    {
+      "nome": "Concreto com polímeros reciclados",
+      "proponente": "Policoncret",
+      "descricao": "Concreto de menor impacto ambiental feito com plástico reciclado retirado do oceano.",
+      "status": "selecionada",
+      "fonte": "https://www.piauinegocios.com.br/noticia/1804-nove-startups-vao-iniciar-testes-de-solucoes-inovadoras-em-teresina"
+    },
+    {
+      "nome": "Plataforma de gestão ambiental",
+      "proponente": "Tuxtu",
+      "descricao": "Software para licenciamento ambiental, créditos de carbono e arborização urbana.",
+      "status": "selecionada",
+      "fonte": "https://www.piauinegocios.com.br/noticia/1804-nove-startups-vao-iniciar-testes-de-solucoes-inovadoras-em-teresina"
+    },
+    {
+      "nome": "Monitoramento inteligente de vias",
+      "proponente": "GeoVista",
+      "descricao": "Monitoramento de segurança, buracos, tráfego e iluminação em vias.",
+      "status": "selecionada",
+      "fonte": "https://www.piauinegocios.com.br/noticia/1804-nove-startups-vao-iniciar-testes-de-solucoes-inovadoras-em-teresina"
+    },
+    {
+      "nome": "Análise e integração de dados urbanos",
+      "proponente": "Scipopulis",
+      "descricao": "Processamento, integração e visualização de dados para gestão urbana.",
+      "status": "selecionada",
+      "fonte": "https://www.piauinegocios.com.br/noticia/1804-nove-startups-vao-iniciar-testes-de-solucoes-inovadoras-em-teresina"
+    },
+    {
+      "nome": "Software de gestão urbana",
+      "proponente": "Clurb Software",
+      "descricao": "Ferramenta colaborativa para resposta a problemas urbanos.",
+      "status": "selecionada",
+      "fonte": "https://www.piauinegocios.com.br/noticia/1804-nove-startups-vao-iniciar-testes-de-solucoes-inovadoras-em-teresina"
+    },
+    {
+      "nome": "Digitalização de serviços públicos",
+      "proponente": "FocoSmart",
+      "descricao": "Digitalização de serviços públicos para os moradores.",
+      "status": "selecionada",
+      "fonte": "https://www.piauinegocios.com.br/noticia/1804-nove-startups-vao-iniciar-testes-de-solucoes-inovadoras-em-teresina"
+    },
+    {
+      "nome": "Compostagem",
+      "proponente": "Ninho do Verde Compostagem",
+      "descricao": "Serviços de compostagem residencial, empresarial e para o poder público.",
+      "status": "selecionada",
+      "fonte": "https://www.piauinegocios.com.br/noticia/1804-nove-startups-vao-iniciar-testes-de-solucoes-inovadoras-em-teresina"
+    },
+    {
+      "nome": "Monitoramento de pacientes",
+      "proponente": "Chamou Doutor",
+      "descricao": "Monitoramento de pacientes e gestão preventiva em saúde.",
+      "status": "selecionada",
+      "fonte": "https://www.piauinegocios.com.br/noticia/1804-nove-startups-vao-iniciar-testes-de-solucoes-inovadoras-em-teresina"
+    },
+    {
+      "nome": "Dados de visitas domiciliares",
+      "proponente": "Gestão de Dados em Saúde",
+      "descricao": "Registro de dados das visitas de agentes comunitários de saúde.",
+      "status": "selecionada",
+      "fonte": "https://www.piauinegocios.com.br/noticia/1804-nove-startups-vao-iniciar-testes-de-solucoes-inovadoras-em-teresina"
+    }
+  ],
+  "editais": [
+    {
+      "titulo": "Edital de Chamamento Público para teste de soluções inovadoras (2023)",
+      "status": "encerrado",
+      "url": "https://www.piauinegocios.com.br/noticia/1804-nove-startups-vao-iniciar-testes-de-solucoes-inovadoras-em-teresina"
+    }
+  ],
+  "imagem": {
+    "arquivo": "img/teresina.jpg",
+    "credito": "Alexandro Dias",
+    "licenca": "CC BY-SA 4.0",
+    "origem": "https://commons.wikimedia.org/wiki/File:Ponte_Estaiada_-_Teresina.jpg"
+  },
+  "fontes": [
+    {
+      "url": "https://pmt.pi.gov.br/2023/03/21/prefeito-de-teresina-assina-decreto-de-inovacao-sandbox-regulatorio-durante-cerimonia-de-abertura-do-climathe23/",
+      "titulo": "Prefeitura de Teresina — Prefeito assina decreto de inovação Sandbox Regulatório (mar/2023)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.piauinegocios.com.br/noticia/1804-nove-startups-vao-iniciar-testes-de-solucoes-inovadoras-em-teresina",
+      "titulo": "Piauí Negócios — Nove startups vão iniciar testes em Teresina (jun/2023)",
+      "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://portal.tcu.gov.br/data/files/4B/C2/6D/DB/56ABB810F80985A8E18818A8/231108_Sandbox.pdf",
+      "titulo": "TCU — estudo \"Sandbox regulatório no Marco Legal das Startups\" (2023), tabela de atos estaduais e municipais",
+      "acessado_em": "2026-10-29"
+    }
+  ],
+  "verificado_em": "2026-10-29",
+  "historico": [
+    {
+      "data": "2023-06-28",
+      "descricao": "Nove empresas selecionadas assinam termo de adesão para início das atividades.",
+      "fonte": "https://www.piauinegocios.com.br/noticia/1804-nove-startups-vao-iniciar-testes-de-solucoes-inovadoras-em-teresina"
+    },
+    {
+      "data": "2023-03-21",
+      "descricao": "Decreto publicado no Diário Oficial do Município.",
+      "fonte": "https://pmt.pi.gov.br/2023/03/21/prefeito-de-teresina-assina-decreto-de-inovacao-sandbox-regulatorio-durante-cerimonia-de-abertura-do-climathe23/"
+    }
+  ],
+  "recem_adicionado": true
+}
