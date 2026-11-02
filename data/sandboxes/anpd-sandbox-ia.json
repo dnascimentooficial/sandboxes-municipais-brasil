@@ -35,6 +35,11 @@
       "tipo": "relatorio",
       "titulo": "2º Relatório Parcial de Monitoramento do Sandbox Regulatório",
       "url": "https://www.gov.br/anpd/pt-br/assuntos/projetos-acoes-iniciativas/sandbox/sandbox-2deg-relatorio-parcial-de-monitoramento-ciclo-2v0-1.pdf/@@display-file/file"
+    },
+    {
+      "tipo": "relatorio",
+      "titulo": "3º Relatório Parcial de Monitoramento do Sandbox Regulatório (Fase de Teste – Ciclo 3)",
+      "url": "https://www.gov.br/anpd/pt-br/assuntos/projetos-acoes-iniciativas/sandbox/sandbox-relatorio-parcial-de-monitoramento-ciclo-3-v1-0.pdf/@@display-file/file"
     }
   ],
   "solucoes": [
@@ -100,9 +105,14 @@
       "url": "https://www2.camara.leg.br/legin/fed/medpro/2025/medidaprovisoria-1317-17-setembro-2025-797987-anexo-pe.pdf",
       "titulo": "Câmara dos Deputados — Medida Provisória nº 1.317/2025",
       "acessado_em": "2026-10-29"
+    },
+    {
+      "url": "https://www.gov.br/anpd/pt-br/assuntos/projetos-acoes-iniciativas/sandbox",
+      "titulo": "ANPD — Página do sandbox regulatório (lista o 3º relatório parcial)",
+      "acessado_em": "2026-11-02"
     }
   ],
-  "verificado_em": "2026-10-29",
+  "verificado_em": "2026-11-02",
   "historico": [
     {
       "data": "2026-10-29",

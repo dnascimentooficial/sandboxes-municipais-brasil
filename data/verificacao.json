@@ -1,5 +1,5 @@
 {
-  "ultima_execucao": "2026-10-29",
+  "ultima_execucao": "2026-11-02",
   "resultado_por_id": {
     "anac-sandbox-vertiportos": {
       "verificado_em": "2026-10-29",
@@ -74,11 +74,12 @@
       ]
     },
     "anpd-sandbox-ia": {
-      "verificado_em": "2026-10-29",
+      "verificado_em": "2026-11-02",
       "mudou": true,
       "avisos": [
         "Substituição da IA Greenworld pela Prevvine não explicada nas fontes.",
-        "Órgão renomeado para Agência Nacional de Proteção de Dados (MP nº 1.317/2025)."
+        "Órgão renomeado para Agência Nacional de Proteção de Dados (MP nº 1.317/2025).",
+        "Data de publicação do 3º relatório parcial não localizada (página só traz data de modificação); entrada no histórico não criada."
       ]
     },
     "ans-sandbox": {
@@ -494,5 +495,13 @@
       "mudou": false,
       "avisos": []
     }
+  },
+  "rodizio": {
+    "hoje": "2026-11-02",
+    "semana_iso": 45,
+    "rodizio": true,
+    "posicoes": "impares",
+    "total": 71,
+    "a_verificar": 36
   }
 }
