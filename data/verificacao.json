@@ -1,5 +1,5 @@
 {
-  "ultima_execucao": "2026-10-29",
+  "ultima_execucao": "2026-11-23",
   "resultado_por_id": {
     "anac-sandbox-vertiportos": {
       "verificado_em": "2026-10-29",
@@ -494,5 +494,13 @@
       "mudou": false,
       "avisos": []
     }
+  },
+  "rodizio": {
+    "hoje": "2026-11-23",
+    "semana_iso": 48,
+    "rodizio": true,
+    "posicoes": "pares",
+    "total": 71,
+    "a_verificar": 71
   }
 }
